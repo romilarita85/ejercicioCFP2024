@@ -1,0 +1,15 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\bin\Debug\net8.0\Repaso Condicionales.exe
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\bin\Debug\net8.0\Repaso Condicionales.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\bin\Debug\net8.0\Repaso Condicionales.runtimeconfig.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\bin\Debug\net8.0\Repaso Condicionales.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\bin\Debug\net8.0\Repaso Condicionales.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\obj\Debug\net8.0\Repaso Condicionales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\obj\Debug\net8.0\Repaso Condicionales.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\obj\Debug\net8.0\Repaso Condicionales.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\obj\Debug\net8.0\Repaso Condicionales.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\obj\Debug\net8.0\Repaso Condicionales.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\obj\Debug\net8.0\Repaso Condicionales.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\obj\Debug\net8.0\refint\Repaso Condicionales.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\obj\Debug\net8.0\Repaso Condicionales.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\obj\Debug\net8.0\Repaso Condicionales.genruntimeconfig.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Condicionales\obj\Debug\net8.0\ref\Repaso Condicionales.dll
