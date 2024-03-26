@@ -1,0 +1,15 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\bin\Debug\net8.0\Ejercicios-c#.exe
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\bin\Debug\net8.0\Ejercicios-c#.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\bin\Debug\net8.0\Ejercicios-c#.runtimeconfig.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\bin\Debug\net8.0\Ejercicios-c#.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\bin\Debug\net8.0\Ejercicios-c#.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\obj\Debug\net8.0\Ejercicios-c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\obj\Debug\net8.0\Ejercicios-c#.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\obj\Debug\net8.0\Ejercicios-c#.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\obj\Debug\net8.0\Ejercicios-c#.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\obj\Debug\net8.0\Ejercicios-c#.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\obj\Debug\net8.0\Ejercicios-c#.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\obj\Debug\net8.0\refint\Ejercicios-c#.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\obj\Debug\net8.0\Ejercicios-c#.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\obj\Debug\net8.0\Ejercicios-c#.genruntimeconfig.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicios-c#\obj\Debug\net8.0\ref\Ejercicios-c#.dll
