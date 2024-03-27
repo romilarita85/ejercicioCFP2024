@@ -13,105 +13,113 @@
     {
         static void Main(string[] args)
         {
-            String marca;
-            int cantidad;
-            double precio;
+            String marcaLamparas = "";
+            int cantidadLamparas = 0;
+            int precio = 150;
             double descuento = 0;
-            float valorDescuento;
-            float precioTotal;
-            float precioTotalConDesc;
+            float valorDescuento = 0;
+            float precioTotal = 0;
+            float precioTotalConDesc = 0;
             double iibb = 0,10;
-            float valoriibb;
-            float precioTotalConIIBB;
-            precio = 150;
-          
+            float valoriibb = 0;
+            float precioTotalConIIBB = 0;
             
 
             Console.WriteLine("Ingrese la marca de la lamparita: ");
-            marca = Console.ReadLine();
+            marcaLamparas = Console.ReadLine();
             Console.WriteLine("Ingrese la cantidad de las lamparitas");
-            cantidad = Console.Read();
+            cantidadLamparas = Console.Read();
 
-            precioTotal = cantidad * precio;
+            precioTotal = cantidadLamparas * precio;
 
-            if (cantidad == 6)
+            if (cantidadLamparas > 5)
             {
-                descuento = 0,5;
+                //descuento = 0,5;
             }
             else
             {
-                if (cantidad == 5)
+                if (cantidadLamparas == 5)
                 {
-                    if (marca == "argentinaluz")
+                    if (marcaLamparas == "argentinaluz")
                     {
-                        descuento = 0,4;
+                        //descuento = 0,4;
                     }
                     else
                     {
-                        descuento = 0,30;
+                        //descuento = 0,30;
                     }
                 }
                 else
                 {
-                    if (cantidad == 4)
+                    if (cantidadLamparas == 4)
                     {
-                        if (marca == "argentinaluz" && marca == "felipelamparas")
+                        if (marcaLamparas == "argentinaluz" || marcaLamparas == "felipelamparas")
                         {
-                            descuento = 0,25;
+                            //descuento = 0,25;
                         }
                         else
                         {
-                            descuento = 0,20;
-
+                            //descuento = 0,20;
                         }
                     }
                     else
                     {
-                        if (cantidad == 3)
+                        //D.Si compra 3 lamparitas marca “ArgentinaLuz”
+                        //el descuento es del 15%, si es “FelipeLamparas
+                        //se hace un descuento del 10% y si es otra marca, 5%.
+                        if (cantidadLamparas == 3)
                         {
-                            if (marca == "argentinaluz")
+                            if (marcaLamparas == "argentinaluz")
                             {
-                                descuento = 0,15;
+                                //descuento = 0,15;
                             }
                             else
                             {
-                                if (marca == "felipelamparas")
+                                if (marcaLamparas == "felipelamparas")
                                 {
-                                    descuento = 0,10;
+                                    //descuento = 0,10;
                                 }
                                 else
                                 {
-                                    descuento = 0,05;
+                                    //descuento = 0,05;
                                 }
                             }
+                        }
+                        else 
+                        {
+                            
                         }
 
                     }
                 }
-            }
-            Console.WriteLine("La cantidad de lamparitas es " + cantidad);
-            Console.WriteLine("La marca de lamparitas es " + marca);
-            Console.WriteLine("El total sin descuento es " + precioTotal);
 
-            if (descuento<> 0)
-                    {
-                valorDescuento = precioTotal * descuento;
-                precioTotalConDesc = precioTotal - valorDescuento;
-                Console.WriteLine("El  descuento es " + valorDescuento);
-                Console.WriteLine("El precio total con descuento es $", precioTotalConDesc);
+
             }
 
-
-            if (precioTotalConDesc > 950)
-            {
-                valoriibb = precioTotalConDesc * iibb;
-                precioTotalConIIBB = precioTotalConDesc + valoriibb;
-            }
-            Console.WriteLine("El total de ingresos brutos es " + valoriibb);
-            Console.WriteLine("El total a pagar con ingresos brutos es" + precioTotalConIIBB);
-
+           
         }
     }
 }
+Console.WriteLine("La cantidad de lamparitas es " + cantidadLamparas);
+Console.WriteLine("La marca de lamparitas es " + marcaLamparas);
+Console.WriteLine("El total sin descuento es " + precioTotal);
+
+if (descuento<> 0)
+                    {
+    valorDescuento = precioTotal * descuento;
+    precioTotalConDesc = precioTotal - valorDescuento;
+    Console.WriteLine("El  descuento es " + valorDescuento);
+    Console.WriteLine("El precio total con descuento es $", precioTotalConDesc);
+}
+
+
+if (precioTotalConDesc > 950)
+{
+    valoriibb = precioTotalConDesc * iibb;
+    precioTotalConIIBB = precioTotalConDesc + valoriibb;
+}
+Console.WriteLine("El total de ingresos brutos es " + valoriibb);
+Console.WriteLine("El total a pagar con ingresos brutos es" + precioTotalConIIBB);
+
 
 /////Informar: cantidad de lamparitas, marca, total sin descuento, descuento, total con descuento, y si corresponde total de ingresos brutos y total a pagar.

@@ -1,0 +1,15 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\bin\Debug\net8.0\Repaso Bucles Repetitivos.exe
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\bin\Debug\net8.0\Repaso Bucles Repetitivos.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\bin\Debug\net8.0\Repaso Bucles Repetitivos.runtimeconfig.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\bin\Debug\net8.0\Repaso Bucles Repetitivos.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\bin\Debug\net8.0\Repaso Bucles Repetitivos.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\obj\Debug\net8.0\Repaso Bucles Repetitivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\obj\Debug\net8.0\Repaso Bucles Repetitivos.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\obj\Debug\net8.0\Repaso Bucles Repetitivos.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\obj\Debug\net8.0\Repaso Bucles Repetitivos.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\obj\Debug\net8.0\Repaso Bucles Repetitivos.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\obj\Debug\net8.0\Repaso Bucles Repetitivos.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\obj\Debug\net8.0\refint\Repaso Bucles Repetitivos.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\obj\Debug\net8.0\Repaso Bucles Repetitivos.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\obj\Debug\net8.0\Repaso Bucles Repetitivos.genruntimeconfig.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Bucles Repetitivos\obj\Debug\net8.0\ref\Repaso Bucles Repetitivos.dll
