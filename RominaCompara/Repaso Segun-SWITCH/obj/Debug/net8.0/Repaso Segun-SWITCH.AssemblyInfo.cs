@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Array")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Repaso Segun-SWITCH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7942e8833770ec7d451fc93951a1d84385342750")]
-[assembly: System.Reflection.AssemblyProductAttribute("Array")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Array")]
+[assembly: System.Reflection.AssemblyProductAttribute("Repaso Segun-SWITCH")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Repaso Segun-SWITCH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
