@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio 6", "Ejercicio 6\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repaso Condicionales", "Repaso Condicionales\Repaso Condicionales.csproj", "{CD1B72FB-D867-457C-BAB6-56A6786A89CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejericicio 7", "Ejericicio 7\Ejericicio 7.csproj", "{6DF56D38-0FA6-46EE-B328-16C2A1627F68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejericicio 7", "Ejericicio 7\Ejericicio 7.csproj", "{6DF56D38-0FA6-46EE-B328-16C2A1627F68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso Bucles Repetitivos", "Repaso Bucles Repetitivos\Repaso Bucles Repetitivos.csproj", "{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repaso Bucles Repetitivos", "Repaso Bucles Repetitivos\Repaso Bucles Repetitivos.csproj", "{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso Swich", "Repaso Swich\Repaso Swich.csproj", "{A69B9B12-D0DB-449D-A5EE-5E1813A8CD4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{D5EA0E55-E53E-4687-BA7A-54E915A51F3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69B9B12-D0DB-449D-A5EE-5E1813A8CD4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69B9B12-D0DB-449D-A5EE-5E1813A8CD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69B9B12-D0DB-449D-A5EE-5E1813A8CD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69B9B12-D0DB-449D-A5EE-5E1813A8CD4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EA0E55-E53E-4687-BA7A-54E915A51F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EA0E55-E53E-4687-BA7A-54E915A51F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EA0E55-E53E-4687-BA7A-54E915A51F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EA0E55-E53E-4687-BA7A-54E915A51F3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
