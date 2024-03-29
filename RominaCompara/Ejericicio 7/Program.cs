@@ -81,7 +81,7 @@ namespace Ejericicio_7
                     banderaPrimerNegativo = Verdadero; //invierto la bandera por que ya se cumplio ya ingreso el primer numero- cambio el estado de la bandera
                                                    //la bandera en el proximo caso estaria llena.
                 }
-            }
+            }   
         }
     }
 }

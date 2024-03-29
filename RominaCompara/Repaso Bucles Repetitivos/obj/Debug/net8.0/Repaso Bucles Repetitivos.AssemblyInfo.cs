@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Repaso Bucles Repetitivos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7942e8833770ec7d451fc93951a1d84385342750")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cf165d71d124d1b5f1f616506f21a860709dbaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Repaso Bucles Repetitivos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repaso Bucles Repetitivos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
