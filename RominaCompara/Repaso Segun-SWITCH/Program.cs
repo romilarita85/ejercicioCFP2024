@@ -24,21 +24,7 @@ namespace Repaso_Segun_SWITCH
                 default:
                     Console.WriteLine("no es un color valido del semaforo");
                     break;
-
-
-
-
-
-
-
-
-
-
-
-
             }
-
-
         }
     }
 }

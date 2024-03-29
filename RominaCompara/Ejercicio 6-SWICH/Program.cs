@@ -1,4 +1,5 @@
-﻿//Una empresa que se dedica a la comercialización de lámparas de bajo consumo, registra de sus ventas, los siguientes datos: marca y cantidad. El precio de cada lamparita es de $150 (Sin importar la marca).
+﻿//Ejercicio 6:
+//Una empresa que se dedica a la comercialización de lámparas de bajo consumo, registra de sus ventas, los siguientes datos: marca y cantidad. El precio de cada lamparita es de $150 (Sin importar la marca).
 //El programa deberá calcular el precio total de la venta, aplicando un descuento si es que corresponde.
 //A.Si compra 6 lamparitas o más, tiene un descuento del 50%.
 //B.Si compra 5 lamparitas marca “ArgentinaLuz” se aplica un 40% y si es de otra marca, el descuento es del 30%.
@@ -47,7 +48,7 @@ namespace Ejercicio_6_SWICH
                           descuento: 0,10;
                           break;
                       default:
-                          descuento:0,10;
+                          descuento:0,05;
                           break;
 
                     }
@@ -61,30 +62,22 @@ namespace Ejercicio_6_SWICH
                           descuento: 0,20;
                           break;
                     }
-                 5:
-
-                    
-                        
-                     
-                     
-                      
-
-
-                    
-             
-
+                5:
+                    switch (marcaLamparas) 
+                    {
+                        case "argentinaluz":
+                           descuento:0,4;
+                           break;
+                        default:
+                           descuento:0,3;
+                           break;
+                    }
+                default:
+                    if (cantidadLamparas >= 6) 
+                    {
+                       descuento = 0.5;
+                    }
             }
-            
-             
-            //A.Si compra 6 lamparitas o más, tiene un descuento del 50 %.
-
-           
-                 
-            Console.WriteLine("La cantidad de lamparitas es " + cantidadLamparas);
-            Console.WriteLine("La marca de lamparitas es " + marcaLamparas);
-            Console.WriteLine("El total sin descuento es " + precioTotal);
-            //E.Si el importe final con descuento suma más de $950,
-            //se debe agregar el 10% de ingresos brutos.
             if (descuento != 0)
             {
                 valorDescuento = precioTotal * descuento;
@@ -96,41 +89,15 @@ namespace Ejercicio_6_SWICH
             {
                 valoriibb = precioTotalConDesc * iibb;
                 precioTotalConIIBB = precioTotalConDesc + valoriibb;
-
-
             }
             Console.WriteLine("El total de ingresos brutos es " + valoriibb);
             Console.WriteLine("El total a pagar con ingresos brutos es" + precioTotalConIIBB);
+            //A.Si compra 6 lamparitas o más, tiene un descuento del 50 %.
+            Console.WriteLine("La cantidad de lamparitas es " + cantidadLamparas);
+            Console.WriteLine("La marca de lamparitas es " + marcaLamparas);
+            Console.WriteLine("El total sin descuento es " + precioTotal);
+            //E.Si el importe final con descuento suma más de $950,
+            //se debe agregar el 10% de ingresos brutos.
         }
     }
 }
-//Segun cantidad Hacer
-//		3:
-//			Segun Minusculas(marca) Hacer
-//				"argentinaluz":
-//					descuento = 0.15;
-//"felipelamparas":
-//					descuento = 0.10;
-//De Otro Modo:
-//					descuento = 0.05;
-
-//Fin Segun
-//		4:
-//			Segun Minusculas(marca) Hacer
-//				"argentinaluz" o "felipelamparas":
-//					descuento = 0.25;
-//De Otro Modo:
-//					descuento = 0.20;
-//FinSegun
-//		5:
-//			Segun Minusculas(marca) Hacer
-//				"argentinaluz":
-//					descuento = 0.40;
-//De Otro Modo:
-//					descuento = 0.30;
-//Fin Segun
-//		De Otro Modo:
-//			Si cantidad >=6  Entonces
-//				descuento =0.5;
-//FinSi
-//Fin Segun
