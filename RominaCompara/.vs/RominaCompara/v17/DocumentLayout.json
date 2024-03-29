@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A83D3CFF-E349-4956-B30B-8978CDEF9719}|Ejercicio1\\Ejercicio1.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A83D3CFF-E349-4956-B30B-8978CDEF9719}|Ejercicio1\\Ejercicio1.csproj|solutionrelative:ejercicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76420BE1-7F11-4DE4-8AC5-236CECE83EBC}|Ejercicio 6-SWICH\\Ejercicio 6-SWICH.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio 6-swich\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76420BE1-7F11-4DE4-8AC5-236CECE83EBC}|Ejercicio 6-SWICH\\Ejercicio 6-SWICH.csproj|solutionrelative:ejercicio 6-swich\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEB5094-2DA5-45E4-BF6F-CDF82D6C7880}|Repaso Segun-SWITCH\\Repaso Segun-SWITCH.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\repaso segun-switch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEB5094-2DA5-45E4-BF6F-CDF82D6C7880}|Repaso Segun-SWITCH\\Repaso Segun-SWITCH.csproj|solutionrelative:repaso segun-switch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{528677F1-9F1A-492D-8513-74E0F6CE1B4B}|Ejercicio 6\\Ejercicio 6.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{528677F1-9F1A-492D-8513-74E0F6CE1B4B}|Ejercicio 6\\Ejercicio 6.csproj|solutionrelative:ejercicio 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}|Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\repaso bucles repetitivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}|Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj|solutionrelative:repaso bucles repetitivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}|Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\repaso bucles repetitivos\\repaso bucles repetitivos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}|Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj|solutionrelative:repaso bucles repetitivos\\repaso bucles repetitivos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6DF56D38-0FA6-46EE-B328-16C2A1627F68}|Ejericicio 7\\Ejericicio 7.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejericicio 7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DF56D38-0FA6-46EE-B328-16C2A1627F68}|Ejericicio 7\\Ejericicio 7.csproj|solutionrelative:ejericicio 7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}|Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\repaso bucles repetitivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}|Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj|solutionrelative:repaso bucles repetitivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,41 +30,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio 6\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio 6\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio 6\\Program.cs",
+              "RelativeToolTip": "Ejercicio 6\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T18:22:16.806Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio1\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio1\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio1\\Program.cs",
-              "RelativeToolTip": "Ejercicio1\\Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T18:43:56.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio 6\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio 6\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio 6\\Program.cs",
-              "RelativeToolTip": "Ejercicio 6\\Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAABYAAAAdAAAA",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Segun-SWITCH\\Program.cs",
+              "RelativeDocumentMoniker": "Repaso Segun-SWITCH\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Segun-SWITCH\\Program.cs*",
+              "RelativeToolTip": "Repaso Segun-SWITCH\\Program.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T18:22:16.806Z",
+              "WhenOpened": "2024-03-29T19:45:40.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio 6-SWICH\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio 6-SWICH\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio 6-SWICH\\Program.cs",
+              "RelativeToolTip": "Ejercicio 6-SWICH\\Program.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwD8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T19:34:18.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Bucles Repetitivos\\Program.cs",
               "RelativeDocumentMoniker": "Repaso Bucles Repetitivos\\Program.cs",
@@ -78,25 +92,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Repaso Bucles Repetitivos",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj",
-              "RelativeDocumentMoniker": "Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj",
-              "RelativeToolTip": "Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-29T18:19:40.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejericicio 7\\Program.cs",
               "RelativeDocumentMoniker": "Ejericicio 7\\Program.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejericicio 7\\Program.cs",
               "RelativeToolTip": "Ejericicio 7\\Program.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAqwCgAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T16:54:06.992Z",
               "EditorCaption": ""

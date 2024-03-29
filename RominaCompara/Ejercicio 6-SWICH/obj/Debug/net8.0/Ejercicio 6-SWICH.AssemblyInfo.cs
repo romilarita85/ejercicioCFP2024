@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Repaso Segun-SWITCH")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio 6-SWICH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d0ec0321261dd69d716549b396bb5a52cb40183")]
-[assembly: System.Reflection.AssemblyProductAttribute("Repaso Segun-SWITCH")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Repaso Segun-SWITCH")]
+[assembly: System.Reflection.AssemblyProductAttribute("Ejercicio 6-SWICH")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio 6-SWICH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
