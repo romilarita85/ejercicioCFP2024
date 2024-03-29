@@ -10,7 +10,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -28,9 +28,9 @@
               "RelativeDocumentMoniker": "Ejericicio 7\\Program.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejericicio 7\\Program.cs",
               "RelativeToolTip": "Ejericicio 7\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAARAAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAqwD0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T22:30:58.414Z",
+              "WhenOpened": "2024-03-29T16:54:06.992Z",
               "EditorCaption": ""
             }
           ]
