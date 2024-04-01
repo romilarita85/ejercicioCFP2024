@@ -16,13 +16,13 @@
             String marcaLamparas = "";
             int cantidadLamparas = 0;
             int precio = 150;
-            decimal descuento = 0;
-            decimal valorDescuento = 0;
-            decimal precioTotal = 0;
-            decimal precioTotalConDesc = 0;
-            decimal iibb = 0,10;
-            decimal valoriibb = 0;
-            decimal precioTotalConIIBB = 0;
+            double descuento = 0;
+            double valorDescuento = 0;
+            double precioTotal = 0;
+            double precioTotalConDesc = 0;
+            double iibb = 0,10;
+            double valoriibb = 0;
+            double precioTotalConIIBB = 0;
             
 
             Console.WriteLine("Ingrese la marca de la lamparita: ");
@@ -98,7 +98,7 @@
             Console.WriteLine("El total sin descuento es " + precioTotal);
             //E.Si el importe final con descuento suma más de $950,
             //se debe agregar el 10% de ingresos brutos.
-            if(descuento != 0) 
+            if(descuento <> 0) 
             {
                 valorDescuento = precioTotal * descuento;
                 precioTotalConDesc = precioTotal - valorDescuento; 
