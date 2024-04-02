@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D5EA0E55-E53E-4687-BA7A-54E915A51F3F}|Array\\Array.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5EA0E55-E53E-4687-BA7A-54E915A51F3F}|Array\\Array.csproj|solutionrelative:array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{528677F1-9F1A-492D-8513-74E0F6CE1B4B}|Ejercicio 6\\Ejercicio 6.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{528677F1-9F1A-492D-8513-74E0F6CE1B4B}|Ejercicio 6\\Ejercicio 6.csproj|solutionrelative:ejercicio 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF56D38-0FA6-46EE-B328-16C2A1627F68}|Ejericicio 7\\Ejericicio 7.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejericicio 7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF56D38-0FA6-46EE-B328-16C2A1627F68}|Ejericicio 7\\Ejericicio 7.csproj|solutionrelative:ejericicio 7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,51 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio 6\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio 6\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio 6\\Program.cs",
-              "RelativeToolTip": "Ejercicio 6\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wHkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T22:39:37.495Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Array\\Program.cs",
-              "RelativeDocumentMoniker": "Array\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Array\\Program.cs",
-              "RelativeToolTip": "Array\\Program.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAwwGYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T18:52:10.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejericicio 7\\Program.cs",
-              "RelativeDocumentMoniker": "Ejericicio 7\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejericicio 7\\Program.cs",
-              "RelativeToolTip": "Ejericicio 7\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T17:23:41.088Z",
-              "EditorCaption": ""
             }
           ]
         }
