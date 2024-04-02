@@ -33,12 +33,12 @@ namespace Ejericicio_7
             int cantidadPares = 0;//Definir cantidadPares Como Entero;
             double promedioNegativo;//Definir promedioNegativo Como Real;
             double promedioPositivo;//Definir promedioPositivo Como Real;
-            int diferenciaEntreNumeros;//Definir diferenciaEntreNumeros Como Entero;
+            int diferenciaNumeros;//Definir diferenciaEntreNumeros Como Entero;
             int numeroMaximo;//Definir numeroMaximo Como Entero;
             int numeroMinNegativo;//Definir numeroMinimoNegativo Como Entero;
             String banderaPrimerNegativo = "falso";//Definir banderaPrimerNegativo Como caracter;
 
-            for (i = 1; i > repeticiones; i++)
+            for (i = 1; i < repeticiones; i++)
             {
                 Console.WriteLine($"Ingrese el numero {i} de  {repeticiones}");
                 numeroIngresado = int.Parse(Console.ReadLine());
@@ -58,7 +58,7 @@ namespace Ejericicio_7
                         cantidadNegativo = cantidadNegativo + 1;
                     }
                 }
-                if (numeroIngresado % 2 == 0 && numeroIngresado<> 0)//f.Cantidad de numeros pares /queremos que sean distintos de cero
+                if (numeroIngresado % 2 == 0 && numeroIngresado != 0)//f.Cantidad de numeros pares /queremos que sean distintos de cero
                 {
                     cantidadPares = cantidadPares + 1;
                 }
@@ -68,17 +68,18 @@ namespace Ejericicio_7
                 {
                     numeroMaximo = numeroIngresado;
                 }
-                if (numeroIngresado < 0 && banderaPrimerNegativo == Falso)|| (numeroIngresado < 0 && numeroIngresado < numeroMinNegativo)
+                //k.De los negativos el mínimo-Usando bandera 
+                if (numeroIngresado < 0 && banderaPrimerNegativo == "falso") || (numeroIngresado < 0 && numeroIngresado < numeroMinNegativo)
                 {
                     numeroMinNegativo = numeroIngresado;
-                    banderaPrimerNegativo = Verdadero; //invierto la bandera por que ya se cumplio ya ingreso el primer numero- cambio el estado de la bandera
+                    banderaPrimerNegativo = "verdadero"; //invierto la bandera por que ya se cumplio ya ingreso el primer numero- cambio el estado de la bandera
                                                    //la bandera en el proximo caso estaria llena.
                 }
 
             }
            //Promedios se calculan por fuera del bucle repetitivo salvo excepciones;
            //g.Promedio de positivos.
-            if (cantidadPositivo<>0)
+            if (cantidadPositivo!=0)
             {
                 promedioPositivo = sumaPositivo / cantidadPositivo;// en el promedio = el dividendo nunca puede ser cero
                 Console.WriteLine($"El promedio de los positivos es : {promedioPositivo}";
@@ -89,7 +90,7 @@ namespace Ejericicio_7
                 Console.WriteLine($" El promedio de los positivos no se puede mostrar dado que no se ingresaron positivos";
             }
             //h.Promedio de negativos.
-            if(cantidadNegativo <> 0)
+            if(cantidadNegativo !=0)
             {
                 promedioNegativo = sumaNegativo / cantidadNegativo;
                 Console.WriteLine($"El minimo de los numeros negativos es : {numeroMinNegativo}";
@@ -101,16 +102,16 @@ namespace Ejericicio_7
                 Console.WriteLine("El promedio de los negativos no se puede mostrar dado que no se ingresaron negativos");
             }
             //i.Diferencia entre positivos y negativos, (positivos-negativos)
-            diferenciaNumero = sumaPositivo + sumaNegativo; // le descuento los positivos
+            diferenciaNumeros = sumaPositivo + sumaNegativo; // le descuento los positivos
 
             Console.WriteLine($"El valor de la suma de los negativos es: {sumaNegativo}");
-            Console.WriteLine($"El valor de la suma de los positivos es : {sumaPositivo}";
-            Console.WriteLine($"La cantidad de los numeros positivos son : {cantidadPositivo}";
-            Console.WriteLine($"La cantidad de los numeros negativos son : {cantidadNegativo}";
-            Console.WriteLine($"La diferencia entre numeros positivos y negativos es de : {diferenciaNumero}";
-            Console.WriteLine($"El numero maximo ingresado es : {numeroMaximo}";
-            Console.WriteLine($"La cantidad de numeros pares es : {cantidadPares}";
-            Console.WriteLine($"La cantidad de ceros es : {cantidadCeros}";
+            Console.WriteLine($"El valor de la suma de los positivos es : {sumaPositivo}");
+            Console.WriteLine($"La cantidad de los numeros positivos son : {cantidadPositivo}");
+            Console.WriteLine($"La cantidad de los numeros negativos son : {cantidadNegativo}");
+            Console.WriteLine($"La diferencia entre numeros positivos y negativos es de : {diferenciaNumeros}");
+            Console.WriteLine($"El numero maximo ingresado es : {numeroMaximo}");
+            Console.WriteLine($"La cantidad de numeros pares es : {cantidadPares}");
+            Console.WriteLine($"La cantidad de ceros es : {cantidadCeros}");
 
         }
     }

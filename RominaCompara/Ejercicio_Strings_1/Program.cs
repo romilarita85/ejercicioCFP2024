@@ -15,9 +15,12 @@ namespace Ejercicio_Strings_1
 
             largo = arrayPalabras.Length;
 
-            for (int i = 0; i < largo; i++) 
+            Console.WriteLine("Ingrese una palabra");
+            palabras = Console.ReadLine();
+
+            for (int i = 0; i < arrayPalabras.Length; i++) 
             {
-                if (string palabras == 5){}
+                Console.WriteLine(arrayPalabras[i]);
 
             }
 
