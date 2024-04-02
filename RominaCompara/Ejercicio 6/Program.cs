@@ -110,16 +110,12 @@
                 valoriibb = precioTotalConDesc * iibb;
                 precioTotalConIIBB = precioTotalConDesc + valoriibb;
 
-
             }
             Console.WriteLine("El total de ingresos brutos es " + valoriibb);
             Console.WriteLine("El total a pagar con ingresos brutos es" + precioTotalConIIBB);
 
-
-
         }
     }
 }
-
-
 /////Informar: cantidad de lamparitas, marca, total sin descuento, descuento, total con descuento, y si corresponde total de ingresos brutos y total a pagar.
+///-----------------------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio 6-SWICH\obj\Debug\net8.0\Ejercicio 6-SWICH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio 6-SWICH\obj\Debug\net8.0\Ejercicio 6-SWICH.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio 6-SWICH\obj\Debug\net8.0\Ejercicio 6-SWICH.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio 6-SWICH\obj\Debug\net8.0\Ejercicio 6-SWICH.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio 6-SWICH\obj\Debug\net8.0\Ejercicio 6-SWICH.sourcelink.json
