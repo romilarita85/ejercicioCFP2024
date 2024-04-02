@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repaso Bucles Repetitivos",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{D5EA0E55-E53E-4687-BA7A-54E915A51F3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso Segun-SWITCH", "Repaso Segun-SWITCH\Repaso Segun-SWITCH.csproj", "{1FEB5094-2DA5-45E4-BF6F-CDF82D6C7880}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repaso Segun-SWITCH", "Repaso Segun-SWITCH\Repaso Segun-SWITCH.csproj", "{1FEB5094-2DA5-45E4-BF6F-CDF82D6C7880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_Strings_1", "Ejercicio_Strings_1\Ejercicio_Strings_1.csproj", "{ADF543F7-F282-41EC-9028-F8FF12642FBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{1FEB5094-2DA5-45E4-BF6F-CDF82D6C7880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FEB5094-2DA5-45E4-BF6F-CDF82D6C7880}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FEB5094-2DA5-45E4-BF6F-CDF82D6C7880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF543F7-F282-41EC-9028-F8FF12642FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF543F7-F282-41EC-9028-F8FF12642FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF543F7-F282-41EC-9028-F8FF12642FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF543F7-F282-41EC-9028-F8FF12642FBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

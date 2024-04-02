@@ -72,6 +72,7 @@
 //}
 //------------------------------------------------------------------
 //Mostrar todos los que son par o impar.
+//
 //namespace Array
 //{
 //    internal class Program
@@ -140,7 +141,6 @@
 //            //    if (miCadena[i] == "pedro") 
 //            //    {
 //            //        miCadena[i] = "uds no son pedro";
-                
 //            //    }
 //            //}
 //            //for (int i = 0; i < largo; i++)
@@ -175,13 +175,13 @@
 //        static void Main(string[] args)
 //        {
 //            int largo;
-          
+
 //            char[] otraCadena = new char[5];
 //            int[] arrayNumerico = new int[5];
 
 //            string[] arrayPalabras = {"milanesa","lechuga","rojo","laura" }; // defini posiciones
 //            largo = arrayPalabras.Length;
-            
+
 //            for (int i = 0; i < largo; i++)
 //            {
 //                Console.WriteLine(arrayPalabras[i]);
@@ -210,7 +210,7 @@
 //            //foreach (string dato in arrayPalabras) 
 //            //{
 //            //    Console.WriteLine(dato);
-            
+
 //            //}
 //            //-----------------
 //            foreach (string dato in arrayPalabras)
@@ -218,7 +218,7 @@
 //                if (dato == "laura") 
 //                {
 //                    Console.WriteLine("laura te encontre"); 
-                
+
 //                }
 //            }
 
@@ -272,7 +272,7 @@
 //            //        break;
 
 //            //    }
-                
+
 //            //}
 
 //        }
@@ -325,7 +325,7 @@
 //            //{
 //            //    Console.WriteLine(otraCadena[i]);
 //            //}
-////-----------------------------------CHAR vacio
+////-----------------------------------CHAR vacio-------
 //            for (int i = 0; i < largo; i++)
 //            {
 //                if(cadenaDeLetras[i] != ' ')
@@ -358,12 +358,12 @@
 //            foreach(int item in numeros)
 //            {
 //                Console.WriteLine(item);
-            
+
 //            }
 //        }
 //    }
 //}
-//---------------ARRAY SUMA
+//---------------ARRAY SUMA----------------
 //namespace Array
 //{
 //    internal class Program
@@ -482,39 +482,37 @@
 //}
 //-------------------------------------
 //Usando booleanos
-namespace Array
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            string nombre = "fl04enciQ";
-            int largo;
-            bool esIncorrecto = true;
-            largo = nombre.Length;
+//namespace Array
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            string nombre;
+//            bool esIncorrecto = true;
 
-            Console.WriteLine($"La palabra florencia tiene {largo} letras");
+//            do
+//            {
+//                esIncorrecto = false;
+//                Console.WriteLine("Ingrese su nombre");
+//                nombre = Console.ReadLine();
 
-            do
-            {
-                Console.WriteLine("Ingrese su nombre");
-                nombre = Console.ReadLine();
-                
-                for (int i=0; i<nombre.Length; i++)
-                {
-                    if (char.IsLetter(nombre[i]))
-                    {
-                        
-                    }
-                    else
-                    {
-                     
-                    }
-         
-                }
-            }
-            While(esIncorrecto);
-            
-        }
-    }
-}
+//                for (int i=0; i<nombre.Length; i++)
+//                {
+//                    if (!char.IsLetter(nombre[i]))
+//                    {
+//                        Console.WriteLine("el nombre debe tener solo letras");
+//                        esIncorrecto = true;
+//                        break;
+//                    }
+//                }
+//            }while(esIncorrecto);
+//            //Console.WriteLine(nombre);
+//            Console.WriteLine($"el nombre valido es: {nombre}");
+
+//        }
+//    }
+//}
+//-------------------------------------------------------------------------
+//Si queremos que una letra sea mayuscula
+// nombre[0] = char.ToUpper(nombre[0]);
