@@ -10,19 +10,12 @@ namespace Ejercicio_Strings_1
         static void Main(string[] args)
         {
             string palabras;
-            int largo;
-            string[] arrayPalabras = new string[5];
 
-            largo = arrayPalabras.Length;
+            //for (int i = 0; i < arrayPalabras.Length; i++) 
+            //{
+            //    Console.WriteLine(arrayPalabras[i]);
 
-            Console.WriteLine("Ingrese una palabra");
-            palabras = Console.ReadLine();
-
-            for (int i = 0; i < arrayPalabras.Length; i++) 
-            {
-                Console.WriteLine(arrayPalabras[i]);
-
-            }
+            //}
 
         }
     }
