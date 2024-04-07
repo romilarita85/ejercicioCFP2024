@@ -44,7 +44,7 @@
 //*--------------------------------------------
 //3)LENGTH-
 //-Metodo para saber cuantas posiciones tiene mi array (cuantas posiciones puedo guardar)
-//-uso largo--
+//-uso largo--Uso length para saber cuantos caracteres tiene la palabra
 //namespace Array
 //{
 //    internal class Program

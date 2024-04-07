@@ -98,7 +98,7 @@
             Console.WriteLine("El total sin descuento es " + precioTotal);
             //E.Si el importe final con descuento suma más de $950,
             //se debe agregar el 10% de ingresos brutos.
-            if(descuento <> 0) 
+            if(descuento != 0) 
             {
                 valorDescuento = precioTotal * descuento;
                 precioTotalConDesc = precioTotal - valorDescuento; 
