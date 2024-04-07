@@ -7,7 +7,6 @@
 //D.Si compra 3 lamparitas marca “ArgentinaLuz” el descuento es del 15%, si es “FelipeLamparas se hace un descuento del 10% y si es otra marca, 5%.
 //E.Si el importe final con descuento suma más de $950, se debe agregar el 10% de ingresos brutos.
 //Informar: cantidad de lamparitas, marca, total sin descuento, descuento, total con descuento, y si corresponde total de ingresos brutos y total a pagar.
-
 namespace Ejercicio_6_SWICH
 {
     internal class Program
@@ -21,10 +20,9 @@ namespace Ejercicio_6_SWICH
             double valorDescuento = 0;
             double precioTotal;
             double precioTotalConDesc= 0;
-            double iibb = 0,10;
+            double iibb = 0.10;
             double valoriibb = 0;
             double precioTotalConIIBB=0 ;
-
 
             Console.WriteLine("Ingrese la marca de la lamparita: ");
             marcaLamparas = Console.ReadLine();
@@ -39,39 +37,39 @@ namespace Ejercicio_6_SWICH
                     switch (marcaLamparas)
                     {
                       case "argentinaluz":
-                          descuento:0,15;
+                          descuento = 0.15;
                           break;
                       case "felipelamparas":
-                          descuento: 0,10;
+                          descuento = 0.10;
                           break;
                       default:
-                          descuento:0,05;
+                          descuento = 0.05;
                           break;
                     }
                 case 4:
                     switch (marcaLamparas) 
                     {
                        case "argentinaluz" || "felipelampara":
-                          descuento: 0,25;
+                          descuento = 0.25;
                           break;
                        default:
-                          descuento: 0,20;
+                          descuento = 0.20;
                           break;
                     }
                 case 5:
                     switch (marcaLamparas) 
                     {
                         case "argentinaluz":
-                           descuento:0,4;
+                           descuento = 0.4;
                            break;
                         default:
-                           descuento:0,3;
+                           descuento= 0.3;
                            break;
                     }
                 default:
                     if (cantidadLamparas >= 6) 
                     {
-                        descuento = 0,5;
+                        descuento = 0.5;
                         break;
                     }
             }
@@ -94,7 +92,6 @@ namespace Ejercicio_6_SWICH
             Console.WriteLine("La cantidad de lamparitas es " + cantidadLamparas);
             Console.WriteLine("La marca de lamparitas es " + marcaLamparas);
             Console.WriteLine("El total sin descuento es " + precioTotal);
-
         }
     }
 }
