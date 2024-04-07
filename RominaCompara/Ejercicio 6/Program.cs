@@ -20,7 +20,7 @@
             double valorDescuento = 0;
             double precioTotal = 0;
             double precioTotalConDesc = 0;
-            double iibb = 0,10;
+            double iibb = 0.10;
             double valoriibb = 0;
             double precioTotalConIIBB = 0;
             
@@ -34,7 +34,7 @@
             //A.Si compra 6 lamparitas o más, tiene un descuento del 50 %.
             if (cantidadLamparas > 5)
             {
-                descuento = 0,5;
+                descuento = 0.5;
             }
             else
             {//B.Si compra 5 lamparitas marca “ArgentinaLuz” se aplica un 40%
@@ -43,11 +43,11 @@
                 {
                     if (marcaLamparas == "argentinaluz")
                     {
-                        descuento = 0,4;
+                        descuento = 0.4;
                     }
                     else 
                     {
-                        descuento = 0,30;
+                        descuento = 0.30;
                     }
                 }
                 else
@@ -57,11 +57,11 @@
                     {
                         if (marcaLamparas == "argentinaluz" || marcaLamparas == "felipelamparas")
                         {
-                            descuento = 0,25;
+                            descuento = 0.25;
                         }
                         else
                         {
-                            descuento = 0,20;
+                            descuento = 0.20;
                         }
                     }
                     else
@@ -72,17 +72,17 @@
                         {
                             if (marcaLamparas == "argentinaluz")
                             {
-                                descuento = 0,15;
+                                descuento = 0.15;
                             }
                             else
                             {
                                 if (marcaLamparas == "felipelamparas")
                                 {
-                                    descuento = 0,10;
+                                    descuento = 0.10;
                                 }
                                 else
                                 {
-                                    descuento = 0,05;
+                                    descuento = 0.05;
                                 }
                             }
                         }
@@ -93,17 +93,17 @@
                     }
                 }
             }
-            Console.WriteLine("La cantidad de lamparitas es " + cantidadLamparas);
-            Console.WriteLine("La marca de lamparitas es " + marcaLamparas);
-            Console.WriteLine("El total sin descuento es " + precioTotal);
+            Console.WriteLine($"La cantidad de lamparitas es: {cantidadLamparas}");
+            Console.WriteLine($"La marca de lamparitas es: {marcaLamparas}");
+            Console.WriteLine($"El total sin descuento es: $ {precioTotal}");
             //E.Si el importe final con descuento suma más de $950,
             //se debe agregar el 10% de ingresos brutos.
             if(descuento != 0) 
             {
                 valorDescuento = precioTotal * descuento;
                 precioTotalConDesc = precioTotal - valorDescuento; 
-                Console.WriteLine("El  descuento es " + valorDescuento);
-                Console.WriteLine("El precio total con descuento es $", precioTotalConDesc);
+                Console.WriteLine($"El  descuento es {valorDescuento}");
+                Console.WriteLine($"El precio total con descuento es $ {precioTotalConDesc}");
             }
             if (precioTotalConDesc > 950)
             {
@@ -111,8 +111,8 @@
                 precioTotalConIIBB = precioTotalConDesc + valoriibb;
 
             }
-            Console.WriteLine("El total de ingresos brutos es " + valoriibb);
-            Console.WriteLine("El total a pagar con ingresos brutos es" + precioTotalConIIBB);
+            Console.WriteLine($"El total de ingresos brutos es {valoriibb}");
+            Console.WriteLine($"El total a pagar con ingresos brutos es $ {precioTotalConIIBB}");
 
         }
     }
