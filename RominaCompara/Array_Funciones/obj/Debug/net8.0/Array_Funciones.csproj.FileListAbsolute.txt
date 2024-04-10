@@ -1,0 +1,15 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\bin\Debug\net8.0\Array_Funciones.exe
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\bin\Debug\net8.0\Array_Funciones.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\bin\Debug\net8.0\Array_Funciones.runtimeconfig.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\bin\Debug\net8.0\Array_Funciones.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\bin\Debug\net8.0\Array_Funciones.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\obj\Debug\net8.0\Array_Funciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\obj\Debug\net8.0\Array_Funciones.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\obj\Debug\net8.0\Array_Funciones.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\obj\Debug\net8.0\Array_Funciones.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\obj\Debug\net8.0\Array_Funciones.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\obj\Debug\net8.0\Array_Funciones.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\obj\Debug\net8.0\refint\Array_Funciones.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\obj\Debug\net8.0\Array_Funciones.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\obj\Debug\net8.0\Array_Funciones.genruntimeconfig.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Array_Funciones\obj\Debug\net8.0\ref\Array_Funciones.dll

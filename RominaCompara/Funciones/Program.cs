@@ -1,4 +1,10 @@
-﻿//Funciones que devuelven algo y que reciben parametros
+﻿//FUNCIONES:
+//Es un pequeño bloque de codigo que se encarga de hacer una unica tarea.
+//Puedo hacer varias actividades el mensaje final es un numero entero.
+
+//TIPOS DE FIRMA EN UNA FUNCION:
+//1-Funciones que devuelven algo y que reciben parametros:
+//La mas recomendada.
 //namespace Funciones
 //{
 //    internal class Program
@@ -22,7 +28,7 @@
 //}
 //-------------------------------------------------------------------------------------------
 //-/////////////////////////////////////////////////////////////////////////////-------------
-//Funciones que devuelven algo y que no reciben parametros
+//2-Funciones que devuelven algo y que no reciben parametros
 //
 //namespace Funciones
 //{
@@ -69,11 +75,7 @@
     //      lectura = Console.ReadLine();
     //      return lectura;
 //        }
-
-
-
-
-
+//
 //        static string PedirNombre()
 //        {
 //            string lectura;
