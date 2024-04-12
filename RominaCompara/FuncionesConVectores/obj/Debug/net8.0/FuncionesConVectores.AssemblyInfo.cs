@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Array")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FuncionesConVectores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21ca31009dc8711a8c63a3030732b3b50b35e996")]
-[assembly: System.Reflection.AssemblyProductAttribute("Array")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Array")]
+[assembly: System.Reflection.AssemblyProductAttribute("FuncionesConVectores")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FuncionesConVectores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
