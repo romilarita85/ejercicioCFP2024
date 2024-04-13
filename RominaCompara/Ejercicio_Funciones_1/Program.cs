@@ -10,11 +10,10 @@ namespace Ejercicio_Funciones_1
     {
         static void Main(string[] args)
         {
+            int[] 
             string palabra;
             palabra = PedirPalabra();
             Console.WriteLine(palabra);
-            
-
         }
         static string PedirPalabra() 
         {

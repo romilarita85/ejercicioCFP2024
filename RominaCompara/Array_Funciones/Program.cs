@@ -10,8 +10,6 @@
 //            foreach (var item in numeros) 
 //            {
 //                Console.WriteLine(item);
-
-
 //            }
 //        }
 //    }
@@ -31,15 +29,14 @@
 //        {
 //            Console.Write("Ingrese su nombre: ");
 //            Console.WriteLine($"Bienvenido: {Console.ReadLine()}");
-
 //        }
 //    }
 //}
 //-----------------------------------------------------------------------------
-//Funciones que retornen algo:
+//Funciones que retornen algo:-----------
 //Crear una funcion que pida o retorne el ingreso de un numero entero con un rango
 //maximo y un rango minimo.
-
+//
 //namespace Array_Funciones
 //{
 //    internal class Program
@@ -66,7 +63,7 @@
 //        }
 //    }
 //}
-//--------------------------------------------------------------
+//--------------------------------------------------------------//-----------//----------//-------//
 ////Usando funcion BOOLEANO
 ////Crear una funcion que pida o retorne el ingreso de un numero entero con un rango
 ////maximo y un rango minimo.

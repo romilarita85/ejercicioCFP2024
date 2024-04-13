@@ -1,0 +1,15 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\bin\Debug\net8.0\Ejercicio_Vectores_3.exe
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\bin\Debug\net8.0\Ejercicio_Vectores_3.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\bin\Debug\net8.0\Ejercicio_Vectores_3.runtimeconfig.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\bin\Debug\net8.0\Ejercicio_Vectores_3.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\bin\Debug\net8.0\Ejercicio_Vectores_3.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\obj\Debug\net8.0\Ejercicio_Vectores_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\obj\Debug\net8.0\Ejercicio_Vectores_3.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\obj\Debug\net8.0\Ejercicio_Vectores_3.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\obj\Debug\net8.0\Ejercicio_Vectores_3.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\obj\Debug\net8.0\Ejercicio_Vectores_3.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\obj\Debug\net8.0\Ejercicio_Vectores_3.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\obj\Debug\net8.0\refint\Ejercicio_Vectores_3.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\obj\Debug\net8.0\Ejercicio_Vectores_3.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\obj\Debug\net8.0\Ejercicio_Vectores_3.genruntimeconfig.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Vectores_3\obj\Debug\net8.0\ref\Ejercicio_Vectores_3.dll

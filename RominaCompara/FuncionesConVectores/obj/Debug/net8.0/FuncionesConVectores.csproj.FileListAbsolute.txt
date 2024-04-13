@@ -1,0 +1,5 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.sourcelink.json
