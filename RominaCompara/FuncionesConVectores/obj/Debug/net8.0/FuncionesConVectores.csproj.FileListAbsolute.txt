@@ -3,3 +3,17 @@ C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\De
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.AssemblyInfo.cs
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.csproj.CoreCompileInputs.cache
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\bin\Debug\net8.0\FuncionesConVectores.exe
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\bin\Debug\net8.0\FuncionesConVectores.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\bin\Debug\net8.0\FuncionesConVectores.runtimeconfig.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\bin\Debug\net8.0\FuncionesConVectores.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\bin\Debug\net8.0\FuncionesConVectores.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\bin\Debug\net8.0\LibreriaDeFunciones.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\bin\Debug\net8.0\LibreriaDeFunciones.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.csproj.AssemblyReference.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\Funcione.1330CCD8.Up2Date
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\refint\FuncionesConVectores.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\FuncionesConVectores.genruntimeconfig.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FuncionesConVectores\obj\Debug\net8.0\ref\FuncionesConVectores.dll

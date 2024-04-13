@@ -353,71 +353,99 @@
 //}
 //----------//------------//------------//----------//------------//-------------------------
 ///Otro ejemplo usando suma y promedio:----------------
-namespace Ejercicio_Vectores_1
+//namespace Ejercicio_Vectores_1
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            int[] misNumeros = CargarArrayDeEnteros(5);
+//            ImprimirArray("Los numeros ingresados son: ", misNumeros);
+//            Console.WriteLine($"El valor de la suma es: {SumaValoresArrayEnteros(misNumeros)}");
+//            Console.WriteLine($"El valor del promedio es: {CalcularPromedioArrayEnteros(misNumeros)}");
+//        }
+//        static int[] CargarArrayDeEnteros(int cantidad)//lo que recibe-parametros
+//        {
+//            int[] numeros = new int[cantidad];
+//            for (int i = 0; i < cantidad; i++)
+//            {
+//                numeros[i] = PedirEntero($"Ingrese el nunero {i + 1} de {cantidad}: ", "El dato ingresado no es un numero");
+//            }
+//            return numeros;
+//        }
+//        static int PedirEntero(string mensaje, string mensajeError)
+//        {
+//            int numeroValido;
+//            string numeroLeido;
+//            numeroLeido = PedirCadena(mensaje);
+
+//            while (!int.TryParse(numeroLeido, out numeroValido))
+//            {
+//                Console.WriteLine(mensajeError);
+//                numeroLeido = PedirCadena(mensaje);
+//            }
+//            return numeroValido;
+//        }
+//        static string PedirCadena(string mensaje)
+//        {
+//            Console.Write(mensaje);
+//            return Console.ReadLine();
+//        }
+//        static void ImprimirArray(string titulo, int[] misNumeros)
+//        {
+//            Console.WriteLine(titulo);
+//            foreach (int numero in misNumeros)
+//            {
+//                Console.WriteLine(numero);
+//            }
+//        }
+//        static int SumaValoresArrayEnteros(int[] misNumeros)
+//        {
+//            int suma = 0;
+//            foreach (int numero in misNumeros)
+//            {
+//                suma += numero;
+//            }
+//            return suma;
+//        }
+//        static double CalcularPromedioArrayEnteros(int[] misNumeros)
+//        {
+//            int suma = 0;
+//            double resultado;
+//            foreach (int numero in misNumeros)
+//            {
+//                suma += numero;
+//            }
+//            resultado = (double)suma / misNumeros.Length;
+//            return resultado;
+//        }
+//    }
+//}
+//-----------//---------//---------------//------------------//----------------//----------------
+//Creaciones de contenedor "Libreria de funciones":--------------------------------------------
+//1)-Crear un contenedor dentro de nuestras funciones-> dentro del proyecto
+//Proyecto biblioteca de clases-> class library
+//2)-Hacer que el proyecto conozca el contenedor->Hacer una REFERENCIA-> proyect reference 
+//dentro del proyecto "funcionesConVectores"
+//3)-Quiero que utilicen una referencia "LibreriaDeFunciones"->Using
+//Using LibreriaDeFunciones ->dentro del proyecto "FuncionesConVectores"
+//4)-Visibilidad de funciones:en libreria de funciones->Todas las referencias van a ser publicas
+//5)-Las clases tambien tienen que ser static
+//6)-Agregar clase dentro del proyecto "FuncionesConVectores"-> clase - "MisFunciones"
+using LibreriaDeFunciones;
+namespace FuncionesConVectores
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int[] misNumeros = CargarArrayDeEnteros(5);
-            ImprimirArray("Los numeros ingresados son: ", misNumeros);
-            Console.WriteLine($"El valor de la suma es: {SumaValoresArrayEnteros(misNumeros)}");
-            Console.WriteLine($"El valor del promedio es: {CalcularPromedioArrayEnteros(misNumeros)}");
-        }
-        static int[] CargarArrayDeEnteros(int cantidad)//lo que recibe-parametros
-        {
-            int[] numeros = new int[cantidad];
-            for (int i = 0; i < cantidad; i++)
-            {
-                numeros[i] = PedirEntero($"Ingrese el nunero {i + 1} de {cantidad}: ", "El dato ingresado no es un numero");
-            }
-            return numeros;
-        }
-        static int PedirEntero(string mensaje, string mensajeError)
-        {
-            int numeroValido;
-            string numeroLeido;
-            numeroLeido = PedirCadena(mensaje);
-
-            while (!int.TryParse(numeroLeido, out numeroValido))
-            {
-                Console.WriteLine(mensajeError);
-                numeroLeido = PedirCadena(mensaje);
-            }
-            return numeroValido;
-        }
-        static string PedirCadena(string mensaje)
-        {
-            Console.Write(mensaje);
-            return Console.ReadLine();
-        }
-        static void ImprimirArray(string titulo, int[] misNumeros)
-        {
-            Console.WriteLine(titulo);
-            foreach (int numero in misNumeros)
-            {
-                Console.WriteLine(numero);
-            }
-        }
-        static int SumaValoresArrayEnteros(int[] misNumeros)
-        {
-            int suma = 0;
-            foreach (int numero in misNumeros)
-            {
-                suma += numero;
-            }
-            return suma;
-        }
-        static double CalcularPromedioArrayEnteros(int[] misNumeros)
-        {
-            int suma = 0;
-            double resultado;
-            foreach (int numero in misNumeros)
-            {
-                suma += numero;
-            }
-            resultado = (double)suma / misNumeros.Length;
-            return resultado;
+            int[] misNumeros = MisFunciones.CargarArrayDeEnteros(5);
+            int valorSuma = MisFunciones.SumaValoresArrayEnteros(misNumeros);
+            double promedio = MisFunciones.CalcularPromedioArrayEnteros(misNumeros);
+            MisFunciones.ImprimirArray("Los numeros ingresados son: ", misNumeros);
+            Console.WriteLine($"El valor de la suma es: {valorSuma}");
+            Console.WriteLine($"El valor del promedio es: {promedio}");
+            MisFunciones.ImprimirArrayAlreves("Imprimiendo Array alreves", misNumeros);
         }
     }
 }

@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12A339DE-E17F-4A7A-8B9A-A2F818265450}|LibreriaDeFunciones\\LibreriaDeFunciones.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadefunciones\\misfunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A339DE-E17F-4A7A-8B9A-A2F818265450}|LibreriaDeFunciones\\LibreriaDeFunciones.csproj|solutionrelative:libreriadefunciones\\misfunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DE2117-93C3-4A98-93F0-AACE1058B7CC}|FuncionesConVectores\\FuncionesConVectores.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\funcionesconvectores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DE2117-93C3-4A98-93F0-AACE1058B7CC}|FuncionesConVectores\\FuncionesConVectores.csproj|solutionrelative:funcionesconvectores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45D5CB7-D361-474F-8FA1-6D1E3E0722A9}|OtrasFuncionesConArrays\\OtrasFuncionesConArrays.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\otrasfuncionesconarrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45D5CB7-D361-474F-8FA1-6D1E3E0722A9}|OtrasFuncionesConArrays\\OtrasFuncionesConArrays.csproj|solutionrelative:otrasfuncionesconarrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\OtrasFuncionesConArrays\\Program.cs",
+              "RelativeDocumentMoniker": "OtrasFuncionesConArrays\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\OtrasFuncionesConArrays\\Program.cs",
+              "RelativeToolTip": "OtrasFuncionesConArrays\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T19:45:12.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MisFunciones.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeFunciones\\MisFunciones.cs",
+              "RelativeDocumentMoniker": "LibreriaDeFunciones\\MisFunciones.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeFunciones\\MisFunciones.cs",
+              "RelativeToolTip": "LibreriaDeFunciones\\MisFunciones.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAswEYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T18:36:51.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FuncionesConVectores\\Program.cs",
+              "RelativeDocumentMoniker": "FuncionesConVectores\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FuncionesConVectores\\Program.cs",
+              "RelativeToolTip": "FuncionesConVectores\\Program.cs",
+              "ViewState": "AQIAAK8BAAAAAAAAAAAqwLoBAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T18:35:31.378Z",
+              "EditorCaption": ""
             }
           ]
         }
