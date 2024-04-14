@@ -1,4 +1,5 @@
-﻿//Ejercicio 1: Pedir el ingreso de una palabra, verificar que por lo menos tenga 5 caracteres
+﻿//Ejercicio 1:
+//Pedir el ingreso de una palabra, verificar que por lo menos tenga 5 caracteres
 //de no ser así informar, luego mostrar los primeros 3 caracteres.
 //ej: zapallo->zap
 namespace Ejercicio_Strings_1
@@ -17,9 +18,8 @@ namespace Ejercicio_Strings_1
                 if (palabras.Length < 5)
                 {
                     Console.WriteLine("La palabra ingresada tiene menos de 5 caracteres");
-
                 }
-            } while (palabras.Length<5);
+            } while (palabras.Length < 5);
 
 
             for (int i = 0; i < 3; i++) 

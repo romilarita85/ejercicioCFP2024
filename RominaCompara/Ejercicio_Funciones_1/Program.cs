@@ -10,27 +10,29 @@ namespace Ejercicio_Funciones_1
     {
         static void Main(string[] args)
         {
-            int[] 
             string palabra;
-            palabra = PedirPalabra();
-            Console.WriteLine(palabra);
+            string palabraLarga;
+            string palabraCorta;
+            Console.WriteLine("Escriba una palabra: ");
+            palabra = Console.ReadLine();
+
+            char[] letras = palabra.ToCharArray();
+
         }
-        static string PedirPalabra() 
+        static string MostrarPalabra(string mensaje) 
         {
-            string lectura;
-            Console.WriteLine("Ingrese una palabra");
-            lectura = Console.ReadLine();
-            return lectura;
-
-            if (palabra>8)
-
+            string palabra;
+            do
             {
-            }
-            else 
-            { 
+                Console.WriteLine("Ingrese una palabra con mas de 8 caracteres: ");
+                palabra = Console.ReadLine();
 
-            }
-
+                if (palabra.Length < 8)
+                {
+                    Console.WriteLine("La palabra ingresada es corta tiene menos de 8 caracteres");
+                }
+            } while (palabra.Length < 8);
+            return palabra;
         }
 
     }

@@ -1,4 +1,5 @@
-﻿//FUNCIONES:
+﻿//----FUNCIONES:
+//
 //Es un pequeño bloque de codigo que se encarga de hacer una unica tarea.
 //Puedo hacer varias actividades el mensaje final es un numero entero.
 

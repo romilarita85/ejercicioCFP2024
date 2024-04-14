@@ -1,0 +1,12 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\bin\Debug\net8.0\Automoviles.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\bin\Debug\net8.0\Automoviles.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\bin\Debug\net8.0\Automoviles.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\obj\Debug\net8.0\Automoviles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\obj\Debug\net8.0\Automoviles.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\obj\Debug\net8.0\Automoviles.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\obj\Debug\net8.0\Automoviles.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\obj\Debug\net8.0\Automoviles.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\obj\Debug\net8.0\Automoviles.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\obj\Debug\net8.0\refint\Automoviles.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\obj\Debug\net8.0\Automoviles.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Automoviles\obj\Debug\net8.0\ref\Automoviles.dll

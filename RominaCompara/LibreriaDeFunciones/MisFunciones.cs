@@ -1,4 +1,7 @@
-﻿namespace LibreriaDeFunciones
+﻿using System;
+using System.Runtime.Intrinsics.X86;
+
+namespace LibreriaDeFunciones
 {
     public class MisFunciones
     {
@@ -68,11 +71,117 @@
                 Console.WriteLine(numero);
             }
         }
-        public static int FiltrarPositivos(int[] datos)
-        {
-            //captura 376
+        //-------------------------
+        //public static int[] OrdenarMenor(int[] datos)
+        //{
+        //    //arrays ordenados de menor a mayor
+        //    int aux;
+        //    for (int i = 0; i < datos.Length; i++)
+        //    {
+        //        for (int j = i + 1; j < datos.Length; j++)
+        //        {
+        //            if (datos[i] > datos[j])
+        //            {
+        //                aux = datos[i];
+        //                datos[i] = datos[j];
+        //                datos[j] = aux;
+        //            }
+        //        }
+        //    }
+        //    return datos;
+        //}
+        //public static int[] OrdenarMayor(int[] datos)
+        //{
+        //    //arrays ordenados de mayor a menor
+        //    int aux;
+        //    for (int i = 0; i < datos.Length; i++)
+        //    {
+        //        for (int j = i + 1; j < datos.Length; j++)
+        //        {
+        //            if (datos[i] < datos[j])
+        //            {
+        //                aux = datos[i];
+        //                datos[i] = datos[j];
+        //                datos[j] = aux;
+        //            }
+        //        }
+        //    }
+        //    return datos;
+        //}
+        public static int[] OrdenarPorCriterio(int[] datos, bool ordenarMenor)
+        {//Forma mas simple
+            //arrays ordenados de menor a mayor
+            int aux;
+            for (int i = 0; i < datos.Length; i++)
+            {
+                for (int j = i + 1; j < datos.Length; j++)
+                {
+                    if((ordenarMenor == true && datos[i] > datos[j]) || (ordenarMenor == false && datos[i] < datos[j]))
+                    {
+                        aux = datos[i];
+                        datos[i] = datos[j];
+                        datos[j] = aux;   
+                    }
+                }
+            }
+            return datos;
         }
-
+        public static int[] OrdenarMayor(int[] datos)
+        {
+            //arrays ordenados de mayor a menor
+            int aux;
+            for (int i = 0; i < datos.Length; i++)
+            {
+                for (int j = i + 1; j < datos.Length; j++)
+                {
+                    if (datos[i] < datos[j])
+                    {
+                        aux = datos[i];
+                        datos[i] = datos[j];
+                        datos[j] = aux;
+                    }
+                }
+            }
+            return datos;
+        }
+//--------------------------------
+        //public static int[] MostrarPorCriterio(string mensaje, int[] vector, bool mostrarPositivo)
+        //{
+        //    Console.WriteLine(mensaje);
+        //    foreach (int numero in vector)
+        //    {
+        //        if (mostrarPositivo == true) 
+        //        {
+        //            if (numero > 0) 
+        //            {
+        //                Console.WriteLine(numero); //muestra el numero
+        //            }
+        //        }
+        //    }
+        //    foreach (int numero in vector)
+        //    {
+        //        if (mostrarPositivo == false)
+        //        {
+        //            if (numero < 0) 
+        //            {
+        //                Console.WriteLine(numero);
+        //            }
+        //        }
+        //    }
+        //    return vector;
+        //}
+        public static int[] MostrarPorCriterio(string mensaje, int[] vector, bool mostrarPositivo)
+        {//Forma simplificada
+            Console.WriteLine(mensaje);
+            foreach (int numero in vector)
+            {
+                if ((mostrarPositivo == true && numero > 0) || (mostrarPositivo == false && numero < 0))
+                {
+                    Console.WriteLine(numero); //muestra el numero
+                }
+            }
+            return vector;
+        }
     }
 }
 

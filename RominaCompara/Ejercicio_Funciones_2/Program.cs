@@ -7,7 +7,27 @@ namespace Ejercicio_Funciones_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Ingrese un número para determinar si es primo o compuesto");
+            Console.ReadLine(NumeroIngresado);
+            int i;
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            
+        }
+        static int[] NumeroIngresado(int num) 
+        { 
+            for (i = 2; i < num; i++)
+            { 
+                if (num % i != 0)
+                {
+                Console.WriteLine("Es primo");
+                }
+                else
+                {
+                Console.WriteLine("No es primo");
+                }
+
+            }
         }
     }
 }

@@ -33,7 +33,6 @@ namespace Ejercicio_Strings_2
             {
                 Console.Write(palabras[i]);
                 Console.Write("-");
-
             }
         }
     }
