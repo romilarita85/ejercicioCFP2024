@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5E3499F1-FA2E-4FF2-9F0C-AB9AC51397A1}|Ejercicio_Funciones_2\\Ejercicio_Funciones_2.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio_funciones_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E3499F1-FA2E-4FF2-9F0C-AB9AC51397A1}|Ejercicio_Funciones_2\\Ejercicio_Funciones_2.csproj|solutionrelative:ejercicio_funciones_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}|Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\repaso bucles repetitivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0D1BC6-038F-4DE2-9059-CAF95636CC50}|Repaso Bucles Repetitivos\\Repaso Bucles Repetitivos.csproj|solutionrelative:repaso bucles repetitivos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA4A955-0631-456B-BFA6-2E3DD0BFF7C1}|Array_Funciones\\Array_Funciones.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\array_funciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CA4A955-0631-456B-BFA6-2E3DD0BFF7C1}|Array_Funciones\\Array_Funciones.csproj|solutionrelative:array_funciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,50 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Array_Funciones\\Program.cs",
-              "RelativeDocumentMoniker": "Array_Funciones\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Array_Funciones\\Program.cs",
-              "RelativeToolTip": "Array_Funciones\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T21:12:46.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Bucles Repetitivos\\Program.cs",
-              "RelativeDocumentMoniker": "Repaso Bucles Repetitivos\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Bucles Repetitivos\\Program.cs",
-              "RelativeToolTip": "Repaso Bucles Repetitivos\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T21:16:48.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Funciones_2\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio_Funciones_2\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Funciones_2\\Program.cs",
-              "RelativeToolTip": "Ejercicio_Funciones_2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:57:19.583Z",
-              "EditorCaption": ""
             }
           ]
         }

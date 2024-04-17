@@ -12,7 +12,6 @@ namespace Ejercicio_Funciones_2
             int i;
             int num = Convert.ToInt32(Console.ReadLine());
 
-            
         }
         static int[] NumeroIngresado(int num) 
         { 
