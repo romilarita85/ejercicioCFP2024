@@ -36,7 +36,7 @@
         //para ser STATIC de decirlo explicitamente.
         //de lo contrario es de INSTANCIA
         //3-NUNCA TIENEN RETORNO
-        //4-Nombre: SIEMPRE el MISMO que la CLASE (es este caso Empleado)
+        //4-Nombre: SIEMPRE el MISMO que la CLASE (en este caso Empleado)
         //5-Parametros
         public Empleado(int legajo, string nombre, string apellido, double sueldo, string area) //()lo que tengo que recibir
         { 

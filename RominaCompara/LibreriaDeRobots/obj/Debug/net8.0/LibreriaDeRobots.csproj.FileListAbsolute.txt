@@ -1,0 +1,12 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\bin\Debug\net8.0\LibreriaDeRobots.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\bin\Debug\net8.0\LibreriaDeRobots.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\bin\Debug\net8.0\LibreriaDeRobots.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\obj\Debug\net8.0\LibreriaDeRobots.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\obj\Debug\net8.0\LibreriaDeRobots.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\obj\Debug\net8.0\LibreriaDeRobots.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\obj\Debug\net8.0\LibreriaDeRobots.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\obj\Debug\net8.0\LibreriaDeRobots.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\obj\Debug\net8.0\LibreriaDeRobots.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\obj\Debug\net8.0\refint\LibreriaDeRobots.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\obj\Debug\net8.0\LibreriaDeRobots.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeRobots\obj\Debug\net8.0\ref\LibreriaDeRobots.dll
