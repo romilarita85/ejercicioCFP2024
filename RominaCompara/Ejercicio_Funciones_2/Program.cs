@@ -30,3 +30,32 @@ namespace Ejercicio_Funciones_2
         }
     }
 }
+
+//-----------------------------
+//using System;
+
+//class Program
+//{
+//    static bool EsPrimo(int numero)
+//    {
+//        if (numero <= 1)
+//            return false;
+
+//        for (int i = 2; i <= Math.Sqrt(numero); i++)
+//        {
+//            if (numero % i == 0)
+//                return false;
+//        }
+
+//        return true;
+//    }
+
+//    static void Main(string[] args)
+//    {
+//        int numero = 17; // Puedes cambiar el número aquí para probar
+//        if (EsPrimo(numero))
+//            Console.WriteLine(numero + " es primo.");
+//        else
+//            Console.WriteLine(numero + " no es primo.");
+//    }
+//}

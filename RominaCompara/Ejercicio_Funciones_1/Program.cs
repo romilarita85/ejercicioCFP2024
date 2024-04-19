@@ -4,6 +4,8 @@
 //La función debe recibir un parámetro de tipo cadena (string)
 //y su retorno debe ser booleano.
 
+using System;
+
 namespace Ejercicio_Funciones_1
 {
     internal class Program
@@ -33,7 +35,29 @@ namespace Ejercicio_Funciones_1
                 }
             } while (palabra.Length < 8);
             return palabra;
+            static bool EsLarga(string palabra)
+            {
+                return palabra.Length > 8;
+            }
         }
 
     }
 }
+
+//using System;
+
+//class Program
+//{
+//    static void Main()
+//    {
+//        // Ejemplos de uso
+//        Console.WriteLine(EsLarga("corta"));        // False
+//        Console.WriteLine(EsLarga("larguísima"));   // True
+//        Console.WriteLine(EsLarga("mediana"));     // False
+//    }
+
+//    static bool EsLarga(string palabra)
+//    {
+//        return palabra.Length > 8;
+//    }
+//}
