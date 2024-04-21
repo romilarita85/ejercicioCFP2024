@@ -7,55 +7,50 @@ namespace Ejercicio_Funciones_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ingrese un número para determinar si es primo o compuesto");
-            Console.ReadLine(NumeroIngresado);
-            int i;
-            int num = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Ingrese un número:");
+            int numero = int.Parse(Console.ReadLine());
 
-        }
-        static int[] NumeroIngresado(int num) 
-        { 
-            for (i = 2; i < num; i++)
-            { 
-                if (num % i != 0)
+            //Primero debo crear la funcion abajo del main
+            //Luego Llamar a la función para determinar si el número es primo o no
+
+            if (NumEsPrimo(numero))
+            {
+                Console.WriteLine("El número ingresado es primo.");
+            }
+            else
+            {
+                Console.WriteLine("El número ingresado no es primo.");
+            }
+
+            //Creo función para determinar si un número es primo
+
+            static bool NumEsPrimo(int numero) //primo= divisible por 2
+            {
+                // Verificar si el número es menor o igual a 1
+                if (numero <= 1)
                 {
-                Console.WriteLine("Es primo");
-                }
-                else
-                {
-                Console.WriteLine("No es primo");
+                    return false;
                 }
 
+                // Verificar si el número es divisible por algún número entre 2 y la mitad de su valor
+                for (int i = 2; i <= numero / 2; i++)
+                {
+                    if (numero % i == 0)
+                    {
+                        return false;
+                    }
+                }
+
+                // Si no se encontró ningún divisor, el número es primo
+                return true;
             }
         }
+        
     }
 }
 
-//-----------------------------
-//using System;
 
-//class Program
-//{
-//    static bool EsPrimo(int numero)
-//    {
-//        if (numero <= 1)
-//            return false;
 
-//        for (int i = 2; i <= Math.Sqrt(numero); i++)
-//        {
-//            if (numero % i == 0)
-//                return false;
-//        }
+    
 
-//        return true;
-//    }
-
-//    static void Main(string[] args)
-//    {
-//        int numero = 17; // Puedes cambiar el número aquí para probar
-//        if (EsPrimo(numero))
-//            Console.WriteLine(numero + " es primo.");
-//        else
-//            Console.WriteLine(numero + " no es primo.");
-//    }
-//}
