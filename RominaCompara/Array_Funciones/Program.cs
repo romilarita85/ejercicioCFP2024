@@ -233,7 +233,8 @@ namespace Array_Funciones
             Console.Write("Ingrese su nombre: ");
             Console.WriteLine($"Bienvenido: {Console.ReadLine()}");
         }
-        //Usando funcion booleano: responde a lo que tenia por parametro. Si es un numero o no
+        //Usando funcion booleano: responde a lo que tenia por parametro.
+        //Si es un numero o no
         static bool EsNumerico(string dato) //Ingreso una cadena de caracteres
                                             //evalua si los datos son un digito
         {

@@ -167,7 +167,7 @@
 //    }
 //}
 //------------------------------------------
-//Cuanto va a  medir el ARRAY.
+//....Cuanto va a  medir el ARRAY.
 //namespace Array
 //{
 //    internal class Program
@@ -200,17 +200,12 @@
 //        static void Main(string[] args)
 //        {
 //            int largo;
-
-//            char[] otraCadena = new char[5];
-//            int[] arrayNumerico = new int[5];
-
 //            string[] arrayPalabras = { "milanesa", "lechuga", "rojo", "laura" }; // defini posiciones
 //            largo = arrayPalabras.Length;
 //            //------------
 //            //foreach (string dato in arrayPalabras) 
 //            //{
 //            //    Console.WriteLine(dato);
-
 //            //}
 //            //-----------------
 //            foreach (string dato in arrayPalabras)
@@ -218,14 +213,12 @@
 //                if (dato == "laura") 
 //                {
 //                    Console.WriteLine("laura te encontre"); 
-
 //                }
 //            }
-
 //        }
 //    }
 //}
-//-------------FOREACH con contador-------
+//-------------FOREACH usando contador-------
 //namespace Array
 //{
 //    internal class Program
@@ -233,10 +226,6 @@
 //        static void Main(string[] args)
 //        {
 //            int largo;
-
-//            char[] otraCadena = new char[5];
-//            int[] arrayNumerico = new int[5];
-
 //            string[] arrayPalabras = { "milanesa", "lechuga", "rojo", "laura" }; // defini posiciones
 //            largo = arrayPalabras.Length;
 //            int contador = 0;
@@ -417,7 +406,7 @@
 //    }
 //}
 //---------------------------------------
-//Quiero saber si es una letra o no
+//Quiero saber si es una letra o no uso IsLetter
 //namespace Array
 //{
 //    internal class Program
@@ -446,7 +435,8 @@
 //    }
 //}
 ///--------------------------------------------------------
-///Para saber que tipo de posiciones: si es letra o numero
+///IsDigit
+/// Para saber que tipo de posiciones: si es letra o numero
 //namespace Array
 //{
 //    internal class Program
