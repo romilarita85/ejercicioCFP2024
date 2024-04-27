@@ -149,7 +149,7 @@
 //            while (contador < 0)
 //            { 
 //                Console.WriteLine($"Vuelta n°{contador} del while");
-                
+
 //                contador++;
 //            }
 //            Console.WriteLine($"Valor de contador: {contador}");
@@ -165,21 +165,120 @@
 //        }   
 //    }
 //}
+//-----------------------------STRINGS-CADENAS-------------------------------------
+//String-tipo de dato. Es un conjunto de caracteres. Puedo recorrerlo con un for
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            string frase = "frase que escribi";
+
+//            Console.WriteLine($"La frase: \"{frase}\" tiene {frase.Length} caracteres");
+
+//            for (int i = 0; i < frase.Length; i++/* i =i+1, i +=1 */)
+//            {
+//                Console.WriteLine(frase[i]);
+//            }
+//        }
+//    }
+//}
+////Propiedad Length: Valor numerico. Representa la cantidad de caracteres que tiene
+////mi cadena. Los espacios representan un caracter (los van a contar).
+//------Foreach------
+////Es util para recorrer una coleccion. Siempre y cuando queramos recorrer una coleccion
+////de datos string-> cadena de caracteres->char
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            string frase = "frase que escribi";
+
+//            foreach (char letra in frase)
+//            {
+//                Console.WriteLine(letra);
+//                if (letra == 'q') 
+//                {
+//                    break;
+//                }
+//            }
+
+
+//        }
+//    }
+//}
+//----------------------------METODO TRIM--------------------------------
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            string frase = ".....     ******frase que escribi******      .....";
+
+//            //frase = frase.Trim(); //borra espacios en blanco
+//            //frase = frase.Trim('*');//especifica que espacios quiero borrar
+//            frase = frase.Trim(['*',' ','.']); //no importa el orden de los parametros 
+//                                               //los borra igual
+//            frase = frase.ToUpper();
+//            for (int i = 0; i < frase.Length; i++)
+//            {
+//                Console.WriteLine(frase[i]);
+
+//            }
+
+//        }
+//    }
+//}
+////Toupper:es un método que se utiliza para convertir
+////una cadena de caracteres a su equivalente en mayúsculas.
+//--------------------------ARRAY DE NUMEROS----------------------------
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            //Dos formas de inicializar el array:
+//            int[] numeros= new int[5];
+//            int[] numeros2 = { 1, 2, 85, 100, -98 };
+
+//            for (int i = 0; i < numeros.Length;i++) 
+//            {
+//                numeros[i] = i + 1;
+//            }
+//            numeros[3] = 15; //puedo dar un nuevo valor de forma arbitraria
+
+//            foreach (int numero in numeros)
+//            {
+//                Console.WriteLine(numero);
+//            }
+//        }
+//    }
+//}
 //-----------------------
 namespace Repaso_GRAL
 {
     internal class Program
     {
         static void Main(string[] args)
-        {
-            int i;
-            for (i = 0; i < 0; i++/* i =i+1, i +=1 */)
+        { 
+            int[] numeros = new int[5];
+
+            for (int i = 0; i < numeros.Length; i++)
             {
-                Console.WriteLine($"Vuelta n°{i} del for");
+                numeros[i] = i + 1;
             }
-            Console.WriteLine($"Valor de i: {i}");
-            Console.WriteLine("-------------------------------------------");
-            //captura 762
+            numeros[3] = 15; //puedo dar un nuevo valor de forma arbitraria
+
+            Array.Reverse(numeros); // doy vuelta los valores
+            foreach (int numero in numeros)
+            {
+                Console.WriteLine(numero);
+            }
         }
     }
 }
