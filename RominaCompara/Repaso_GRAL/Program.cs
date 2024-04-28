@@ -301,6 +301,9 @@
 //1° etapa -La firma
 //2° etapa -El desarrollo
 //3° etapa -El llamado o invocacion
+//
+//!true -> false
+//!false -> true
 //*****************************************************************************
 //namespace Repaso_GRAL
 //{
@@ -330,79 +333,434 @@
 //        }
 //    }
 //}
-//---------------
-using static System.Runtime.InteropServices.JavaScript.JSType;
+//---------------**************************************------------------
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        { //3° etapa -El llamado o invocacion
+//            ///paso valor a la funcion-harcodeados:
+//            //int suma;
+//            //suma = SumarEnteros (45,16);
+//            //Console.WriteLine($"El valor de la suma es: {suma}");
 
+//            ///O podria hacer datos que vengan de una variable:
+//            //int suma;
+//            //int numero1 = 45;
+//            //int numero2 = 16;
+//            //suma = SumarEnteros(numero1, numero2);
+//            //Console.WriteLine($"El valor de la suma entre {numero1} y {numero2} es: {suma}");
+//            //****************
+//            int numero;
+//            Console.WriteLine("Ingrese un numero: ");
+
+//            if (int.TryParse(Console.ReadLine(), out numero))
+//            {
+//                if (EsPar(numero))
+//                {
+//                    Console.WriteLine($"El numero {numero} es par");
+//                }
+//                else 
+//                {
+//                    Console.WriteLine($"El numero {numero} es impar");
+//                }
+//            }
+//            else 
+//            {
+//                Console.WriteLine("El dato ingresado es incorrecto");
+//            }
+//        }
+//        //ejemplo: Recibir dos numeros y sumarlos
+//        public static int SumarEnteros(int numero1, int numero2) //1° etapa -La firma
+//        {//2° etapa -El desarrollo
+//            int resultado;
+//            resultado = numero1 + numero2;
+//            return resultado;
+//        }
+//        //**************************
+//        //Ejemplo: Quiero saber si el numero es par
+//        public static bool EsPar(int numero) 
+//        {
+//            bool esPar = false; //variable booleana que me diga que es par
+
+//            if (numero % 2 == 0) 
+//            {
+//                esPar = true;
+//            }
+//            return esPar;
+
+//        }
+//        //*******************+
+//        public static int PedirNumero() 
+//        {
+//            //int numero;
+//            //Console.Write("Ingrese un numero: ");
+//            //while (!int.TryParse(Console.ReadLine(), out numero))
+//            //{
+//            //    Console.WriteLine("El dato ingresado no es un numero");
+//            //    Console.Write("Ingrese un numero: ");
+//            //}
+//            //return numero;
+
+//            int numero;
+//            string lectura;
+//            Console.Write("Ingrese un numero: ");
+//            lectura = Console.ReadLine();
+
+//            while (!int.TryParse(lectura, out numero))
+//            {
+//                Console.WriteLine("El dato ingresado no es un numero");
+//                Console.Write("Ingrese un numero: ");
+//                lectura = Console.ReadLine();
+//            }
+//            return numero;
+//        }
+//    }
+//}
+//***************************************************************************
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        { //3° etapa -El llamado o invocacion
+//            ///paso valor a la funcion-harcodeados:
+//            //int suma;
+//            //suma = SumarEnteros (45,16);
+//            //Console.WriteLine($"El valor de la suma es: {suma}");
+
+//            ///O podria hacer datos que vengan de una variable:
+//            //int suma;
+//            //int numero1 = 45;
+//            //int numero2 = 16;
+//            //suma = SumarEnteros(numero1, numero2);
+//            //Console.WriteLine($"El valor de la suma entre {numero1} y {numero2} es: {suma}");
+//            //****************
+//            int numero;
+//            numero = PedirNumero("Ingrese un numero: ");
+
+//            if (EsPar(numero))
+//            {
+//                Console.WriteLine($"El numero {numero} es par");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"El numero {numero} es impar");
+//            }
+//        }
+//        //ejemplo: Recibir dos numeros y sumarlos
+//        public static int SumarEnteros(int numero1, int numero2) 
+//        {
+//            //return numero1 + numero2;
+//            int resultado;
+//            resultado = numero1 + numero2;
+//            return resultado;
+//        }
+//        //**************************
+//        //Ejemplo: Quiero saber si el numero es par
+//        public static bool EsPar(int numero)
+//        {
+//            //1-Paso a paso:
+//            //bool esPar = false; //variable booleana que me diga que es par
+
+//            //if (numero % 2 == 0)
+//            //{
+//            //    esPar = true;
+//            //}
+//            //return esPar;
+
+//            //2-Modo ninja:
+//            //return numero % 2 == 0;
+
+//            //3-
+//            if (numero % 2 == 0)
+//            {
+//                return true;
+//            }
+//            return false;
+//        }
+//        //*******************+
+//        public static int PedirNumero(string mensaje)
+//        {
+//            int numero;
+//            string lectura;
+//            Console.Write(mensaje);
+//            lectura = Console.ReadLine();
+
+//            while (!int.TryParse(lectura, out numero))
+//            {
+//                Console.WriteLine("El dato ingresado no es un numero");
+//                Console.Write(mensaje);
+//                lectura = Console.ReadLine();
+//            }
+//            return numero;
+//        }
+//    }
+//}
+//**********************************************************
+////Referencia de Repaso General a Libreria_de_funciones_2
+////copio las funciones en Libreria_de_funciones_2
+//using Libreria_de_funciones_2;
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            int numero;
+//            string pedido = "Ingrese su altura(cm): " ;
+//            int suma;
+
+//            numero = MisFunciones.PedirNumero(pedido);
+
+//            if (MisFunciones.EsPar(numero))
+//            {
+//                Console.WriteLine($"El numero {numero} es par");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"El numero {numero} es impar");
+//            }
+//            suma = MisFunciones.SumarEnteros(78,102);
+//            Console.WriteLine(suma);
+//        }
+//    }
+//}
+//*********************VECTORES O ARRAYS*****************************
+////Es una coleccion de varias variables del mismo tipo, con un mismo nombre
+//using Libreria_de_funciones_2;
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            //Ingrese 5 variables del mismo tipo
+            
+//            int[] numeros = new int [5];//INSTANCIAR
+
+//            for (int i = 0; i < 5; i++) 
+//            {
+//                Console.WriteLine("Ingrese un numero: ");
+//                numeros[i] = int.Parse(Console.ReadLine());
+
+//            }
+            
+//            int[] otrosNumeros = {12,-58,89,75,0};//INICIALIZAR
+
+//        }
+//    }
+//}
+//****************************************
+////Dos formas de recorrer el array: Usando for o Foreach
+//using Libreria_de_funciones_2;
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            int[] otrosNumeros = { 12, -58, 89, 75, 0 };//INICIALIZAR
+            
+//            //foreach (int numero in otrosNumeros)
+//            //{
+//            //    Console.WriteLine(numero);
+//            //}
+            
+//            for (int i = 0; i < otrosNumeros.Length; i++)
+//            {
+//                Console.WriteLine(otrosNumeros[i]);
+//            }
+//            Array.Reverse(otrosNumeros);
+            
+//            for (int i = 0; i < otrosNumeros.Length; i++)
+//            {
+//                Console.WriteLine(otrosNumeros[i]);
+//            }
+            
+//        }
+//    }
+//}
+//**********************METODO DE ORDENAMIENTO-VARIABLE AUX********************
+////
+//using Libreria_de_funciones_2;
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            int[] otrosNumeros = { 12, -58, 89, 75, 0 };//INICIALIZAR
+//            int auxiliar;
+//            Console.WriteLine("Array sin ordenar");
+
+//            foreach (int numero in otrosNumeros)
+//            {
+//                Console.WriteLine(numero);
+//            }
+
+//            for (int i = 0; i < otrosNumeros.Length; i++)
+//            {
+//                for (int j= i + 1; j < otrosNumeros.Length; j++) 
+//                {
+//                    if(otrosNumeros[i] < otrosNumeros[j]) //Evaluar quien es mas chico
+//                    {
+//                        //Cambiar las posiciones
+//                        auxiliar = otrosNumeros[i];
+//                        otrosNumeros[i] = otrosNumeros[j];
+//                        otrosNumeros[j] = auxiliar;
+//                    }
+//                }
+//            }
+//            Console.WriteLine("Array ordenado");
+//            foreach (int numero in otrosNumeros)
+//            {
+//                Console.WriteLine(numero);
+//            }
+//        }
+//    }
+//}
+//*********************ARRAY DE CHAR**************************
+//using Libreria_de_funciones_2;
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            char[] palabra = {'m','a','n','z','a','n','a'};
+
+//            foreach (char letra in palabra)
+//            {
+//                Console.WriteLine(letra);
+//            }
+
+
+
+//        }
+//    }
+//}
+//****************CAMBIAR LETRA POR CARACTER**************************
+////Quiero cambiar letra por un caracter distinto
+//using Libreria_de_funciones_2;
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            char[] palabra = { 'm', 'a', 'n', 'z', 'a', 'n', 'a' };
+
+//            for (int i = 0; i < palabra.Length; i++)
+//            {
+//                if (palabra[i] == 'a')
+//                {
+//                    palabra[i] = '#';
+//                }
+            
+//            }
+
+//            foreach (char item in palabra)
+//            {
+//                Console.WriteLine(item);
+//            }
+//        }
+//    }
+//}
+//***************************
+////Quiero que la primer letra se transforme en mayuscula
+//using Libreria_de_funciones_2;
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            char[] palabra = { 'm', 'a', 'n', 'z', 'a', 'n', 'a' };
+
+//            for (int i = 0; i < palabra.Length; i++)
+//            {
+//                if (i == 0)
+//                {
+//                    palabra[i] = char.ToUpper(palabra[i]);
+//                }
+
+//                if (palabra[i] == 'a')
+//                {
+//                    palabra[i] = '#';
+//                }
+
+//            }
+
+//            foreach (char item in palabra)
+//            {
+//                Console.Write(item);
+//            }
+//        }
+//    }
+//}
+//***********************
+//Si queremos que se convierta en mayuscula
+//using Libreria_de_funciones_2;
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            char[] palabra = { 'm', 'a', 'n', 'z', 'a', 'n', 'a' };
+
+//            for (int i = 0; i < palabra.Length; i++)
+//            {
+//                if (palabra[i] == 'a')
+//                {
+//                    palabra[i] = char.ToUpper(palabra[i]);
+//                }
+//            }
+
+//            foreach (char item in palabra)
+//            {
+//                Console.Write(item);
+//            }
+//        }
+//    }
+//}
+//*************************ARRAY DE STRING************************
+//using Libreria_de_funciones_2;
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            string[] palabra = { "mercado", "sandia", "casa" };
+
+//            foreach (string item in palabra)
+//            {
+//                Console.WriteLine(item);
+//            }
+
+//        }
+//    }
+//}
+//********************************************************************
+//Queremos partirlas siempre que encuentre un guion.
+using Libreria_de_funciones_2;
 namespace Repaso_GRAL
 {
     internal class Program
     {
         static void Main(string[] args)
-        { //3° etapa -El llamado o invocacion
-            ///paso valor a la funcion-harcodeados:
-            //int suma;
-            //suma = SumarEnteros (45,16);
-            //Console.WriteLine($"El valor de la suma es: {suma}");
-
-            ///O podria hacer datos que vengan de una variable:
-            //int suma;
-            //int numero1 = 45;
-            //int numero2 = 16;
-            //suma = SumarEnteros(numero1, numero2);
-            //Console.WriteLine($"El valor de la suma entre {numero1} y {numero2} es: {suma}");
-            //****************
-            int numero;
-            Console.WriteLine("Ingrese un numero: ");
-            
-            if (int.TryParse(Console.ReadLine(), out numero))
-            {
-                if (EsPar(numero))
-                {
-                    Console.WriteLine($"El numero {numero} es par");
-                }
-                else 
-                {
-                    Console.WriteLine($"El numero {numero} es impar");
-                }
-            }
-            else 
-            {
-                Console.WriteLine("El dato ingresado es incorrecto");
-            }
-        }
-        //ejemplo: Recibir dos numeros y sumarlos
-        public static int SumarEnteros(int numero1, int numero2) //1° etapa -La firma
-        {//2° etapa -El desarrollo
-            int resultado;
-            resultado = numero1 + numero2;
-            return resultado;
-        }
-        //**************************
-        //Ejemplo: Quiero saber si el numero es par
-        public static bool EsPar(int numero) 
         {
-            bool esPar = false; //variable booleana que me diga que es par
-            
-            if (numero % 2 == 0) 
-            {
-                esPar = true;
-            }
-            return esPar;
-        
-        }
-        //*******************+
-        public static int PedirNumero() 
-        {
-            int numero;
-            Console.WriteLine("Ingrese un numero: ");
+            string frase = "mercado-sandia-casa-coche";
+            string[] palabras = frase.Split(['-', ' ']);
+            //string[] palabras = frase.Split('-');
 
-            while (!int.TryParse(Console.ReadLine(), out numero))
+            foreach (string item in palabras)
             {
-                Console.WriteLine("El dato ingresado no es un numero");
-                Console.WriteLine("Ingrese un numero: ");
+                Console.WriteLine(item);
             }
-
-            return numero;
         }
     }
-}//Captura 823
+}

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ADF543F7-F282-41EC-9028-F8FF12642FBA}|Ejercicio_Strings_1\\Ejercicio_Strings_1.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio_strings_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF543F7-F282-41EC-9028-F8FF12642FBA}|Ejercicio_Strings_1\\Ejercicio_Strings_1.csproj|solutionrelative:ejercicio_strings_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36AE60A-854F-404F-AE97-908213E3EA8D}|Ejercicio_Strings_5\\Ejercicio_Strings_5.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio_strings_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36AE60A-854F-404F-AE97-908213E3EA8D}|Ejercicio_Strings_5\\Ejercicio_Strings_5.csproj|solutionrelative:ejercicio_strings_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8AF63B0-59C9-4E4D-86C9-8C9C093A7950}|Repaso_GRAL\\Repaso_GRAL.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\repaso_gral\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8AF63B0-59C9-4E4D-86C9-8C9C093A7950}|Repaso_GRAL\\Repaso_GRAL.csproj|solutionrelative:repaso_gral\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8AF63B0-59C9-4E4D-86C9-8C9C093A7950}|Repaso_GRAL\\Repaso_GRAL.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\repaso_gral\\ejemplo_de_otra_clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8AF63B0-59C9-4E4D-86C9-8C9C093A7950}|Repaso_GRAL\\Repaso_GRAL.csproj|solutionrelative:repaso_gral\\ejemplo_de_otra_clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2DE2117-93C3-4A98-93F0-AACE1058B7CC}|FuncionesConVectores\\FuncionesConVectores.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\funcionesconvectores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2DE2117-93C3-4A98-93F0-AACE1058B7CC}|FuncionesConVectores\\FuncionesConVectores.csproj|solutionrelative:funcionesconvectores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,37 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FuncionesConVectores\\Program.cs",
-              "RelativeDocumentMoniker": "FuncionesConVectores\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FuncionesConVectores\\Program.cs",
-              "RelativeToolTip": "FuncionesConVectores\\Program.cs",
-              "ViewState": "AQIAAH8BAAAAAAAAAAAAAIkBAAALAAAA",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Strings_1\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_Strings_1\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Strings_1\\Program.cs",
+              "RelativeToolTip": "Ejercicio_Strings_1\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:56:51.101Z"
+              "WhenOpened": "2024-04-28T22:38:56.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ejemplo_de_otra_clase.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso_GRAL\\ejemplo_de_otra_clase.cs",
-              "RelativeDocumentMoniker": "Repaso_GRAL\\ejemplo_de_otra_clase.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso_GRAL\\ejemplo_de_otra_clase.cs",
-              "RelativeToolTip": "Repaso_GRAL\\ejemplo_de_otra_clase.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Strings_5\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_Strings_5\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Strings_5\\Program.cs",
+              "RelativeToolTip": "Ejercicio_Strings_5\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:54:14.774Z"
+              "WhenOpened": "2024-04-28T22:27:45.561Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso_GRAL\\Program.cs",
               "RelativeDocumentMoniker": "Repaso_GRAL\\Program.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso_GRAL\\Program.cs",
               "RelativeToolTip": "Repaso_GRAL\\Program.cs",
-              "ViewState": "AQIAAIgBAAAAAAAAAAAqwJcBAAAOAAAA",
+              "ViewState": "AQIAABQCAAAAAAAAAAAowP0CAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T23:52:27.182Z",
               "EditorCaption": ""

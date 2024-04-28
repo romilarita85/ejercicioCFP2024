@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Repaso_GRAL/1.0.0": {
+        "dependencies": {
+          "Libreria_de_funciones_2": "1.0.0"
+        },
         "runtime": {
           "Repaso_GRAL.dll": {}
+        }
+      },
+      "Libreria_de_funciones_2/1.0.0": {
+        "runtime": {
+          "Libreria_de_funciones_2.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Repaso_GRAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Libreria_de_funciones_2/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

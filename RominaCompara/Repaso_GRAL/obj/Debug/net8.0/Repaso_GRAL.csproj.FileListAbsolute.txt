@@ -13,3 +13,7 @@ C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso_GRAL\obj\Debug\net8.
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso_GRAL\obj\Debug\net8.0\Repaso_GRAL.pdb
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso_GRAL\obj\Debug\net8.0\Repaso_GRAL.genruntimeconfig.cache
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso_GRAL\obj\Debug\net8.0\ref\Repaso_GRAL.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso_GRAL\bin\Debug\net8.0\Libreria_de_funciones_2.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso_GRAL\bin\Debug\net8.0\Libreria_de_funciones_2.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso_GRAL\obj\Debug\net8.0\Repaso_GRAL.csproj.AssemblyReference.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso_GRAL\obj\Debug\net8.0\Repaso_G.93638373.Up2Date
