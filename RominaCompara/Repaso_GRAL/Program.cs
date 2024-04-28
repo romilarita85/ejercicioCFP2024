@@ -260,25 +260,149 @@
 //    }
 //}
 //-----------------------
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        { 
+//            int[] numeros = new int[5];
+
+//            for (int i = 0; i < numeros.Length; i++)
+//            {
+//                numeros[i] = i + 1;
+//            }
+//            numeros[3] = 15; //puedo dar un nuevo valor de forma arbitraria
+
+//            Array.Reverse(numeros); // doy vuelta los valores
+//            foreach (int numero in numeros)
+//            {
+//                Console.WriteLine(numero);
+//            }
+//        }
+//    }
+//}
+//---------------------------****-FUNCIONES-****---------------------------------
+//1-Visibilidad: podra ser public o privada (private)
+//2-Comportamiento: Estatic o de instancia
+//3-Retorno: Sin retorno (VOID) o cualquier tipo de dato (int, string)
+//4-Nombre: Debe empezar con mayuscula PascalCase, tiene que ser representativo
+//a lo que hace y por lo general es un verbo (por que hace una accion)
+//5-Prametros: Puedo no tenerlos, en caso de tenerlos pueden ser de cualquier 
+//tipo o cantidad.
+
+//Existen 4 tipos de firmas:
+//1-Las que retornan algo y reciben parametros-> las ideales
+//2-Las que retornan algo y no reciben paramentros
+//3-Las que no retornan nada y reciben parametros
+//4-Las que no retornan nada y no reciben parametros
+
+//Etapas que componen una funcion:
+//1° etapa -La firma
+//2° etapa -El desarrollo
+//3° etapa -El llamado o invocacion
+//*****************************************************************************
+//namespace Repaso_GRAL
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        { //3° etapa -El llamado o invocacion
+//            ///paso valor a la funcion-harcodeados:
+//            //int suma;
+//            //suma = SumarEnteros (45,16);
+//            //Console.WriteLine($"El valor de la suma es: {suma}");
+
+//            ///O podria hacer datos que vengan de una variable:
+//            int suma;
+//            int numero1 = 45;
+//            int numero2 = 16;
+//            suma = SumarEnteros(numero1,numero2);
+//            Console.WriteLine($"El valor de la suma entre {numero1} y {numero2} es: {suma}");
+
+//        }
+//        //ejemplo: Recibir dos numeros y sumarlos
+//        public static int SumarEnteros(int numero1, int numero2) //1° etapa -La firma
+//        {//2° etapa -El desarrollo
+//            int resultado;
+//            resultado = numero1 + numero2;
+//            return resultado;
+//        }
+//    }
+//}
+//---------------
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
 namespace Repaso_GRAL
 {
     internal class Program
     {
         static void Main(string[] args)
-        { 
-            int[] numeros = new int[5];
+        { //3° etapa -El llamado o invocacion
+            ///paso valor a la funcion-harcodeados:
+            //int suma;
+            //suma = SumarEnteros (45,16);
+            //Console.WriteLine($"El valor de la suma es: {suma}");
 
-            for (int i = 0; i < numeros.Length; i++)
+            ///O podria hacer datos que vengan de una variable:
+            //int suma;
+            //int numero1 = 45;
+            //int numero2 = 16;
+            //suma = SumarEnteros(numero1, numero2);
+            //Console.WriteLine($"El valor de la suma entre {numero1} y {numero2} es: {suma}");
+            //****************
+            int numero;
+            Console.WriteLine("Ingrese un numero: ");
+            
+            if (int.TryParse(Console.ReadLine(), out numero))
             {
-                numeros[i] = i + 1;
+                if (EsPar(numero))
+                {
+                    Console.WriteLine($"El numero {numero} es par");
+                }
+                else 
+                {
+                    Console.WriteLine($"El numero {numero} es impar");
+                }
             }
-            numeros[3] = 15; //puedo dar un nuevo valor de forma arbitraria
-
-            Array.Reverse(numeros); // doy vuelta los valores
-            foreach (int numero in numeros)
+            else 
             {
-                Console.WriteLine(numero);
+                Console.WriteLine("El dato ingresado es incorrecto");
             }
         }
+        //ejemplo: Recibir dos numeros y sumarlos
+        public static int SumarEnteros(int numero1, int numero2) //1° etapa -La firma
+        {//2° etapa -El desarrollo
+            int resultado;
+            resultado = numero1 + numero2;
+            return resultado;
+        }
+        //**************************
+        //Ejemplo: Quiero saber si el numero es par
+        public static bool EsPar(int numero) 
+        {
+            bool esPar = false; //variable booleana que me diga que es par
+            
+            if (numero % 2 == 0) 
+            {
+                esPar = true;
+            }
+            return esPar;
+        
+        }
+        //*******************+
+        public static int PedirNumero() 
+        {
+            int numero;
+            Console.WriteLine("Ingrese un numero: ");
+
+            while (!int.TryParse(Console.ReadLine(), out numero))
+            {
+                Console.WriteLine("El dato ingresado no es un numero");
+                Console.WriteLine("Ingrese un numero: ");
+            }
+
+            return numero;
+        }
     }
-}
+}//Captura 823
