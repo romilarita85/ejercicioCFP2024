@@ -3,7 +3,6 @@
 //Se considera larga si tiene más de 8 caracteres.
 //La función debe recibir un parámetro de tipo cadena (string)
 //y su retorno debe ser booleano.
-
 using System;
 
 namespace Ejercicio_Funciones_1

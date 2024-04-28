@@ -11,7 +11,7 @@ namespace Ejercicio_Funciones_2
             Console.WriteLine("Ingrese un número:");
             int numero = int.Parse(Console.ReadLine());
 
-            //Primero debo crear la funcion abajo del main
+           
             //Luego Llamar a la función para determinar si el número es primo o no
 
             if (NumEsPrimo(numero))
@@ -22,7 +22,7 @@ namespace Ejercicio_Funciones_2
             {
                 Console.WriteLine("El número ingresado no es primo.");
             }
-
+            //Primero debo crear la funcion abajo del main
             //Creo función para determinar si un número es primo
 
             static bool NumEsPrimo(int numero) //primo= divisible por 2
