@@ -3,25 +3,27 @@
     public class Farmacia
     {
         //atributos
-        private int capacidadEmpleados;
+        private string nombreFarm;
         private string proveedor;
         private string ubicacionFarm;
         private string nombreMedicamento;
+        private int precioMedicamento;
         private int cantidadStock;
         
         //constructor:
-        public Farmacia(int capacidadEmpleados, string proveedor, string ubicacionFarm, string nombreMedicamento, int cantidadStock)
+        public Farmacia(string nombreFarm, string proveedor, string ubicacionFarm, string nombreMedicamento, int precioMedicamento,int cantidadStock)
         {
-            this.capacidadEmpleados = capacidadEmpleados;
+            this.nombreFarm = nombreFarm;
             this.proveedor = proveedor;
             this.ubicacionFarm = ubicacionFarm;
             this.nombreMedicamento = nombreMedicamento;
+            this.precioMedicamento = precioMedicamento;
             this.cantidadStock = cantidadStock;
         }
         //Metodos get y set:
-        public int GetCapacidadEmpleados()
+        public string GetNombreFarm()
         {
-            return capacidadEmpleados;
+            return nombreFarm;
         }
         public string GetProveedor()
         {
@@ -34,6 +36,10 @@
         public string GetNombreMedicamento()
         {
             return nombreMedicamento ;
+        }
+        public int GetPrecioMedicamento()
+        {
+            return precioMedicamento;
         }
         public int GetCantidadStock()
         {
@@ -50,13 +56,13 @@
         //comportamientos
         public string FarmaciaToString()
         {
-            return $"Capacidad de empleados:{capacidadEmpleados}-Proveedor:{proveedor}-Ubicacion:{ubicacionFarm}-Nombre medicamento:{nombreMedicamento}-Stock:{cantidadStock}";
+            return $"Nombre de la farmacia:{nombreFarm}|Proveedor: {proveedor}|Ubicacion: {ubicacionFarm}|Nombre del medicamento: {nombreMedicamento}|Precio de medicamento: ${precioMedicamento}|Stock: {cantidadStock}";
 
         }
 
         public static string MostrarProveedor() 
         {
-            return "Roemmers";
+            return "Bayer";
         
         }
     }

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Libreria_De_Farmacias/1.0.0": {
+        "runtime": {
+          "Libreria_De_Farmacias.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Libreria_De_Farmacias/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
