@@ -34,17 +34,20 @@ namespace Ejercicio_Objetos_1
 
             Console.WriteLine("Saldo inicial de la cuenta:");
             Console.WriteLine(cuentaUno.CuentaToString());
-
+            //En el método Main,
+            //simular depósitos y
+            //extracciones de dinero de la cuenta,
+            //e ir mostrando cómo va variando el saldo.
             cuentaUno.IngresarDinero(500000);
-            Console.WriteLine("Saldo después de ingresar $500000:");
+            Console.WriteLine("Saldo después de ingresar $500.000:");
             Console.WriteLine(cuentaUno.CuentaToString());
 
             cuentaUno.RetirarDinero(150000);
-            Console.WriteLine("Saldo después de retirar $150000:");
+            Console.WriteLine("Saldo después de retirar $150.000:");
             Console.WriteLine(cuentaUno.CuentaToString());
 
             cuentaUno.RetirarDinero(10000);
-            Console.WriteLine("Saldo despues de retirar $10000:");
+            Console.WriteLine("Saldo despues de retirar $10.000:");
             Console.WriteLine(cuentaUno.CuentaToString());
 
             Console.ReadLine(); 

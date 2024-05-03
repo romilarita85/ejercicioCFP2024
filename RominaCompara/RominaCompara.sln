@@ -85,21 +85,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteoDeFarmacias", "Testeo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_Funciones_3", "Ejercicio_Funciones_3\Ejercicio_Funciones_3.csproj", "{521B8DD8-7DF8-42A5-A819-D2E1C5FF55E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_Vectores_4", "Ejercicio_Vectores_4\Ejercicio_Vectores_4.csproj", "{CDB283FA-7492-4075-8D88-BB0EA358D121}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_Vectores_4", "Ejercicio_Vectores_4\Ejercicio_Vectores_4.csproj", "{CDB283FA-7492-4075-8D88-BB0EA358D121}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_Vectores_5", "Ejercicio_Vectores_5\Ejercicio_Vectores_5.csproj", "{049B85DA-AA1B-48C4-9675-E55E24981FE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_Vectores_5", "Ejercicio_Vectores_5\Ejercicio_Vectores_5.csproj", "{049B85DA-AA1B-48C4-9675-E55E24981FE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_Vectores_6", "Ejercicio_Vectores_6\Ejercicio_Vectores_6.csproj", "{41AEECE4-4A67-4CBE-8AA2-4BBABAF4F858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_Vectores_6", "Ejercicio_Vectores_6\Ejercicio_Vectores_6.csproj", "{41AEECE4-4A67-4CBE-8AA2-4BBABAF4F858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_Vectores_7", "Ejercicio_Vectores_7\Ejercicio_Vectores_7.csproj", "{4AD26816-553A-4C32-9FB7-1B90709B4B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_Vectores_7", "Ejercicio_Vectores_7\Ejercicio_Vectores_7.csproj", "{4AD26816-553A-4C32-9FB7-1B90709B4B3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_Objetos_1", "Ejercicio_Objetos_1\Ejercicio_Objetos_1.csproj", "{8D6A7325-3422-4793-ADBF-C32D133974AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_Objetos_1", "Ejercicio_Objetos_1\Ejercicio_Objetos_1.csproj", "{8D6A7325-3422-4793-ADBF-C32D133974AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaDeCuentas", "BibliotecaDeCuentas\BibliotecaDeCuentas.csproj", "{98D2FAAC-8E7C-498C-9FE4-838BC86042DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaDeCuentas", "BibliotecaDeCuentas\BibliotecaDeCuentas.csproj", "{98D2FAAC-8E7C-498C-9FE4-838BC86042DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_Objetos_2", "Ejercicio_Objetos_2\Ejercicio_Objetos_2.csproj", "{DDE93EFE-6243-493C-8D50-A59FFB23D70C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_Objetos_2", "Ejercicio_Objetos_2\Ejercicio_Objetos_2.csproj", "{DDE93EFE-6243-493C-8D50-A59FFB23D70C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaDeEstudiantes", "BibliotecaDeEstudiantes\BibliotecaDeEstudiantes.csproj", "{8736ABB5-6C34-4617-8AA6-9169837DDD6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaDeEstudiantes", "BibliotecaDeEstudiantes\BibliotecaDeEstudiantes.csproj", "{8736ABB5-6C34-4617-8AA6-9169837DDD6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticaRepaso", "PracticaRepaso\PracticaRepaso.csproj", "{1ACCC639-2CA5-498C-A1D7-6D9650F794AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +305,10 @@ Global
 		{8736ABB5-6C34-4617-8AA6-9169837DDD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8736ABB5-6C34-4617-8AA6-9169837DDD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8736ABB5-6C34-4617-8AA6-9169837DDD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ACCC639-2CA5-498C-A1D7-6D9650F794AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACCC639-2CA5-498C-A1D7-6D9650F794AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACCC639-2CA5-498C-A1D7-6D9650F794AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACCC639-2CA5-498C-A1D7-6D9650F794AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

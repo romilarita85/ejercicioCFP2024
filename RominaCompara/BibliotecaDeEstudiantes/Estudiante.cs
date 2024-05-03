@@ -1,7 +1,6 @@
 ﻿using BibliotecaDeEstudiantes;
 using System.Text;
 using System;
-
 namespace BibliotecaDeEstudiantes
 {
     public class Estudiante
@@ -11,18 +10,20 @@ namespace BibliotecaDeEstudiantes
         
         private string apellido;
         private string nombre;
-        private string legajo;
+        private int legajo;
         private int notaPrimerParcial;
         private int notaSegundoParcial;
         
-        
-        //●	Tendrá un constructor de instancia que inicializará los atributos nombre, apellido y legajo.
-        public Estudiante(string apellido, string nombre, string legajo)
+        //CONSTRUCTOR*************************************************************
+        //●	Tendrá un constructor de instancia que inicializará los atributos
+        //nombre, apellido y legajo.
+        public Estudiante(string nombre, string apellido, int legajo)
         {
-            this.apellido = apellido;
             this.nombre = nombre;
+            this.apellido = apellido;
             this.legajo = legajo;
         }
+        //METODO SET**************************************************************
         //●	El método setter SetNotaPrimerParcial permitirá cambiar
         //el valor del atributo notaPrimerParcial.
         public void SetNotaPrimerParcial(int nota)
@@ -35,7 +36,7 @@ namespace BibliotecaDeEstudiantes
         {
             notaSegundoParcial = nota;
         }
-
+        //COMPORTAMIENTOS************************************************************
          //●El método privado CalcularPromedio retornará el promedio de las dos notas.
         private double CalcularPromedio()
         {
@@ -50,7 +51,7 @@ namespace BibliotecaDeEstudiantes
         {
             if ((notaPrimerParcial >= 4) && (notaSegundoParcial >= 4))
             {
-                return random.Next(6, 11);
+                return random.Next(6, 11); //numero aleatorio entre 6 y 10
             }
             else
             {
@@ -58,21 +59,25 @@ namespace BibliotecaDeEstudiantes
             }
         }
 
-        //●	El método Mostrar utilizará StringBuilder para armar una cadena de texto con todos los datos de los alumnos:
+        //●	El método Mostrar utilizará StringBuilder para armar una cadena de texto
+        //con todos los datos de los alumnos:
         //Nombre, apellido y legajo.
         //Nota del primer y segundo parcial.
         //Promedio.
-
         public string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
+            // Agregar texto al StringBuilder
             sb.AppendLine($"Nombre: {nombre}");
             sb.AppendLine($"Apellido: {apellido}");
             sb.AppendLine($"Legajo: {legajo}");
             sb.AppendLine($"Nota del primer parcial: {notaPrimerParcial}");
             sb.AppendLine($"Nota del segundo parcial: {notaSegundoParcial}");
+            
             double promedio = CalcularPromedio();
             sb.AppendLine($"Promedio: {promedio}");
+            //Nota final. Se mostrará sólo si el valor es distinto de -1, caso contrario
+            //se mostrará la leyenda "Alumno desaprobado".
             int notaFinal = CalcularNotaFinal();
             if (notaFinal != -1)
             {
@@ -83,8 +88,6 @@ namespace BibliotecaDeEstudiantes
                 sb.AppendLine("Alumno desaprobado");
             }
             return sb.ToString();
-            //Nota final. Se mostrará sólo si el valor es distinto de -1, caso contrario
-            //se mostrará la leyenda "Alumno desaprobado".
         }
     }
 }
