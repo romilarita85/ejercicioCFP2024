@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{41AEECE4-4A67-4CBE-8AA2-4BBABAF4F858}|Ejercicio_Vectores_6\\Ejercicio_Vectores_6.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio_vectores_6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AEECE4-4A67-4CBE-8AA2-4BBABAF4F858}|Ejercicio_Vectores_6\\Ejercicio_Vectores_6.csproj|solutionrelative:ejercicio_vectores_6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD26816-553A-4C32-9FB7-1B90709B4B3C}|Ejercicio_Vectores_7\\Ejercicio_Vectores_7.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio_vectores_7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD26816-553A-4C32-9FB7-1B90709B4B3C}|Ejercicio_Vectores_7\\Ejercicio_Vectores_7.csproj|solutionrelative:ejercicio_vectores_7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{414E16A1-6C59-4069-A140-1FE6024D6F82}|Ejercicio_Vectores_1\\Ejercicio_Vectores_1.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio_vectores_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{414E16A1-6C59-4069-A140-1FE6024D6F82}|Ejercicio_Vectores_1\\Ejercicio_Vectores_1.csproj|solutionrelative:ejercicio_vectores_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1ACCC639-2CA5-498C-A1D7-6D9650F794AE}|PracticaRepaso\\PracticaRepaso.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\practicarepaso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ACCC639-2CA5-498C-A1D7-6D9650F794AE}|PracticaRepaso\\PracticaRepaso.csproj|solutionrelative:practicarepaso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0CADE6-7976-4400-B110-F0376C3FC4E1}|Ejercicio_Vectores_2\\Ejercicio_Vectores_2.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio_vectores_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0CADE6-7976-4400-B110-F0376C3FC4E1}|Ejercicio_Vectores_2\\Ejercicio_Vectores_2.csproj|solutionrelative:ejercicio_vectores_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61B33CAB-3154-4A91-8F20-74CC0D9F14C8}|Ejercicio_Vectores_3\\Ejercicio_Vectores_3.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio_vectores_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61B33CAB-3154-4A91-8F20-74CC0D9F14C8}|Ejercicio_Vectores_3\\Ejercicio_Vectores_3.csproj|solutionrelative:ejercicio_vectores_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB283FA-7492-4075-8D88-BB0EA358D121}|Ejercicio_Vectores_4\\Ejercicio_Vectores_4.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio_vectores_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB283FA-7492-4075-8D88-BB0EA358D121}|Ejercicio_Vectores_4\\Ejercicio_Vectores_4.csproj|solutionrelative:ejercicio_vectores_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B85DA-AA1B-48C4-9675-E55E24981FE9}|Ejercicio_Vectores_5\\Ejercicio_Vectores_5.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejercicio_vectores_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{049B85DA-AA1B-48C4-9675-E55E24981FE9}|Ejercicio_Vectores_5\\Ejercicio_Vectores_5.csproj|solutionrelative:ejercicio_vectores_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,24 +52,102 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PracticaRepaso\\Program.cs",
-              "RelativeDocumentMoniker": "PracticaRepaso\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PracticaRepaso\\Program.cs",
-              "RelativeToolTip": "PracticaRepaso\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_7\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_Vectores_7\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_7\\Program.cs",
+              "RelativeToolTip": "Ejercicio_Vectores_7\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T00:44:03.313Z",
+              "WhenOpened": "2024-05-04T01:10:11.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_6\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_Vectores_6\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_6\\Program.cs",
+              "RelativeToolTip": "Ejercicio_Vectores_6\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T01:09:15.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_5\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_Vectores_5\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_5\\Program.cs",
+              "RelativeToolTip": "Ejercicio_Vectores_5\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T01:08:49.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_4\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_Vectores_4\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_4\\Program.cs",
+              "RelativeToolTip": "Ejercicio_Vectores_4\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T01:08:35.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_3\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_Vectores_3\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_3\\Program.cs",
+              "RelativeToolTip": "Ejercicio_Vectores_3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T01:07:45.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_2\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_Vectores_2\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_2\\Program.cs",
+              "RelativeToolTip": "Ejercicio_Vectores_2\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T00:14:22.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PracticaRepaso\\Program.cs",
+              "RelativeDocumentMoniker": "PracticaRepaso\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PracticaRepaso\\Program.cs",
+              "RelativeToolTip": "PracticaRepaso\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T00:44:03.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_1\\Program.cs",
               "RelativeDocumentMoniker": "Ejercicio_Vectores_1\\Program.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ejercicio_Vectores_1\\Program.cs",
               "RelativeToolTip": "Ejercicio_Vectores_1\\Program.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwBsAAABZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T00:31:11.739Z",
               "EditorCaption": ""
