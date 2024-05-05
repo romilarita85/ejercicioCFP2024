@@ -31,11 +31,14 @@ namespace Ejercicio_Vectores_2
             numeroLeido = PedirCadena(mensaje);
 
             while (!int.TryParse(numeroLeido, out numeroValido))
-            {
+            {//While:se ejecutará mientras la conversión de numeroLeido
+            //a un número entero(numeroValido) falle.
                 Console.WriteLine(mensajeError);
                 numeroLeido = PedirCadena(mensaje);
             }
-            return numeroValido;
+            return numeroValido;//Cuando el bucle termina, devuelve numeroValido,
+            //que contendrá el valor entero ingresado por el usuario
+            //una vez que se haya realizado una conversión exitosa.
         }
         //PedirCadena se utiliza para solicitar al usuario una cadena y devolverla.
         static string PedirCadena(string mensaje)

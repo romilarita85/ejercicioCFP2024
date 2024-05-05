@@ -22,7 +22,7 @@ namespace ejercicio_vectores_1
             //cantidad es un parámetro de tipo int que indica la cantidad de elementos
             //que se van a cargar en el arreglo.
             int[] numeros = new int[cantidad];//declara un nuevo arreglo de enteros
-                                              //llamado numeros con una longitud igual a cantidad.
+            //llamado numeros con una longitud igual a cantidad.
             for (int i = 0; i < cantidad; i++)
             {
                 numeros[i] = PedirEntero($"ingrese el nunero {i + 1} de {cantidad}: ", "el dato ingresado no es un numero");
@@ -41,8 +41,8 @@ namespace ejercicio_vectores_1
             numeroLeido = PedirCadena(mensaje);//llama a la función PedirCadena
                                                //para solicitar al usuario una cadena,
                                                //utilizando el mensaje proporcionado como parámetro.
-                                               //El valor devuelto por PedirCadena se asigna a la variable numeroLeido.
-
+                                               //El valor devuelto por PedirCadena
+                                               //se asigna a la variable numeroLeido.
             while (!int.TryParse(numeroLeido, out numeroValido))
             {//Este es un bucle while que se ejecuta mientras el intento de convertir
              //numeroLeido en un entero utilizando int.TryParse sea fallido.
@@ -71,7 +71,7 @@ namespace ejercicio_vectores_1
 //que el ciclo while se ejecutará mientras la conversión de la cadena numeroLeido
 //a un número entero no sea exitosa.
 //-El signo ! antes de int.TryParse() indica negación,
-//lo que significa que el ciclo continuará mientras int.TryParse() retorne false,
+//el ciclo continuará mientras int.TryParse() retorne false,
 //es decir, mientras la conversión falle. Una vez que la conversión tenga éxito,
 //el ciclo while se detendrá.
 //*****************************************************************************+
