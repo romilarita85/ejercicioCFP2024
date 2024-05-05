@@ -1,5 +1,5 @@
 ﻿//Ejercicio_Vectores_4:
-//4.Crear un menú de opciones que permita:
+//Crear un menú de opciones que permita:
 //a.Cargar un array de caracteres. Recomendación: utilizar el método toCharArray().
 //b.Ordenar vector.
 //c.Contar vocales dentro del vector. (Cuantas a, e, i, o y u)
