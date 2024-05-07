@@ -19,7 +19,18 @@ namespace TesteoDeFarmacias
             Console.WriteLine(farmacia3.FarmaciaToString());
 
             Farmacia.MostrarProveedor();
-            //Comportamiento: quiero que farmacia1 compre medicamentos de proveedor
+            
+            List<Farmacia>listaDeFarmacias = new List<Farmacia>();
+            listaDeFarmacias.Add(farmacia1);
+            listaDeFarmacias.Add(farmacia2);
+            listaDeFarmacias.Add(farmacia3);
+            Console.WriteLine("Mostrar mi lista completa");
+
+            foreach (Farmacia item in listaDeFarmacias)
+            {
+                Console.WriteLine(item.FarmaciaToString());
+            }
+
 
         }
     }

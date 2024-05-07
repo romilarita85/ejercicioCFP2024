@@ -4,67 +4,65 @@
     {
         //atributos
         private string nombreFarm;
-        private string proveedor;
         private string ubicacionFarm;
-        private string nombreMedicamento;
-        private int precioMedicamento;
-        private int cantidadStock;
+        private string horarioDeAtencion;
+        private int capacidadDeAlmacenaje;
+        private int ingresosMensuales;
+        private int presupuesto;
         
         //constructor:
-        public Farmacia(string nombreFarm, string proveedor, string ubicacionFarm, string nombreMedicamento, int precioMedicamento,int cantidadStock)
+        public Farmacia(string nombreFarm, string ubicacionFarm, string horarioDeAtencion, int capacidadDeAlmacenaje, int ingresosMensuales, int presupuesto)
         {
             this.nombreFarm = nombreFarm;
-            this.proveedor = proveedor;
             this.ubicacionFarm = ubicacionFarm;
-            this.nombreMedicamento = nombreMedicamento;
-            this.precioMedicamento = precioMedicamento;
-            this.cantidadStock = cantidadStock;
+            this.horarioDeAtencion = horarioDeAtencion;
+            this.capacidadDeAlmacenaje = capacidadDeAlmacenaje;
+            this.ingresosMensuales = ingresosMensuales;
+            this.presupuesto = presupuesto;
         }
+
         //Metodos get y set:
         public string GetNombreFarm()
         {
             return nombreFarm;
         }
-        public string GetProveedor()
-        {
-            return proveedor;
-        }
-        public string GetUbicacion()
+        public string GetUbicacionFarm()
         {
             return ubicacionFarm;
         }
-        public string GetNombreMedicamento()
+        public string GetHorarioDeAtencion()
         {
-            return nombreMedicamento ;
+            return horarioDeAtencion;
         }
-        public int GetPrecioMedicamento()
+        public int GetCapacidadDeAlmacenaje()
         {
-            return precioMedicamento;
+            return capacidadDeAlmacenaje ;
         }
-        public int GetCantidadStock()
+        public int GetIngresosMensuales()
         {
-            return cantidadStock;
+            return ingresosMensuales;
+        }
+        public int GetPresupuesto()
+        {
+            return presupuesto;
         }
         public void SetUbicacionFarm(string ubicacion)
         {
             ubicacionFarm = ubicacion;
         }
-        public void SetProveedor(string nuevoProveedor)
+        public void SetCapacidadDeAlmacenaje(int nuevaCapDeAlmacenaje)
         {
-            proveedor = nuevoProveedor;
+            capacidadDeAlmacenaje = nuevaCapDeAlmacenaje;
         }
         //comportamientos
         public string FarmaciaToString()
         {
-            return $"Nombre de la farmacia:{nombreFarm}|Proveedor: {proveedor}|Ubicacion: {ubicacionFarm}|Nombre del medicamento: {nombreMedicamento}|Precio de medicamento: ${precioMedicamento}|Stock: {cantidadStock}";
+            return $"Nombre de la farmacia:{nombreFarm}| Ubicacion: {ubicacionFarm}|Horario de atencion: {horarioDeAtencion}|Capacidad de Almacenamiento: capacidadDeAlmacenaje, int ingresosMensuales, int presupuesto";
 
         }
 
-        public static string MostrarProveedor() 
-        {
-            return "Bayer";
         
-        }
+        //Comportamiento: quiero que farmacia1 compre medicamentos de proveedor
     }
 }
 
