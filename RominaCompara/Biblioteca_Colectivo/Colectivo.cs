@@ -10,15 +10,16 @@ namespace Biblioteca_Colectivo
         private int linea;
         private string empresa;
         private int capacidad;
+        private int cantidadDePasajeros;
         private string cabecera;
         private string terminal;
-        private int cantidadDePasajeros;
+        
 
         //Constructor:el unico metodo que no tenia retorno (void)
         //constructor va a ser de instancia
         //no tiene retorno y lleva siempre el nombre de la clase
         //puedo tener varios constructores pero respetando los parametros
-        public Colectivo(string patente, int linea, string empresa, int capacidad, string cabecera, string terminal, int cantidadDePasajeros)
+        public Colectivo(string patente, int linea, string empresa, int capacidad, string cabecera, string terminal)
         {
             this.patente = patente;
             this.linea = linea;
@@ -68,7 +69,7 @@ namespace Biblioteca_Colectivo
         //Comportamientos:
         public string ColectivoToString()
         {
-            return $"Patente:{patente}-linea:{linea}- empresa:{empresa}-capacidad:{capacidad}-terminal:{terminal}-cabecera:{cabecera}-Cantidad de pasajeros:{cantidadDePasajeros}";
+            return $"Patente:{patente}-linea:{linea}- empresa:{empresa}-capacidad:{capacidad}-cabecera:{cabecera}-terminal:{terminal}";
 
         }
 

@@ -6,19 +6,17 @@
         private string nombreFarm;
         private string ubicacionFarm;
         private string horarioDeAtencion;
-        private int capacidadDeAlmacenaje;
-        private int ingresosMensuales;
-        private int presupuesto;
+        private int capacidadDeAlmacenaje;// cantidad de productos que puede almacenar
+        private double ingresosMensuales;
         
         //constructor:
-        public Farmacia(string nombreFarm, string ubicacionFarm, string horarioDeAtencion, int capacidadDeAlmacenaje, int ingresosMensuales, int presupuesto)
+        public Farmacia(string nombreFarm, string ubicacionFarm, string horarioDeAtencion, int capacidadDeAlmacenaje, double ingresosMensuales)
         {
             this.nombreFarm = nombreFarm;
             this.ubicacionFarm = ubicacionFarm;
             this.horarioDeAtencion = horarioDeAtencion;
             this.capacidadDeAlmacenaje = capacidadDeAlmacenaje;
             this.ingresosMensuales = ingresosMensuales;
-            this.presupuesto = presupuesto;
         }
 
         //Metodos get y set:
@@ -38,13 +36,9 @@
         {
             return capacidadDeAlmacenaje ;
         }
-        public int GetIngresosMensuales()
+        public double GetIngresosMensuales()
         {
             return ingresosMensuales;
-        }
-        public int GetPresupuesto()
-        {
-            return presupuesto;
         }
         public void SetUbicacionFarm(string ubicacion)
         {
@@ -57,12 +51,18 @@
         //comportamientos
         public string FarmaciaToString()
         {
-            return $"Nombre de la farmacia:{nombreFarm}| Ubicacion: {ubicacionFarm}|Horario de atencion: {horarioDeAtencion}|Capacidad de Almacenamiento: capacidadDeAlmacenaje, int ingresosMensuales, int presupuesto";
+            return $"Nombre de la farmacia:{nombreFarm}| Ubicacion: {ubicacionFarm}|Horario de atencion: {horarioDeAtencion}|Capacidad de Almacenamiento: {capacidadDeAlmacenaje}| Ingresos mensuales: {ingresosMensuales}";
 
         }
 
+        // Método para registrar ventas y actualizar ingresos mensuales
+        public double RegistrarVentas(double montoDeVenta)
+        {
+            return ingresosMensuales += montoDeVenta;
+            
+        }
+
         
-        //Comportamiento: quiero que farmacia1 compre medicamentos de proveedor
     }
 }
 
