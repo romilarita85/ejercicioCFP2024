@@ -14,10 +14,10 @@ namespace Testeo_Colectivo
             //Console.WriteLine(info);
             //**************************************
             Colectivo colectivo1 = new Colectivo("AD123BC", 85, "MONSA", 50, "Lanus", "Retiro");
-            Colectivo colectivo2 = new Colectivo("AD123BC", 07, "MONSA", 50, "Lanus", "Retiro");
-            Colectivo colectivo3 = new Colectivo("AD123BC", 22, "MONSA", 50, "Lanus", "Retiro");
-            Colectivo colectivo4 = new Colectivo("AD123BC", 85, "MONSA", 50, "Lanus", "Retiro");
-            Colectivo colectivo5 = new Colectivo("AD123BC", 85, "MONSA", 50, "Lanus", "Retiro");
+            Colectivo colectivo2 = new Colectivo("CD456BC", 07, "CAT", 45, "Lanus", "Retiro");
+            Colectivo colectivo3 = new Colectivo("SC853BC", 22, "SUR", 30, "Lomas", "Avellaneda");
+            Colectivo colectivo4 = new Colectivo("MN201BC", 285, "RAPIDO", 50, "Constitucion", "Recoleta");
+            Colectivo colectivo5 = new Colectivo("LO741BC", 458, "NORTE", 65, "Once", "Barracas");
             do
             {
                 Console.WriteLine("Ingrese la cantidad de pasajeros: ");

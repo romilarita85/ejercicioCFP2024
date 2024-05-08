@@ -61,6 +61,16 @@
             return ingresosMensuales += montoDeVenta;
             
         }
+        public double ComprarMedicamentos(double compra) 
+        {
+            if ()
+            {
+            }
+            else 
+            { }
+
+        
+        }
 
         
     }

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5261CE3C-01A1-41CE-8BDD-6F767EDF229B}|Testeo_Colectivo\\Testeo_Colectivo.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\testeo_colectivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5261CE3C-01A1-41CE-8BDD-6F767EDF229B}|Testeo_Colectivo\\Testeo_Colectivo.csproj|solutionrelative:testeo_colectivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBDD13E9-13C9-4B27-BAF0-960C9B1E250B}|Biblioteca_Colectivo\\Biblioteca_Colectivo.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\biblioteca_colectivo\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBDD13E9-13C9-4B27-BAF0-960C9B1E250B}|Biblioteca_Colectivo\\Biblioteca_Colectivo.csproj|solutionrelative:biblioteca_colectivo\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B195A00B-847E-467B-B898-E2C030D6D4DE}|Libreria_De_Farmacias\\Libreria_De_Farmacias.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreria_de_farmacias\\farmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B195A00B-847E-467B-B898-E2C030D6D4DE}|Libreria_De_Farmacias\\Libreria_De_Farmacias.csproj|solutionrelative:libreria_de_farmacias\\farmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3D60EAE-25AD-4464-9964-99F982FEB4BA}|TesteoDeFarmacias\\TesteoDeFarmacias.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\testeodefarmacias\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3D60EAE-25AD-4464-9964-99F982FEB4BA}|TesteoDeFarmacias\\TesteoDeFarmacias.csproj|solutionrelative:testeodefarmacias\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B195A00B-847E-467B-B898-E2C030D6D4DE}|Libreria_De_Farmacias\\Libreria_De_Farmacias.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreria_de_farmacias\\farmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B195A00B-847E-467B-B898-E2C030D6D4DE}|Libreria_De_Farmacias\\Libreria_De_Farmacias.csproj|solutionrelative:libreria_de_farmacias\\farmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5261CE3C-01A1-41CE-8BDD-6F767EDF229B}|Testeo_Colectivo\\Testeo_Colectivo.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\testeo_colectivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5261CE3C-01A1-41CE-8BDD-6F767EDF229B}|Testeo_Colectivo\\Testeo_Colectivo.csproj|solutionrelative:testeo_colectivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBDD13E9-13C9-4B27-BAF0-960C9B1E250B}|Biblioteca_Colectivo\\Biblioteca_Colectivo.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\biblioteca_colectivo\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBDD13E9-13C9-4B27-BAF0-960C9B1E250B}|Biblioteca_Colectivo\\Biblioteca_Colectivo.csproj|solutionrelative:biblioteca_colectivo\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Colectivo.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Biblioteca_Colectivo\\Colectivo.cs",
               "RelativeDocumentMoniker": "Biblioteca_Colectivo\\Colectivo.cs",
@@ -42,25 +42,24 @@
               "RelativeToolTip": "Biblioteca_Colectivo\\Colectivo.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAAAzwEcAAACFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T01:11:41.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T01:11:41.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Testeo_Colectivo\\Program.cs",
               "RelativeDocumentMoniker": "Testeo_Colectivo\\Program.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Testeo_Colectivo\\Program.cs",
               "RelativeToolTip": "Testeo_Colectivo\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwCQAAAAFAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBMAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T01:10:51.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeFarmacias\\Program.cs",
               "RelativeDocumentMoniker": "TesteoDeFarmacias\\Program.cs",
@@ -73,13 +72,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Farmacia.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_De_Farmacias\\Farmacia.cs",
               "RelativeDocumentMoniker": "Libreria_De_Farmacias\\Farmacia.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_De_Farmacias\\Farmacia.cs",
               "RelativeToolTip": "Libreria_De_Farmacias\\Farmacia.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAAD8AAAAAAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAywEUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T23:18:06.213Z",
               "EditorCaption": ""
