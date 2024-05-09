@@ -83,5 +83,51 @@ namespace Biblioteca_Colectivo
             }
             return puedenSubir;
         }
+        //88 - 102 = -14 -> negativos
+        //88- 88 = 0
+        //102-88 = 14 -> positivos
+        public static int CompararColectivosPorLinea(Colectivo c1, Colectivo c2 ) 
+        {
+            //int resultado = 0; //88-88 = 0 
+            //if (c1.GetLinea() < c2.GetLinea()) // negativos
+            //{
+            //    resultado = -1;
+            //}
+            //else 
+            //{
+            //    if (c1.GetLinea() > c2.GetLinea())// positivos 
+            //    {
+            //        resultado = 1;
+            //    }
+            //}
+            //return resultado;
+
+            ///otra forma:**************************************
+            return c1.GetLinea() - c2.GetLinea();
+
+        }
+        public static int CompararColectivosPorEmpresa(Colectivo c1, Colectivo c2)
+        {
+            //int resultado = 0; //88-88 = 0 
+            //if (String.Compare(c1.GetEmpresa(), c2.GetEmpresa() ) > 0 ) // positivos
+            //{
+            //    resultado = 1;
+            //}
+            //else
+            //{
+            //    if (String.Compare(c1.GetEmpresa(), c2.GetEmpresa() ) < 0 )// negativos 
+            //    {
+            //        resultado = -1;
+            //    }
+            //}
+            //return resultado;
+
+            ///otra forma mas corta:**************************************
+            return String.Compare(c1.GetEmpresa(), c2.GetEmpresa());
+
+        }
+        //creo una funcion para saber en que posicion esta mi elemento
+        
+
     }
 }
