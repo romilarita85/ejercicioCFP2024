@@ -1,4 +1,6 @@
-﻿namespace LibreriaDePersonas
+﻿//CLASE 15-04-24
+//Libreria de personas (biblioteca) -> TesteoDeEmpleados
+namespace LibreriaDePersonas
 {
     public class Empleado
     {

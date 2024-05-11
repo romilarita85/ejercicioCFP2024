@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Clase 10-04-24************************************************************************
+using System;
 using System.Runtime.Intrinsics.X86;
 
 namespace LibreriaDeFunciones

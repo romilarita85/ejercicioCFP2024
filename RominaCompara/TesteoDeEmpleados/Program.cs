@@ -1,4 +1,5 @@
-﻿using LibreriaDePersonas;
+﻿//CLASE 15-04-24
+using LibreriaDePersonas;
 namespace TesteoDeEmpleados
 {
     internal class Program
