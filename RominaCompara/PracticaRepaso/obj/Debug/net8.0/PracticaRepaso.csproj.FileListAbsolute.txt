@@ -1,0 +1,15 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\bin\Debug\net8.0\PracticaRepaso.exe
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\bin\Debug\net8.0\PracticaRepaso.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\bin\Debug\net8.0\PracticaRepaso.runtimeconfig.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\bin\Debug\net8.0\PracticaRepaso.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\bin\Debug\net8.0\PracticaRepaso.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\obj\Debug\net8.0\PracticaRepaso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\obj\Debug\net8.0\PracticaRepaso.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\obj\Debug\net8.0\PracticaRepaso.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\obj\Debug\net8.0\PracticaRepaso.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\obj\Debug\net8.0\PracticaRepaso.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\obj\Debug\net8.0\PracticaRepaso.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\obj\Debug\net8.0\refint\PracticaRepaso.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\obj\Debug\net8.0\PracticaRepaso.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\obj\Debug\net8.0\PracticaRepaso.genruntimeconfig.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PracticaRepaso\obj\Debug\net8.0\ref\PracticaRepaso.dll
