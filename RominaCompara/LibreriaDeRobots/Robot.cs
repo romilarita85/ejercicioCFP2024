@@ -6,6 +6,7 @@ namespace LibreriaDeRobots
     //int unEntero = 8000;
     //int otroEntero;
     //double otroDouble;
+
     //otroDouble = unEntero; //-> conversion implicita, no implica perdidad de datos.
     //otroEntero = (int)unDouble; // casteo o conversion explicita, implica posible perdida de datos.
     // se pueden utilizar tanto en asignacion como en operaciones matematicas.

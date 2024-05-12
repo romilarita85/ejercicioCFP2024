@@ -103,7 +103,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaDeEstudiantes", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticaRepaso", "PracticaRepaso\PracticaRepaso.csproj", "{1ACCC639-2CA5-498C-A1D7-6D9650F794AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimerFormulario", "PrimerFormulario\PrimerFormulario.csproj", "{7A0D4E0C-8C90-4E6F-9384-788664776321}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimerFormulario", "PrimerFormulario\PrimerFormulario.csproj", "{7A0D4E0C-8C90-4E6F-9384-788664776321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca_PracticaRepaso", "Biblioteca_PracticaRepaso\Biblioteca_PracticaRepaso.csproj", "{186259A2-3A7B-4BB5-B9CE-186E217CAB7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -315,6 +317,10 @@ Global
 		{7A0D4E0C-8C90-4E6F-9384-788664776321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A0D4E0C-8C90-4E6F-9384-788664776321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A0D4E0C-8C90-4E6F-9384-788664776321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186259A2-3A7B-4BB5-B9CE-186E217CAB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186259A2-3A7B-4BB5-B9CE-186E217CAB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186259A2-3A7B-4BB5-B9CE-186E217CAB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186259A2-3A7B-4BB5-B9CE-186E217CAB7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

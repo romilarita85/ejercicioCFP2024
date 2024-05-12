@@ -1,10 +1,11 @@
 ﻿//CLASE 22-04-24*********************************************************************
 //Pilares:
-//1-ABASTRACCION: Simplificacion de la realidad donde me quedo con lo importsnte y descarto  los 
+//1)-ABASTRACCION: Simplificacion de la realidad donde me quedo con lo importsnte y descarto  los 
 //detalles irrelevantes.Capturar la idea principal de un objeto dentro de un determinado contexto, 
 //ignorando los detalles y especificaciones que no sean relevantes.
 //Tratar de reducir a la mayor cantidad de objetos para llegar a la minima expresion.
-//2-ENCAPSULAMIENTO: Restriccion de acceso a los metodos, a los atributos de nuestra clase. Atributos y 
+//Capacidad de reducir el numero, la cantidad de atributos o condiciones de un proyecto
+//2)-ENCAPSULAMIENTO: Restriccion de acceso a los metodos, a los atributos de nuestra clase. Atributos y 
 //metodos protegidos.Se pueden cambiar pero internamente no sabemos que pasa. 
 //
 //implica ocultar los detalles internos de un objeto y exponer solo las funcionalidades
@@ -13,8 +14,8 @@
 //Permite que los datos de un objeto sean protegidos de modificaciones no autorizadas
 //y que las operaciones sobre esos datos se realicen mediante métodos públicos.
 
-//3-HERENCIA:
-//4-POLIFORMISMO:
+//3)-HERENCIA:
+//4)-POLIFORMISMO:
 //**********************************COMPORTAMIENTOS DE CLASE:************************************
 //-ESTATICO: Por medio de la clase accedemos a sus metodos o atributos.
 //No se pueden instanciar.
@@ -25,6 +26,36 @@
 //Los proyectos de consola son ejecutables
 //Si a la clase le pongo internal es inaccesible
 //Dentro de mi libreria puedo crear varias clases
+//Dentro de mi clase voy a tener:
+//1)-ATRIBUTOS: son los campos que definen mi objeto(van a ser privados en este caso -si no le pongo nada asume que son privados)
+
+//2)-CONSTRUCTOR:el unico metodo que no tenia retorno (void)
+//constructor va a ser de instancia
+//no tiene retorno y lleva siempre el nombre de la clase
+//puedo tener varios constructores pero respetando los parametros
+//es un metodo que permite crear (instanciar o crear una nueva instancia) objetos de mi clase.
+//Contiene:
+//1-Visibilidad (public)
+//2-Comportamiento -> estatico o de instancia --
+//para ser STATIC de decirlo explicitamente.
+//de lo contrario es de INSTANCIA
+//3-NUNCA TIENEN RETORNO
+//4-Nombre: SIEMPRE el MISMO que la CLASE (en este caso Empleado)
+//5-Parametros
+
+//3)-METODOS GET Y SET:Permitir consultar(get)
+//y/o modificar atributos(set insertar o agregar)
+//tienen que hacer referencia al atributo con el q estan trabajando
+
+//4)-PROPIEDADES:son una mezcla entre los atributos y/o metodos (get y set) proximamente......
+
+//5)-METODOS O COMPORTAMIENTO: son los comportamientos de mi clase (por lo gral se usan para comunicar info)
+//no son obligatorios (por lo menos tener uno).
+//1-visibilidad
+//2-comportamiento -> estatico o de instancia -- para ser STATIC de decirlo explicitamente. de lo contrario es de INSTANCIA
+//3-retorno
+//4-nombre
+//5-parametros 
 //**********************************************
 //namespace Repaso_GRAL
 //{
@@ -375,6 +406,7 @@
 //
 //!true -> false
 //!false -> true
+//SIEMPRE QUE TENGA RETORNO MI FUNCION USA LA PALABRA RETURN
 //*****************************************************************************
 //namespace Repaso_GRAL
 //{
@@ -426,9 +458,9 @@
 //            int numero;
 //            Console.WriteLine("Ingrese un numero: ");
 
-//            if (int.TryParse(Console.ReadLine(), out numero))
-//            {
-//                if (EsPar(numero))
+//            if (int.TryParse(Console.ReadLine(), out numero)) //amaliza si el dato ingresado es un numero o no
+//            { ///si puede leerlo y el dato ingresado es un numero entre al if
+//                if (EsPar(numero)) // evalua si el numero ingresado es par o impar
 //                {
 //                    Console.WriteLine($"El numero {numero} es par");
 //                }
@@ -569,7 +601,7 @@
 //        }
 //    }
 //}
-//**********************************************************
+//**************************************************************************************************
 ////Referencia de Repaso General a Libreria_de_funciones_2
 ////copio las funciones en Libreria_de_funciones_2
 //using Libreria_de_funciones_2;
@@ -598,7 +630,7 @@
 //        }
 //    }
 //}
-//*********************VECTORES O ARRAYS*****************************
+//************************************VECTORES O ARRAYS*****************************
 ////Es una coleccion de varias variables del mismo tipo, con un mismo nombre
 //using Libreria_de_funciones_2;
 //namespace Repaso_GRAL
@@ -692,7 +724,7 @@
 //        }
 //    }
 //}
-//**********************************ARRAY DE CHAR***********************************
+//*****************************************ARRAY DE CHAR*****************************************
 //using Libreria_de_funciones_2;
 //namespace Repaso_GRAL
 //{
@@ -709,7 +741,7 @@
 //        }
 //    }
 //}
-//****************CAMBIAR LETRA POR CARACTER**************************
+//********************************CAMBIAR LETRA POR CARACTER**************************************
 ////Quiero cambiar letra por un caracter distinto
 //using Libreria_de_funciones_2;
 //namespace Repaso_GRAL
@@ -781,9 +813,9 @@
 
 //            for (int i = 0; i < palabra.Length; i++)
 //            {
-//                if (palabra[i] == 'a')
+//                if (palabra[i] == 'a') // las posiciones donde este la letra "a"
 //                {
-//                    palabra[i] = char.ToUpper(palabra[i]);
+//                    palabra[i] = char.ToUpper(palabra[i]); //convierte en mayuscula
 //                }
 //            }
 
@@ -794,7 +826,7 @@
 //        }
 //    }
 //}
-//*************************ARRAY DE STRING************************
+//*************************************ARRAY DE STRING*************************************
 //using Libreria_de_funciones_2;
 //namespace Repaso_GRAL
 //{

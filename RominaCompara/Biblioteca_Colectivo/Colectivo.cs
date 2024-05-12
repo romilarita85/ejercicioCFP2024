@@ -5,15 +5,13 @@ namespace Biblioteca_Colectivo
     public class Colectivo
     {
         //Atributos:(van a ser privados en este caso -si no le pongo nada asume que son privados)
-
         private string patente;
         private int linea;
         private string empresa;
         private int capacidad;
-        private int cantidadDePasajeros;
         private string cabecera;
         private string terminal;
-        
+        private int cantidadDePasajeros;
 
         //Constructor:el unico metodo que no tenia retorno (void)
         //constructor va a ser de instancia
@@ -127,7 +125,5 @@ namespace Biblioteca_Colectivo
 
         }
         //creo una funcion para saber en que posicion esta mi elemento
-        
-
     }
 }
