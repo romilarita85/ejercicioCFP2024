@@ -60,8 +60,12 @@
 //        }
 //    }
 //}
-//****************************************METODO GetTipe*************************************
-//
+//****************************************METODO GetType*************************************
+//Get tyoe:Me devuelve algo de la clase type. Me dice como se llama.
+//Brinda información sobre el tipo de datos de un objeto específico
+//en el momento en que se ejecuta el programa. Ejemplo:
+//Edad parseada de string a int 33 edad es de tipo: System.Int32
+//Edad parseada de int a string 33 edad es de tipo: System.String
 //namespace Repaso_GRAL
 //{
 //    internal class Program
@@ -81,7 +85,14 @@
 //        }
 //    }
 //}
-//-----------------------------**********METODO Try parse*********---------------------------------
+//******************************************METODO Try parse********************************************
+//TryParse: Espera recibir un string. Siempre retorna un boleano.
+//Si la conversion fue correcta o no representa un dato numerico.
+//Utiliza int.TryParse() para intentar convertir la cadena lectura en un número entero.
+//Si tiene éxito, asigna el valor convertido a la variable edad y devuelve true.
+//Si falla, no se modifica edad y devuelve false.
+//Si TryParse() tiene éxito, imprime un mensaje que muestra la edad ingresada por el usuario.
+//Si TryParse() falla, imprime un mensaje indicando que el dato ingresado es incorrecto.
 //namespace Repaso_GRAL
 //{
 //    internal class Program
@@ -94,27 +105,34 @@
 //            Console.Write("Ingrese su edad: ");
 //            lectura = Console.ReadLine();
 
-//            if (int.TryParse(lectura,out edad))
+//            if (int.TryParse(lectura,out edad)) // Evalua el metodo dentro del if (evalua su retorno)
 //            {
-//                Console.WriteLine($"Edad ingresada es: {edad}");
+//                Console.WriteLine($"Edad ingresada es: {edad}"); //True
 //            }
 //            else 
 //            {
-//                Console.WriteLine("El dato ingresado no es valido");
+//                Console.WriteLine("El dato ingresado no es valido"); //false
 //            }
 //        }
 //    }
 //}
-//-----------------------------*************BUCLES REPETITIVOS***************----------------------------------
+//*********************************BUCLES REPETITIVOS*************************************************
 //**For ->Para cuando conocemos la cantidad de repeticiones
+//Puedo declarar la variable de control dentro del for  o por fuera.
+//CUANDO SE LA CANTIDAD DE REPETICIONES QUE TENGO USO FOR
+//*******************************************************************
 //**While ->Para cuando desconozca la cantidad de repeticiones y
 //solo se va a ejecutar si la condicion es verdadera
+//SIEMPRE QUE LA CONDICION SE REPITA Y SEA VERDADERA USAR WHILE
+//*******************************************************************
 //**Do While ->Para cuando desconozca la cantidad de repeticiones y
 //preciso que se ejecute el codigo por lo menos 1 vez
+//SIEMPRE QUE LA CONDICION SE REPITA Y SEA FALSA USAR DO WHILE
+//******************************************************************
 //-Variable de control->for-while-do while
 //-condicion de corte->for-while-do while
 //-cantidad de repeticiones-for
-//------------------
+//*****************************************************************************************************
 //namespace Repaso_GRAL
 //{
 //    internal class Program
@@ -123,7 +141,7 @@
 //        {
 //            bool bandera = false;
 //            int contador = 0;
-
+////SIEMPRE QUE LA CONDICION SE REPITA Y SEA VERDADERA USAR WHILE
 //            while (bandera == false) 
 //            {
 //                //contador++;-> puede ir aca o abajo del if funciona igual
@@ -196,8 +214,20 @@
 //        }   
 //    }
 //}
-//-----------------------------*******STRINGS-CADENAS********-------------------------------------
-//String-tipo de dato. Es un conjunto de caracteres. Puedo recorrerlo con un for
+//**************************************STRINGS-CADENAS***************************************
+//String:tipo de dato. Es un conjunto de caracteres. Puedo recorrerlo con un for
+//Variable string no se puede modificar. Son inmutables (puedo pisarlos con un nuevo valor)
+//Una vez que se crea un objeto string, su valor no puede ser cambiado.
+//Cualquier operación que parezca modificar un string, en realidad está creando
+//un nuevo string con el valor modificado en lugar de modificar directamente el string original.
+//*********************************************************************************************
+//Inicializa una variable frase con un valor de "frase que escribi".
+//Luego, imprime la longitud de la frase utilizando frase.Length.
+//Después, realiza un bucle for que recorre cada carácter de
+//la frase e imprime cada carácter en una línea separada.
+//El código está mostrando dos cosas:
+//Imprime la longitud de la frase.
+//Imprime cada carácter de la frase en líneas separadas.
 //namespace Repaso_GRAL
 //{
 //    internal class Program
@@ -217,7 +247,7 @@
 //}
 ////Propiedad Length: Valor numerico. Representa la cantidad de caracteres que tiene
 ////mi cadena. Los espacios representan un caracter (los van a contar).
-//-------------------------***********METODO FOREACH***********------------------------------------
+//*************************************METODO FOREACH*****************************************
 ////Es util para recorrer una coleccion. Siempre y cuando queramos recorrer una coleccion
 ////de datos (string-> cadena de caracteres->char)
 //namespace Repaso_GRAL
@@ -236,12 +266,14 @@
 //                    break;
 //                }
 //            }
-
-
 //        }
 //    }
 //}
-//----------------------------METODO TRIM--------------------------------
+///Dos formas de romper un bucle foreach:
+///-Condicion normal
+///-Puedo romper el bucle con un break. Dejo de iterar para que deje de recorrer
+//*****************************************METODO TRIM******************************************
+//Trim: Elimina espacios en blanco
 //namespace Repaso_GRAL
 //{
 //    internal class Program
@@ -250,7 +282,7 @@
 //        {
 //            string frase = ".....     ******frase que escribi******      .....";
 
-//            //frase = frase.Trim(); //borra espacios en blanco
+//            //frase = frase.Trim(); //borrar espacios en blanco
 //            //frase = frase.Trim('*');//especifica que espacios quiero borrar
 //            frase = frase.Trim(['*',' ','.']); //no importa el orden de los parametros 
 //                                               //los borra igual
@@ -266,7 +298,13 @@
 //}
 ////Toupper:es un método que se utiliza para convertir
 ////una cadena de caracteres a su equivalente en mayúsculas.
-//--------------------------************ARRAY DE NUMEROS*************----------------------------
+//*********************************VECTORES-ARRAY DE NUMEROS***************************************
+//Coleccion de distintas variables bajo el mismo nombre.
+//Por medio de las posiciones yo puedo acceder a {}
+//Se pueden recorrer con un for o foreach
+//Es una estructura de datos que permite almacenar una colección ordenada
+//de elementos del mismo tipo bajo un solo nombre de variable. 
+//**********************************************************************
 //namespace Repaso_GRAL
 //{
 //    internal class Program
@@ -277,20 +315,21 @@
 //            int[] numeros= new int[5];
 //            int[] numeros2 = { 1, 2, 85, 100, -98 };
 
-//            for (int i = 0; i < numeros.Length;i++) 
+//            for (int i = 0; i < numeros.Length;i++) //recorro array contando el numero de posiciones de i (0,1,2,3,4)
 //            {
 //                numeros[i] = i + 1;
 //            }
 //            numeros[3] = 15; //puedo dar un nuevo valor de forma arbitraria
 
-//            foreach (int numero in numeros)
+//            foreach (int numero in numeros) //recorro el array
 //            {
 //                Console.WriteLine(numero);
 //            }
 //        }
 //    }
 //}
-//-----------------------
+///******************************************ARRAY REVERSE*******************************************************
+//ARRAY REVERSE: Da vuelta los valores
 //namespace Repaso_GRAL
 //{
 //    internal class Program
@@ -314,13 +353,13 @@
 //    }
 //}
 //CLASE 24-04-24***********
-//---------------------------************-FUNCIONES-************---------------------------------
-//1-Visibilidad: podra ser public o privada (private)
-//2-Comportamiento: Estatic o de instancia.
-//3-Retorno: Sin retorno (VOID) o cualquier tipo de dato (int, string)
-//4-Nombre: Debe empezar con mayuscula PascalCase, tiene que ser representativo
+//******************************************FUNCIONES***********************************************
+//1)-Visibilidad: podra ser public o privada (private)
+//2)-Comportamiento: Estatic o de instancia.
+//3)-Retorno: Sin retorno (VOID) o cualquier tipo de dato (int, string,bool)
+//4)-Nombre: Debe empezar con mayuscula PascalCase, tiene que ser representativo
 //a lo que hace y por lo general es un verbo (por que hace una accion)
-//5-Prametros: Puedo no tenerlos, en caso de tenerlos pueden ser de cualquier 
+//5)-Prametros: Puedo no tenerlos, en caso de tenerlos pueden ser de cualquier 
 //tipo o cantidad.
 
 //Existen 4 tipos de firmas:
