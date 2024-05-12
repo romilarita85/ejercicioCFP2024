@@ -11,7 +11,7 @@ namespace LibreriaDeRobots
     // se pueden utilizar tanto en asignacion como en operaciones matematicas.
     public class Robot
     {
-        //ATRIBUTOS-----------------------------------------------------------------
+        //ATRIBUTOS*****************************************************************************
         string nombre;
         double resistencia;
         double peso;
@@ -19,7 +19,7 @@ namespace LibreriaDeRobots
         int vida;
         public int energia; //public despues se debe crear un get
         static Random rnd;
-
+        //METODOS GET Y SET*********************************************************************
         // setters(modificaciones)
         public bool SetColor(Color nuevoColor)
         {
@@ -53,8 +53,9 @@ namespace LibreriaDeRobots
         {
             return vida;
         }
-        //CONSTRUCTOR:(1 o varios) Solo tienen visibilidad y nombre de la clase--------
-        // constructor de instancia
+        //CONSTRUCTOR:(1 o varios) Solo tienen visibilidad y nombre de la clase**************************
+        
+        // Constructor de instancia
         public Robot(string nombre, int resistencia, double peso)
         {
             this.nombre = nombre;
@@ -65,12 +66,12 @@ namespace LibreriaDeRobots
             this.energia = 100;
         }
 
-        // constructor static
+        // Constructor static
         static Robot()
         {
             Robot.rnd = new Random();
         }
-        // METODOS--------------------------------------------------------------------
+        // METODOS O COMPORTAMIENTOS**************************************************************************
         public string RobotToString()
         {
             return $"Nombre: {nombre} - vida: {vida} - Peso: {peso}kg - resistencia: {resistencia} - Color: {color.Name}";

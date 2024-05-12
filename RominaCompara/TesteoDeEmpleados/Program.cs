@@ -25,12 +25,13 @@ namespace TesteoDeEmpleados
         }
     }
 }
-
-//Metodo para ver valores de cada empleado:-----------------------------------------------
+//Console -> solo sirve para proyectos de consola
+//
+//***********************Metodo para ver valores de cada empleado:-----------------------------------------------
 //1)-string datosEmpleado1 = primerEmpleado.InformarDatos();//ver valores de cada empleado
 //2)-Console.WriteLine (primerEmpleado.InformarDatos());                                                       
 
-//-----Puedo cambiar valores fuera de mi clase------------------------------------------
+//***********************Puedo cambiar valores fuera de mi clase------------------------------------------
 //-Consultar y modificar con un campo publico
 //(en libreria de empleados hacer public el atributo legajo)
 
@@ -41,8 +42,9 @@ namespace TesteoDeEmpleados
 //Console.WriteLine("Datos modificados");
 //Console.WriteLine(primerEmpleado.InformarDatos);
 
-//-----------USANDO Get y Set: Puedo agregar validaciones dentro de sueldo----------------
-// Console.WriteLine($"Consulta sueldo empleado 2: {segundoEmpleado.GetSueldo()}");
+//***********************USANDO Get y Set: Puedo agregar validaciones dentro de sueldo----------------
+//
+//Console.WriteLine($"Consulta sueldo empleado 2: {segundoEmpleado.GetSueldo()}");
 //Console.WriteLine($"Consulta sueldo empleado 1: {primerEmpleado.GetSueldo()}");
 //primerEmpleado.SetSueldo(200000);
 //Console.WriteLine($"Consulta sueldo empleado 1 despues de usar set: {primerEmpleado.GetSueldo()}");

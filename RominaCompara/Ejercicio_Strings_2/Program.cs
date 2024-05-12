@@ -1,4 +1,4 @@
-﻿//Ejercicio 2:
+﻿//Ejercicio_Strins 2:
 //Pedir el ingreso de una palabra y mostrarla con todos sus caracteres
 //separados por un guión. ej: Montaña->M - o - n - t - a - ñ - a.
 //---------------------------------------------------------------

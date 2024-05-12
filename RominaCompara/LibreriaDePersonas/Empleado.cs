@@ -57,8 +57,10 @@ namespace LibreriaDePersonas
             //this.sueldo = 0;
             //this.areaDeTrabajo = "sin puesto"; ///this.aredaDeTrabajo = string.Empty
         }
+        //Puedo tener tantos constructores como quiera pero cada constructor debe tener una firma única,
+        //es decir que no pueden tener la misma lista de parámetros.
         //------------------------------------------------------------------------------------------------
-        //5)-METODOS -> son los comportamientos de mi clase (por lo gral se usan para comunicar info)
+        //5)-METODOS (O COMPORTAMIENTOS) -> son los comportamientos de mi clase (por lo gral se usan para comunicar info)
         //no son obligatorios (por lo menos tener uno).
         //1-visibilidad
         //2-comportamiento -> estatico o de instancia -- para ser STATIC de decirlo explicitamente. de lo contrario es de INSTANCIA
@@ -66,10 +68,10 @@ namespace LibreriaDePersonas
         //4-nombre
         //5-parametros 
 
-        //para mostrar todos o algunos valores.
-        public string InformarDatos()
+       
+        public string InformarDatos() //para mostrar todos o algunos valores.
         {
             return $"Legajo: {legajo} - Nombre:{apellido},{nombre} - Puesto:{areaDeTrabajo} - Sueldo: ${sueldo}";
-        }
+        } //Devolver string con nombre, apellido y area
     }
 }

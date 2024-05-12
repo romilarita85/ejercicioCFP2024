@@ -1,4 +1,4 @@
-﻿//Ejercicio 4:
+﻿//Ejercicio_String_4:
 //Del string 0000001234500000000 conseguir quedarse con el string 12345 
 // y mostrarlo por pantalla.
 namespace Ejercicio_Strings_4
