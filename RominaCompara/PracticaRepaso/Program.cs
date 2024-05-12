@@ -4,20 +4,17 @@
     {
         static void Main(string[] args)
         {
-            char[] palabra = { 'm', 'a', 'n', 'z', 'a', 'n', 'a' };
+            int edad;
+            string edadEnTexto;
 
-            for (int i = 0; i < palabra.Length; i++)
-            {
-                if (palabra[i] == 'a')
-                {
-                    palabra[i] = char.ToUpper(palabra[i]);
-                }
-            }
+            Console.Write("Ingrese su edad: ");
 
-            foreach (char item in palabra)
-            {
-                Console.Write(item);
-            }
+            edad = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Edad parseada de string a int {edad} edad es de tipo: {edad.GetType()} ");
+
+            edadEnTexto = edad.ToString();
+            Console.WriteLine($"Edad parseada de int a string {edadEnTexto} edad es de tipo: {edadEnTexto.GetType()}");
+
         }
     }
 }

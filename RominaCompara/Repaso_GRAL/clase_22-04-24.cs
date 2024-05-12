@@ -1,4 +1,31 @@
 ﻿//CLASE 22-04-24*********************************************************************
+//Pilares:
+//1-ABASTRACCION: Simplificacion de la realidad donde me quedo con lo importsnte y descarto  los 
+//detalles irrelevantes.Capturar la idea principal de un objeto dentro de un determinado contexto, 
+//ignorando los detalles y especificaciones que no sean relevantes.
+//Tratar de reducir a la mayor cantidad de objetos para llegar a la minima expresion.
+//2-ENCAPSULAMIENTO: Restriccion de acceso a los metodos, a los atributos de nuestra clase. Atributos y 
+//metodos protegidos.Se pueden cambiar pero internamente no sabemos que pasa. 
+//
+//implica ocultar los detalles internos de un objeto y exponer solo las funcionalidades
+//necesarias a través de interfaces públicas. Esto se logra mediante el uso de modificadores de acceso
+//como public, private, protected, internal, entre otros, para controlar el acceso a los miembros de una clase.
+//Permite que los datos de un objeto sean protegidos de modificaciones no autorizadas
+//y que las operaciones sobre esos datos se realicen mediante métodos públicos.
+
+//3-HERENCIA:
+//4-POLIFORMISMO:
+//**********************************COMPORTAMIENTOS DE CLASE:************************************
+//-ESTATICO: Por medio de la clase accedemos a sus metodos o atributos.
+//No se pueden instanciar.
+//-DE INSTANCIA: Cuando preciso crear una nueva instancia para crear un objeto.
+//podemos tener clases estaticas y de instancia.
+//***********************************************************************************************
+//Las clases no se pueden ejecutar -> son muertas
+//Los proyectos de consola son ejecutables
+//Si a la clase le pongo internal es inaccesible
+//Dentro de mi libreria puedo crear varias clases
+//**********************************************
 //namespace Repaso_GRAL
 //{
 //    internal class Program
@@ -11,7 +38,9 @@
 //        }
 //    }
 //}
-//----------------------*********************PARSEO***************--------------------------------
+//**************************************PARSEO**********************************
+//Parseo: Convertir un tipo de dato a otro
+//To String: Convierto lo que tengo dentro en texto (de int -> string)
 //namespace Repaso_GRAL
 //{
 //    internal class Program
@@ -21,7 +50,7 @@
 //            int edad;
 //            string edadEnTexto;
 
-//            Console.Write("Ingrese su edad: ");
+//            Console.Write("Ingrese su edad: "); 
 
 //            edad = int.Parse(Console.ReadLine());
 //            Console.WriteLine($"Edad parseada de string a int {edad}");
@@ -31,7 +60,8 @@
 //        }
 //    }
 //}
-//---------------------***************METODO GetTipe***************----------------------------------
+//****************************************METODO GetTipe*************************************
+//
 //namespace Repaso_GRAL
 //{
 //    internal class Program
