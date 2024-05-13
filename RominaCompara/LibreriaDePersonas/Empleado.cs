@@ -68,7 +68,6 @@ namespace LibreriaDePersonas
         //4-nombre
         //5-parametros 
 
-       
         public string InformarDatos() //para mostrar todos o algunos valores.
         {
             return $"Legajo: {legajo} - Nombre:{apellido},{nombre} - Puesto:{areaDeTrabajo} - Sueldo: ${sueldo}";

@@ -8,7 +8,9 @@ namespace Ejercicio_Strings_4
         static void Main(string[] args)
         {
             string palabra = "0000001234500000000";
-            Console.WriteLine(palabra.Trim('0'));
+            Console.WriteLine(palabra.Trim('0')); // me saca tods los ceros
+            //Console.WriteLine(palabra.TrimStart('0')); // me saca los primeros ceros
+            //Console.WriteLine(palabra.TrimEnd('0')); // me saca los ultimos ceros
         }
     }
 }

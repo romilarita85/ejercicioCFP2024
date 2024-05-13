@@ -115,7 +115,7 @@
 
 //            nombre = PedirCadena("Ingrese su nombre: ");
 //            apellido = PedirCadena("Ingrese su apellido: ");
-//            direccion = PedirCadena("Ingrese su direccion: ");
+//            direccion = PedirDireccion("Ingrese su direccion: ");
 
 //            Console.WriteLine($"ud es: {nombre} {apellido} y vive en: {direccion}");
 //            int unNumero = 8;

@@ -3,7 +3,7 @@
 //de no ser así informar, luego mostrar los primeros 3 caracteres.
 //ej: zapallo->zap
 //
-namespace Ejercicio_Strings_1//Inicio del programa: El método Main es el punto de entrada del programa.
+namespace Ejercicio_Strings_1
 {
     internal class Program
     {
@@ -12,15 +12,15 @@ namespace Ejercicio_Strings_1//Inicio del programa: El método Main es el punto 
             string palabras;
             do
             {
-                Console.WriteLine("Ingrese una palabra con mas de 5 caracteres: ");
+                Console.WriteLine("Ingrese una palabra con mas de 5 caracteres: "); //validacion
                 palabras = Console.ReadLine();
 
                 if (palabras.Length < 5)
                 {
                     Console.WriteLine("La palabra ingresada tiene menos de 5 caracteres");
                 }
-            } while (palabras.Length < 5);
-
+            } while (palabras.Length < 5); //si tiene menos de 5 caracteres vuelve al bucle
+            //si es valida sale del bucle y entra al for
             for (int i = 0; i < 3; i++) 
             {
                 Console.Write(palabras[i]);

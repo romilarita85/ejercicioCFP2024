@@ -396,6 +396,7 @@
 //}
 //CLASE 24-04-24***********
 //******************************************FUNCIONES***********************************************
+//Es un pequeño bloque de codigo que se encarga de hacer una unica tarea. Va a resolver una solucion(un problema)
 //1)-Visibilidad: podra ser public o privada (private)
 //2)-Comportamiento: Estatic o de instancia.
 //3)-Retorno: Sin retorno (VOID) o cualquier tipo de dato (int, string,bool)
@@ -418,6 +419,7 @@
 //!true -> false
 //!false -> true
 //SIEMPRE QUE TENGA RETORNO MI FUNCION USA LA PALABRA RETURN
+//si no retorna nada es void
 //*****************************************************************************
 //namespace Repaso_GRAL
 //{
@@ -539,12 +541,12 @@
 //    {
 //        static void Main(string[] args)
 //        { //3° etapa -El llamado o invocacion
-//            ///paso valor a la funcion-harcodeados:
+//            ///-paso valor a la funcion-harcodeados:
 //            //int suma;
 //            //suma = SumarEnteros (45,16);
 //            //Console.WriteLine($"El valor de la suma es: {suma}");
 
-//            ///O podria hacer datos que vengan de una variable:
+//            ///-O podria hacer datos que vengan de una variable:
 //            //int suma;
 //            //int numero1 = 45;
 //            //int numero2 = 16;

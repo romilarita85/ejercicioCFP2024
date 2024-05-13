@@ -42,7 +42,7 @@
 //    }
 //}
 //***********************************METODO LENGTH************************************************
-//3)LENGTH-
+//3)LENGTH:
 //-Metodo para saber cuantas posiciones tiene mi array (cuantas posiciones puedo guardar)
 //-uso largo--Uso length para saber cuantos caracteres tiene la palabra
 //namespace Array
@@ -167,7 +167,7 @@
 //    }
 //}
 //------------------------------------------
-//....Cuanto va a  medir el ARRAY.
+//....Cuanto va a  medir el ARRAY DE STRING
 //namespace Array
 //{
 //    internal class Program
@@ -190,7 +190,8 @@
 //        }
 //    }
 //}
-//----------------------------------------------------------------------------------------------
+
+//***************************************************************************************************
 //FOREACH: Si tengo que decir el tipo de nombre de una coleccion. 
 //me trae en cada posicion el valor y lo guarda en la variable dato. Itera los datos.
 //namespace Array
@@ -218,7 +219,7 @@
 //        }
 //    }
 //}
-//-------------FOREACH usando contador-------
+//***********************************FOREACH usando contador********************************************
 //namespace Array
 //{
 //    internal class Program
@@ -267,7 +268,7 @@
 //        }
 //    }
 //}
-//----------------------------------------------------------------------------------------------------
+//***********************************************************************************************
 //ARRAY DE CHAR: Para hacer validaciones de cadena.
 //namespace Array
 //{
@@ -314,7 +315,7 @@
 //            //{
 //            //    Console.WriteLine(otraCadena[i]);
 //            //}
-////-----------------------------------CHAR vacio-------
+////*******************************************CHAR vacio************************************************
 //            for (int i = 0; i < largo; i++)
 //            {
 //                if(cadenaDeLetras[i] != ' ')
@@ -352,7 +353,7 @@
 //        }
 //    }
 //}
-//---------------ARRAY SUMA----------------
+//********************************************ARRAY SUMA*******************************************
 //namespace Array
 //{
 //    internal class Program
@@ -383,8 +384,8 @@
 //        }
 //    }
 //}
-//------------------------------------------------------------------------------------------------------
-//STRING CADENA DE CARACTERES:
+//***************************************************************************************************+
+//STRING: CADENA DE CARACTERES
 //ejemplo: array de nueve caracteres-------
 //namespace Array
 //{
@@ -405,8 +406,8 @@
 //        }
 //    }
 //}
-//---------------------------------------
-//Quiero saber si es una letra o no uso IsLetter
+//---------------------------------------METODO IsLetter**********************
+//Quiero saber si es una letra o no -> uso IsLetter
 //namespace Array
 //{
 //    internal class Program
@@ -434,7 +435,7 @@
 //        }
 //    }
 //}
-///--------------------------------------------------------
+///------------------------------*****-----METODO IsDigit---------------------**************
 ///IsDigit
 /// Para saber que tipo de posiciones: si es letra o numero
 //namespace Array
