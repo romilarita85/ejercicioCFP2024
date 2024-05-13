@@ -17,6 +17,7 @@
 //        }
 //    }
 //}
+//**************************************************************************************************
 //namespace Repaso_Condicionales
 //{
 //    internal class Program
@@ -34,7 +35,7 @@
 //            }
 //            else
 //            {
-//                Console.WriteLine("Es mayor y no es mujer");
+//                Console.WriteLine("Es mayor y no es mujer"); // es hombre
 //            }
 
 
@@ -42,7 +43,7 @@
 //    }
 //}
 
-//---------------ANIDAMIENTO--------------------
+//***********************************************ANIDAMIENTO********************************************
 //namespace Repaso_Condicionales
 //{
 //    internal class Program
@@ -89,12 +90,11 @@
 //    }
 //}
 //---------------------
-using System.ComponentModel.Design;
-
-namespace Ejercicios_c_3
 //Al ingresar una edad menor a 18 años y un estado civil distinto a soltero,
 //mostrar el mensaje: “Es muy pequeño para NO ser soltero”
-{
+using System.ComponentModel.Design;
+namespace Repaso_Condicionales
+{ 
     internal class Program
     {
         static void Main(string[] args)
@@ -109,14 +109,13 @@ namespace Ejercicios_c_3
             Console.WriteLine("Ingrese su estado civil: ");
             estadoCivil = Console.ReadLine();
 
-            if (edad>18 && estadoCivil == "casado") ;
+            if (edad > 18 && estadoCivil == "casado") ;
             {
                 Console.WriteLine("Es muy pequeño para no ser soltero");
             }
-            
-            
-            
+
         }
+        
     }
 }
 //CONDICIONAL:-----------------------------

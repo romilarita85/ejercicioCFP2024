@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/LibreriaDePersonas.dll": {}
         }
+      },
+      "Repaso Condicionales/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Repaso Condicionales.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repaso Condicionales.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../LibreriaDePersonas/LibreriaDePersonas.csproj",
       "msbuildProject": "../LibreriaDePersonas/LibreriaDePersonas.csproj"
+    },
+    "Repaso Condicionales/1.0.0": {
+      "type": "project",
+      "path": "../Repaso Condicionales/Repaso Condicionales.csproj",
+      "msbuildProject": "../Repaso Condicionales/Repaso Condicionales.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "LibreriaDePersonas >= 1.0.0"
+      "LibreriaDePersonas >= 1.0.0",
+      "Repaso Condicionales >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -55,6 +71,9 @@
           "projectReferences": {
             "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj": {
               "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj"
+            },
+            "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj": {
+              "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj"
             }
           }
         }

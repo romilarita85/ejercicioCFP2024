@@ -1,6 +1,7 @@
 ﻿namespace Ejercicio_5
 //5.	(E/S) 
-//En un hospital existen tres áreas: Cardiología, Pediatría y Traumatología.El presupuesto anual del hospital se reparte conforme a la siguiente tabla:
+//En un hospital existen tres áreas: Cardiología, Pediatría y Traumatología.
+//El presupuesto anual del hospital se reparte conforme a la siguiente tabla:
 //Área Porcentaje del presupuesto
 //Cardiología	    40%
 //Pediatría			45%  
@@ -11,16 +12,14 @@
     {
         static void Main(string[] args)
         {
-            int presupuestoAnual;
-            int porcentajeC;
-            int porcentajeP;
-            int porcentajeT;
-            int valorPorcentajeCardio;
-            int valorPorcentajePediat;
-            int valorPorcentajeTrauma;
-            valorPorcentajeCardio = 40;
-            valorPorcentajePediat = 45;
-            valorPorcentajeTrauma = 15;
+            double presupuestoAnual;
+            double porcentajeC;
+            double porcentajeP;
+            double porcentajeT;
+            double valorPorcentajeCardio = 0.40;
+            double valorPorcentajePediat = 0.45;
+            double valorPorcentajeTrauma = 0.15;
+          
             //Entradas
             Console.WriteLine("Ingrese presupuesto anual");
             presupuestoAnual = Console.Read();

@@ -5,7 +5,7 @@
 //-----------------------------------------------
 //1)-Formas de inicialializar el Array: 
 //1-Usando "new"
-//2-Desde un conjunto de valores
+//2-Desde un conjunto de valores {}
 //------------------------------------------------
 //2)-Existen Array:
 //-de enteros
@@ -41,7 +41,7 @@
 //        }
 //    }
 //}
-//*--------------------------------------------
+//***********************************METODO LENGTH************************************************
 //3)LENGTH-
 //-Metodo para saber cuantas posiciones tiene mi array (cuantas posiciones puedo guardar)
 //-uso largo--Uso length para saber cuantos caracteres tiene la palabra

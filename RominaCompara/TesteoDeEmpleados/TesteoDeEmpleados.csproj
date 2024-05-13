@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LibreriaDePersonas\LibreriaDePersonas.csproj" />
+    <ProjectReference Include="..\Repaso Condicionales\Repaso Condicionales.csproj" />
   </ItemGroup>
 
 </Project>

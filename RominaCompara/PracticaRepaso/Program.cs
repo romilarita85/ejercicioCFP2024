@@ -1,5 +1,5 @@
-﻿//En el método Main, simular depósitos y extracciones de dinero de la cuenta,
-//e ir mostrando cómo va variando el saldo.
+﻿//Genero sea hombre
+//Edad sea mayor o igual a 18
 using Biblioteca_PracticaRepaso;
 namespace PracticaRepaso
 {
@@ -7,24 +7,21 @@ namespace PracticaRepaso
     {
         static void Main(string[] args)
         {
-            Cuenta cuenta1 = new Cuenta("Dalma Perez", 400000);
-            Console.WriteLine("Saldo inicial de la cuenta:");
-            Console.WriteLine(cuenta1.CuentaToString());
-            //En el método Main, simular depósitos y extracciones de dinero de la cuenta,
-            //e ir mostrando cómo va variando el saldo.
-            cuenta1.IngresarDinero(500000);
-            Console.WriteLine("Saldo después de ingresar $500.000:");
-            Console.WriteLine(cuenta1.CuentaToString());
+            int edad;
+            string genero = "mujer";
+            Console.WriteLine("Ingrese su edad");
+            edad = int.Parse(Console.ReadLine());   
 
-            cuenta1.RetirarDinero(150000);
-            Console.WriteLine("Saldo después de retirar $150.000:");
-            Console.WriteLine(cuenta1.CuentaToString());
+            if (edad < 18 && genero == "mujer")
+            {
+                Console.WriteLine("Es una mujer menor de edad");    
+            }
+            else 
+            {
+                Console.WriteLine("Es mayor de edad y no es mujer(es hombre)");
 
-            cuenta1.RetirarDinero(10000);
-            Console.WriteLine("Saldo despues de retirar $10.000:");
-            Console.WriteLine(cuenta1.CuentaToString());
+            }
 
-            Console.ReadLine();
 
         }
 

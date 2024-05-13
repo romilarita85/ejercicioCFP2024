@@ -3,7 +3,6 @@ using Microsoft.VisualBasic;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 using System.Drawing;
-
 ///Cargar un vector de enteros de 5 elementos y mostrarlo.
 namespace ejercicio_vectores_1
 {

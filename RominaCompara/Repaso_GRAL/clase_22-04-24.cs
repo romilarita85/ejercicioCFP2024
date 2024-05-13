@@ -70,8 +70,15 @@
 //    }
 //}
 //**************************************PARSEO**********************************
-//Parseo: Convertir un tipo de dato a otro
-//To String: Convierto lo que tengo dentro en texto (de int -> string)
+//Cuando trabajas con la consola a menudo necesitas leer datos que el usuario ingresa
+//como cadenas (strings) y luego convertir esos datos en otros tipos,
+//como números enteros (int), números de punto flotante (float), etc.
+//Esto se debe a que la consola solo puede leer y escribir cadenas de texto.
+//Por ejemplo, si esperas que el usuario ingrese un número entero a través de la consola
+//y deseas hacer cálculos con ese número, necesitas convertir la cadena ingresada por el usuario
+//en un número entero antes de poder usarlo en operaciones matemáticas.
+//******METODO Parseo: Convertir un tipo de dato a otro
+//******METODO To String: Convierto lo que tengo dentro en texto (de int -> string)
 //namespace Repaso_GRAL
 //{
 //    internal class Program
@@ -163,6 +170,10 @@
 //-Variable de control->for-while-do while
 //-condicion de corte->for-while-do while
 //-cantidad de repeticiones-for
+//***********************************************************
+//SWITCH = (segun) Condicional multiple
+//Sabe de entrada que valores voy a asumir. 
+//toma multiples valores de una variable
 //*****************************************************************************************************
 //namespace Repaso_GRAL
 //{
@@ -330,7 +341,7 @@
 ////Toupper:es un método que se utiliza para convertir
 ////una cadena de caracteres a su equivalente en mayúsculas.
 //*********************************VECTORES-ARRAY DE NUMEROS***************************************
-//Coleccion de distintas variables bajo el mismo nombre.
+//ARRAY: Cadenas o conjunto de datos del mismo tipo. Coleccion de distintas variables bajo el mismo nombre.
 //Por medio de las posiciones yo puedo acceder a {}
 //Se pueden recorrer con un for o foreach
 //Es una estructura de datos que permite almacenar una colección ordenada
