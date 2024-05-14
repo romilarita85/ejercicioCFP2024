@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TesteoDeAuto_Examen/1.0.0": {
+        "dependencies": {
+          "Libreria_Autos": "1.0.0"
+        },
+        "runtime": {
+          "TesteoDeAuto_Examen.dll": {}
+        }
+      },
+      "Libreria_Autos/1.0.0": {
+        "runtime": {
+          "Libreria_Autos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteoDeAuto_Examen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Libreria_Autos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

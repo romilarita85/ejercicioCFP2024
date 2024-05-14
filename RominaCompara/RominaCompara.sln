@@ -105,7 +105,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticaRepaso", "PracticaR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimerFormulario", "PrimerFormulario\PrimerFormulario.csproj", "{7A0D4E0C-8C90-4E6F-9384-788664776321}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca_PracticaRepaso", "Biblioteca_PracticaRepaso\Biblioteca_PracticaRepaso.csproj", "{186259A2-3A7B-4BB5-B9CE-186E217CAB7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca_PracticaRepaso", "Biblioteca_PracticaRepaso\Biblioteca_PracticaRepaso.csproj", "{186259A2-3A7B-4BB5-B9CE-186E217CAB7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria_Autos", "Libreria_Autos\Libreria_Autos.csproj", "{489071E2-8D91-4B23-9FE4-143F9EFD66E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteoDeAuto_Examen", "TesteoDeAuto_Examen\TesteoDeAuto_Examen.csproj", "{8C2D92A6-2BA5-480B-95A0-7B9D2A37F0AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +325,14 @@ Global
 		{186259A2-3A7B-4BB5-B9CE-186E217CAB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{186259A2-3A7B-4BB5-B9CE-186E217CAB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{186259A2-3A7B-4BB5-B9CE-186E217CAB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489071E2-8D91-4B23-9FE4-143F9EFD66E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489071E2-8D91-4B23-9FE4-143F9EFD66E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489071E2-8D91-4B23-9FE4-143F9EFD66E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489071E2-8D91-4B23-9FE4-143F9EFD66E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2D92A6-2BA5-480B-95A0-7B9D2A37F0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2D92A6-2BA5-480B-95A0-7B9D2A37F0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2D92A6-2BA5-480B-95A0-7B9D2A37F0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2D92A6-2BA5-480B-95A0-7B9D2A37F0AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

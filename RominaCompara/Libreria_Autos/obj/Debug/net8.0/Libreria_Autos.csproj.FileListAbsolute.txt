@@ -1,0 +1,12 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\bin\Debug\net8.0\Libreria_Autos.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\bin\Debug\net8.0\Libreria_Autos.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\bin\Debug\net8.0\Libreria_Autos.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\obj\Debug\net8.0\Libreria_Autos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\obj\Debug\net8.0\Libreria_Autos.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\obj\Debug\net8.0\Libreria_Autos.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\obj\Debug\net8.0\Libreria_Autos.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\obj\Debug\net8.0\Libreria_Autos.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\obj\Debug\net8.0\Libreria_Autos.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\obj\Debug\net8.0\refint\Libreria_Autos.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\obj\Debug\net8.0\Libreria_Autos.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Libreria_Autos\obj\Debug\net8.0\ref\Libreria_Autos.dll
