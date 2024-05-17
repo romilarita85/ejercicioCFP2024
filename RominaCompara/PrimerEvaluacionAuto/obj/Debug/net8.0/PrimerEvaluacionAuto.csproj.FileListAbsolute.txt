@@ -1,0 +1,12 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\bin\Debug\net8.0\PrimerEvaluacionAuto.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\bin\Debug\net8.0\PrimerEvaluacionAuto.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\bin\Debug\net8.0\PrimerEvaluacionAuto.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\obj\Debug\net8.0\PrimerEvaluacionAuto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\obj\Debug\net8.0\PrimerEvaluacionAuto.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\obj\Debug\net8.0\PrimerEvaluacionAuto.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\obj\Debug\net8.0\PrimerEvaluacionAuto.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\obj\Debug\net8.0\PrimerEvaluacionAuto.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\obj\Debug\net8.0\PrimerEvaluacionAuto.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\obj\Debug\net8.0\refint\PrimerEvaluacionAuto.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\obj\Debug\net8.0\PrimerEvaluacionAuto.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\PrimerEvaluacionAuto\obj\Debug\net8.0\ref\PrimerEvaluacionAuto.dll

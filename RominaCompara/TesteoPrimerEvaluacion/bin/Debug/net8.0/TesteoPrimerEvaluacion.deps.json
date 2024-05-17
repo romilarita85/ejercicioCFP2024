@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TesteoPrimerEvaluacion/1.0.0": {
+        "dependencies": {
+          "PrimerEvaluacionAuto": "1.0.0"
+        },
+        "runtime": {
+          "TesteoPrimerEvaluacion.dll": {}
+        }
+      },
+      "PrimerEvaluacionAuto/1.0.0": {
+        "runtime": {
+          "PrimerEvaluacionAuto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteoPrimerEvaluacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrimerEvaluacionAuto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

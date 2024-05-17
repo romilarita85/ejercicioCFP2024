@@ -55,6 +55,18 @@ namespace Libreria_Autos
         }
         //bool true// km menores o iguales a kmPosibles
         //bool false// km son mayores a kmPosibles
+        //otra Forma de hacer el metodo Avanzar (hecho en clase):
+        //public bool Avanzar(int km)
+        //{
+        //    bool retorno = false;
+        //    double combustibleNecesario = (double)km / 10.0; //10 km por cada litro de combustible 
 
+        //    if (cantCombustible > 0 && cantCombustible >= combustibleNecesario) // km menores o iguales a kmPosibles
+        //    {
+        //        cantCombustible -= combustibleNecesario;
+        //        retorno = true;
+        //    }
+        //    return retorno;
+        //}
     }
 }
