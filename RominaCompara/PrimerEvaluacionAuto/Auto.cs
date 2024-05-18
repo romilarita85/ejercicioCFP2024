@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Runtime.CompilerServices;
 
 namespace PrimerEvaluacionAuto
 {
@@ -16,6 +17,14 @@ namespace PrimerEvaluacionAuto
             this.cantCombustible = cantCombustible;
             //this.SetCantCombustible(cantCombustible);
             this.color = color;
+        }
+        //Creamos otro constructor
+        public Auto(string marca, string combustible, string color) //tres variables de tipo string 
+        {
+            this.marca = marca;
+            //necesito parsear combustible y pasar color a uno de los que ya estoy trabajando->Creo metodos con funcion
+            this.ConvertirStringEnCombustible(combustible); // convertir o castear combutible
+            this.ConvertirStringEnColor(color); //comvertir o validar color
         }
        
         //1°forma de hacer SetColor:
@@ -125,6 +134,37 @@ namespace PrimerEvaluacionAuto
             return retorno;
         }
 
+        public bool ConvertirStringEnCombustible(string combustible) //metodo para convertir o castear combutible
+        {//modifico componente (atributo) propio del objeto uso metodo de instancia
+            bool retorno = false;
+            if (double.TryParse(combustible, out double combValido )) 
+            {
+                this.cantCombustible = combValido;
+                retorno = true;
+            }
+            return retorno;
+        }
+        public bool ConvertirStringEnColor(string nuevoColor) //metodo para validar o convertir color
+        {//modifico componente (atributo) propio del objeto uso metodo de instancia
+            bool retorno = true;
+            switch (nuevoColor) //lo puede cambiar siempre y cuando sea rojo,azul o negro
+            {
+                case "rojo":
+                    this.color = Color.Red;
+                    break;
+                case "azul":
+                    this.color = Color.Blue;
+                    break;
+                case "negro":
+                    this.color = Color.Black;
+                    break;
+                default:
+                    retorno = false;
+                    break;
+            }
+            return retorno;
 
+
+        }
     }
 }

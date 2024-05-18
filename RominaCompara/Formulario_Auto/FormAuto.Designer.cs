@@ -94,6 +94,7 @@
             btn_crear.TabIndex = 6;
             btn_crear.Text = "Crear";
             btn_crear.UseVisualStyleBackColor = true;
+            btn_crear.Click += btn_crear_Click;
             // 
             // FormAuto
             // 
