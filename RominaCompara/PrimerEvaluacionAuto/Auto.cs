@@ -13,8 +13,8 @@ namespace PrimerEvaluacionAuto
         public Auto(string marca, double cantCombustible, Color color)
         {
             this.marca = marca;
-            //this.cantCombustible = cantCombustible;
-            this.SetCantCombustible(cantCombustible);
+            this.cantCombustible = cantCombustible;
+            //this.SetCantCombustible(cantCombustible);
             this.color = color;
         }
        

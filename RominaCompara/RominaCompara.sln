@@ -111,9 +111,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libreria_Autos", "Libreria_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteoDeAuto_Examen", "TesteoDeAuto_Examen\TesteoDeAuto_Examen.csproj", "{8C2D92A6-2BA5-480B-95A0-7B9D2A37F0AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimerEvaluacionAuto", "PrimerEvaluacionAuto\PrimerEvaluacionAuto.csproj", "{33BADE92-F1F9-4A0B-AFD2-E8DF6E4DFE21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimerEvaluacionAuto", "PrimerEvaluacionAuto\PrimerEvaluacionAuto.csproj", "{33BADE92-F1F9-4A0B-AFD2-E8DF6E4DFE21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteoPrimerEvaluacion", "TesteoPrimerEvaluacion\TesteoPrimerEvaluacion.csproj", "{95FC7EB4-B2F0-4795-B982-FF5F335E5AD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteoPrimerEvaluacion", "TesteoPrimerEvaluacion\TesteoPrimerEvaluacion.csproj", "{95FC7EB4-B2F0-4795-B982-FF5F335E5AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formulario_Auto", "Formulario_Auto\Formulario_Auto.csproj", "{F85CA995-6BEC-4A66-AC95-553AC278A02B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -345,6 +347,10 @@ Global
 		{95FC7EB4-B2F0-4795-B982-FF5F335E5AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95FC7EB4-B2F0-4795-B982-FF5F335E5AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95FC7EB4-B2F0-4795-B982-FF5F335E5AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85CA995-6BEC-4A66-AC95-553AC278A02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85CA995-6BEC-4A66-AC95-553AC278A02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85CA995-6BEC-4A66-AC95-553AC278A02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85CA995-6BEC-4A66-AC95-553AC278A02B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

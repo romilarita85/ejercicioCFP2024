@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Formulario_Auto/1.0.0": {
+        "dependencies": {
+          "PrimerEvaluacionAuto": "1.0.0"
+        },
+        "runtime": {
+          "Formulario_Auto.dll": {}
+        }
+      },
+      "PrimerEvaluacionAuto/1.0.0": {
+        "runtime": {
+          "PrimerEvaluacionAuto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Formulario_Auto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrimerEvaluacionAuto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
