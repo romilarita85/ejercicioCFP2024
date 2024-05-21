@@ -30,11 +30,11 @@
         {
             txt_marca = new TextBox();
             txt_combustible = new TextBox();
-            txt_color = new TextBox();
             lbl_marca = new Label();
             lbl_combustible = new Label();
             lbl_color = new Label();
             btn_crear = new Button();
+            cmb_colores = new ComboBox();
             SuspendLayout();
             // 
             // txt_marca
@@ -50,13 +50,6 @@
             txt_combustible.Name = "txt_combustible";
             txt_combustible.Size = new Size(180, 23);
             txt_combustible.TabIndex = 1;
-            // 
-            // txt_color
-            // 
-            txt_color.Location = new Point(66, 168);
-            txt_color.Name = "txt_color";
-            txt_color.Size = new Size(180, 23);
-            txt_color.TabIndex = 2;
             // 
             // lbl_marca
             // 
@@ -96,20 +89,29 @@
             btn_crear.UseVisualStyleBackColor = true;
             btn_crear.Click += btn_crear_Click;
             // 
+            // cmb_colores
+            // 
+            cmb_colores.FormattingEnabled = true;
+            cmb_colores.Location = new Point(66, 168);
+            cmb_colores.Name = "cmb_colores";
+            cmb_colores.Size = new Size(180, 23);
+            cmb_colores.TabIndex = 7;
+            // 
             // FormAuto
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 439);
+            Controls.Add(cmb_colores);
             Controls.Add(btn_crear);
             Controls.Add(lbl_color);
             Controls.Add(lbl_combustible);
             Controls.Add(lbl_marca);
-            Controls.Add(txt_color);
             Controls.Add(txt_combustible);
             Controls.Add(txt_marca);
             Name = "FormAuto";
             Text = "Form1";
+            Load += FormAuto_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -118,10 +120,10 @@
 
         private TextBox txt_marca;
         private TextBox txt_combustible;
-        private TextBox txt_color;
         private Label lbl_marca;
         private Label lbl_combustible;
         private Label lbl_color;
         private Button btn_crear;
+        private ComboBox cmb_colores;
     }
 }

@@ -26,14 +26,14 @@ namespace PrimerEvaluacionAuto
             this.ConvertirStringEnCombustible(combustible); // convertir o castear combutible
             this.ConvertirStringEnColor(color); //comvertir o validar color
         }
-       
+
         //1°forma de hacer SetColor:
         //public bool SetColor(Color nuevoColor)
         //{
         //    bool retorno;
         //    if (nuevoColor != Color.Green && nuevoColor != Color.Red && nuevoColor != Color.Blue)
         //    {
-                
+
         //        retorno = false;
         //    }
         //    else 
@@ -85,7 +85,7 @@ namespace PrimerEvaluacionAuto
             return retorno;
         }
 
-        public bool SetCantCombustible(double nuevoValor) 
+        public bool SetCantCombustible(double nuevoValor)
         {
             bool retorno = false;
             if (nuevoValor > 0 && nuevoValor <= 100)
@@ -100,12 +100,12 @@ namespace PrimerEvaluacionAuto
         {
             return this.marca;
         }
-        
+
         public double GetCantCombustible()
         {
             return this.cantCombustible;
         }
-        
+
         public Color GetColor()
         {
             return this.color;
@@ -124,7 +124,7 @@ namespace PrimerEvaluacionAuto
         public bool Avanzar(int km)
         {
             bool retorno = false;
-            double combustibleNecesario =(double)km/10.0; //10 km por cada litro de combustible 
+            double combustibleNecesario = (double)km / 10.0; //10 km por cada litro de combustible 
 
             if (cantCombustible > 0 && cantCombustible >= combustibleNecesario) // km menores o iguales a kmPosibles
             {
@@ -137,7 +137,7 @@ namespace PrimerEvaluacionAuto
         public bool ConvertirStringEnCombustible(string combustible) //metodo para convertir o castear combutible
         {//modifico componente (atributo) propio del objeto uso metodo de instancia
             bool retorno = false;
-            if (double.TryParse(combustible, out double combValido )) 
+            if (double.TryParse(combustible, out double combValido))
             {
                 this.cantCombustible = combValido;
                 retorno = true;
@@ -147,7 +147,7 @@ namespace PrimerEvaluacionAuto
         public bool ConvertirStringEnColor(string nuevoColor) //metodo para validar o convertir color
         {//modifico componente (atributo) propio del objeto uso metodo de instancia
             bool retorno = true;
-            switch (nuevoColor) //lo puede cambiar siempre y cuando sea rojo,azul o negro
+            switch (nuevoColor.ToLower()) //lo puede cambiar siempre y cuando sea rojo,azul o negro
             {
                 case "rojo":
                     this.color = Color.Red;
@@ -165,6 +165,17 @@ namespace PrimerEvaluacionAuto
             return retorno;
 
 
+        }
+        public static List<string> ColoresValidos()
+        {
+
+            List<string> list = new List<string>(){
+            "azul","verde","amarillo","negro" 
+            };
+                
+           
+
+            return list;
         }
     }
 }

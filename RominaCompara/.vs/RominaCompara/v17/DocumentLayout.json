@@ -26,37 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormAuto.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.Designer.cs",
-              "RelativeDocumentMoniker": "Formulario_Auto\\FormAuto.Designer.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.Designer.cs",
-              "RelativeToolTip": "Formulario_Auto\\FormAuto.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:03:06.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAuto.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.cs",
-              "RelativeDocumentMoniker": "Formulario_Auto\\FormAuto.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.cs",
-              "RelativeToolTip": "Formulario_Auto\\FormAuto.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwAYAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T11:19:07.849Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -67,8 +41,34 @@
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.cs [Dise\u00F1o]",
               "RelativeToolTip": "Formulario_Auto\\FormAuto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T01:16:35.807Z",
+              "WhenOpened": "2024-05-20T22:59:40.26Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAuto.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.Designer.cs",
+              "RelativeDocumentMoniker": "Formulario_Auto\\FormAuto.Designer.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.Designer.cs",
+              "RelativeToolTip": "Formulario_Auto\\FormAuto.Designer.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:47:14.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormAuto.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.cs",
+              "RelativeDocumentMoniker": "Formulario_Auto\\FormAuto.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.cs",
+              "RelativeToolTip": "Formulario_Auto\\FormAuto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T11:19:07.849Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,7 +78,7 @@
               "RelativeDocumentMoniker": "PrimerEvaluacionAuto\\Auto.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerEvaluacionAuto\\Auto.cs",
               "RelativeToolTip": "PrimerEvaluacionAuto\\Auto.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB0AAAAfAAAA",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAALEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T00:03:32.551Z",
               "EditorCaption": ""
