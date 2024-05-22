@@ -35,6 +35,7 @@
             lbl_color = new Label();
             btn_crear = new Button();
             cmb_colores = new ComboBox();
+            lst_misAutos = new ListBox();
             SuspendLayout();
             // 
             // txt_marca
@@ -97,11 +98,21 @@
             cmb_colores.Size = new Size(180, 23);
             cmb_colores.TabIndex = 7;
             // 
+            // lst_misAutos
+            // 
+            lst_misAutos.FormattingEnabled = true;
+            lst_misAutos.ItemHeight = 15;
+            lst_misAutos.Location = new Point(303, 67);
+            lst_misAutos.Name = "lst_misAutos";
+            lst_misAutos.Size = new Size(524, 259);
+            lst_misAutos.TabIndex = 8;
+            // 
             // FormAuto
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 439);
+            ClientSize = new Size(862, 439);
+            Controls.Add(lst_misAutos);
             Controls.Add(cmb_colores);
             Controls.Add(btn_crear);
             Controls.Add(lbl_color);
@@ -125,5 +136,6 @@
         private Label lbl_color;
         private Button btn_crear;
         private ComboBox cmb_colores;
+        private ListBox lst_misAutos;
     }
 }

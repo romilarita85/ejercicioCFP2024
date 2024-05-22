@@ -117,6 +117,7 @@
             btn_ingresar.TabIndex = 7;
             btn_ingresar.Text = "Ingresar";
             btn_ingresar.UseVisualStyleBackColor = true;
+            btn_ingresar.Click += btn_ingresar_Click;
             // 
             // btn_borrar
             // 
@@ -126,6 +127,7 @@
             btn_borrar.TabIndex = 8;
             btn_borrar.Text = "Borrar";
             btn_borrar.UseVisualStyleBackColor = true;
+            btn_borrar.Click += btn_borrar_Click;
             // 
             // FormInicial
             // 

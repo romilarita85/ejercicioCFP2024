@@ -137,6 +137,7 @@ namespace PrimerEvaluacionAuto
         public bool ConvertirStringEnCombustible(string combustible) //metodo para convertir o castear combutible
         {//modifico componente (atributo) propio del objeto uso metodo de instancia
             bool retorno = false;
+
             if (double.TryParse(combustible, out double combValido))
             {
                 this.cantCombustible = combValido;
@@ -173,9 +174,13 @@ namespace PrimerEvaluacionAuto
             "azul","verde","amarillo","negro" 
             };
                 
-           
-
             return list;
+        }
+        public override string ToString() 
+        {
+            return this.AutoToString();
+            //return "quiero morstrar los datos";
+        
         }
     }
 }
