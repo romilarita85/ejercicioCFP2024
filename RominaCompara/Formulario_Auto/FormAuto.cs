@@ -23,19 +23,11 @@ namespace Formulario_Auto
             string color = this.cmb_colores.Text;
 
             Auto miAuto = new Auto(marca, combustible, color); //crear objeto del tipo auto
-           
+
             misAutos.Add(miAuto); //agrega el objeto miAuto a la lista llamada misAutos.
 
-            this.lst_misAutos.Items.AddRange(misAutos.ToArray()); //->agrega múltiples elementos de una colección a la lista.
+            
 
-            //this.lst_misAutos.Items.Add(miAuto.AutoToString());//->agrega una representación en forma de cadena de un objeto a la lista.
-            //agrega una representación en forma de cadena del objeto miAuto a la lista lst_misAutos.
-            //AutoToString() es un método que devuelve una cadena que representa el objeto miAuto,
-            //esta línea agrega esa cadena a la lista.
-
-            //this.lst_misAutos.Items.Add(miAuto);//->agrega el objeto en sí a la lista.
-            //el objeto miAuto se agregará a la lista tal como está.
-           
             this.Limpiar();
         }
         private void Limpiar()
@@ -45,5 +37,32 @@ namespace Formulario_Auto
             this.cmb_colores.Text = string.Empty;
         }
 
+        private void btn_mostrar_Click(object sender, EventArgs e) //Evento
+        {
+            //captura 1237
+            this.lst_misAutos.Items.AddRange(misAutos.ToArray());
+        }
+
+        private void btn_limpiar_Click(object sender, EventArgs e)//Evento
+        {
+            this.lst_misAutos.Items.Clear();
+        }
+        private void VaciarLst() //metodo (no asociado a un evento)
+        {
+            this.lst_misAutos.Items.Clear();
+
+        }
+
     }
 }
+//misAutos.Add(miAuto); //agrega el objeto miAuto a la lista llamada misAutos.
+
+//this.lst_misAutos.Items.AddRange(misAutos.ToArray()); //->agrega múltiples elementos de una colección a la lista.
+
+//this.lst_misAutos.Items.Add(miAuto.AutoToString());//->agrega una representación en forma de cadena de un objeto a la lista.
+//agrega una representación en forma de cadena del objeto miAuto a la lista lst_misAutos.
+//AutoToString() es un método que devuelve una cadena que representa el objeto miAuto,
+//esta línea agrega esa cadena a la lista.
+
+//this.lst_misAutos.Items.Add(miAuto);//->agrega el objeto en sí a la lista.
+//el objeto miAuto se agregará a la lista tal como está.

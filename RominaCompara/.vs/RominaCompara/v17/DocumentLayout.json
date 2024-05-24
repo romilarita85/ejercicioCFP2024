@@ -15,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{7A0D4E0C-8C90-4E6F-9384-788664776321}|PrimerFormulario\\PrimerFormulario.csproj|solutionrelative:primerformulario\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0D4E0C-8C90-4E6F-9384-788664776321}|PrimerFormulario\\PrimerFormulario.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\primerformulario\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A0D4E0C-8C90-4E6F-9384-788664776321}|PrimerFormulario\\PrimerFormulario.csproj|solutionrelative:primerformulario\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33BADE92-F1F9-4A0B-AFD2-E8DF6E4DFE21}|PrimerEvaluacionAuto\\PrimerEvaluacionAuto.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\primerevaluacionauto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33BADE92-F1F9-4A0B-AFD2-E8DF6E4DFE21}|PrimerEvaluacionAuto\\PrimerEvaluacionAuto.csproj|solutionrelative:primerevaluacionauto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0D4E0C-8C90-4E6F-9384-788664776321}|PrimerFormulario\\PrimerFormulario.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\primerformulario\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A0D4E0C-8C90-4E6F-9384-788664776321}|PrimerFormulario\\PrimerFormulario.csproj|solutionrelative:primerformulario\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FormInicial.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\FormInicial.cs",
               "RelativeDocumentMoniker": "PrimerFormulario\\FormInicial.cs",
@@ -81,20 +81,20 @@
               "RelativeDocumentMoniker": "Formulario_Auto\\FormAuto.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.cs",
               "RelativeToolTip": "Formulario_Auto\\FormAuto.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAwwAoAAAAAAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAADwvykAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T11:19:07.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Auto.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerEvaluacionAuto\\Auto.cs",
               "RelativeDocumentMoniker": "PrimerEvaluacionAuto\\Auto.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerEvaluacionAuto\\Auto.cs",
               "RelativeToolTip": "PrimerEvaluacionAuto\\Auto.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAAAAALUAAAAOAAAA",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAqwLUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T00:03:32.551Z",
               "EditorCaption": ""
