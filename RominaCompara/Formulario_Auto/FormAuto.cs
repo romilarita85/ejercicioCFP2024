@@ -16,17 +16,27 @@ namespace Formulario_Auto
             this.cmb_colores.Items.AddRange(Auto.ColoresValidos().ToArray());
         }
 
-        private void btn_crear_Click(object sender, EventArgs e)
+        private void btn_crear_Click(object sender, EventArgs e) //Evento
         {
             string marca = this.txt_marca.Text;
             string combustible = this.txt_combustible.Text;
             string color = this.cmb_colores.Text;
 
+            DialogResult respuesta; // crear variable del tipo resultado
+
             Auto miAuto = new Auto(marca, combustible, color); //crear objeto del tipo auto
 
-            misAutos.Add(miAuto); //agrega el objeto miAuto a la lista llamada misAutos.
+            respuesta = MessageBox.Show("Decea agregar este AUTO","Agregar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);//se muestra el mensaje
+            //parametros del MessageBox ->( ****mensaje*****+****,Titulo***, Que Botones va a tener , icono*************)
 
-            
+            //if (respuesta == DialogResult.Yes)
+            //{
+            //    misAutos.Add(miAuto); //agrega el objeto miAuto a la lista llamada misAutos (lo agrega o no)
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Auto no agregado");
+            //} 
 
             this.Limpiar();
         }
@@ -39,13 +49,13 @@ namespace Formulario_Auto
 
         private void btn_mostrar_Click(object sender, EventArgs e) //Evento
         {
-            //captura 1237
+            this.VaciarLst();
             this.lst_misAutos.Items.AddRange(misAutos.ToArray());
         }
 
         private void btn_limpiar_Click(object sender, EventArgs e)//Evento
         {
-            this.lst_misAutos.Items.Clear();
+            this.VaciarLst();
         }
         private void VaciarLst() //metodo (no asociado a un evento)
         {
@@ -66,3 +76,32 @@ namespace Formulario_Auto
 
 //this.lst_misAutos.Items.Add(miAuto);//->agrega el objeto en sí a la lista.
 //el objeto miAuto se agregará a la lista tal como está.
+
+
+
+//private void btn_crear_Click(object sender, EventArgs e) //Evento
+//{
+//    string marca = this.txt_marca.Text;
+//    string combustible = this.txt_combustible.Text;
+//    string color = this.cmb_colores.Text;
+
+//    DialogResult respuesta; // crear variable del tipo resultado
+
+//    Auto miAuto = new Auto(marca, combustible, color); //crear objeto del tipo auto
+
+//    respuesta = MessageBox.Show($"Decea agregar el auto {miAuto.GetMarca()}?", "Agregar", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error);//se muestra el mensaje                                                                                                                       //parametros del MessageBox -> mensaje *********+****,Titulo***, Que Botones va a tener , icono*************
+
+//    switch (respuesta) //Para evaluar que boton esta apretando
+//    {
+//        case DialogResult.Yes:
+//            MessageBox.Show("Apreto el boton YES");
+//            break;
+//        case DialogResult.No:
+//            MessageBox.Show("Apreto el boton NO");
+//            break;
+//        case DialogResult.Cancel:
+//            MessageBox.Show("Apreto el boton CANCEL");
+//            break;
+//    }
+//    this.Limpiar();
+//}

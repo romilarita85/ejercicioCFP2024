@@ -145,6 +145,10 @@ namespace PrimerEvaluacionAuto
             }
             return retorno;
         }
+        public static bool ConvertirStringAEntero(string valorAConvertir ) 
+        { //captura 1276
+        
+        }
         public bool ConvertirStringEnColor(string nuevoColor) //metodo para validar o convertir color
         {//modifico componente (atributo) propio del objeto uso metodo de instancia
             bool retorno = true;
