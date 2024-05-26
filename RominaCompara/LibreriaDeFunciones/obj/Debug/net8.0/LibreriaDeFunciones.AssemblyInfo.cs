@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibreriaDeFunciones")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8ec3e9c536322d15b6d5cfa349affe81390cba2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba131dfa206bfd82c4f0304e03cef03d95299f5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibreriaDeFunciones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibreriaDeFunciones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

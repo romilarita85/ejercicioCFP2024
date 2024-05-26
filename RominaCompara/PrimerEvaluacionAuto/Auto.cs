@@ -11,21 +11,32 @@ namespace PrimerEvaluacionAuto
         private Color color;
 
         //B. un constructor que inicialice todos los atributos.
-        public Auto(string marca, double cantCombustible, Color color)
+        public Auto(string marca, double cantCombustible, Color color) //1°constructor
         {
             this.marca = marca;
             this.cantCombustible = cantCombustible;
             //this.SetCantCombustible(cantCombustible);
             this.color = color;
         }
-        //Creamos otro constructor
+        //Creamos otro constructor//2°Constructor
         public Auto(string marca, string combustible, string color) //tres variables de tipo string 
         {
             this.marca = marca;
-            //necesito parsear combustible y pasar color a uno de los que ya estoy trabajando->Creo metodos con funcion
+            //necesito parsear combustible y pasar color a uno de los que ya estoy trabajando
+            //->Creo metodos con funcion
             this.ConvertirStringEnCombustible(combustible); // convertir o castear combutible
             this.ConvertirStringEnColor(color); //comvertir o validar color
         }
+        //3°Constructor
+        public Auto(string marca, string cantCombustible, Color color)
+        {
+            this.marca = marca;
+            this.cantCombustible = double.Parse(cantCombustible);
+            this.color = color;
+        }
+        //this.cantCombustible = double.Parse(cantCombustible);-> convierte el valor de cantCombustible
+        //de tipo string a tipo double utilizando double.Parse y lo asigna al campo cantCombustible
+        //de la instancia actual de la clase Auto.
 
         //1°forma de hacer SetColor:
         //public bool SetColor(Color nuevoColor)
@@ -145,10 +156,18 @@ namespace PrimerEvaluacionAuto
             }
             return retorno;
         }
-        public static bool ConvertirStringAEntero(string valorAConvertir ) 
-        { //captura 1276
+        
+        //El método ConvertirStringAInt intenta convertir una cadena de texto en un número decimal (double)
+        //La función double.TryParse intenta realizar esta conversión y devuelve un booleano
+        //que indica si la operación fue exitosa o no.
+        //Si la conversión es exitosa, el valor convertido se almacena en la variable combValido
+        //la cual se pasa por referencia utilizando la palabra clave out.
+        public static bool ConvertirStringAInt(string valorAConvertir,out double combValido ) 
+        {
+            return double.TryParse(valorAConvertir, out combValido);
         
         }
+        
         public bool ConvertirStringEnColor(string nuevoColor) //metodo para validar o convertir color
         {//modifico componente (atributo) propio del objeto uso metodo de instancia
             bool retorno = true;
@@ -171,11 +190,12 @@ namespace PrimerEvaluacionAuto
 
 
         }
-        public static List<string> ColoresValidos()
+        public static List<Color> ColoresValidos()
         {
 
-            List<string> list = new List<string>(){
-            "azul","verde","amarillo","negro" 
+            List<Color> list = new List<Color>()
+            {
+                Color.Red,Color.Purple,Color.Green,Color.Blue,Color.Black,Color.Salmon
             };
                 
             return list;

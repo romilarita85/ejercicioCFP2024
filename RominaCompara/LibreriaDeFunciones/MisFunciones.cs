@@ -183,6 +183,63 @@ namespace LibreriaDeFunciones
             }
             return vector;
         }
+        public static int PedirEnteroConRango(string mensaje, string mensajeError, int maximo, int minimo)
+        {
+            int numeroValido = 0;
+            string numeroLeido;
+            Console.Write(mensaje);
+            numeroLeido = Console.ReadLine();
+
+            while (!EsNumerico(numeroLeido) || (int.Parse(numeroLeido) > maximo) || (int.Parse(numeroLeido) < minimo))
+            {
+                Console.WriteLine(mensajeError);
+                Console.Write(mensaje);
+                numeroLeido = Console.ReadLine();
+            }
+            numeroValido = int.Parse(numeroLeido);
+            return numeroValido;
+        }
+        //Uso funcion en formulario/primeraEvaluacion*********************************************************
+        //Usando funcion booleano: responde a lo que tenia por parametro. Si es un numero o no
+        public static bool EsNumerico(string dato) //Ingreso una cadena de caracteres                                 
+        {//evalua si los datos son un digito
+            bool esNumerico = true;
+            foreach (char digito in dato)
+            {
+                if (!char.IsDigit(digito))
+                {
+                    esNumerico = false;
+                    break;
+                }
+            }
+            return esNumerico;
+        }
+        //******************************************************************+
+        //Funcion creada para formulario/PrimeraEvaluacion
+        public static bool EsSoloLetras(string dato) 
+        {
+            bool esLetra = true;
+            foreach (char letra in dato)
+            {
+                if (!char.IsLetter(letra))
+                {
+                    esLetra = false;
+                    break;
+                }
+            }
+            return esLetra;
+        }
+        //***************************************************************************************************************
+        public static bool EsPar(int numero)
+        {
+            bool esPar = false; //variable booleana que me diga que es par
+
+            if (numero % 2 == 0)
+            {
+                esPar = true;
+            }
+            return esPar;
+        }
     }
 }
 

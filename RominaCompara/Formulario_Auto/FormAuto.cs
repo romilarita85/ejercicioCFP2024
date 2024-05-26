@@ -1,3 +1,4 @@
+using LibreriaDeFunciones;
 using PrimerEvaluacionAuto;
 namespace Formulario_Auto
 {
@@ -5,56 +6,59 @@ namespace Formulario_Auto
     {
         List<Auto> misAutos;
         //int cantidadDeAutos;
-        public FormAuto()
-        {
+        public FormAuto()//En el constructor FormAuto, inicializas la lista de autos misAutos               
+        {//y configuras los eventos del formulario.
             InitializeComponent();
-
         }
         private void FormAuto_Load(object sender, EventArgs e)
-        {
+        {//inicializas misAutos y cargas los colores válidos en el ComboBox cmb_colores.
             this.misAutos = new List<Auto>();
-            this.cmb_colores.Items.AddRange(Auto.ColoresValidos().ToArray());
+            this.cmb_colores.Items.Add(Auto.ColoresValidos().ToArray());
         }
 
-        private void btn_crear_Click(object sender, EventArgs e) //Evento
-        {
+        private void btn_crear_Click(object sender, EventArgs e) //EVENTO
+        {// creas un nuevo objeto Auto con la información ingresada por el usuario,
+         // y luego preguntas al usuario si desea agregar el auto a la lista de autos.
+         // Si la respuesta es afirmativa, agregas el auto a la lista misAutos.
             string marca = this.txt_marca.Text;
             string combustible = this.txt_combustible.Text;
-            string color = this.cmb_colores.Text;
+            Color color = (Color)this.cmb_colores.SelectedItem;
 
             DialogResult respuesta; // crear variable del tipo resultado
+           
+            if (this.ValidarEntradas(marca,combustible)) 
+            {
+                Auto miAuto = new Auto(marca, combustible, color); //crear objeto del tipo auto
+                respuesta = MessageBox.Show($"Decea agregar el auto {miAuto.GetMarca()}","Agregar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);//se muestra el mensaje
+               //parametros del MessageBox ->( ******************MENSAJE***********+****,**TITULO**, Que BOTONES va a tener ,********ICONO**********)
 
-            Auto miAuto = new Auto(marca, combustible, color); //crear objeto del tipo auto
-
-            respuesta = MessageBox.Show("Decea agregar este AUTO","Agregar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);//se muestra el mensaje
-            //parametros del MessageBox ->( ****mensaje*****+****,Titulo***, Que Botones va a tener , icono*************)
-
-            //if (respuesta == DialogResult.Yes)
-            //{
-            //    misAutos.Add(miAuto); //agrega el objeto miAuto a la lista llamada misAutos (lo agrega o no)
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Auto no agregado");
-            //} 
-
-            this.Limpiar();
+                if (respuesta == DialogResult.No)
+                {
+                    MessageBox.Show("Auto no agregado");
+                }
+                else
+                {
+                    misAutos.Add(miAuto); //agrega el objeto miAuto a la lista llamada misAutos (lo agrega o no)
+                }
+                this.Limpiar();
+            } 
+            
         }
-        private void Limpiar()
+        private void Limpiar() //FUNCION
         {//función privada para borrar o "limpiar" los campos de entrada del formulario(interfaz gráfica de usuario).
             this.txt_marca.Text = string.Empty;
             this.txt_combustible.Text = string.Empty;
             this.cmb_colores.Text = string.Empty;
         }
 
-        private void btn_mostrar_Click(object sender, EventArgs e) //Evento
-        {
+        private void btn_mostrar_Click(object sender, EventArgs e)//EVENTO
+        {//muestras los autos en el ListBox lst_misAutos.
             this.VaciarLst();
             this.lst_misAutos.Items.AddRange(misAutos.ToArray());
         }
 
-        private void btn_limpiar_Click(object sender, EventArgs e)//Evento
-        {
+        private void btn_limpiar_Click(object sender, EventArgs e)//EVENTO
+        { //vacías el ListBox lst_misAutos.
             this.VaciarLst();
         }
         private void VaciarLst() //metodo (no asociado a un evento)
@@ -62,7 +66,30 @@ namespace Formulario_Auto
             this.lst_misAutos.Items.Clear();
 
         }
+        private bool ValidarEntradas(string marca, string combustible) //Metodo-> Creo un constructor 3°
+        {//validas la entrada del usuario para la marca y el combustible del auto.
+            bool ok = true;
+            if (!MisFunciones.EsSoloLetras(marca))
+            {
+                MessageBox.Show("La marca debe ser solo letras");
+                ok = false;
+            }
+            if (!MisFunciones.EsNumerico(combustible))
+            {
+                MessageBox.Show("El combustible debe ser numerico");
+                ok = false;
+            }
+            return ok;
 
+        }
+        private void CargarCMB(List<Color>colores)//METODO->Cargas los colores en el ComboBox cmb_colores.
+        {//El método CargarCMB es parte de una clase que tiene un control ComboBox (cmb_colores)
+         //y se utiliza para cargar una lista de colores en ese ComboBox.
+            foreach (Color color in colores)
+            {
+                this.cmb_colores.Items.Add(color);  
+            }
+        }
     }
 }
 //misAutos.Add(miAuto); //agrega el objeto miAuto a la lista llamada misAutos.
@@ -87,11 +114,20 @@ namespace Formulario_Auto
 
 //    DialogResult respuesta; // crear variable del tipo resultado
 
+// double combValido;
+//if (!double.TryParse(combustible, out combValido))
+//{// Estás utilizando double.TryParse para intentar convertir la cadena
+// combustible en un valor numérico tipo double.
+// Si la conversión falla, es decir, si combustible no puede ser convertido
+// a un valor numérico double, se muestra un mensaje indicando que el combustible debe ser numérico.
+//    MessageBox.Show("El combustible debe ser numerico");
+//}
+
 //    Auto miAuto = new Auto(marca, combustible, color); //crear objeto del tipo auto
 
 //    respuesta = MessageBox.Show($"Decea agregar el auto {miAuto.GetMarca()}?", "Agregar", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error);//se muestra el mensaje                                                                                                                       //parametros del MessageBox -> mensaje *********+****,Titulo***, Que Botones va a tener , icono*************
 
-//    switch (respuesta) //Para evaluar que boton esta apretando
+//    switch (respuesta) //Para evaluar que boton esta apretando-Multiples respuestas-si uso dos resp-> condicional.
 //    {
 //        case DialogResult.Yes:
 //            MessageBox.Show("Apreto el boton YES");
@@ -105,3 +141,14 @@ namespace Formulario_Auto
 //    }
 //    this.Limpiar();
 //}
+
+//if (respuesta == DialogResult.Yes)
+//{
+//    misAutos.Add(miAuto); //agrega el objeto miAuto a la lista llamada misAutos (lo agrega o no)
+//}
+//else
+//{
+//    MessageBox.Show("Auto no agregado");
+//} 
+
+

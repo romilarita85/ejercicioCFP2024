@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
+      "LibreriaDeFunciones/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LibreriaDeFunciones.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibreriaDeFunciones.dll": {}
+        }
+      },
       "PrimerEvaluacionAuto/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "LibreriaDeFunciones/1.0.0": {
+      "type": "project",
+      "path": "../LibreriaDeFunciones/LibreriaDeFunciones.csproj",
+      "msbuildProject": "../LibreriaDeFunciones/LibreriaDeFunciones.csproj"
+    },
     "PrimerEvaluacionAuto/1.0.0": {
       "type": "project",
       "path": "../PrimerEvaluacionAuto/PrimerEvaluacionAuto.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "LibreriaDeFunciones >= 1.0.0",
       "PrimerEvaluacionAuto >= 1.0.0"
     ]
   },
@@ -53,6 +69,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeFunciones\\LibreriaDeFunciones.csproj": {
+              "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeFunciones\\LibreriaDeFunciones.csproj"
+            },
             "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerEvaluacionAuto\\PrimerEvaluacionAuto.csproj": {
               "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerEvaluacionAuto\\PrimerEvaluacionAuto.csproj"
             }

@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LibreriaDeFunciones\LibreriaDeFunciones.csproj" />
     <ProjectReference Include="..\PrimerEvaluacionAuto\PrimerEvaluacionAuto.csproj" />
   </ItemGroup>
 
