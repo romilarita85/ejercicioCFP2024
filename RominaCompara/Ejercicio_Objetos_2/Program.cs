@@ -44,15 +44,15 @@ namespace Ejercicio_Objetos_2
 
             estudianteTres.SetNotaPrimerParcial(1);
             estudianteTres.SetNotaSegundoParcial(4);
-            
+
             //●	Mostrar los datos de todos los alumnos.
             Console.WriteLine("Datos del estudiante 1:");
             Console.WriteLine(estudianteUno.Mostrar());
-            
+
             Console.WriteLine("**************************");
             Console.WriteLine("Datos del estudiante 2:");
             Console.WriteLine(estudianteDos.Mostrar());
-            
+
             Console.WriteLine("**************************");
             Console.WriteLine("Datos del estudiante 3:");
             Console.WriteLine(estudianteTres.Mostrar());
