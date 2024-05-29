@@ -18,17 +18,7 @@ namespace PrimerEvaluacionAuto
             //this.SetCantCombustible(cantCombustible);
             this.color = color;
         }
-        //Creamos otro constructor//2°Constructor
-        public Auto(string marca, string combustible, string color) //tres variables de tipo string 
-        {
-            this.marca = marca;
-            //necesito parsear combustible y pasar color a uno de los que ya estoy trabajando
-            //->Creo metodos con funcion
-            this.ConvertirStringEnCombustible(combustible); // convertir o castear combutible
-            this.ConvertirStringEnColor(color); //comvertir o validar color
-        }
-        //3°Constructor
-        public Auto(string marca, string cantCombustible, Color color)
+        public Auto(string marca, string cantCombustible, Color color)//3°Constructor
         {
             this.marca = marca;
             this.cantCombustible = double.Parse(cantCombustible);
@@ -37,53 +27,6 @@ namespace PrimerEvaluacionAuto
         //this.cantCombustible = double.Parse(cantCombustible);-> convierte el valor de cantCombustible
         //de tipo string a tipo double utilizando double.Parse y lo asigna al campo cantCombustible
         //de la instancia actual de la clase Auto.
-
-        //1°forma de hacer SetColor:
-        //public bool SetColor(Color nuevoColor)
-        //{
-        //    bool retorno;
-        //    if (nuevoColor != Color.Green && nuevoColor != Color.Red && nuevoColor != Color.Blue)
-        //    {
-
-        //        retorno = false;
-        //    }
-        //    else 
-        //    { 
-        //        this.color = nuevoColor;
-        //        retorno = true;
-        //    }
-
-        //    return retorno;
-        //}
-        //2°forma de hacer el SetColor
-        //public bool SetColor(Color nuevoColor)
-        //{
-        //    bool retorno;
-        //    if (nuevoColor == Color.Green && nuevoColor == Color.Red && nuevoColor == Color.Blue)
-        //    {
-        //        this.color = nuevoColor;
-        //        retorno = false;
-        //    }
-        //    else
-        //    {
-        //        retorno = true;
-
-        //    }
-
-        //    return retorno;
-        //}
-        //public bool SetColor(Color nuevoColor)
-        //{
-        //    bool retorno = false;
-        //    if (nuevoColor != Color.Green && nuevoColor != Color.Red && nuevoColor != Color.Blue)
-        //    {
-        //        this.color = nuevoColor;
-        //        retorno = true;
-        //    }
-
-        //    return retorno;
-        //}
-
         public bool SetColor(Color nuevoColor)
         {
             bool retorno = false;
@@ -157,54 +100,122 @@ namespace PrimerEvaluacionAuto
             return retorno;
         }
         
-        //El método ConvertirStringAInt intenta convertir una cadena de texto en un número decimal (double)
-        //La función double.TryParse intenta realizar esta conversión y devuelve un booleano
-        //que indica si la operación fue exitosa o no.
-        //Si la conversión es exitosa, el valor convertido se almacena en la variable combValido
-        //la cual se pasa por referencia utilizando la palabra clave out.
-        public static bool ConvertirStringAInt(string valorAConvertir,out double combValido ) 
-        {
-            return double.TryParse(valorAConvertir, out combValido);
+        ////El método ConvertirStringAInt intenta convertir una cadena de texto en un número decimal (double)
+        ////La función double.TryParse intenta realizar esta conversión y devuelve un booleano
+        ////que indica si la operación fue exitosa o no.
+        ////Si la conversión es exitosa, el valor convertido se almacena en la variable combValido
+        ////la cual se pasa por referencia utilizando la palabra clave out.
+        //public static bool ConvertirStringAInt(string valorAConvertir,out double combValido ) 
+        //{
+        //    return double.TryParse(valorAConvertir, out combValido);
         
-        }
-        
-        public bool ConvertirStringEnColor(string nuevoColor) //metodo para validar o convertir color
-        {//modifico componente (atributo) propio del objeto uso metodo de instancia
-            bool retorno = true;
-            switch (nuevoColor.ToLower()) //lo puede cambiar siempre y cuando sea rojo,azul o negro
-            {
-                case "rojo":
-                    this.color = Color.Red;
-                    break;
-                case "azul":
-                    this.color = Color.Blue;
-                    break;
-                case "negro":
-                    this.color = Color.Black;
-                    break;
-                default:
-                    retorno = false;
-                    break;
-            }
-            return retorno;
-
-
-        }
+        //}
         public static List<Color> ColoresValidos()
         {
-
             List<Color> list = new List<Color>()
             {
                 Color.Red,Color.Purple,Color.Green,Color.Blue,Color.Black,Color.Salmon
             };
-                
             return list;
         }
         public override string ToString() 
         {
             return this.AutoToString();
             //return "quiero morstrar los datos";
-        
         }
     }
 }
+//****************CONSTRUCTORES*************************************
+//public Auto(string marca, double cantCombustible, Color color) //1°constructor
+//{
+//    this.marca = marca;
+//    this.cantCombustible = cantCombustible;
+//    //this.SetCantCombustible(cantCombustible);
+//    this.color = color;
+//}
+//////2°Constructo-Creamos otro constructor
+////public Auto(string marca, string combustible, string color) //tres variables de tipo string 
+////{
+////    this.marca = marca;
+////    //necesito parsear combustible y pasar color a uno de los que ya estoy trabajando
+////    //->Creo metodos con funcion
+////    this.ConvertirStringEnCombustible(combustible); // convertir o castear combutible
+////    this.ConvertirStringEnColor(color); //comvertir o validar color
+////}
+////3°Constructor
+//public Auto(string marca, string cantCombustible, Color color)
+//{
+//    this.marca = marca;
+//    this.cantCombustible = double.Parse(cantCombustible);
+//    this.color = color;
+//}
+////this.cantCombustible = double.Parse(cantCombustible);-> convierte el valor de cantCombustible
+////de tipo string a tipo double utilizando double.Parse y lo asigna al campo cantCombustible
+////de la instancia actual de la clase Auto.
+//SetColor:¨******************************************************************************
+//1°forma de hacer SetColor:
+//public bool SetColor(Color nuevoColor)
+//{
+//    bool retorno;
+//    if (nuevoColor != Color.Green && nuevoColor != Color.Red && nuevoColor != Color.Blue)
+//    {
+
+//        retorno = false;
+//    }
+//    else 
+//    { 
+//        this.color = nuevoColor;
+//        retorno = true;
+//    }
+
+//    return retorno;
+//}
+//2°forma de hacer el SetColor
+//public bool SetColor(Color nuevoColor)
+//{
+//    bool retorno;
+//    if (nuevoColor == Color.Green && nuevoColor == Color.Red && nuevoColor == Color.Blue)
+//    {
+//        this.color = nuevoColor;
+//        retorno = false;
+//    }
+//    else
+//    {
+//        retorno = true;
+
+//    }
+
+//    return retorno;
+//}
+//public bool SetColor(Color nuevoColor)
+//{
+//    bool retorno = false;
+//    if (nuevoColor != Color.Green && nuevoColor != Color.Red && nuevoColor != Color.Blue)
+//    {
+//        this.color = nuevoColor;
+//        retorno = true;
+//    }
+
+//    return retorno;
+//}
+//**********************//Metodo para validar o convertir color//*************************************
+//public bool ConvertirStringEnColor(string nuevoColor) 
+//{//modifico componente (atributo) propio del objeto uso metodo de instancia
+//    bool retorno = true;
+//    switch (nuevoColor.ToLower()) //lo puede cambiar siempre y cuando sea rojo,azul o negro
+//    {
+//        case "rojo":
+//            this.color = Color.Red;
+//            break;
+//        case "azul":
+//            this.color = Color.Blue;
+//            break;
+//        case "negro":
+//            this.color = Color.Black;
+//            break;
+//        default:
+//            retorno = false;
+//            break;
+//    }
+//    return retorno;
+//}

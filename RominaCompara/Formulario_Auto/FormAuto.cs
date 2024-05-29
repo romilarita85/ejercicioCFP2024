@@ -13,22 +13,21 @@ namespace Formulario_Auto
         private void FormAuto_Load(object sender, EventArgs e)
         {//inicializas misAutos y cargas los colores válidos en el ComboBox cmb_colores.
             this.misAutos = new List<Auto>();
-            this.cmb_colores.Items.Add(Auto.ColoresValidos().ToArray());
+            //this.cmb_colores.Items.AddRange(Auto.ColoresValidos().ToArray());
         }
-
         private void btn_crear_Click(object sender, EventArgs e) //EVENTO
         {// creas un nuevo objeto Auto con la información ingresada por el usuario,
          // y luego preguntas al usuario si desea agregar el auto a la lista de autos.
          // Si la respuesta es afirmativa, agregas el auto a la lista misAutos.
             string marca = this.txt_marca.Text;
-            string combustible = this.txt_combustible.Text;
+            string cantCombustible = this.txt_combustible.Text;
             Color color = (Color)this.cmb_colores.SelectedItem;
 
             DialogResult respuesta; // crear variable del tipo resultado
            
-            if (this.ValidarEntradas(marca,combustible)) 
+            if (this.ValidarEntradas(marca,cantCombustible)) 
             {
-                Auto miAuto = new Auto(marca, combustible, color); //crear objeto del tipo auto
+                Auto miAuto = new Auto(marca, cantCombustible, color); //crear objeto del tipo auto
                 respuesta = MessageBox.Show($"Decea agregar el auto {miAuto.GetMarca()}","Agregar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);//se muestra el mensaje
                //parametros del MessageBox ->( ******************MENSAJE***********+****,**TITULO**, Que BOTONES va a tener ,********ICONO**********)
 
@@ -42,7 +41,6 @@ namespace Formulario_Auto
                 }
                 this.Limpiar();
             } 
-            
         }
         private void Limpiar() //FUNCION
         {//función privada para borrar o "limpiar" los campos de entrada del formulario(interfaz gráfica de usuario).
@@ -54,7 +52,8 @@ namespace Formulario_Auto
         private void btn_mostrar_Click(object sender, EventArgs e)//EVENTO
         {//muestras los autos en el ListBox lst_misAutos.
             this.VaciarLst();
-            this.lst_misAutos.Items.AddRange(misAutos.ToArray());
+            //this.lst_misAutos.Items.AddRange(misAutos.ToArray());
+            this.lst_misAutos.DataSource = misAutos;
         }
 
         private void btn_limpiar_Click(object sender, EventArgs e)//EVENTO
@@ -85,10 +84,11 @@ namespace Formulario_Auto
         private void CargarCMB(List<Color>colores)//METODO->Cargas los colores en el ComboBox cmb_colores.
         {//El método CargarCMB es parte de una clase que tiene un control ComboBox (cmb_colores)
          //y se utiliza para cargar una lista de colores en ese ComboBox.
-            foreach (Color color in colores)
-            {
-                this.cmb_colores.Items.Add(color);  
-            }
+         //foreach (Color color in colores)
+         //{
+         //    this.cmb_colores.Items.Add(color);  
+         //}
+            this.cmb_colores.DataSource = colores;
         }
     }
 }
