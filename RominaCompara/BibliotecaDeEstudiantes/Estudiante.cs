@@ -44,7 +44,7 @@ namespace BibliotecaDeEstudiantes
          //●El método privado CalcularPromedio retornará el promedio de las dos notas.
         private double CalcularPromedio()
         {
-            double promedio = ((double)notaPrimerParcial + notaSegundoParcial) / 2.0;
+            double promedio = ((double)notaPrimerParcial + notaSegundoParcial) / 2;
             return promedio;
         }
 
@@ -62,12 +62,38 @@ namespace BibliotecaDeEstudiantes
             }
             return resultado;
          
-        }
-        public string Mostrar() 
+        } 
+        //●	El método Mostrar utilizará StringBuilder para armar una cadena de texto con todos los datos de los alumnos:
+//Nombre, apellido y legajo.
+//Nota del primer y segundo parcial.
+//Promedio.
+//Nota final. Se mostrará sólo si el valor es distinto de -1, caso contrario
+//se mostrará la leyenda "Alumno desaprobado".
+        public string Mostrar()
         {
-            return $"Nombre: {nombre}| Apellido: {apellido}| Legajo: {legajo}|Nota del primer parcial {notaPrimerParcial}|Nota del segundo parcial:{notaSegundoParcial}| Promedio:{CalcularPromedio}";
+            double notaFinal = CalcularNotaFinal();
+            if (CalcularNotaFinal() == -1)
+            {
+                return $"Nombre: {nombre}\n" +
+                   $"Apellido: {apellido}\n" +
+                   $"Legajo: {legajo}\n" +
+                   $"Nota del primer parcial: {notaPrimerParcial}\n" +
+                   $"Nota del segundo parcial: {notaSegundoParcial}\n" +
+                   $"Promedio: {CalcularPromedio()}\n" +
+                   "Alumno desaprovado";
+            }
+            else 
+            {
+                return $"Nombre: {nombre}\n" +
+                   $"Apellido: {apellido}\n" +
+                   $"Legajo: {legajo}\n" +
+                   $"Nota del primer parcial: {notaPrimerParcial}\n" +
+                   $"Nota del segundo parcial: {notaSegundoParcial}\n" +
+                   $"Promedio: {CalcularPromedio()}\n" +
+                   $"Nota final: {notaFinal}";
+
+            }
         }
 
-        
     }
 }

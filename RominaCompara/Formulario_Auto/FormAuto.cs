@@ -6,28 +6,29 @@ namespace Formulario_Auto
     {
         List<Auto> misAutos;
         //int cantidadDeAutos;
-        public FormAuto()//En el constructor FormAuto, inicializas la lista de autos misAutos               
-        {//y configuras los eventos del formulario.
+        public FormAuto()//En el constructor FormAuto, inicializa la lista de autos misAutos y configura los eventos del formulario.            
+        {
             InitializeComponent();
         }
         private void FormAuto_Load(object sender, EventArgs e)
         {//inicializas misAutos y cargas los colores válidos en el ComboBox cmb_colores.
             this.misAutos = new List<Auto>();
             //this.cmb_colores.Items.AddRange(Auto.ColoresValidos().ToArray());
+            List<Color> coloresValidos = Auto.ColoresValidos();
         }
         private void btn_crear_Click(object sender, EventArgs e) //EVENTO
-        {// creas un nuevo objeto Auto con la información ingresada por el usuario,
-         // y luego preguntas al usuario si desea agregar el auto a la lista de autos.
-         // Si la respuesta es afirmativa, agregas el auto a la lista misAutos.
+        {//-creas un nuevo objeto Auto con la información ingresada por el usuario,
+         //-preguntas al usuario si desea agregar el auto a la lista de autos.
+         //-Si la respuesta es afirmativa, agrega el auto a la lista misAutos.
             string marca = this.txt_marca.Text;
-            string cantCombustible = this.txt_combustible.Text;
+            string combustible = this.txt_combustible.Text;
             Color color = (Color)this.cmb_colores.SelectedItem;
 
             DialogResult respuesta; // crear variable del tipo resultado
            
-            if (this.ValidarEntradas(marca,cantCombustible)) 
+            if (this.ValidarEntradas(marca,combustible)) 
             {
-                Auto miAuto = new Auto(marca, cantCombustible, color); //crear objeto del tipo auto
+                Auto miAuto = new Auto(marca, combustible, color); //crear objeto del tipo auto
                 respuesta = MessageBox.Show($"Decea agregar el auto {miAuto.GetMarca()}","Agregar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);//se muestra el mensaje
                //parametros del MessageBox ->( ******************MENSAJE***********+****,**TITULO**, Que BOTONES va a tener ,********ICONO**********)
 
@@ -60,7 +61,7 @@ namespace Formulario_Auto
         { //vacías el ListBox lst_misAutos.
             this.VaciarLst();
         }
-        private void VaciarLst() //metodo (no asociado a un evento)
+        private void VaciarLst() //METODO (no asociado a un evento)
         {
             this.lst_misAutos.Items.Clear();
 

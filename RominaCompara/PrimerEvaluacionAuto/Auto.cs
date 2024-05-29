@@ -88,7 +88,7 @@ namespace PrimerEvaluacionAuto
             return retorno;
         }
 
-        public bool ConvertirStringEnCombustible(string combustible) //metodo para convertir o castear combutible
+        public bool ConvertirStringEnCombustible(string combustible) //metodo para convertir o castear combustible
         {//modifico componente (atributo) propio del objeto uso metodo de instancia
             bool retorno = false;
 
@@ -99,7 +99,6 @@ namespace PrimerEvaluacionAuto
             }
             return retorno;
         }
-        
         ////El método ConvertirStringAInt intenta convertir una cadena de texto en un número decimal (double)
         ////La función double.TryParse intenta realizar esta conversión y devuelve un booleano
         ////que indica si la operación fue exitosa o no.
