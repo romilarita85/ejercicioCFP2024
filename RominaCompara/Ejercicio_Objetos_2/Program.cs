@@ -30,9 +30,9 @@ namespace Ejercicio_Objetos_2
         static void Main(string[] args)
         {
             //●	Crear tres instancias de la clase Estudiante (tres objetos) en el método Main.
-            Estudiante estudianteUno = new Estudiante("Roxana", "Sanchez", 00001);
-            Estudiante estudianteDos = new Estudiante("Jorge", "Birman", 0002);
-            Estudiante estudianteTres = new Estudiante("Carolina", "Perez", 0003);
+            Alumno estudianteUno = new Alumno("Roxana", "Sanchez", 00001);
+            Alumno estudianteDos = new Alumno("Jorge", "Birman", 0002);
+            Alumno estudianteTres = new Alumno("Carolina", "Perez", 0003);
             
             //●	Cargar las notas del primer y segundo parcial a todos los alumnos.
             //Dos deberán estar aprobados y uno desaprobado.

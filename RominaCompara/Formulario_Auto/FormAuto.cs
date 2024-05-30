@@ -6,7 +6,7 @@ namespace Formulario_Auto
     {
         List<Auto> misAutos;
         //int cantidadDeAutos;
-        public FormAuto()//En el constructor FormAuto, inicializa la lista de autos misAutos y configura los eventos del formulario.            
+        public FormAuto()//CONSTRUCTOR FormAuto, inicializa la lista de autos misAutos y configura los eventos del formulario.            
         {
             InitializeComponent();
         }
@@ -63,7 +63,10 @@ namespace Formulario_Auto
         }
         private void VaciarLst() //METODO (no asociado a un evento)
         {
-            this.lst_misAutos.Items.Clear();
+            this.lst_misAutos.Items.Clear();//Error:System.ArgumentException:
+                                            //'No se puede modificar la colección Items cuando
+                                            //está establecida la propiedad DataSource.'
+
 
         }
         private bool ValidarEntradas(string marca, string combustible) //Metodo-> Creo un constructor 3°
