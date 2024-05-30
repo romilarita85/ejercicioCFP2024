@@ -14,7 +14,7 @@ namespace Formulario_Auto
         {//inicializas misAutos y cargas los colores válidos en el ComboBox cmb_colores.
             this.misAutos = new List<Auto>();
             //this.cmb_colores.Items.AddRange(Auto.ColoresValidos().ToArray());
-            List<Color> coloresValidos = Auto.ColoresValidos();
+            this.cmb_colores.DataSource= Auto.ColoresValidos();
         }
         private void btn_crear_Click(object sender, EventArgs e) //EVENTO
         {//-creas un nuevo objeto Auto con la información ingresada por el usuario,
