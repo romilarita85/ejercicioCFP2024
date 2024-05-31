@@ -4,14 +4,25 @@ using System;
 namespace BibliotecaDeEstudiantes
 {
     public class Alumno
-    {
-        private string apellido;
+    {   //private int legajo;
+        private string legajo;
         private string nombre;
-        private int legajo;
+        private string apellido;
         private int notaPrimerParcial;
         private int notaSegundoParcial;
         private static Random random;
         //static Random random = new Random();
+        public string Legajo
+        {
+            set
+            {
+                this.legajo = value;
+            }
+            get 
+            {
+                //return; //captura 1394
+            }
+        }
 
         //CONSTRUCTOR*************************************************************
         //●	Tendrá un constructor estático que inicializará el atributo estático random.
@@ -22,32 +33,30 @@ namespace BibliotecaDeEstudiantes
 
         //●	Tendrá un constructor de instancia que inicializará los atributos
         //nombre, apellido y legajo.
-        public Alumno(string nombre, string apellido, int legajo)
+        public Alumno(string legajo, string nombre, string apellido)
         {
+            this.legajo = legajo;
             this.nombre = nombre;
             this.apellido = apellido;
-            this.legajo = legajo;
-            
         }
         //METODO SET**************************************************************
         //●	El método setter SetNotaPrimerParcial permitirá cambiar
         //el valor del atributo notaPrimerParcial.
         public void SetNotaPrimerParcial(int nota)
         {
-            notaPrimerParcial = nota;
+            this.notaPrimerParcial = nota;
         }
         //●	El método setter SetNotaSegundoParcial permitirá cambiar
         //el valor del atributo notaSegundoParcial.
         public void SetNotaSegundoParcial(int nota)
         {
-            notaSegundoParcial = nota;
+            this.notaSegundoParcial = nota;
         }
         //COMPORTAMIENTOS************************************************************
          //●El método privado CalcularPromedio retornará el promedio de las dos notas.
         private double CalcularPromedio()
         {
-            double promedio = ((double)notaPrimerParcial + notaSegundoParcial) / 2;
-            return promedio;
+            return ((double)this.notaPrimerParcial + this.notaSegundoParcial) / 2;
         }
 
         //●	El método CalcularNotaFinal deberá retornar la nota del final
@@ -57,49 +66,64 @@ namespace BibliotecaDeEstudiantes
         public double CalcularNotaFinal()
         {
             double resultado = -1;
-            if ((notaPrimerParcial >= 4) && (notaSegundoParcial >= 4))
+            if ((this.notaPrimerParcial >= 4) && (this.notaSegundoParcial >= 4))
             {
-                double notaFinal = random.Next(6, 11);//numero aleatorio entre 6 y 10
-                resultado = notaFinal;
+                resultado = Alumno.random.Next(6, 10);//numero aleatorio entre 6 y 10
             }
             return resultado;
          
-        } 
+        }
         //●	El método Mostrar utilizará StringBuilder para armar una cadena de texto con todos los datos de los alumnos:
-//Nombre, apellido y legajo.
-//Nota del primer y segundo parcial.
-//Promedio.
-//Nota final. Se mostrará sólo si el valor es distinto de -1, caso contrario
-//se mostrará la leyenda "Alumno desaprobado".
-        
-
-
-
-        //public string Mostrar()
-        //{
-        //    double notaFinal = CalcularNotaFinal();
-        //    if (CalcularNotaFinal() == -1)
-        //    {
-        //        return $"Nombre: {nombre}\n" +
-        //           $"Apellido: {apellido}\n" +
-        //           $"Legajo: {legajo}\n" +
-        //           $"Nota del primer parcial: {notaPrimerParcial}\n" +
-        //           $"Nota del segundo parcial: {notaSegundoParcial}\n" +
-        //           $"Promedio: {CalcularPromedio()}\n" +
-        //           "Alumno desaprovado";
-        //    }
-        //    else 
-        //    {
-        //        return $"Nombre: {nombre}\n" +
-        //           $"Apellido: {apellido}\n" +
-        //           $"Legajo: {legajo}\n" +
-        //           $"Nota del primer parcial: {notaPrimerParcial}\n" +
-        //           $"Nota del segundo parcial: {notaSegundoParcial}\n" +
-        //           $"Promedio: {CalcularPromedio()}\n" +
-        //           $"Nota final: {notaFinal}";
-
-        //    }
-        //}
-
+        //Nombre, apellido y legajo.
+        //Nota del primer y segundo parcial.
+        //Promedio.
+        //Nota final. Se mostrará sólo si el valor es distinto de -1, caso contrario
+        //se mostrará la leyenda "Alumno desaprobado".
+        public string Mostrar()
+        {
+            // Implementa la lógica para mostrar los datos del estudiante
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Alumno: {this.nombre},{this.apellido} - Legajo n°: {this.legajo}");
+            sb.AppendLine($"Nota 1° parcial: {this.notaPrimerParcial}");
+            sb.AppendLine($"Nota 2° parcial: {this.notaSegundoParcial}");
+            sb.AppendLine($"Promedio: {this.CalcularPromedio()}");
+            double notaFinal = this.CalcularNotaFinal();
+            
+            if (notaFinal != -1)
+            {
+                sb.AppendLine($"Nota final: {notaFinal}");
+            }
+            else
+            {
+                sb.AppendLine("Alumno desaprobado");
+            }
+            return sb.ToString();
+        }
     }
 }
+
+//public string Mostrar()
+//{
+//    double notaFinal = CalcularNotaFinal();
+//    if (CalcularNotaFinal() == -1)
+//    {
+//        return $"Nombre: {nombre}\n" +
+//           $"Apellido: {apellido}\n" +
+//           $"Legajo: {legajo}\n" +
+//           $"Nota del primer parcial: {notaPrimerParcial}\n" +
+//           $"Nota del segundo parcial: {notaSegundoParcial}\n" +
+//           $"Promedio: {CalcularPromedio()}\n" +
+//           "Alumno desaprovado";
+//    }
+//    else 
+//    {
+//        return $"Nombre: {nombre}\n" +
+//           $"Apellido: {apellido}\n" +
+//           $"Legajo: {legajo}\n" +
+//           $"Nota del primer parcial: {notaPrimerParcial}\n" +
+//           $"Nota del segundo parcial: {notaSegundoParcial}\n" +
+//           $"Promedio: {CalcularPromedio()}\n" +
+//           $"Nota final: {notaFinal}";
+
+//    }
+//}
