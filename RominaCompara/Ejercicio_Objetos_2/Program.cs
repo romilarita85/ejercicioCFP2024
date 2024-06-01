@@ -30,45 +30,44 @@ namespace Ejercicio_Objetos_2
         static void Main(string[] args)
         {//En el método Main, se crea una instancia de la clase Random para generar números aleatorios.
 
-            Alumno alumno1 = new Alumno("10001", "Roxana", "Gomez");
+            Alumno alumno1 = new Alumno("1006", "Roxana", "Gomez");
 
-            //alumno1.
+            alumno1.NotaPrimerParcial = 8; //Acceso a la PROPIEDAD
+            alumno1.SetNotaPrimerParcial(8);//Uso el METODO   
+            //alumno1.Legajo = "1007"; // voy a poder consultar ese valor
 
-
+            Console.WriteLine(alumno1.Legajo);
 
             Random rand = new Random();
         
             List<Alumno> alumnos = new List<Alumno>()
             {//En la declaracion de la lista me guardo todos los alumnos
-                new Alumno("10001","Roxana","Gomez"),
-                new Alumno("10002","Carlos","Ramos"),
-                new Alumno("10003","Cesar","Vivas"),
-                new Alumno("10004","Clara","Sanchez"),
-                new Alumno("10005", "Andrea", "Alvares")
+                new Alumno("1001","Roxana","Gomez"),
+                new Alumno("1002","Carlos","Ramos"),
+                new Alumno("1003","Cesar","Vivas"),
+                new Alumno("1004","Clara","Sanchez"),
+                new Alumno("1005", "Andrea", "Alvares")
             };
-            //Se crea una lista de alumnos (List<Alumno> alumnos) que almacenará instancias de la clase Alumno.
+            //Se crea una lista de alumnos(List<Alumno> alumnos) que almacenará instancias de la clase Alumno.
             //Dentro de la lista de alumnos, se crean instancias de Alumno con diferentes
             //nombres, apellidos y números de identificación.
             foreach (Alumno a in alumnos)
             {
-                a.SetNotaPrimerParcial(rand.Next(1,10));
+                a.SetNotaPrimerParcial(rand.Next(1, 10));
                 a.SetNotaSegundoParcial(rand.Next(1, 10));
-             //Se itera sobre cada instancia de Alumno en la lista y se asignan notas aleatorias
-             //para el primer y segundo parcial utilizando
-             //el método SetNotaPrimerParcial y SetNotaSegundoParcial de la clase Alumno.
+                //Se itera sobre cada instancia de Alumno en la lista y se asignan notas aleatorias
+                //para el primer y segundo parcial utilizando
+                //el método SetNotaPrimerParcial y SetNotaSegundoParcial de la clase Alumno.
             }
             foreach (Alumno item in alumnos)
             {
                 Console.WriteLine(item.Mostrar());
-             //Se itera nuevamente sobre cada instancia de Alumno en la lista
-             //y se muestra la información de cada alumno utilizando el método Mostrar de la clase Alumno.
+                //Se itera nuevamente sobre cada instancia de Alumno en la lista
+                //y se muestra la información de cada alumno utilizando el método Mostrar de la clase Alumno.
             }
         }
     }
 }
-//el código simula el proceso de carga de notas para un grupo de alumnos y luego muestra sus datos,
-//incluyendo sus nombres, apellidos, números de identificación, notas del primer y segundo parcial,
-//promedio y, en caso de aprobar, la nota final.
 //***********************************MULTIPLES INSTANCIAS**************************************************
 //using BibliotecaDeEstudiantes;
 //namespace Ejercicio_Objetos_2

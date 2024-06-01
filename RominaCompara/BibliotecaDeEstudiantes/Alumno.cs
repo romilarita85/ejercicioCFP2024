@@ -2,7 +2,7 @@
 using System.Text;
 using System;
 namespace BibliotecaDeEstudiantes
-{
+{                                              //CAPTURA 1412
     public class Alumno
     {   //private int legajo;
         private string legajo;
@@ -12,18 +12,77 @@ namespace BibliotecaDeEstudiantes
         private int notaSegundoParcial;
         private static Random random;
         //static Random random = new Random();
-        public string Legajo
+
+        //PROPIEDADES ********************************************************************************************
+        //puedo modificar la visibilidad del get/set
+        //1°get; 2°set
+        //Validaciones dentro de un mismo metodo
+        //Enmascarar un metodo dentro de una propiedad 
+        //Va a hacer referencia a un atributo propio de la clase
+        //puedo poner el nombre que quiera pero debe empezar con mayuscula ej: Legajo, Promedio,NotaFinal
+        public string Legajo //Propiedad publica de legajo (de la clase)
         {
-            set
+            get//Define el bloque de código que se ejecutará cuando se intente obtener el valor de la propiedad "Legajo".
             {
-                this.legajo = value;
+                return legajo;//Devuelve el valor de la variable de instancia "legajo".
             }
-            get 
-            {
-                //return; //captura 1394
+            set 
+            {//Define el bloque de código que se ejecutará cuando se intente asignar un valor a la propiedad "Legajo".
+                this.legajo = value;//hace referencia a lo que yo haga
+                //Asigna el valor proporcionado (value) a una variable de instancia llamada "legajo".
+                //this.legajo = string.Empty;
             }
         }
-
+        //"value" representa el valor que se está asignando a la propiedad.
+        //valor que se está asignando a la propiedad en el momento de la asignación
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+       
+        public static Random Random { get; set; }
+        public int NotaPrimerParcial //Propiedad NotaPrimerParcial
+        { 
+            get => notaPrimerParcial;
+            set 
+            {
+                if (value >= 0 && value <= 10)
+                {
+                    notaPrimerParcial = value;
+                }
+                else 
+                {
+                    notaPrimerParcial = 0;
+                }
+            }    
+        }
+        public int NotaSegundoParcial //Propiedad NotaSegundoParcial
+        {
+            get => notaSegundoParcial;
+            set
+            {
+                if (value >= 0 && value <= 10)
+                {
+                    notaSegundoParcial = value;
+                }
+                else
+                {
+                    notaSegundoParcial = 0;
+                }
+            }
+        }
+        public double NotaFinal //Propiedad NotaFinal
+        {
+            get 
+            { 
+                return this.CalcularNotaFinal();
+            }
+        }
+        public double Promedio//Propiedad Promedio
+        {
+            get
+            {
+                return this.CalcularPromedio();
+            }
+        }
         //CONSTRUCTOR*************************************************************
         //●	Tendrá un constructor estático que inicializará el atributo estático random.
         static Alumno() //CONSTRUCTOR ESTATICO
