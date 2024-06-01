@@ -22,7 +22,7 @@
 //●	Cargar las notas del primer y segundo parcial a todos los alumnos.
 //Dos deberán estar aprobados y uno desaprobado.
 //●	Mostrar los datos de todos los alumnos.
-using BibliotecaDeEstudiantes;
+using BibliotecaDeAlumnos;
 namespace Ejercicio_Objetos_2
 {
     internal class Program

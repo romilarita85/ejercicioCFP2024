@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeEstudiantes\\BibliotecaDeEstudiantes.csproj",
-      "projectName": "BibliotecaDeEstudiantes",
-      "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeEstudiantes\\BibliotecaDeEstudiantes.csproj",
+      "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeEstudiantes\\BibliotecaDeAlumnos.csproj",
+      "projectName": "BibliotecaDeAlumnos",
+      "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeEstudiantes\\BibliotecaDeAlumnos.csproj",
       "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeEstudiantes\\obj\\",
       "projectStyle": "PackageReference",

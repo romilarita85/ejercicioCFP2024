@@ -9,11 +9,11 @@ C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\bin\Deb
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\bin\Debug\net8.0\Ejercicio_Objetos_2.runtimeconfig.json
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\bin\Debug\net8.0\Ejercicio_Objetos_2.dll
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\bin\Debug\net8.0\Ejercicio_Objetos_2.pdb
-C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\bin\Debug\net8.0\BibliotecaDeEstudiantes.dll
-C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\bin\Debug\net8.0\BibliotecaDeEstudiantes.pdb
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\obj\Debug\net8.0\Ejercici.273D291D.Up2Date
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\obj\Debug\net8.0\Ejercicio_Objetos_2.dll
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\obj\Debug\net8.0\refint\Ejercicio_Objetos_2.dll
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\obj\Debug\net8.0\Ejercicio_Objetos_2.pdb
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\obj\Debug\net8.0\Ejercicio_Objetos_2.genruntimeconfig.cache
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\obj\Debug\net8.0\ref\Ejercicio_Objetos_2.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\bin\Debug\net8.0\BibliotecaDeAlumnos.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejercicio_Objetos_2\bin\Debug\net8.0\BibliotecaDeAlumnos.pdb
