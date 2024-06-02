@@ -44,7 +44,7 @@
             lst_alumnos.BackColor = Color.LemonChiffon;
             lst_alumnos.FormattingEnabled = true;
             lst_alumnos.ItemHeight = 15;
-            lst_alumnos.Location = new Point(51, 70);
+            lst_alumnos.Location = new Point(38, 66);
             lst_alumnos.Name = "lst_alumnos";
             lst_alumnos.Size = new Size(216, 334);
             lst_alumnos.TabIndex = 0;
@@ -56,7 +56,7 @@
             lbl_alumnos.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_alumnos.ForeColor = Color.Black;
             lbl_alumnos.ImageAlign = ContentAlignment.TopRight;
-            lbl_alumnos.Location = new Point(108, 37);
+            lbl_alumnos.Location = new Point(95, 33);
             lbl_alumnos.Name = "lbl_alumnos";
             lbl_alumnos.Size = new Size(103, 25);
             lbl_alumnos.TabIndex = 2;
@@ -67,12 +67,13 @@
             // 
             btn_agregar.BackColor = Color.MediumSpringGreen;
             btn_agregar.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_agregar.Location = new Point(93, 416);
+            btn_agregar.Location = new Point(80, 412);
             btn_agregar.Name = "btn_agregar";
             btn_agregar.Size = new Size(132, 44);
             btn_agregar.TabIndex = 3;
             btn_agregar.Text = "Agregar";
             btn_agregar.UseVisualStyleBackColor = false;
+            btn_agregar.Click += btn_agregar_Click;
             // 
             // btn_evaluar
             // 
@@ -80,19 +81,20 @@
             btn_evaluar.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_evaluar.ForeColor = Color.Black;
             btn_evaluar.ImageAlign = ContentAlignment.TopCenter;
-            btn_evaluar.Location = new Point(415, 416);
+            btn_evaluar.Location = new Point(402, 412);
             btn_evaluar.Name = "btn_evaluar";
             btn_evaluar.Size = new Size(137, 44);
             btn_evaluar.TabIndex = 4;
             btn_evaluar.Text = "Evaluar";
             btn_evaluar.UseVisualStyleBackColor = false;
+            btn_evaluar.Click += btn_evaluar_Click;
             // 
             // btn_mostrar
             // 
             btn_mostrar.BackColor = SystemColors.InfoText;
             btn_mostrar.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_mostrar.ForeColor = Color.Transparent;
-            btn_mostrar.Location = new Point(669, 416);
+            btn_mostrar.Location = new Point(656, 412);
             btn_mostrar.Name = "btn_mostrar";
             btn_mostrar.Size = new Size(137, 44);
             btn_mostrar.TabIndex = 5;
@@ -105,7 +107,7 @@
             lbl_informacion.AutoSize = true;
             lbl_informacion.BackColor = Color.Transparent;
             lbl_informacion.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_informacion.Location = new Point(596, 37);
+            lbl_informacion.Location = new Point(583, 33);
             lbl_informacion.Name = "lbl_informacion";
             lbl_informacion.Size = new Size(134, 25);
             lbl_informacion.TabIndex = 6;
@@ -116,9 +118,9 @@
             dgv_informacion.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgv_informacion.BackgroundColor = Color.LemonChiffon;
             dgv_informacion.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_informacion.Location = new Point(296, 70);
+            dgv_informacion.Location = new Point(283, 66);
             dgv_informacion.Name = "dgv_informacion";
-            dgv_informacion.Size = new Size(740, 334);
+            dgv_informacion.Size = new Size(803, 334);
             dgv_informacion.TabIndex = 7;
             // 
             // FormPrincipal
@@ -128,7 +130,7 @@
             BackColor = SystemColors.Highlight;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1060, 483);
+            ClientSize = new Size(1118, 483);
             Controls.Add(dgv_informacion);
             Controls.Add(lbl_informacion);
             Controls.Add(btn_mostrar);

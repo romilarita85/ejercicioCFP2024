@@ -12,6 +12,7 @@ namespace FormAlumnos
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new FormPrincipal());
+            //Application.Run(new FormCrear());
         }
     }
 }

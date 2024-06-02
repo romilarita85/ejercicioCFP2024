@@ -38,10 +38,10 @@ public class Alumno
     }
     //"value" representa el valor que se está asignando a la propiedad.
     //valor que se está asignando a la propiedad en el momento de la asignación
-    public string Nombre { get; set; }
-    public string Apellido { get; set; }
-   
-    public static Random Random { get; set; }
+    public string Nombre { get => nombre; set => nombre = value; }
+    public string Apellido { get => apellido; set => apellido = value; }
+    public static Random Random { get => random; set => random = value; }
+
     public int NotaPrimerParcial //Propiedad NotaPrimerParcial
     { 
         get => notaPrimerParcial;
@@ -176,8 +176,6 @@ public class Alumno
     {
         return $"{apellido},{nombre}";
     }
-
-
 }
 
 //public string Mostrar()
