@@ -26,7 +26,8 @@ namespace FormAlumnos
         {//Este método maneja el evento de hacer clic en el botón "Mostrar".
          //Se establece el origen de datos del control dgv_informacion con la lista de alumnos,
          //lo que mostrará los datos de los alumnos en un DataGridView (similar a un ecxel).
-            this.dgv_informacion.DataSource = alumnos;
+            this.CargarDgv();
+
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)

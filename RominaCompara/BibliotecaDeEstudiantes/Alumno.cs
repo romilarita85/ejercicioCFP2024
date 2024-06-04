@@ -79,7 +79,7 @@ public class Alumno
             return this.CalcularNotaFinal();
         }
     }
-    public double Promedio//Propiedad Promedio
+    public double Promedio//Propiedad Promedio (para consultar datos)
     {
         get
         {
