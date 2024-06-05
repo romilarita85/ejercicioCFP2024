@@ -27,7 +27,6 @@ namespace FormAlumnos
          //Se establece el origen de datos del control dgv_informacion con la lista de alumnos,
          //lo que mostrará los datos de los alumnos en un DataGridView (similar a un ecxel).
             this.CargarDgv();
-
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)
@@ -81,7 +80,7 @@ namespace FormAlumnos
 
 //private void btn_agregar_Click(object sender, EventArgs e)
 //{
-//    FormCrear formAlta = new FormCrear();//lamamos a la clase "FormCrear"
+//    FormCrear formAlta = new FormCrear();//llamamos a la clase "FormCrear"
 //    formAlta.ShowDialog();
 //    DialogResult respuesta = MessageBox.Show("¿Desea agregar alumno a la lista?", "Agregar Alumno", MessageBoxButtons.OKCancel);
 
