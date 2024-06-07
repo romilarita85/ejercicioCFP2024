@@ -39,7 +39,17 @@ namespace Ejercicio_Objetos_2
             eva1.SetMateria = matematicas;
 
             Console.WriteLine($"alumno:{eva1.Alumno}");
-           
+
+            Console.WriteLine("Esta cursando:");
+
+            foreach (Materia item in eva1.Materias)
+            {
+                Console.WriteLine(item.Nombre);
+            }
+            Evaluacion otra = new Evaluacion (new Alumno("1006","Carlos","Rodriguez"), new List<Materia>(),"abogacia");
+
+            Evaluacion otra2 = new Evaluacion(new Alumno(), new List<Materia>());
+            
             //alumno1.NotaPrimerParcial = 8; //Acceso a la PROPIEDAD
             //alumno1.SetNotaPrimerParcial(8);//Uso el METODO   
             ////alumno1.Legajo = "1007"; // voy a poder consultar ese valor
@@ -47,7 +57,7 @@ namespace Ejercicio_Objetos_2
             //Console.WriteLine(alumno1.Legajo);
 
             //Random rand = new Random();
-        
+
             //List<Alumno> alumnos = new List<Alumno>()
             //{//En la declaracion de la lista me guardo todos los alumnos
             //    new Alumno("1001","Roxana","Gomez"),
