@@ -36,6 +36,7 @@
             btn_mostrar = new Button();
             lbl_informacion = new Label();
             dgv_informacion = new DataGridView();
+            btn_agregarMateria = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv_informacion).BeginInit();
             SuspendLayout();
             // 
@@ -81,7 +82,7 @@
             btn_evaluar.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_evaluar.ForeColor = Color.Black;
             btn_evaluar.ImageAlign = ContentAlignment.TopCenter;
-            btn_evaluar.Location = new Point(402, 412);
+            btn_evaluar.Location = new Point(753, 412);
             btn_evaluar.Name = "btn_evaluar";
             btn_evaluar.Size = new Size(137, 44);
             btn_evaluar.TabIndex = 4;
@@ -94,7 +95,7 @@
             btn_mostrar.BackColor = SystemColors.InfoText;
             btn_mostrar.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_mostrar.ForeColor = Color.Transparent;
-            btn_mostrar.Location = new Point(656, 412);
+            btn_mostrar.Location = new Point(949, 412);
             btn_mostrar.Name = "btn_mostrar";
             btn_mostrar.Size = new Size(137, 44);
             btn_mostrar.TabIndex = 5;
@@ -123,6 +124,20 @@
             dgv_informacion.Size = new Size(803, 334);
             dgv_informacion.TabIndex = 7;
             // 
+            // btn_agregarMateria
+            // 
+            btn_agregarMateria.BackColor = Color.FromArgb(255, 255, 128);
+            btn_agregarMateria.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_agregarMateria.ForeColor = Color.Black;
+            btn_agregarMateria.ImageAlign = ContentAlignment.TopCenter;
+            btn_agregarMateria.Location = new Point(309, 412);
+            btn_agregarMateria.Name = "btn_agregarMateria";
+            btn_agregarMateria.Size = new Size(153, 44);
+            btn_agregarMateria.TabIndex = 8;
+            btn_agregarMateria.Text = "Agregar materia";
+            btn_agregarMateria.UseVisualStyleBackColor = false;
+            btn_agregarMateria.Click += btn_agregarMateria_Click;
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -131,6 +146,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1118, 483);
+            Controls.Add(btn_agregarMateria);
             Controls.Add(dgv_informacion);
             Controls.Add(lbl_informacion);
             Controls.Add(btn_mostrar);
@@ -156,5 +172,6 @@
         private Button btn_mostrar;
         private Label lbl_informacion;
         private DataGridView dgv_informacion;
+        private Button btn_agregarMateria;
     }
 }

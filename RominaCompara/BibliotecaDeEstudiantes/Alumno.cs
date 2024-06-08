@@ -8,8 +8,6 @@ public class Alumno
     private string legajo;
     private string nombre;
     private string apellido;
-    private static Random random;
-    //static Random random = new Random();
 
     //PROPIEDADES ********************************************************************************************
     //Condicion de set y get al mismo tiempo.
@@ -36,17 +34,9 @@ public class Alumno
     //valor que se está asignando a la propiedad en el momento de la asignación
     public string Nombre { get => nombre; set => nombre = value; }
     public string Apellido { get => apellido; set => apellido = value; }
-    public static Random Random { get => random; set => random = value; }
 
     //CONSTRUCTOR*************************************************************
-    //●	Tendrá un constructor estático que inicializará el atributo estático random.
-    static Alumno() //CONSTRUCTOR ESTATICO
-    { 
-        Alumno.random = new Random();
-    }
-
-    //●	Tendrá un constructor de instancia que inicializará los atributos
-    //nombre, apellido y legajo.
+    //●	Tendrá un constructor de instancia que inicializará los atributos nombre, apellido y legajo.
     public Alumno(string legajo, string nombre, string apellido)
     {
         this.legajo = legajo;
@@ -222,6 +212,7 @@ public class Alumno
 //    //con un número aleatorio entre 6 y 10 incluidos siempre y
 //    //cuando las notas del primer y segundo parcial sean mayores o iguales a 4,
 //    //caso contrario la inicializará con el valor -1.
+
 //    public double CalcularNotaFinal()
 //    {
 //        double resultado = -1;
