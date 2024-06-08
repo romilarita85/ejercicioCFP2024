@@ -32,12 +32,10 @@
             lst_alumnos = new ListBox();
             lbl_alumnos = new Label();
             btn_agregar = new Button();
-            btn_evaluar = new Button();
-            btn_mostrar = new Button();
             lbl_informacion = new Label();
-            dgv_informacion = new DataGridView();
             btn_agregarMateria = new Button();
-            ((System.ComponentModel.ISupportInitialize)dgv_informacion).BeginInit();
+            lst_materias = new ListBox();
+            btn_estadoAcademico = new Button();
             SuspendLayout();
             // 
             // lst_alumnos
@@ -45,9 +43,9 @@
             lst_alumnos.BackColor = Color.LemonChiffon;
             lst_alumnos.FormattingEnabled = true;
             lst_alumnos.ItemHeight = 15;
-            lst_alumnos.Location = new Point(38, 66);
+            lst_alumnos.Location = new Point(65, 65);
             lst_alumnos.Name = "lst_alumnos";
-            lst_alumnos.Size = new Size(216, 334);
+            lst_alumnos.Size = new Size(216, 409);
             lst_alumnos.TabIndex = 0;
             // 
             // lbl_alumnos
@@ -57,7 +55,7 @@
             lbl_alumnos.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_alumnos.ForeColor = Color.Black;
             lbl_alumnos.ImageAlign = ContentAlignment.TopRight;
-            lbl_alumnos.Location = new Point(95, 33);
+            lbl_alumnos.Location = new Point(123, 28);
             lbl_alumnos.Name = "lbl_alumnos";
             lbl_alumnos.Size = new Size(103, 25);
             lbl_alumnos.TabIndex = 2;
@@ -68,61 +66,24 @@
             // 
             btn_agregar.BackColor = Color.MediumSpringGreen;
             btn_agregar.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_agregar.Location = new Point(80, 412);
+            btn_agregar.Location = new Point(95, 489);
             btn_agregar.Name = "btn_agregar";
-            btn_agregar.Size = new Size(132, 44);
+            btn_agregar.Size = new Size(153, 44);
             btn_agregar.TabIndex = 3;
-            btn_agregar.Text = "Agregar";
+            btn_agregar.Text = "Agregar alumno";
             btn_agregar.UseVisualStyleBackColor = false;
             btn_agregar.Click += btn_agregar_Click;
-            // 
-            // btn_evaluar
-            // 
-            btn_evaluar.BackColor = Color.FromArgb(255, 255, 128);
-            btn_evaluar.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_evaluar.ForeColor = Color.Black;
-            btn_evaluar.ImageAlign = ContentAlignment.TopCenter;
-            btn_evaluar.Location = new Point(753, 412);
-            btn_evaluar.Name = "btn_evaluar";
-            btn_evaluar.Size = new Size(137, 44);
-            btn_evaluar.TabIndex = 4;
-            btn_evaluar.Text = "Evaluar";
-            btn_evaluar.UseVisualStyleBackColor = false;
-            btn_evaluar.Click += btn_evaluar_Click;
-            // 
-            // btn_mostrar
-            // 
-            btn_mostrar.BackColor = SystemColors.InfoText;
-            btn_mostrar.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_mostrar.ForeColor = Color.Transparent;
-            btn_mostrar.Location = new Point(949, 412);
-            btn_mostrar.Name = "btn_mostrar";
-            btn_mostrar.Size = new Size(137, 44);
-            btn_mostrar.TabIndex = 5;
-            btn_mostrar.Text = "Mostrar";
-            btn_mostrar.UseVisualStyleBackColor = false;
-            btn_mostrar.Click += btn_mostrar_Click;
             // 
             // lbl_informacion
             // 
             lbl_informacion.AutoSize = true;
             lbl_informacion.BackColor = Color.Transparent;
             lbl_informacion.Font = new Font("Harrington", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_informacion.Location = new Point(583, 33);
+            lbl_informacion.Location = new Point(376, 28);
             lbl_informacion.Name = "lbl_informacion";
-            lbl_informacion.Size = new Size(134, 25);
+            lbl_informacion.Size = new Size(98, 25);
             lbl_informacion.TabIndex = 6;
-            lbl_informacion.Text = "Informacion";
-            // 
-            // dgv_informacion
-            // 
-            dgv_informacion.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgv_informacion.BackgroundColor = Color.LemonChiffon;
-            dgv_informacion.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_informacion.Location = new Point(283, 66);
-            dgv_informacion.Name = "dgv_informacion";
-            dgv_informacion.Size = new Size(803, 334);
-            dgv_informacion.TabIndex = 7;
+            lbl_informacion.Text = "Materias";
             // 
             // btn_agregarMateria
             // 
@@ -130,13 +91,36 @@
             btn_agregarMateria.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_agregarMateria.ForeColor = Color.Black;
             btn_agregarMateria.ImageAlign = ContentAlignment.TopCenter;
-            btn_agregarMateria.Location = new Point(309, 412);
+            btn_agregarMateria.Location = new Point(346, 489);
             btn_agregarMateria.Name = "btn_agregarMateria";
             btn_agregarMateria.Size = new Size(153, 44);
             btn_agregarMateria.TabIndex = 8;
             btn_agregarMateria.Text = "Agregar materia";
             btn_agregarMateria.UseVisualStyleBackColor = false;
             btn_agregarMateria.Click += btn_agregarMateria_Click;
+            // 
+            // lst_materias
+            // 
+            lst_materias.FormattingEnabled = true;
+            lst_materias.ItemHeight = 15;
+            lst_materias.Location = new Point(315, 65);
+            lst_materias.Name = "lst_materias";
+            lst_materias.Size = new Size(216, 409);
+            lst_materias.TabIndex = 9;
+            // 
+            // btn_estadoAcademico
+            // 
+            btn_estadoAcademico.BackColor = SystemColors.InfoText;
+            btn_estadoAcademico.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_estadoAcademico.ForeColor = Color.White;
+            btn_estadoAcademico.ImageAlign = ContentAlignment.TopCenter;
+            btn_estadoAcademico.Location = new Point(608, 489);
+            btn_estadoAcademico.Name = "btn_estadoAcademico";
+            btn_estadoAcademico.Size = new Size(153, 44);
+            btn_estadoAcademico.TabIndex = 10;
+            btn_estadoAcademico.Text = "Crear estado academico";
+            btn_estadoAcademico.UseVisualStyleBackColor = false;
+            btn_estadoAcademico.Click += btn_estadoAcademico_Click;
             // 
             // FormPrincipal
             // 
@@ -145,12 +129,11 @@
             BackColor = SystemColors.Highlight;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1118, 483);
+            ClientSize = new Size(840, 545);
+            Controls.Add(btn_estadoAcademico);
+            Controls.Add(lst_materias);
             Controls.Add(btn_agregarMateria);
-            Controls.Add(dgv_informacion);
             Controls.Add(lbl_informacion);
-            Controls.Add(btn_mostrar);
-            Controls.Add(btn_evaluar);
             Controls.Add(btn_agregar);
             Controls.Add(lbl_alumnos);
             Controls.Add(lst_alumnos);
@@ -158,7 +141,6 @@
             Name = "FormPrincipal";
             Text = "Alumnos";
             Load += FormPrincipal_Load;
-            ((System.ComponentModel.ISupportInitialize)dgv_informacion).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -168,10 +150,9 @@
         private ListBox lst_alumnos;
         private Label lbl_alumnos;
         private Button btn_agregar;
-        private Button btn_evaluar;
-        private Button btn_mostrar;
         private Label lbl_informacion;
-        private DataGridView dgv_informacion;
         private Button btn_agregarMateria;
+        private ListBox lst_materias;
+        private Button btn_estadoAcademico;
     }
 }

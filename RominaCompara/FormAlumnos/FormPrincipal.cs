@@ -25,13 +25,6 @@ namespace FormAlumnos
             this.lst_alumnos.DataSource = alumnos;
         }//Todas la listas tienen que estar inicializadas en el Load
 
-        private void btn_mostrar_Click(object sender, EventArgs e)
-        {//Este método maneja el evento de hacer clic en el botón "Mostrar".
-         //Se establece el origen de datos del control dgv_informacion con la lista de alumnos,
-         //lo que mostrará los datos de los alumnos en un DataGridView (similar a un ecxel).
-            this.CargarDgv();
-        }
-
         private void btn_agregar_Click(object sender, EventArgs e)
         {//Este método maneja el evento de hacer clic en el botón "Agregar".
             FormCrear formAlta = new FormCrear();//lamamos a la clase "FormCrear"
@@ -54,12 +47,11 @@ namespace FormAlumnos
             lst_alumnos.DataSource = null;
             lst_alumnos.DataSource = alumnos;
         }
-        private void CargarDgv()
-        {//Este método se encarga de cargar la lista de alumnos en el control dgv_informacion.
-            dgv_informacion.DataSource = null;
-            dgv_informacion.DataSource = alumnos;
+        private void CargarListaMaterias()
+        {//Este método se encarga de cargar la lista de materias en el control lst_materias.
+            lst_materias.DataSource = null;
+            lst_materias.DataSource = materias;
         }
-
         private void btn_evaluar_Click(object sender, EventArgs e)
         {//Este método maneja el evento de hacer clic en el botón "Evaluar".
          //Genera notas aleatorias para cada alumno en la lista.
@@ -67,12 +59,23 @@ namespace FormAlumnos
         }
         private void btn_agregarMateria_Click(object sender, EventArgs e)
         {
-            FormAltaMateria formAltaMateria = new FormAltaMateria();  
+            FormAltaMateria formAltaMateria = new FormAltaMateria();
+
             formAltaMateria.ShowDialog();
+
             if (formAltaMateria.DialogResult == DialogResult.OK)
             {
                 materias.Add(formAltaMateria.MiMateria);
+                CargarListaMaterias();
             }
+        }
+
+        private void btn_estadoAcademico_Click(object sender, EventArgs e)
+        {
+            Alumno alumno = alumnos[0];
+            List<Materia> lista = materias;
+            string carrera = "Trayecto programacion";
+            ForEstadoAcademico estadoAcademico = new ForEstadoAcademico();    
         }
     }
 }

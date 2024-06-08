@@ -32,23 +32,23 @@ namespace Ejercicio_Objetos_2
 
             Alumno alumno1 = new Alumno("1006", "Roxana", "Gomez");
            
-            Materia matematicas = new Materia("matematica", 3);
+            //Materia matematicas = new Materia("matematica", 3);
            
-            Evaluacion eva1= new Evaluacion(alumno1);
+            //EstadoAcademico eva1= new EstadoAcademico(alumno1);
 
-            eva1.SetMateria = matematicas;
+            //eva1.SetMateria = matematicas;
 
-            Console.WriteLine($"alumno:{eva1.Alumno}");
+            //Console.WriteLine($"alumno:{eva1.Alumno}");
 
-            Console.WriteLine("Esta cursando:");
+            //Console.WriteLine("Esta cursando:");
 
-            foreach (Materia item in eva1.Materias)
-            {
-                Console.WriteLine(item.Nombre);
-            }
-            Evaluacion otra = new Evaluacion (new Alumno("1006","Carlos","Rodriguez"), new List<Materia>(),"abogacia");
+            //foreach (Materia item in eva1.Materias)
+            //{
+            //    Console.WriteLine(item.Nombre);
+            //}
+            //EstadoAcademico otra = new EstadoAcademico (new Alumno("1006","Carlos","Rodriguez"), new List<Materia>(),"abogacia");
 
-            Evaluacion otra2 = new Evaluacion(new Alumno(), new List<Materia>());
+            //EstadoAcademico otra2 = new EstadoAcademico(new Alumno(), new List<Materia>());
             
             //alumno1.NotaPrimerParcial = 8; //Acceso a la PROPIEDAD
             //alumno1.SetNotaPrimerParcial(8);//Uso el METODO   

@@ -62,6 +62,7 @@
             // lbl_nombre
             // 
             lbl_nombre.AutoSize = true;
+            lbl_nombre.BackColor = Color.Transparent;
             lbl_nombre.Font = new Font("Segoe UI Emoji", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_nombre.Location = new Point(64, 57);
             lbl_nombre.Name = "lbl_nombre";
@@ -80,6 +81,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.images;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(405, 213);
             Controls.Add(txt_nombre);
             Controls.Add(lbl_nombre);
