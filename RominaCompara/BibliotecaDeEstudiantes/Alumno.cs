@@ -43,8 +43,8 @@ public class Alumno
         this.nombre = nombre;
         this.apellido = apellido;
     }
-    public static List<Alumno> ListaAlumnos() 
-    {
+    public static List<Alumno> ListaAlumnos()
+    {//El método ListaAlumnos() intenta crear y devolver una lista de objetos Alumno.
         return new List<Alumno>()
         {
             new Alumno("1001","Roxana","Gomez"),
@@ -175,6 +175,7 @@ public class Alumno
 //    }
 //    //CONSTRUCTOR*************************************************************
 //    //●	Tendrá un constructor estático que inicializará el atributo estático random.
+//
 //    static Alumno() //CONSTRUCTOR ESTATICO
 //    {
 //        Alumno.random = new Random();
@@ -182,6 +183,7 @@ public class Alumno
 
 //    //●	Tendrá un constructor de instancia que inicializará los atributos
 //    //nombre, apellido y legajo.
+//
 //    public Alumno(string legajo, string nombre, string apellido)
 //    {
 //        this.legajo = legajo;
@@ -191,18 +193,21 @@ public class Alumno
 //    //METODO SET**************************************************************
 //    //●	El método setter SetNotaPrimerParcial permitirá cambiar
 //    //el valor del atributo notaPrimerParcial.
+//
 //    public void SetNotaPrimerParcial(int nota)
 //    {
 //        this.notaPrimerParcial = nota;
 //    }
 //    //●	El método setter SetNotaSegundoParcial permitirá cambiar
 //    //el valor del atributo notaSegundoParcial.
+//
 //    public void SetNotaSegundoParcial(int nota)
 //    {
 //        this.notaSegundoParcial = nota;
 //    }
 //    //COMPORTAMIENTOS************************************************************
 //    //●El método privado CalcularPromedio retornará el promedio de las dos notas.
+//
 //    private double CalcularPromedio()
 //    {
 //        return ((double)this.notaPrimerParcial + this.notaSegundoParcial) / 2;

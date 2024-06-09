@@ -15,20 +15,20 @@ namespace FormAlumnos
             InitializeComponent();
         }
 
-        private void FormPrincipal_Load(object sender, EventArgs e)
-        {//Este método se ejecuta cuando el formulario principal se carga.
-         //Aquí se inicializa la lista de alumnos y se carga con algunos datos
-         //iniciales utilizando el método ListaAlumnos() de la clase Alumno.
-            this.alumnos = new List<Alumno>();
-            this.materias = new List<Materia>();
-            this.alumnos = Alumno.ListaAlumnos();
-            this.lst_alumnos.DataSource = alumnos;
+        private void FormPrincipal_Load(object sender, EventArgs e)//Evento Load
+        {//Este método se ejecuta cuando el formulario principal se carga por primera vez.
+            this.alumnos = new List<Alumno>();//inicializar lista de alumnos
+            this.materias = new List<Materia>();//inicializar lista de materias
+            this.alumnos = Alumno.ListaAlumnos();//Llamar al metodo listaAlumnos() de la clase alumno para cargar
+                                                 //algunos datos iniciales en la lista de alumnos
+            this.lst_alumnos.DataSource = alumnos;//Establecer la lista de alumnos como origen de datos
+                                                  //del control lst_alumnos
         }//Todas la listas tienen que estar inicializadas en el Load
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {//Este método maneja el evento de hacer clic en el botón "Agregar".
             FormCrear formAlta = new FormCrear();//lamamos a la clase "FormCrear"
-                                                 //Crea una instancia del formulario FormCrear y lo muestra de forma modal.
+                             //Crea una instancia del formulario FormCrear y lo muestra de forma modal.
 
             formAlta.ShowDialog();
 
@@ -38,8 +38,6 @@ namespace FormAlumnos
                 alumnos.Add(formAlta.MiAlumno);//En caso afirmativo, agrega el alumno a la lista, limpia y recarga
                 //el origen de datos de lst_alumnos utilizando el método CargarListaAlumnos().
                 CargarListaAlumnos();
-                //lst_alumnos.DataSource = null;
-                //lst_alumnos.DataSource = alumnos;
             }
         }
         private void CargarListaAlumnos()
@@ -47,11 +45,16 @@ namespace FormAlumnos
             lst_alumnos.DataSource = null;
             lst_alumnos.DataSource = alumnos;
         }
+
         private void CargarListaMaterias()
         {//Este método se encarga de cargar la lista de materias en el control lst_materias.
-            lst_materias.DataSource = null;
-            lst_materias.DataSource = materias;
+            lst_materias.DataSource = null;//establece el origen de datos del control ListBox lst_materias como null
+                                          //,lo que borra cualquier origen de datos previamente asignado al control.
+            lst_materias.DataSource = materias;//establece el origen de datos del control ListBox lst_materias
+//como una lista de materias, definida en algún lugar de tu código.
+//Significa que las materias contenidas en la lista materias se mostrarán en el control ListBox.
         }
+
         private void btn_evaluar_Click(object sender, EventArgs e)
         {//Este método maneja el evento de hacer clic en el botón "Evaluar".
          //Genera notas aleatorias para cada alumno en la lista.
@@ -59,14 +62,16 @@ namespace FormAlumnos
         }
         private void btn_agregarMateria_Click(object sender, EventArgs e)
         {
-            FormAltaMateria formAltaMateria = new FormAltaMateria();
-
-            formAltaMateria.ShowDialog();
-
+            FormAltaMateria formAltaMateria = new FormAltaMateria();//Crear una nueva instancia del
+                                                                    //formulario secundario FormAltaMateria
+            formAltaMateria.ShowDialog();// Mostrar el formulario secundario de forma modal
+            //Después de cerrar el formulario secundario, verificar si se ha confirmado la acción
             if (formAltaMateria.DialogResult == DialogResult.OK)
-            {
-                materias.Add(formAltaMateria.MiMateria);
-                CargarListaMaterias();
+            {//Comprobar si el resultado del formulario (DialogResult) es OK.
+                materias.Add(formAltaMateria.MiMateria);//Si se ha confirmado la acción,se añade la materia
+              //proporcionada por el formulario (formAltaMateria.MiMateria) a la lista materias.
+                CargarListaMaterias();//Luego, se llama al método CargarListaMaterias()
+                                      //para actualizar la lista de materias en la interfaz de usuario.
             }
         }
 
@@ -85,6 +90,9 @@ namespace FormAlumnos
 //formAlta.ShowDialog();
 //ShowDialog(): Muestra el formulario de manera modal, bloqueando la interacción con otros formularios
 //hasta que el formulario modal se cierre y el código se bloquea hasta que el formulario se cierre.
+//DialogResult:Después de mostrar el formulario con ShowDialog(), puedes obtener el resultado utilizando
+//la propiedad DialogResult del formulario secundario. Puedes realizar acciones adicionales
+//dependiendo del resultado devuelto por el formulario.
 //***********************************************************************************************
 
 //private void btn_agregar_Click(object sender, EventArgs e)
