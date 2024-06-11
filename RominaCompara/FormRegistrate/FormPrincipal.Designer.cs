@@ -1,6 +1,6 @@
 ﻿namespace FormRegistrate
 {
-    partial class Form1
+    partial class FormPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,12 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            dgv_ingresantes = new DataGridView();
+            btn_agregar = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgv_ingresantes).BeginInit();
+            SuspendLayout();
+            // 
+            // dgv_ingresantes
+            // 
+            dgv_ingresantes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv_ingresantes.Location = new Point(55, 58);
+            dgv_ingresantes.Name = "dgv_ingresantes";
+            dgv_ingresantes.Size = new Size(697, 309);
+            dgv_ingresantes.TabIndex = 0;
+            // 
+            // btn_agregar
+            // 
+            btn_agregar.Location = new Point(354, 396);
+            btn_agregar.Name = "btn_agregar";
+            btn_agregar.Size = new Size(94, 42);
+            btn_agregar.TabIndex = 1;
+            btn_agregar.Text = "Agregar";
+            btn_agregar.UseVisualStyleBackColor = true;
+            btn_agregar.Click += btn_agregar_Click;
+            // 
+            // FormPrincipal
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btn_agregar);
+            Controls.Add(dgv_ingresantes);
+            Name = "FormPrincipal";
+            Text = "Listado de ingresantes";
+            Load += FormPrincipal_Load;
+            ((System.ComponentModel.ISupportInitialize)dgv_ingresantes).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private DataGridView dgv_ingresantes;
+        private Button btn_agregar;
     }
 }
