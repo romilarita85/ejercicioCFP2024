@@ -35,7 +35,7 @@
             lbl_apellido = new Label();
             txt_apellido = new TextBox();
             txt_nombre = new TextBox();
-            gpv_genero = new GroupBox();
+            gpb_generos = new GroupBox();
             rdb_noBinario = new RadioButton();
             rbd_femenino = new RadioButton();
             rdb_masculino = new RadioButton();
@@ -51,7 +51,7 @@
             lbl_pais = new Label();
             gpb_datosIngresante.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)num_edad).BeginInit();
-            gpv_genero.SuspendLayout();
+            gpb_generos.SuspendLayout();
             gpb_cursos.SuspendLayout();
             SuspendLayout();
             // 
@@ -123,17 +123,17 @@
             txt_nombre.Size = new Size(155, 23);
             txt_nombre.TabIndex = 0;
             // 
-            // gpv_genero
+            // gpb_generos
             // 
-            gpv_genero.Controls.Add(rdb_noBinario);
-            gpv_genero.Controls.Add(rbd_femenino);
-            gpv_genero.Controls.Add(rdb_masculino);
-            gpv_genero.Location = new Point(370, 26);
-            gpv_genero.Name = "gpv_genero";
-            gpv_genero.Size = new Size(195, 124);
-            gpv_genero.TabIndex = 0;
-            gpv_genero.TabStop = false;
-            gpv_genero.Text = "Genero";
+            gpb_generos.Controls.Add(rdb_noBinario);
+            gpb_generos.Controls.Add(rbd_femenino);
+            gpb_generos.Controls.Add(rdb_masculino);
+            gpb_generos.Location = new Point(370, 26);
+            gpb_generos.Name = "gpb_generos";
+            gpb_generos.Size = new Size(195, 124);
+            gpb_generos.TabIndex = 1;
+            gpb_generos.TabStop = false;
+            gpb_generos.Text = "Genero";
             // 
             // rdb_noBinario
             // 
@@ -178,7 +178,7 @@
             gpb_cursos.Location = new Point(370, 174);
             gpb_cursos.Name = "gpb_cursos";
             gpb_cursos.Size = new Size(195, 174);
-            gpb_cursos.TabIndex = 0;
+            gpb_cursos.TabIndex = 2;
             gpb_cursos.TabStop = false;
             gpb_cursos.Text = "Cursos";
             // 
@@ -249,6 +249,7 @@
             btn_cancelar.TabIndex = 0;
             btn_cancelar.Text = "Cancelar";
             btn_cancelar.UseVisualStyleBackColor = true;
+            btn_cancelar.Click += btn_cancelar_Click;
             // 
             // btn_agregar
             // 
@@ -278,7 +279,7 @@
             Controls.Add(btn_cancelar);
             Controls.Add(btn_agregar);
             Controls.Add(lst_paises);
-            Controls.Add(gpv_genero);
+            Controls.Add(gpb_generos);
             Controls.Add(gpb_cursos);
             Controls.Add(gpb_datosIngresante);
             Name = "FormAlta";
@@ -287,8 +288,8 @@
             gpb_datosIngresante.ResumeLayout(false);
             gpb_datosIngresante.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)num_edad).EndInit();
-            gpv_genero.ResumeLayout(false);
-            gpv_genero.PerformLayout();
+            gpb_generos.ResumeLayout(false);
+            gpb_generos.PerformLayout();
             gpb_cursos.ResumeLayout(false);
             gpb_cursos.PerformLayout();
             ResumeLayout(false);
@@ -298,7 +299,7 @@
         #endregion
 
         private GroupBox gpb_datosIngresante;
-        private GroupBox gpv_genero;
+        private GroupBox gpb_generos;
         private GroupBox gpb_cursos;
         private NumericUpDown num_edad;
         private TextBox txt_apellido;
