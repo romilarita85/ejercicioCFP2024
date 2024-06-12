@@ -18,9 +18,13 @@ namespace FormRegistrate
             FormAlta formAlta = new FormAlta();
          //invocar nueva instancia del formulario formAlta 
             formAlta.ShowDialog();
-
+            
+            if (formAlta.DialogResult == DialogResult.OK)//Evaluar q respuesta de la propertie formAlta
+            {//si la respuesta fue ok agrego nuevo ingresante en mi lista ingresantes
+                ingresantes.Add(formAlta.Ingresante);//uso protertie Ingresante creada en formAlta 
+                dgv_ingresantes.DataSource = null;//nulearla por default-evita repeticiones
+                dgv_ingresantes.DataSource = ingresantes;//Cargar mi Data grew con la lista q acabo de ir incrementando
+            }           
         }
-
-    
     }
 }

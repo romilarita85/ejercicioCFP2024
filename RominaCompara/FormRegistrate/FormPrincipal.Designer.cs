@@ -35,10 +35,11 @@
             // 
             // dgv_ingresantes
             // 
+            dgv_ingresantes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgv_ingresantes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_ingresantes.Location = new Point(55, 58);
+            dgv_ingresantes.Location = new Point(40, 58);
             dgv_ingresantes.Name = "dgv_ingresantes";
-            dgv_ingresantes.Size = new Size(697, 309);
+            dgv_ingresantes.Size = new Size(722, 309);
             dgv_ingresantes.TabIndex = 0;
             // 
             // btn_agregar
