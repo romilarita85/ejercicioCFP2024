@@ -123,7 +123,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormRegistrate", "FormRegis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaDeLapiceras", "BibliotecaDeLapiceras\BibliotecaDeLapiceras.csproj", "{2E5C4293-4288-4903-B118-B9AADDF3E25D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormLapiceras", "FormLapiceras\FormLapiceras.csproj", "{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormLapicera", "FormLapiceras\FormLapicera.csproj", "{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

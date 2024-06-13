@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}|FormLapiceras\\FormLapiceras.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formlapiceras\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}|FormLapiceras\\FormLapiceras.csproj|solutionrelative:formlapiceras\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}|FormLapiceras\\FormLapiceras.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formlapiceras\\formprincioal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}|FormLapiceras\\FormLapiceras.csproj|solutionrelative:formlapiceras\\formprincioal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}|FormLapiceras\\FormLapiceras.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formlapiceras\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}|FormLapiceras\\FormLapiceras.csproj|solutionrelative:formlapiceras\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E5C4293-4288-4903-B118-B9AADDF3E25D}|BibliotecaDeLapiceras\\BibliotecaDeLapiceras.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\bibliotecadelapiceras\\lapicera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5C4293-4288-4903-B118-B9AADDF3E25D}|BibliotecaDeLapiceras\\BibliotecaDeLapiceras.csproj|solutionrelative:bibliotecadelapiceras\\lapicera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{489071E2-8D91-4B23-9FE4-143F9EFD66E2}|Libreria_Autos\\Libreria_Autos.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreria_autos\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{489071E2-8D91-4B23-9FE4-143F9EFD66E2}|Libreria_Autos\\Libreria_Autos.csproj|solutionrelative:libreria_autos\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,62 +23,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormAlta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\FormAlta.cs",
-              "RelativeDocumentMoniker": "FormLapiceras\\FormAlta.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\FormAlta.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormLapiceras\\FormAlta.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T23:54:10.708Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPrincioal.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\FormPrincioal.cs",
-              "RelativeDocumentMoniker": "FormLapiceras\\FormPrincioal.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\FormPrincioal.cs",
-              "RelativeToolTip": "FormLapiceras\\FormPrincioal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T23:53:54.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormAlta.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\FormAlta.cs",
-              "RelativeDocumentMoniker": "FormLapiceras\\FormAlta.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\FormAlta.cs",
-              "RelativeToolTip": "FormLapiceras\\FormAlta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T23:53:29.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Auto.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Auto.cs",
-              "RelativeDocumentMoniker": "Libreria_Autos\\Auto.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Auto.cs",
-              "RelativeToolTip": "Libreria_Autos\\Auto.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwCQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T22:27:26.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Lapicera.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeLapiceras\\Lapicera.cs",
               "RelativeDocumentMoniker": "BibliotecaDeLapiceras\\Lapicera.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeLapiceras\\Lapicera.cs",
               "RelativeToolTip": "BibliotecaDeLapiceras\\Lapicera.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAwDwAAABoAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAwBUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T22:17:56.656Z",
               "EditorCaption": ""

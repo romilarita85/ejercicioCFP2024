@@ -1,9 +1,8 @@
 ﻿//Crear la clase lapicera, esta debe tener los atributos:
 //color,precio,marca, nivel de tinta
-//crear propiedades todas las propiedad de lectura.
-//Un constructor que inicialice color, precio, marca.
-//Todas las lapiceras se crean con el nivel de tinta al 100.
-//Sobreescribir el metodo ToString() para que muestre todos sus valores.
+
+
+
 
 using System.Drawing;
 using System.Text.RegularExpressions;
@@ -16,18 +15,19 @@ namespace BibliotecaDeLapiceras
         private double precio;
         private string marca;
         private int nivelDeTinta;
-
+//Un constructor que inicialice color, precio, marca.
         public Lapicera(Color color, double precio, string marca)
         {
             this.color = color;
             this.precio = precio;
             this.marca = marca;
         }
+        //Todas las lapiceras se crean con el nivel de tinta al 100.
         public Lapicera(int nivelDeTinta)
         {
             this.nivelDeTinta = 100;
         }
-
+        //crear propiedades todas las propiedad de lectura.
         public double Precio { get => precio; }
         public string Marca { get => marca; }
         public int NivelDeTinta { get => nivelDeTinta; }

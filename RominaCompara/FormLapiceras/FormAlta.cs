@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-namespace FormLapiceras
+using BibliotecaDeLapiceras;
+namespace FormLapicera
 {
     public partial class FormAlta : Form
     {

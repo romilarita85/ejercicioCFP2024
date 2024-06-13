@@ -32,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\FormLapiceras.csproj",
-      "projectName": "FormLapiceras",
-      "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\FormLapiceras.csproj",
+      "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\FormLapicera.csproj",
+      "projectName": "FormLapicera",
+      "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\FormLapicera.csproj",
       "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormLapiceras\\obj\\",
       "projectStyle": "PackageReference",
