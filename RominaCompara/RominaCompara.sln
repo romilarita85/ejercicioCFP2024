@@ -119,7 +119,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formulario_Auto", "Formular
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormAlumnos", "FormAlumnos\FormAlumnos.csproj", "{8B463B4B-33F6-4288-BA7C-87C80183263D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormRegistrate", "FormRegistrate\FormRegistrate.csproj", "{427F94A1-6967-451D-8DB6-B5DC58165DFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormRegistrate", "FormRegistrate\FormRegistrate.csproj", "{427F94A1-6967-451D-8DB6-B5DC58165DFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaDeLapiceras", "BibliotecaDeLapiceras\BibliotecaDeLapiceras.csproj", "{2E5C4293-4288-4903-B118-B9AADDF3E25D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormLapiceras", "FormLapiceras\FormLapiceras.csproj", "{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -363,6 +367,14 @@ Global
 		{427F94A1-6967-451D-8DB6-B5DC58165DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{427F94A1-6967-451D-8DB6-B5DC58165DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{427F94A1-6967-451D-8DB6-B5DC58165DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5C4293-4288-4903-B118-B9AADDF3E25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5C4293-4288-4903-B118-B9AADDF3E25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5C4293-4288-4903-B118-B9AADDF3E25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5C4293-4288-4903-B118-B9AADDF3E25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

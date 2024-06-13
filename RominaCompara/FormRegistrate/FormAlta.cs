@@ -42,8 +42,7 @@ namespace FormRegistrate
 
 
             foreach (RadioButton rd in gpb_generos.Controls)//Sacar algo del tipo radioButton en cada vuelta
-            {//esa coleccion esta en mi gpv_generos y debo acceder a su atributo donde esten guardados todos los componentes por
-             //medio de la propiedad Controls
+            {
              //Saco algo del tipo radioButton en la coleccion del groupbox_genero por medio del operador punto accedo a propiedad Controls
                 if (rd.Checked == true)//para verificar el componente (rd)q acabamps de sacar-> ver en q estado esta
                 {//si es true ->fue chequeado
@@ -98,6 +97,9 @@ namespace FormRegistrate
         }
     }
 }
+
+
+
 //*******************************************************+
 //using BibliotecaDeAlumnos;
 //using System;
