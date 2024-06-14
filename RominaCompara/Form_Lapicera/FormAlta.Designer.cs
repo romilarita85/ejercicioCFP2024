@@ -32,13 +32,13 @@
             num_nivelDeTinta = new NumericUpDown();
             txt_marca = new TextBox();
             num_precio = new NumericUpDown();
-            cmb_color = new ComboBox();
+            cmb_colores = new ComboBox();
             lbl_nivelDeTinta = new Label();
             lbl_marca = new Label();
             lbl_precio = new Label();
             lbl_color = new Label();
             btn_cancelar = new Button();
-            btn_aceptar = new Button();
+            btn_agregar = new Button();
             gpv_datosLapicera.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)num_nivelDeTinta).BeginInit();
             ((System.ComponentModel.ISupportInitialize)num_precio).BeginInit();
@@ -49,7 +49,7 @@
             gpv_datosLapicera.Controls.Add(num_nivelDeTinta);
             gpv_datosLapicera.Controls.Add(txt_marca);
             gpv_datosLapicera.Controls.Add(num_precio);
-            gpv_datosLapicera.Controls.Add(cmb_color);
+            gpv_datosLapicera.Controls.Add(cmb_colores);
             gpv_datosLapicera.Controls.Add(lbl_nivelDeTinta);
             gpv_datosLapicera.Controls.Add(lbl_marca);
             gpv_datosLapicera.Controls.Add(lbl_precio);
@@ -89,13 +89,13 @@
             num_precio.TabIndex = 5;
             num_precio.Value = new decimal(new int[] { 500, 0, 0, 0 });
             // 
-            // cmb_color
+            // cmb_colores
             // 
-            cmb_color.FormattingEnabled = true;
-            cmb_color.Location = new Point(182, 53);
-            cmb_color.Name = "cmb_color";
-            cmb_color.Size = new Size(155, 24);
-            cmb_color.TabIndex = 4;
+            cmb_colores.FormattingEnabled = true;
+            cmb_colores.Location = new Point(182, 53);
+            cmb_colores.Name = "cmb_colores";
+            cmb_colores.Size = new Size(155, 24);
+            cmb_colores.TabIndex = 4;
             // 
             // lbl_nivelDeTinta
             // 
@@ -147,22 +147,22 @@
             btn_cancelar.UseVisualStyleBackColor = true;
             btn_cancelar.Click += btn_cancelar_Click;
             // 
-            // btn_aceptar
+            // btn_agregar
             // 
-            btn_aceptar.Location = new Point(311, 333);
-            btn_aceptar.Name = "btn_aceptar";
-            btn_aceptar.Size = new Size(89, 32);
-            btn_aceptar.TabIndex = 2;
-            btn_aceptar.Text = "Aceptar";
-            btn_aceptar.UseVisualStyleBackColor = true;
-
+            btn_agregar.Location = new Point(311, 333);
+            btn_agregar.Name = "btn_agregar";
+            btn_agregar.Size = new Size(89, 32);
+            btn_agregar.TabIndex = 2;
+            btn_agregar.Text = "Agregar";
+            btn_agregar.UseVisualStyleBackColor = true;
+            btn_agregar.Click += btn_agregar_Click;
             // 
             // FormAlta
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(489, 396);
-            Controls.Add(btn_aceptar);
+            Controls.Add(btn_agregar);
             Controls.Add(btn_cancelar);
             Controls.Add(gpv_datosLapicera);
             Name = "FormAlta";
@@ -181,12 +181,12 @@
         private NumericUpDown num_nivelDeTinta;
         private TextBox txt_marca;
         private NumericUpDown num_precio;
-        private ComboBox cmb_color;
+        private ComboBox cmb_colores;
         private Label lbl_nivelDeTinta;
         private Label lbl_marca;
         private Label lbl_precio;
         private Label lbl_color;
         private Button btn_cancelar;
-        private Button btn_aceptar;
+        private Button btn_agregar;
     }
 }

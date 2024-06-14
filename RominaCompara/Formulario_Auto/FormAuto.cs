@@ -15,6 +15,8 @@ namespace Formulario_Auto
             this.misAutos = new List<Auto>();
             //this.cmb_colores.Items.AddRange(Auto.ColoresValidos().ToArray());
             this.cmb_colores.DataSource= Auto.ColoresValidos();
+
+          
         }
         private void btn_crear_Click(object sender, EventArgs e) //EVENTO
         {//-creas un nuevo objeto Auto con la información ingresada por el usuario,

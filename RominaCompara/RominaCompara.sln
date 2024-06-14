@@ -123,7 +123,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormRegistrate", "FormRegis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaDeLapiceras", "BibliotecaDeLapiceras\BibliotecaDeLapiceras.csproj", "{2E5C4293-4288-4903-B118-B9AADDF3E25D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormLapicera", "FormLapiceras\FormLapicera.csproj", "{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form_Lapicera", "Form_Lapicera\Form_Lapicera.csproj", "{15DF98EF-3108-4D9A-93F8-95831F751B6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -371,10 +371,10 @@ Global
 		{2E5C4293-4288-4903-B118-B9AADDF3E25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E5C4293-4288-4903-B118-B9AADDF3E25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E5C4293-4288-4903-B118-B9AADDF3E25D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EC5B067-8C37-44AD-A0CA-834AB4B49F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15DF98EF-3108-4D9A-93F8-95831F751B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DF98EF-3108-4D9A-93F8-95831F751B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DF98EF-3108-4D9A-93F8-95831F751B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DF98EF-3108-4D9A-93F8-95831F751B6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

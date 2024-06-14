@@ -1,0 +1,12 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\bin\Debug\net8.0\BibliotecaDeLapiceras.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\bin\Debug\net8.0\BibliotecaDeLapiceras.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\bin\Debug\net8.0\BibliotecaDeLapiceras.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\obj\Debug\net8.0\BibliotecaDeLapiceras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\obj\Debug\net8.0\BibliotecaDeLapiceras.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\obj\Debug\net8.0\BibliotecaDeLapiceras.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\obj\Debug\net8.0\BibliotecaDeLapiceras.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\obj\Debug\net8.0\BibliotecaDeLapiceras.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\obj\Debug\net8.0\BibliotecaDeLapiceras.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\obj\Debug\net8.0\refint\BibliotecaDeLapiceras.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\obj\Debug\net8.0\BibliotecaDeLapiceras.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeLapiceras\obj\Debug\net8.0\ref\BibliotecaDeLapiceras.dll

@@ -62,6 +62,15 @@ namespace BibliotecaDeLapiceras
         {
              nivelDeTinta = 100;
         }
+        public static List<Color> ColoresValidos()
+        {
+            List<Color> list = new List<Color>()
+            {
+                Color.Black,Color.Blue,Color.Green,Color.Black,Color.Red
+            };
+            return list;
+        }
+       
 
     }
 

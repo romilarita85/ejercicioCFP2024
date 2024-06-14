@@ -28,12 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            dgv_listaDeLapiceras = new DataGridView();
+            btn_agregar = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgv_listaDeLapiceras).BeginInit();
+            SuspendLayout();
+            // 
+            // dgv_listaDeLapiceras
+            // 
+            dgv_listaDeLapiceras.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv_listaDeLapiceras.Location = new Point(57, 50);
+            dgv_listaDeLapiceras.Name = "dgv_listaDeLapiceras";
+            dgv_listaDeLapiceras.Size = new Size(682, 305);
+            dgv_listaDeLapiceras.TabIndex = 0;
+            // 
+            // btn_agregar
+            // 
+            btn_agregar.Location = new Point(341, 381);
+            btn_agregar.Name = "btn_agregar";
+            btn_agregar.Size = new Size(118, 45);
+            btn_agregar.TabIndex = 1;
+            btn_agregar.Text = "Agregar";
+            btn_agregar.UseVisualStyleBackColor = true;
+            btn_agregar.Click += btn_agregar_Click;
+            // 
+            // FormPrincipal
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btn_agregar);
+            Controls.Add(dgv_listaDeLapiceras);
+            Name = "FormPrincipal";
+            Text = "Listado de lapiceras";
+            Load += FormPrincipal_Load;
+            ((System.ComponentModel.ISupportInitialize)dgv_listaDeLapiceras).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private DataGridView dgv_listaDeLapiceras;
+        private Button btn_agregar;
     }
 }
