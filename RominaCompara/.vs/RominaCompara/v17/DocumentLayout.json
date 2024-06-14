@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8B463B4B-33F6-4288-BA7C-87C80183263D}|FormAlumnos\\FormAlumnos.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formalumnos\\formaltamateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B463B4B-33F6-4288-BA7C-87C80183263D}|FormAlumnos\\FormAlumnos.csproj|solutionrelative:formalumnos\\formaltamateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DF98EF-3108-4D9A-93F8-95831F751B6D}|Form_Lapicera\\Form_Lapicera.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_lapicera\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15DF98EF-3108-4D9A-93F8-95831F751B6D}|Form_Lapicera\\Form_Lapicera.csproj|solutionrelative:form_lapicera\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DF98EF-3108-4D9A-93F8-95831F751B6D}|Form_Lapicera\\Form_Lapicera.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_lapicera\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15DF98EF-3108-4D9A-93F8-95831F751B6D}|Form_Lapicera\\Form_Lapicera.csproj|solutionrelative:form_lapicera\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,48 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormAlta.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera\\FormAlta.cs",
-              "RelativeDocumentMoniker": "Form_Lapicera\\FormAlta.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera\\FormAlta.cs",
-              "RelativeToolTip": "Form_Lapicera\\FormAlta.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T23:43:21.883Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "Form_Lapicera\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera\\FormPrincipal.cs",
-              "RelativeToolTip": "Form_Lapicera\\FormPrincipal.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T23:43:27.294Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAltaMateria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormAlumnos\\FormAltaMateria.cs",
-              "RelativeDocumentMoniker": "FormAlumnos\\FormAltaMateria.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormAlumnos\\FormAltaMateria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormAlumnos\\FormAltaMateria.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T14:14:47.752Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
