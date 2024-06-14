@@ -35,6 +35,7 @@
             // 
             // dgv_listaDeLapiceras
             // 
+            dgv_listaDeLapiceras.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgv_listaDeLapiceras.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv_listaDeLapiceras.Location = new Point(57, 50);
             dgv_listaDeLapiceras.Name = "dgv_listaDeLapiceras";

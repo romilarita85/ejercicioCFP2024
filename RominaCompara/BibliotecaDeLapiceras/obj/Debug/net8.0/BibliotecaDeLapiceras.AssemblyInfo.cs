@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaDeLapiceras")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de2c8fede46a8683806c6b97025f7310cb1ba4cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fc4c2d67acb3845ac2aa112d40a362c7722d76c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaDeLapiceras")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaDeLapiceras")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

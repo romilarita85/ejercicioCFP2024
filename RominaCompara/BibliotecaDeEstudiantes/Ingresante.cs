@@ -8,12 +8,12 @@ namespace BibliotecaDeAlumnos
 {
     public class Ingresante
     {
-        string nombre;
-        string apellido;
-        int edad;
-        string genero;
-        string pais;
-        List<string> cursos;
+        private string nombre;
+        private string apellido;
+        private int edad;
+        private string genero;
+        private string pais;
+        private List<string> cursos;
 
         public Ingresante(string nombre, string apellido, int edad, string genero, string pais, List<string> cursos)
         {
@@ -35,12 +35,14 @@ namespace BibliotecaDeAlumnos
             get 
             {
                 StringBuilder sb = new StringBuilder();
+
                 for (int i = 0; i < cursos.Count; i++)
                 {
                     sb.Append(Cursos[i]);
-                    if (i<cursos.Count -1)
+                    
+                    if (i< cursos.Count - 1)
                     {
-                        sb.Append("-");
+                        sb.Append(" - ");
                     }
                 }
                 return sb.ToString();   

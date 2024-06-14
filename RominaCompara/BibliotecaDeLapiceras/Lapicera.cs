@@ -1,9 +1,5 @@
 ﻿//Crear la clase lapicera, esta debe tener los atributos:
 //color,precio,marca, nivel de tinta
-
-
-
-
 using System.Drawing;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
@@ -15,7 +11,8 @@ namespace BibliotecaDeLapiceras
         private double precio;
         private string marca;
         private int nivelDeTinta;
-//Un constructor que inicialice color, precio, marca.
+
+        //Un constructor que inicialice color, precio, marca.
         public Lapicera(Color color, double precio, string marca)
         {
             this.color = color;
@@ -27,6 +24,7 @@ namespace BibliotecaDeLapiceras
         {
             this.nivelDeTinta = 100;
         }
+
         //crear propiedades todas las propiedad de lectura.
         public double Precio { get => precio; }
         public string Marca { get => marca; }

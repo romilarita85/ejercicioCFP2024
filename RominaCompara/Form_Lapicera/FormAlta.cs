@@ -30,9 +30,10 @@ namespace Form_Lapicera
             Color color =(Color)cmb_colores.SelectedItem;
             double precio = (double)num_precio.Value;
             string marca = txt_marca.Text;
-            int nivelDeTinta = (int)num_nivelDeTinta.Value;
+            
 
-            //lapicera = new Lapicera(color, precio, marca, nivelDeTinta);
+            lapicera = new Lapicera(color,precio,marca); //crear lapicera
+            DialogResult = DialogResult.OK;
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)

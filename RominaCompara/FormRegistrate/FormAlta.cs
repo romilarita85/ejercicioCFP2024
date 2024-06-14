@@ -51,7 +51,7 @@ namespace FormRegistrate
             }
             foreach (CheckBox ck in gpb_cursos.Controls)//sacamos checkbox del grupo donde esta contenido y acceder a la propiedad Controls
             {
-                if (ck.Checked)
+                if (ck.Checked == true)
                 {
                     cursos.Add(ck.Text);
                 }
@@ -61,35 +61,7 @@ namespace FormRegistrate
             //tengo q pasarle nombre,apellido,edad,genero,pais y la lista de cursos
             DialogResult = DialogResult.OK;//dar resultado ok a la propiedad DialogResult
         }
-        //*******************Metodos
-        //private string ObtenerGeneroSeleccionado(GroupBox gpv_generos)
-        //{//Saco algo del tipo radioButton en la coleccion del groupbox_genero
-        // //por medio del operador punto accedo a propiedad Controls
-        //    string genero = string.Empty;
-        //    foreach (RadioButton rd in gpv_generos.Controls)
-        //    {
-        //        if (rd.Checked)
-        //        {
-        //            genero = rd.Text;
-        //            break;
-        //        }
-        //    }
-        //    return genero;
-        //}
-        //private string ObtenerCursosSeleccionado(CheckBox gpv_cursos)
-        //{
-        //    foreach (CheckBox ck in gpv_cursos.Controls)
-        //    {
-        //        if (ck.Checked)
-        //        {
-        //            cursos.Add(ck.Text); 
-        //            break;
-        //        }
-        //    }
-        //    return cursos;
-        //}
-
-//****************************************
+        
         private void btn_cancelar_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
@@ -97,7 +69,35 @@ namespace FormRegistrate
     }
 }
 
+//*******************Metodos
+//private string ObtenerGeneroSeleccionado(GroupBox gpv_generos)
+//{//Saco algo del tipo radioButton en la coleccion del groupbox_genero
+// //por medio del operador punto accedo a propiedad Controls
+//    string genero = string.Empty;
+//    foreach (RadioButton rd in gpv_generos.Controls)
+//    {
+//        if (rd.Checked)
+//        {
+//            genero = rd.Text;
+//            break;
+//        }
+//    }
+//    return genero;
+//}
+//private string ObtenerCursosSeleccionado(CheckBox gpv_cursos)
+//{
+//    foreach (CheckBox ck in gpv_cursos.Controls)
+//    {
+//        if (ck.Checked)
+//        {
+//            cursos.Add(ck.Text); 
+//            break;
+//        }
+//    }
+//    return cursos;
+//}
 
+//****************************************
 
 //*******************************************************+
 //using BibliotecaDeAlumnos;
