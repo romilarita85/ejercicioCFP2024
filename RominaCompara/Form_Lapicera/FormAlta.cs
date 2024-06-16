@@ -31,16 +31,28 @@ namespace Form_Lapicera
             double precio = (double)num_precio.Value;
             string marca = txt_marca.Text;
             
-
             lapicera = new Lapicera(color,precio,marca); //crear lapicera
             DialogResult = DialogResult.OK;
+
+            if (!string.IsNullOrEmpty(txt_marca.Text) && txt_marca.Text is not null && txt_marca.Text != "")
+            {
+                MessageBox.Show("¿Decea ingresar lapicera a la lista?", "Alta lapicera", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else 
+            { 
+                MessageBox.Show("Por favor, ingrese una marca.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return; // Detener la ejecución del método si la validación falla
+            }
+
+            // Si pasa la validación, continuar con el proceso
+            // Por ejemplo, guardar el nombre en una variable o hacer algo más
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
         }
+       
 
- 
     }
 }

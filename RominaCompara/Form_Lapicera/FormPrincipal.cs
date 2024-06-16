@@ -19,14 +19,18 @@ namespace Form_Lapicera
             FormAlta formAlta = new FormAlta();//crea nueva instancia del formAlta
             formAlta.ShowDialog();//ivocar nueva instancia
             
-            if (formAlta.DialogResult == DialogResult.OK)//Evaluar q respuesta de la propertie formAlta
+            if (formAlta.DialogResult == DialogResult.OK && formAlta.Lapicera is not null)//Evaluar q respuesta de la propertie formAlta
             {//si la respuesta fue ok agrego nueva lapicera a mi lista de lapiceras
                 lapiceras.Add(formAlta.Lapicera);//uso protertie Lapicera creada en formAlta 
-                dgv_listaDeLapiceras.DataSource = null;//nulearla por default-evita repeticiones
-                dgv_listaDeLapiceras.DataSource = lapiceras;//Cargar mi Data grew con la lista q acabo de ir incrementando
+                CargarListaLapDgv();
             }
-
-
+   
         }
+        private void CargarListaLapDgv()
+        {//Este método se encarga de cargar la lista de lapiceras del Dgv
+            dgv_listaDeLapiceras.DataSource = null;//nulearla por default-evita repeticiones
+            dgv_listaDeLapiceras.DataSource = lapiceras;//Cargar mi Data grew con la lista q acabo de ir incrementando
+        }
+ 
     }
 }

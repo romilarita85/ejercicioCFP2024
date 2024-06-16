@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5C4293-4288-4903-B118-B9AADDF3E25D}|BibliotecaDeLapiceras\\BibliotecaDeLapiceras.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\bibliotecadelapiceras\\lapicera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5C4293-4288-4903-B118-B9AADDF3E25D}|BibliotecaDeLapiceras\\BibliotecaDeLapiceras.csproj|solutionrelative:bibliotecadelapiceras\\lapicera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DF98EF-3108-4D9A-93F8-95831F751B6D}|Form_Lapicera\\Form_Lapicera.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_lapicera\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DF98EF-3108-4D9A-93F8-95831F751B6D}|Form_Lapicera\\Form_Lapicera.csproj|solutionrelative:form_lapicera\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DF98EF-3108-4D9A-93F8-95831F751B6D}|Form_Lapicera\\Form_Lapicera.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_lapicera\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DF98EF-3108-4D9A-93F8-95831F751B6D}|Form_Lapicera\\Form_Lapicera.csproj|solutionrelative:form_lapicera\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427F94A1-6967-451D-8DB6-B5DC58165DFE}|FormRegistrate\\FormRegistrate.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formregistrate\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427F94A1-6967-451D-8DB6-B5DC58165DFE}|FormRegistrate\\FormRegistrate.csproj|solutionrelative:formregistrate\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormRegistrate\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "FormRegistrate\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormRegistrate\\FormPrincipal.cs",
+              "RelativeToolTip": "FormRegistrate\\FormPrincipal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T00:37:33.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAlta.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera\\FormAlta.cs",
+              "RelativeDocumentMoniker": "Form_Lapicera\\FormAlta.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera\\FormAlta.cs",
+              "RelativeToolTip": "Form_Lapicera\\FormAlta.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAiwB8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T21:54:32.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lapicera.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeLapiceras\\Lapicera.cs",
+              "RelativeDocumentMoniker": "BibliotecaDeLapiceras\\Lapicera.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeLapiceras\\Lapicera.cs",
+              "RelativeToolTip": "BibliotecaDeLapiceras\\Lapicera.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAYwCgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T21:59:51.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "Form_Lapicera\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera\\FormPrincipal.cs",
+              "RelativeToolTip": "Form_Lapicera\\FormPrincipal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T21:55:05.408Z",
+              "EditorCaption": ""
             }
           ]
         }

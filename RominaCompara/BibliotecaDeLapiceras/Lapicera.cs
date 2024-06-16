@@ -10,8 +10,7 @@ namespace BibliotecaDeLapiceras
         Color color;
         private double precio;
         private string marca;
-        private int nivelDeTinta;
-
+        private int nivelDeTinta = 100;//Todas las lapiceras se crean con el nivel de tinta al 100.
         //Un constructor que inicialice color, precio, marca.
         public Lapicera(Color color, double precio, string marca)
         {
@@ -19,46 +18,44 @@ namespace BibliotecaDeLapiceras
             this.precio = precio;
             this.marca = marca;
         }
-        //Todas las lapiceras se crean con el nivel de tinta al 100.
+
         public Lapicera(int nivelDeTinta)
         {
-            this.nivelDeTinta = 100;
+            this.nivelDeTinta = nivelDeTinta;
         }
 
         //crear propiedades todas las propiedad de lectura.
         public double Precio { get => precio; }
         public string Marca { get => marca; }
-        public int NivelDeTinta { get => nivelDeTinta; }
+        public string GetMarca()
+        {
+            return marca;
+        }
+        
         public Color Color { get => color; }
+        public int NivelDeTinta { get => nivelDeTinta;}
+
         //Sobreescribir el metodo ToString() para que muestre todos sus valores.
         public override string ToString()
         {
-
             return $"Color: {Color}, Precio: {Precio}, Marca: {Marca}, Nivel de Tinta: {NivelDeTinta}";
-
         }
+       
         //Crear el metodo publicv bool Escribir(int cantLetras), donde cada letra consume un nivel de tinta,
         //el metodo debe verificar si tiene tinta 
         public bool Escribir(int cantLetras)
         {
+            bool consumoNivelDeTinta = nivelDeTinta >= cantLetras;
 
-            if (nivelDeTinta >= cantLetras)
+            if (consumoNivelDeTinta)//verificar si hay nivel de tinta
             {
-
-                nivelDeTinta -= cantLetras;
-
-                return true;
+                nivelDeTinta -= cantLetras; //hay tinta suficiente
             }
-            else
-            {//para escribir la cantidad de letas solicitadas por parametro en informara con un true o false si le alcanzo.
-
-                return false;
-            }
-            
+            return consumoNivelDeTinta;
         }
         public void Recargar()//El metodo public void Recargar() que colocara el nivel a 100 nuevamente.
         {
-             nivelDeTinta = 100;
+             this.nivelDeTinta = 100;
         }
         public static List<Color> ColoresValidos()
         {
@@ -68,7 +65,20 @@ namespace BibliotecaDeLapiceras
             };
             return list;
         }
-       
+        //metodo creado para validar marca
+        public static bool EsSoloLetras(string dato)
+        {
+            bool esLetra = true;
+            foreach (char letra in dato)
+            {
+                if (!char.IsLetter(letra))
+                {
+                    esLetra = false;
+                    break;
+                }
+            }
+            return esLetra;
+        }
 
     }
 
@@ -76,5 +86,5 @@ namespace BibliotecaDeLapiceras
     //Al igual que hicimos con los formularios de ingresante, crear dos forms, el principal con el
     //datagridview y el boton agregar y 
     //el fomrAlta para crear lapiceras, utilizar groupbox, combobox y la mayor variedad de componentes
-    //posibles.color, precio, marca, nivelDeTinta
+    //posibles.
 
