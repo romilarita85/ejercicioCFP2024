@@ -36,11 +36,15 @@ namespace BibliotecaDeLapiceras
         public int NivelDeTinta { get => nivelDeTinta;}
 
         //Sobreescribir el metodo ToString() para que muestre todos sus valores.
-        public override string ToString()
+        public string LapiceraToString()
         {
             return $"Color: {Color}, Precio: {Precio}, Marca: {Marca}, Nivel de Tinta: {NivelDeTinta}";
         }
-       
+        public override string ToString()
+        {
+            return this.LapiceraToString();
+        }
+
         //Crear el metodo publicv bool Escribir(int cantLetras), donde cada letra consume un nivel de tinta,
         //el metodo debe verificar si tiene tinta 
         public bool Escribir(int cantLetras)
@@ -61,7 +65,7 @@ namespace BibliotecaDeLapiceras
         {
             List<Color> list = new List<Color>()
             {
-                Color.Black,Color.Blue,Color.Green,Color.Black,Color.Red
+                Color.Cyan,Color.White,Color.Black,Color.Blue,Color.Green,Color.Black,Color.Red
             };
             return list;
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormRegistrate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b192b61d80c6695c34fffe24b09d469c14153785")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53dc636e9e436b9cc0bbc8bd1ea6c719a2d41265")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormRegistrate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormRegistrate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

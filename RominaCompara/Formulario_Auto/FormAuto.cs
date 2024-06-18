@@ -14,9 +14,10 @@ namespace Formulario_Auto
         {//inicializas misAutos y cargas los colores válidos en el ComboBox cmb_colores.
             this.misAutos = new List<Auto>();
             //this.cmb_colores.Items.AddRange(Auto.ColoresValidos().ToArray());
-            this.cmb_colores.DataSource= Auto.ColoresValidos();
+            
+            this.CargarCMB(Auto.ColoresValidos());
+            //this.cmb_colores.DataSource = Auto.ColoresValidos();
 
-          
         }
         private void btn_crear_Click(object sender, EventArgs e) //EVENTO
         {//-creas un nuevo objeto Auto con la información ingresada por el usuario,
@@ -55,8 +56,9 @@ namespace Formulario_Auto
         private void btn_mostrar_Click(object sender, EventArgs e)//EVENTO
         {//muestras los autos en el ListBox lst_misAutos.
             this.VaciarLst();
-            //this.lst_misAutos.Items.AddRange(misAutos.ToArray());
-            this.lst_misAutos.DataSource = misAutos;
+
+            this.lst_misAutos.Items.AddRange(misAutos.ToArray());
+            //this.lst_misAutos.DataSource = misAutos; //Funciona igual que el addRange
         }
 
         private void btn_limpiar_Click(object sender, EventArgs e)//EVENTO
@@ -65,10 +67,7 @@ namespace Formulario_Auto
         }
         private void VaciarLst() //METODO (no asociado a un evento)
         {
-            this.lst_misAutos.Items.Clear();//Error:System.ArgumentException:
-                                            //'No se puede modificar la colección Items cuando
-                                            //está establecida la propiedad DataSource.'
-
+            this.lst_misAutos.Items.Clear();
 
         }
         private bool ValidarEntradas(string marca, string combustible) //Metodo-> Creo un constructor 3°
@@ -104,6 +103,7 @@ namespace Formulario_Auto
 
 //this.lst_misAutos.Items.Add(miAuto.AutoToString());//->agrega una representación en forma de cadena de un objeto a la lista.
 //agrega una representación en forma de cadena del objeto miAuto a la lista lst_misAutos.
+
 //AutoToString() es un método que devuelve una cadena que representa el objeto miAuto,
 //esta línea agrega esa cadena a la lista.
 

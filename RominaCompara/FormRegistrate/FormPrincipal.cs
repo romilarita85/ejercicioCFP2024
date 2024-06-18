@@ -22,9 +22,13 @@ namespace FormRegistrate
             if (formAlta.DialogResult == DialogResult.OK)//Evaluar q respuesta de la propertie formAlta
             {//si la respuesta fue ok agrego nuevo ingresante en mi lista ingresantes
                 ingresantes.Add(formAlta.Ingresante);//uso protertie Ingresante creada en formAlta 
-                dgv_ingresantes.DataSource = null;//nulearla por default-evita repeticiones
-                dgv_ingresantes.DataSource = ingresantes;//Cargar mi Data grew con la lista q acabo de ir incrementando
+                this.CargarIngresantesDgv();
             }           
+        }
+        private void CargarIngresantesDgv()
+        {//Este método se encarga de cargar la lista de lapiceras del Dgv
+            dgv_ingresantes.DataSource = null;//nulearla por default-evita repeticiones
+            dgv_ingresantes.DataSource = ingresantes;//Cargar mi Data grew con la lista q acabo de ir incrementando
         }
     }
 }

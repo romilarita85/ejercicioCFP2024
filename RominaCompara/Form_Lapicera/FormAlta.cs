@@ -31,12 +31,14 @@ namespace Form_Lapicera
             double precio = (double)num_precio.Value;
             string marca = txt_marca.Text;
             
-            lapicera = new Lapicera(color,precio,marca); //crear lapicera
+            
             DialogResult = DialogResult.OK;
 
             if (!string.IsNullOrEmpty(txt_marca.Text) && txt_marca.Text is not null && txt_marca.Text != "")
             {
                 MessageBox.Show("¿Decea ingresar lapicera a la lista?", "Alta lapicera", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                lapicera = new Lapicera(color, precio, marca); //crear lapicera
+
             }
             else 
             { 

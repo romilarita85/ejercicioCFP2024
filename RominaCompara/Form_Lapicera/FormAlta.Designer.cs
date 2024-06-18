@@ -66,7 +66,7 @@
             // 
             // num_precio
             // 
-            num_precio.Increment = new decimal(new int[] { 500, 0, 0, 0 });
+            num_precio.Increment = new decimal(new int[] { 200, 0, 0, 0 });
             num_precio.Location = new Point(189, 107);
             num_precio.Maximum = new decimal(new int[] { 2000, 0, 0, 0 });
             num_precio.Minimum = new decimal(new int[] { 500, 0, 0, 0 });
@@ -137,6 +137,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(489, 396);
             Controls.Add(btn_agregar);
             Controls.Add(btn_cancelar);
