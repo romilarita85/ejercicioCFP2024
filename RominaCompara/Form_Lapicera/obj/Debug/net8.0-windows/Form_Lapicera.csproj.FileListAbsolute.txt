@@ -20,3 +20,4 @@ C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Form_Lapicera\obj\Debug\net
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Form_Lapicera\obj\Debug\net8.0-windows\Form_Lapicera.pdb
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Form_Lapicera\obj\Debug\net8.0-windows\Form_Lapicera.genruntimeconfig.cache
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Form_Lapicera\obj\Debug\net8.0-windows\ref\Form_Lapicera.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Form_Lapicera\obj\Debug\net8.0-windows\Form_Lapicera.Properties.Resources.resources

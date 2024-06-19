@@ -10,20 +10,19 @@ namespace BibliotecaDeLapiceras
         Color color;
         private double precio;
         private string marca;
-        private int nivelDeTinta = 100;//Todas las lapiceras se crean con el nivel de tinta al 100.
+        private int nivelDeTinta ;//Todas las lapiceras se crean con el nivel de tinta al 100.
         //Un constructor que inicialice color, precio, marca.
         public Lapicera(Color color, double precio, string marca)
         {
             this.color = color;
             this.precio = precio;
             this.marca = marca;
+            this.nivelDeTinta = 100;
         }
-
         public Lapicera(int nivelDeTinta)
         {
             this.nivelDeTinta = nivelDeTinta;
         }
-
         //crear propiedades todas las propiedad de lectura.
         public double Precio { get => precio; }
         public string Marca { get => marca; }
@@ -31,7 +30,6 @@ namespace BibliotecaDeLapiceras
         {
             return marca;
         }
-        
         public Color Color { get => color; }
         public int NivelDeTinta { get => nivelDeTinta;}
 
@@ -49,13 +47,14 @@ namespace BibliotecaDeLapiceras
         //el metodo debe verificar si tiene tinta 
         public bool Escribir(int cantLetras)
         {
-            bool consumoNivelDeTinta = nivelDeTinta >= cantLetras;
+            bool sePuedeEscribir = false ;
 
-            if (consumoNivelDeTinta)//verificar si hay nivel de tinta
+            if (nivelDeTinta >= cantLetras)//verificar si hay nivel de tinta-Comparacion
             {
                 nivelDeTinta -= cantLetras; //hay tinta suficiente
+                sePuedeEscribir = true; //sePuedeEscribir 
             }
-            return consumoNivelDeTinta;
+            return sePuedeEscribir;
         }
         public void Recargar()//El metodo public void Recargar() que colocara el nivel a 100 nuevamente.
         {
@@ -83,9 +82,7 @@ namespace BibliotecaDeLapiceras
             }
             return esLetra;
         }
-
     }
-
 }    
     //Al igual que hicimos con los formularios de ingresante, crear dos forms, el principal con el
     //datagridview y el boton agregar y 

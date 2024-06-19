@@ -22,7 +22,6 @@ namespace Form_Lapicera
 
         private void FormAlta_Load(object sender, EventArgs e)
         {
-            //lapicera = new List<Lapicera>();
             this.cmb_colores.DataSource = Lapicera.ColoresValidos();
         }
         private void btn_agregar_Click(object sender, EventArgs e)
@@ -43,7 +42,7 @@ namespace Form_Lapicera
             else 
             { 
                 MessageBox.Show("Por favor, ingrese una marca.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return; // Detener la ejecución del método si la validación falla
+               // Detener la ejecución del método si la validación falla
             }
 
             // Si pasa la validación, continuar con el proceso

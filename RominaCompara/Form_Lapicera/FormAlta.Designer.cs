@@ -115,22 +115,26 @@
             // 
             // btn_cancelar
             // 
-            btn_cancelar.Location = new Point(85, 333);
+            btn_cancelar.BackColor = Color.Yellow;
+            btn_cancelar.Font = new Font("Tahoma", 9.75F, FontStyle.Bold);
+            btn_cancelar.Location = new Point(76, 333);
             btn_cancelar.Name = "btn_cancelar";
-            btn_cancelar.Size = new Size(89, 32);
+            btn_cancelar.Size = new Size(98, 32);
             btn_cancelar.TabIndex = 1;
             btn_cancelar.Text = "Cancelar";
-            btn_cancelar.UseVisualStyleBackColor = true;
+            btn_cancelar.UseVisualStyleBackColor = false;
             btn_cancelar.Click += btn_cancelar_Click;
             // 
             // btn_agregar
             // 
-            btn_agregar.Location = new Point(311, 333);
+            btn_agregar.BackColor = Color.Salmon;
+            btn_agregar.Font = new Font("Tahoma", 9.75F, FontStyle.Bold);
+            btn_agregar.Location = new Point(302, 333);
             btn_agregar.Name = "btn_agregar";
-            btn_agregar.Size = new Size(89, 32);
+            btn_agregar.Size = new Size(98, 32);
             btn_agregar.TabIndex = 2;
             btn_agregar.Text = "Agregar";
-            btn_agregar.UseVisualStyleBackColor = true;
+            btn_agregar.UseVisualStyleBackColor = false;
             btn_agregar.Click += btn_agregar_Click;
             // 
             // FormAlta
