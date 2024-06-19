@@ -30,6 +30,8 @@ namespace BibliotecaDeAlumnos
         public int Edad { get => edad;}
         public string Genero { get => genero;}
         public string Pais { get => pais; }
+        
+
         public string Cursos 
         {
             get 
@@ -38,7 +40,7 @@ namespace BibliotecaDeAlumnos
 
                 for (int i = 0; i < cursos.Count; i++)
                 {
-                    sb.Append(Cursos[i]);
+                    sb.Append(cursos[i]);
                     
                     if (i< cursos.Count - 1)
                     {
@@ -48,5 +50,7 @@ namespace BibliotecaDeAlumnos
                 return sb.ToString();   
             } 
         }
+
+        
     }
 }
