@@ -125,9 +125,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaDeLapiceras", "Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Form_Lapicera", "Form_Lapicera\Form_Lapicera.csproj", "{15DF98EF-3108-4D9A-93F8-95831F751B6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaDeHerencia", "LibreriaDeHerencia\LibreriaDeHerencia.csproj", "{91854D02-FBD2-4DEB-879F-D7757F818345}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaDeHerencia", "LibreriaDeHerencia\LibreriaDeHerencia.csproj", "{91854D02-FBD2-4DEB-879F-D7757F818345}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_Herencia_Class19_06", "Ej_Herencia_Class19_06\Ej_Herencia_Class19_06.csproj", "{DCA2109F-6EF8-44CB-9DC8-38AC746991F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_Herencia_Class19_06", "Ej_Herencia_Class19_06\Ej_Herencia_Class19_06.csproj", "{DCA2109F-6EF8-44CB-9DC8-38AC746991F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaDeVehiculos", "LibreriaDeVehiculos\LibreriaDeVehiculos.csproj", "{DFF24AA0-4045-466D-982B-6E53D63DD076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioHP_Vehiculos", "EjercicioHP_Vehiculos\EjercicioHP_Vehiculos.csproj", "{8EA0B13E-3C68-4B7C-9737-E0D053A2B4DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -387,6 +391,14 @@ Global
 		{DCA2109F-6EF8-44CB-9DC8-38AC746991F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCA2109F-6EF8-44CB-9DC8-38AC746991F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCA2109F-6EF8-44CB-9DC8-38AC746991F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF24AA0-4045-466D-982B-6E53D63DD076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF24AA0-4045-466D-982B-6E53D63DD076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF24AA0-4045-466D-982B-6E53D63DD076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF24AA0-4045-466D-982B-6E53D63DD076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA0B13E-3C68-4B7C-9737-E0D053A2B4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA0B13E-3C68-4B7C-9737-E0D053A2B4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA0B13E-3C68-4B7C-9737-E0D053A2B4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA0B13E-3C68-4B7C-9737-E0D053A2B4DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
