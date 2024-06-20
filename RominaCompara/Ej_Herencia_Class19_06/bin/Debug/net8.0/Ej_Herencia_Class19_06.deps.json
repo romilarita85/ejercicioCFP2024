@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ej_Herencia_Class19_06/1.0.0": {
+        "dependencies": {
+          "LibreriaDeHerencia": "1.0.0"
+        },
+        "runtime": {
+          "Ej_Herencia_Class19_06.dll": {}
+        }
+      },
+      "LibreriaDeHerencia/1.0.0": {
+        "runtime": {
+          "LibreriaDeHerencia.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ej_Herencia_Class19_06/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibreriaDeHerencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

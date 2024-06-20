@@ -10,14 +10,14 @@ namespace BibliotecaDeLapiceras
         Color color;
         private double precio;
         private string marca;
-        private int nivelDeTinta ;//Todas las lapiceras se crean con el nivel de tinta al 100.
+        private int nivelDeTinta ;
         //Un constructor que inicialice color, precio, marca.
         public Lapicera(Color color, double precio, string marca)
         {
             this.color = color;
             this.precio = precio;
             this.marca = marca;
-            this.nivelDeTinta = 100;
+            this.nivelDeTinta = 100;//Todas las lapiceras se crean con el nivel de tinta al 100.
         }
         public Lapicera(int nivelDeTinta)
         {

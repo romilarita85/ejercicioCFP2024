@@ -1,0 +1,12 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\bin\Debug\net8.0\LibreriaDeHerencia.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\bin\Debug\net8.0\LibreriaDeHerencia.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\bin\Debug\net8.0\LibreriaDeHerencia.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\obj\Debug\net8.0\LibreriaDeHerencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\obj\Debug\net8.0\LibreriaDeHerencia.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\obj\Debug\net8.0\LibreriaDeHerencia.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\obj\Debug\net8.0\LibreriaDeHerencia.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\obj\Debug\net8.0\LibreriaDeHerencia.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\obj\Debug\net8.0\LibreriaDeHerencia.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\obj\Debug\net8.0\refint\LibreriaDeHerencia.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\obj\Debug\net8.0\LibreriaDeHerencia.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeHerencia\obj\Debug\net8.0\ref\LibreriaDeHerencia.dll
