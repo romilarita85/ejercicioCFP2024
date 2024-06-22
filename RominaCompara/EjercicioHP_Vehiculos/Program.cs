@@ -25,14 +25,14 @@ namespace EjercicioHP_Vehiculos
             // Llamar a métodos específicos usando GetType() y casteo
             if (coche1.GetType() == typeof(Coche))
             {
-                Coche cocheCasteado = (Coche)coche1;
-                Console.WriteLine($"{cocheCasteado.AbrirMaletero()}");
+                Coche cocheCasteo = (Coche)coche1;
+                Console.WriteLine($"{cocheCasteo.AbrirMaletero()}");
             }
 
             if (moto1.GetType() == typeof(Moto))
             {
-                Moto motoCasteada = (Moto)moto1;
-                Console.WriteLine($"{motoCasteada.HacerCaballito()}");
+                Moto motoCasteo = (Moto)moto1;
+                Console.WriteLine($"{motoCasteo.HacerCaballito()}");
             }
 
         }
