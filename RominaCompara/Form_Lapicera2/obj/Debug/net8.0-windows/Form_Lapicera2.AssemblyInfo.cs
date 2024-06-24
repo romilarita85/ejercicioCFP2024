@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Form_Lapicera2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69a56fa63f615b5f6fbe636d209ae5cd0ae12c50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97e1611bb45c878e6af0115308a82d33be1895cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Form_Lapicera2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Form_Lapicera2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

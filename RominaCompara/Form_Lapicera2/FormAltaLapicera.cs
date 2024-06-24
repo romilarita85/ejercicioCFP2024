@@ -41,11 +41,19 @@ namespace Form_Lapicera2
                 }
             }
 
-            DialogResult = DialogResult.OK;
-            
-            lapicera = new Lapicera(color, precio, marca); //crear lapicera//agrega el objeto miAuto a la lista llamada misAutos (lo agrega o no)
+            DialogResult result = MessageBox.Show("¿Desea agregar el elemento?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-    
+            if (result == DialogResult.Yes)
+            {
+                // Aquí agregarías la lógica para realizar la acción de agregar
+                MessageBox.Show("Elemento agregado correctamente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                lapicera = new Lapicera(color, precio, marca);//crear lapicera//agrega el objeto lapicera a la lista llamada lapiceras (lo agrega o no)
+            }
+            else
+            {
+                MessageBox.Show("Acción cancelada", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            DialogResult = DialogResult.OK;
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)
