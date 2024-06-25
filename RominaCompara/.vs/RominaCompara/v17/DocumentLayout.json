@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{494C69FE-07BF-44E0-A735-336E99DB9DD5}|Form_Lapicera2\\Form_Lapicera2.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_lapicera2\\formaltalapicera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{494C69FE-07BF-44E0-A735-336E99DB9DD5}|Form_Lapicera2\\Form_Lapicera2.csproj|solutionrelative:form_lapicera2\\formaltalapicera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFF24AA0-4045-466D-982B-6E53D63DD076}|LibreriaDeVehiculos\\LibreriaDeVehiculos.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadevehiculos\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF24AA0-4045-466D-982B-6E53D63DD076}|LibreriaDeVehiculos\\LibreriaDeVehiculos.csproj|solutionrelative:libreriadevehiculos\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{494C69FE-07BF-44E0-A735-336E99DB9DD5}|Form_Lapicera2\\Form_Lapicera2.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_lapicera2\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{494C69FE-07BF-44E0-A735-336E99DB9DD5}|Form_Lapicera2\\Form_Lapicera2.csproj|solutionrelative:form_lapicera2\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFF24AA0-4045-466D-982B-6E53D63DD076}|LibreriaDeVehiculos\\LibreriaDeVehiculos.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadevehiculos\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF24AA0-4045-466D-982B-6E53D63DD076}|LibreriaDeVehiculos\\LibreriaDeVehiculos.csproj|solutionrelative:libreriadevehiculos\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFF24AA0-4045-466D-982B-6E53D63DD076}|LibreriaDeVehiculos\\LibreriaDeVehiculos.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadevehiculos\\coche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF24AA0-4045-466D-982B-6E53D63DD076}|LibreriaDeVehiculos\\LibreriaDeVehiculos.csproj|solutionrelative:libreriadevehiculos\\coche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA0B13E-3C68-4B7C-9737-E0D053A2B4DA}|EjercicioHP_Vehiculos\\EjercicioHP_Vehiculos.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\ejerciciohp_vehiculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA0B13E-3C68-4B7C-9737-E0D053A2B4DA}|EjercicioHP_Vehiculos\\EjercicioHP_Vehiculos.csproj|solutionrelative:ejerciciohp_vehiculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera2\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "Form_Lapicera2\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera2\\FormPrincipal.cs",
-              "RelativeToolTip": "Form_Lapicera2\\FormPrincipal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeVehiculos\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "LibreriaDeVehiculos\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeVehiculos\\Vehiculo.cs",
+              "RelativeToolTip": "LibreriaDeVehiculos\\Vehiculo.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T23:58:03.395Z",
+              "WhenOpened": "2024-06-24T21:15:59.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAltaLapicera.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera2\\FormAltaLapicera.cs",
-              "RelativeDocumentMoniker": "Form_Lapicera2\\FormAltaLapicera.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera2\\FormAltaLapicera.cs",
-              "RelativeToolTip": "Form_Lapicera2\\FormAltaLapicera.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAUwDwAAAAvAAAA",
+              "DocumentIndex": 1,
+              "Title": "Moto.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeVehiculos\\Moto.cs",
+              "RelativeDocumentMoniker": "LibreriaDeVehiculos\\Moto.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeVehiculos\\Moto.cs",
+              "RelativeToolTip": "LibreriaDeVehiculos\\Moto.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T23:48:22.314Z",
+              "WhenOpened": "2024-06-24T21:15:57.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Coche.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeVehiculos\\Coche.cs",
+              "RelativeDocumentMoniker": "LibreriaDeVehiculos\\Coche.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeVehiculos\\Coche.cs",
+              "RelativeToolTip": "LibreriaDeVehiculos\\Coche.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T21:15:56.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\EjercicioHP_Vehiculos\\Program.cs",
+              "RelativeDocumentMoniker": "EjercicioHP_Vehiculos\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\EjercicioHP_Vehiculos\\Program.cs",
+              "RelativeToolTip": "EjercicioHP_Vehiculos\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T21:15:28.639Z",
               "EditorCaption": ""
             }
           ]

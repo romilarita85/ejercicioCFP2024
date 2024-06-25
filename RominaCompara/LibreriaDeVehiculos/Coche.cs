@@ -5,7 +5,7 @@ namespace LibreriaDeVehiculos
 {
     public class Coche:Vehiculo
     {
-        int numeroPuertas;
+        int numeroPuertas;//por defecto privada
         double capacidadMaletero;
 
         public Coche(string marca,string modelo,int numeroPuertas, double capacidadMaletero)

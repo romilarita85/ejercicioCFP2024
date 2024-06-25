@@ -41,7 +41,7 @@ namespace Form_Lapicera2
                 }
             }
 
-            DialogResult result = MessageBox.Show("¿Desea agregar el elemento?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show($"¿Desea agregar la lapicera {marca}?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
