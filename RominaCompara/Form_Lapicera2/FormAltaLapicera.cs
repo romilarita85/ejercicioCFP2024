@@ -41,12 +41,12 @@ namespace Form_Lapicera2
                 }
             }
 
-            DialogResult result = MessageBox.Show($"¿Desea agregar la lapicera?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show($"¿Desea agregar la lapicera a la lista?", "Agregar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
                 // Aquí agregarías la lógica para realizar la acción de agregar
-                MessageBox.Show("Elemento agregado correctamente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Lapicera agregada a la lista", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 lapicera = new Lapicera(color, precio, marca);//crear lapicera//agrega el objeto lapicera a la lista llamada lapiceras (lo agrega o no)
             }
             else

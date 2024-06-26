@@ -8,11 +8,14 @@ namespace EjercicioHP_Vehiculos
             //Crear instancias de Coche y Moto.
             Coche coche1 = new Coche("Ford","RD2017",5,4);
             Moto moto1 = new Moto("Honda","PCX150","Cross",149);
+            Vehiculo moto2 = new Moto("Yamaha","2022","Paseo",150);
+
 
             List<Vehiculo>vehiculos = new List<Vehiculo>() 
             {
                 new Coche("Ford","RD2017",5,4),
                 new Moto("Honda","PCX150","Cross",149)
+               
             };
 
             foreach (Vehiculo vehiculo in vehiculos)
@@ -46,6 +49,7 @@ namespace EjercicioHP_Vehiculos
 //typeof es útil para obtener el tipo de un objeto o tipo en tiempo de compilación,
 //lo que lo hace ideal para comparaciones y operaciones que dependen del tipo en tiempo de ejecución,
 //especialmente en escenarios donde la reflexión o la metaprogramación son necesarias.
+//*************************************************************************************+
 
 
 

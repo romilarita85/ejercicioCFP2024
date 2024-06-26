@@ -14,7 +14,7 @@ namespace FormRegistrate
             ingresantes = new List<Ingresante>();
         }
         private void btn_agregar_Click(object sender, EventArgs e)
-        {//Crear una nueva instancia del formulario de alta (FormAlta)
+        {//Crear una nueva instancia del formulario de alta (formAlta)
             FormAlta formAlta = new FormAlta();
          //invocar nueva instancia del formulario formAlta 
             formAlta.ShowDialog();

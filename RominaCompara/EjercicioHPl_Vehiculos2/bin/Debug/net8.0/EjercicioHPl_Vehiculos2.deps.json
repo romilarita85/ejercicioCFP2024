@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EjercicioHPl_Vehiculos2/1.0.0": {
+        "dependencies": {
+          "LibreriaDeVehiculos": "1.0.0"
+        },
+        "runtime": {
+          "EjercicioHPl_Vehiculos2.dll": {}
+        }
+      },
+      "LibreriaDeVehiculos/1.0.0": {
+        "runtime": {
+          "LibreriaDeVehiculos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EjercicioHPl_Vehiculos2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibreriaDeVehiculos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

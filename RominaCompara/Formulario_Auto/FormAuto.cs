@@ -31,7 +31,7 @@ namespace Formulario_Auto
            
             if (this.ValidarEntradas(marca,combustible)) 
             {
-                Auto miAuto = new Auto(marca, combustible, color); //crear objeto del tipo auto
+                Auto miAuto = new Auto(marca, combustible, color); //crear objeto del tipo auto "miAuto"
                 respuesta = MessageBox.Show($"Decea agregar el auto {miAuto.GetMarca()}","Agregar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);//se muestra el mensaje
                //parametros del MessageBox ->( ******************MENSAJE***********+****,**TITULO**, Que BOTONES va a tener ,********ICONO**********)
 
