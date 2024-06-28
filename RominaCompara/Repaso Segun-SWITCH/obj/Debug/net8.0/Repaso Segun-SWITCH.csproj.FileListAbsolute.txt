@@ -1,0 +1,15 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\bin\Debug\net8.0\Repaso Segun-SWITCH.exe
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\bin\Debug\net8.0\Repaso Segun-SWITCH.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\bin\Debug\net8.0\Repaso Segun-SWITCH.runtimeconfig.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\bin\Debug\net8.0\Repaso Segun-SWITCH.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\bin\Debug\net8.0\Repaso Segun-SWITCH.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\obj\Debug\net8.0\Repaso Segun-SWITCH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\obj\Debug\net8.0\Repaso Segun-SWITCH.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\obj\Debug\net8.0\Repaso Segun-SWITCH.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\obj\Debug\net8.0\Repaso Segun-SWITCH.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\obj\Debug\net8.0\Repaso Segun-SWITCH.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\obj\Debug\net8.0\Repaso Segun-SWITCH.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\obj\Debug\net8.0\refint\Repaso Segun-SWITCH.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\obj\Debug\net8.0\Repaso Segun-SWITCH.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\obj\Debug\net8.0\Repaso Segun-SWITCH.genruntimeconfig.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Repaso Segun-SWITCH\obj\Debug\net8.0\ref\Repaso Segun-SWITCH.dll

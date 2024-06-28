@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ejercicio_Objetos_1/1.0.0": {
+        "dependencies": {
+          "BibliotecaDeCuentas": "1.0.0"
+        },
+        "runtime": {
+          "Ejercicio_Objetos_1.dll": {}
+        }
+      },
+      "BibliotecaDeCuentas/1.0.0": {
+        "runtime": {
+          "BibliotecaDeCuentas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejercicio_Objetos_1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaDeCuentas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

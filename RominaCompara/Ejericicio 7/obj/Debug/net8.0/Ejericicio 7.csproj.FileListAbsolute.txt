@@ -1,0 +1,5 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejericicio 7\obj\Debug\net8.0\Ejericicio 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejericicio 7\obj\Debug\net8.0\Ejericicio 7.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejericicio 7\obj\Debug\net8.0\Ejericicio 7.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejericicio 7\obj\Debug\net8.0\Ejericicio 7.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\Ejericicio 7\obj\Debug\net8.0\Ejericicio 7.sourcelink.json

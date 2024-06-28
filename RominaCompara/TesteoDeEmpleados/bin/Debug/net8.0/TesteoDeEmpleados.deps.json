@@ -18,6 +18,11 @@
         "runtime": {
           "LibreriaDePersonas.dll": {}
         }
+      },
+      "Repaso Condicionales/1.0.0": {
+        "runtime": {
+          "Repaso Condicionales.dll": {}
+        }
       }
     }
   },
@@ -28,6 +33,11 @@
       "sha512": ""
     },
     "LibreriaDePersonas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repaso Condicionales/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
