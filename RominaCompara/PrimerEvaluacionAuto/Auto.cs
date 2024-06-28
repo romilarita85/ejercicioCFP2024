@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace PrimerEvaluacionAuto
 {
-    public class Auto
+    public class Auto //clase auto
     {
         //A.Los atributos marca, cantCombustible, color.
         private string marca;
@@ -87,18 +87,23 @@ namespace PrimerEvaluacionAuto
             }
             return retorno;
         }
-
-        public bool ConvertirStringEnCombustible(string combustible) //metodo para convertir o castear combustible
+        //Metodo para convertir o castear combustible***************************************************************
+        public bool ConvertirStringEnCombustible(string combustible) 
         {//modifico componente (atributo) propio del objeto uso metodo de instancia
-            bool retorno = false;
-
-            if (double.TryParse(combustible, out double combValido))
-            {
-                this.cantCombustible = combValido;
-                retorno = true;
+            bool retorno = false;//Variable local para almacenar el resultado de la conversión
+            //retorno: es una variable booleana que inicialmente se establece en false.
+            //Se utilizará para indicar si la conversión fue exitosa o no.
+            
+            if (double.TryParse(combustible, out double combValido))// Intenta convertir el string 'combustible' en un double
+            {// Si tiene éxito, asigna el valor convertido a 'combValido' y devuelve true.
+             
+                this.cantCombustible = combValido;// Asigna el valor convertido a la propiedad 'cantCombustible'
+                                                  //  del objeto actual.  
+                retorno = true; // Establece el retorno como true, indicando que la conversión fue exitosa.
             }
-            return retorno;
+            return retorno; // Devuelve 'retorno', que será true si la conversión fue exitosa, false si no.
         }
+        //**********************************************************************************************************
         ////El método ConvertirStringAInt intenta convertir una cadena de texto en un número decimal (double)
         ////La función double.TryParse intenta realizar esta conversión y devuelve un booleano
         ////que indica si la operación fue exitosa o no.
@@ -218,3 +223,5 @@ namespace PrimerEvaluacionAuto
 //    }
 //    return retorno;
 //}
+//*****************************************************************
+//
