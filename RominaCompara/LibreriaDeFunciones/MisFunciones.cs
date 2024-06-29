@@ -1,11 +1,16 @@
 ﻿//Clase 10-04-24************************************************************************
 using System;
+using System.Drawing;
 using System.Runtime.Intrinsics.X86;
+using System.Xml.Linq;
 
 namespace LibreriaDeFunciones
 {
     public class MisFunciones
     {
+        private Color color;
+        private double cantCombustible;
+        private int nivelDeTinta;
         public static int[] CargarArrayDeEnteros(int cantidad)
         {
             int[] numeros = new int[cantidad];
@@ -240,6 +245,89 @@ namespace LibreriaDeFunciones
             }
             return esPar;
         }
+        //***********************************Metodo*******************************************************
+        //El metodo Avanzar(int km) que retornara un booleano para informar si pudo recorrer
+        //o no la cantidad de kilometros recibo por parametro, tener en cuenta que para poder
+        //avanzar se debe tener conbustible y por cada litro de combustible se pueden 10km.
+        public bool Avanzar(int km)
+        {
+            bool retorno = false; //variable del tipo bool q puede retornar
+            double combustibleNecesario = (double)km / 10.0; //10 km por cada litro de combustible 
+            // Calcula el combustible necesario basado en los km (asumiendo 10 km por litro de combustible)
+            if (cantCombustible > 0 && cantCombustible >= combustibleNecesario) // km menores o iguales a kmPosibles
+            {// Si hay suficiente combustible, se resta la cantidad necesaria
+                cantCombustible -= combustibleNecesario;//cantCombustible = cantCombustible - combustibleNecesario;
+                retorno = true;// Devuelve true para indicar que el avance fue exitoso
+            }
+            return retorno;
+        }
+        //Verifica si hay suficiente combustible (cantCombustible) para cubrir la distancia especificada (combustibleNecesario).
+        //-Si hay suficiente combustible:
+        //Resta la cantidad calculada de combustible(combustibleNecesario) de cantCombustible.
+        //Establece retorno en true para indicar que el avance fue exitoso.
+        //-Si no hay suficiente combustible o cantCombustible es cero, retorno permanece false.
+        //Metodo para convertir o castear combustible***************************************************************
+        public bool ConvertirStringEnCombustible(string combustible)
+        {//modifico componente (atributo) propio del objeto uso metodo de instancia
+            bool retorno = false;//Variable local para almacenar el resultado de la conversión
+                                 //retorno: es una variable booleana que inicialmente se establece en false.
+                                 //Se utilizará para indicar si la conversión fue exitosa o no.
+            if (double.TryParse(combustible, out double combValido))// Intenta convertir el string 'combustible' en un double
+            {// Si tiene éxito, asigna el valor convertido a 'combValido' y devuelve true.
+
+                this.cantCombustible = combValido;// Asigna el valor convertido a la propiedad 'cantCombustible'
+                                                  //  del objeto actual.  
+                retorno = true; // Establece el retorno como true, indicando que la conversión fue exitosa.
+            }
+            return retorno; // Devuelve 'retorno', que será true si la conversión fue exitosa, false si no.
+        }
+        //Crear el metodo publicv bool Escribir(int cantLetras), donde cada letra consume un nivel de tinta,
+        //el metodo debe verificar si tiene tinta 
+        public bool Escribir(int cantLetras)
+        {
+            bool sePuedeEscribir = false;
+
+            if (nivelDeTinta >= cantLetras)//verificar si hay nivel de tinta-Comparacion
+            {
+                nivelDeTinta -= cantLetras; //hay tinta suficiente
+                sePuedeEscribir = true; //sePuedeEscribir 
+            }
+            return sePuedeEscribir;
+        }
+        //**************************************Metodos Set******************************************************++
+        public bool SetColor(Color nuevoColor)
+        {
+            bool retorno = false;
+            if (nuevoColor == Color.Green || nuevoColor == Color.Red || nuevoColor == Color.Blue)
+            {
+                this.color = nuevoColor;//Establecer el color si es uno de los colores permitidos
+                retorno = true; // Indicar que se pudo establecer el color
+            }
+
+            return retorno;// Devolver si se pudo establecer el color o no
+        }
+        public bool SetCantCombustible(double nuevoValor)
+        {//Parametro->double nuevoValor: Es el nuevo valor que se desea establecer para cantCombustible.
+            bool retorno = false;
+            //bool retorno: Se inicializa en false y se utiliza para indicar si se pudo establecer el nuevo valor de cantCombustible.
+            if (nuevoValor > 0 && nuevoValor <= 100)
+            {
+                this.cantCombustible = nuevoValor;// Establecer el nuevo valor de combustible si está en el rango válido
+                retorno = true;// Indicar que se pudo establecer el valor
+            }
+            return retorno;
+        }
+        public static List<Color> ColoresValidos()
+        {
+            List<Color> list = new List<Color>()
+            {
+                Color.Red,Color.Purple,Color.Green,Color.Blue,Color.Black,Color.Salmon
+            };
+            return list;
+        }
+        //aplicación de Windows Forms donde tienes una lista desplegable(ComboBox) para seleccionar colores.
+        //Además, tienes una propiedad SelectedItem para mantener el color seleccionado por el usuario.
+
     }
 }
 

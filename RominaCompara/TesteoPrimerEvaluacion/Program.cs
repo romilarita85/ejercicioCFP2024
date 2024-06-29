@@ -42,7 +42,7 @@ namespace TesteoPrimerEvaluacion
 
             while (miAuto.Avanzar(kmDeseado))
             {
-                cantKmRecorridos += kmDeseado;
+                cantKmRecorridos += kmDeseado;//cantKmRecorridos = cantKmRecorridos + kmDeseado;
                 repeticiones++;
             }
            

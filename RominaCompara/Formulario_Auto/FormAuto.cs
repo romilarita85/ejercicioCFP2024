@@ -10,7 +10,7 @@ namespace Formulario_Auto
         {
             InitializeComponent();
         }
-        private void FormAuto_Load(object sender, EventArgs e)
+        private void FormAuto_Load(object sender, EventArgs e)//EVENTO LOAD
         {//inicializas misAutos y cargas los colores válidos en el ComboBox cmb_colores.
             this.misAutos = new List<Auto>();
             //this.cmb_colores.Items.AddRange(Auto.ColoresValidos().ToArray());

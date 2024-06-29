@@ -1,5 +1,7 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 
 namespace PrimerEvaluacionAuto
 {
@@ -15,7 +17,7 @@ namespace PrimerEvaluacionAuto
         {
             this.marca = marca;
             this.cantCombustible = cantCombustible;
-            //this.SetCantCombustible(cantCombustible);
+            //this.SetCantCombustible(cantCombustible);//Metodo SetCantCombustible puede ser llamado dentro del constructor.
             this.color = color;
         }
         public Auto(string marca, string cantCombustible, Color color)//3°Constructor
@@ -32,21 +34,23 @@ namespace PrimerEvaluacionAuto
             bool retorno = false;
             if (nuevoColor == Color.Green || nuevoColor == Color.Red || nuevoColor == Color.Blue)
             {
-                this.color = nuevoColor;
-                retorno = true;
+                this.color = nuevoColor;//Establecer el color si es uno de los colores permitidos
+                retorno = true; // Indicar que se pudo establecer el color
             }
 
-            return retorno;
+            return retorno;// Devolver si se pudo establecer el color o no
         }
 
         public bool SetCantCombustible(double nuevoValor)
-        {
+        {//Parametro->double nuevoValor: Es el nuevo valor que se desea establecer para cantCombustible.
             bool retorno = false;
+ //bool retorno: Se inicializa en false y se utiliza para indicar si se pudo establecer el nuevo valor de cantCombustible.
             if (nuevoValor > 0 && nuevoValor <= 100)
             {
-                this.cantCombustible = nuevoValor;
+                this.cantCombustible = nuevoValor;// Establecer el nuevo valor de combustible si está en el rango válido
+                retorno = true;// Indicar que se pudo establecer el valor
             }
-            return retorno;
+            return retorno; 
         }
 
         //C. Solo metodos Get() para todos sus atributos.
@@ -77,26 +81,33 @@ namespace PrimerEvaluacionAuto
         //avanzar se debe tener conbustible y por cada litro de combustible se pueden 10km.
         public bool Avanzar(int km)
         {
-            bool retorno = false;
+            bool retorno = false; //variable del tipo bool q puede retornar
             double combustibleNecesario = (double)km / 10.0; //10 km por cada litro de combustible 
-
+            // Calcula el combustible necesario basado en los km (asumiendo 10 km por litro de combustible)
             if (cantCombustible > 0 && cantCombustible >= combustibleNecesario) // km menores o iguales a kmPosibles
-            {
-                cantCombustible -= combustibleNecesario;
-                retorno = true;
+            {// Si hay suficiente combustible, se resta la cantidad necesaria
+                cantCombustible -= combustibleNecesario;//cantCombustible = cantCombustible - combustibleNecesario;
+                retorno = true;// Devuelve true para indicar que el avance fue exitoso
             }
             return retorno;
         }
+        //Verifica si hay suficiente combustible (cantCombustible) para cubrir la distancia especificada (combustibleNecesario).
+        //-Si hay suficiente combustible:
+        //Resta la cantidad calculada de combustible(combustibleNecesario) de cantCombustible.
+        //Establece retorno en true para indicar que el avance fue exitoso.
+        //-Si no hay suficiente combustible o cantCombustible es cero, retorno permanece false.
         //Metodo para convertir o castear combustible***************************************************************
-        public bool ConvertirStringEnCombustible(string combustible) 
+        public bool ConvertirStringEnCombustible(string combustible) //De instancia
         {//modifico componente (atributo) propio del objeto uso metodo de instancia
             bool retorno = false;//Variable local para almacenar el resultado de la conversión
             //retorno: es una variable booleana que inicialmente se establece en false.
             //Se utilizará para indicar si la conversión fue exitosa o no.
             
-            if (double.TryParse(combustible, out double combValido))// Intenta convertir el string 'combustible' en un double
-            {// Si tiene éxito, asigna el valor convertido a 'combValido' y devuelve true.
-             
+            if (double.TryParse(combustible, out double combValido))//Evaluar si double(TryParse me devuelve un bool: si pudo o no convertir el dato strig en combustible)
+            {//Recibia combustible intentaba parcearlo a double si salia todo bien devolvia un true
+             //o caso contrario un false.Y si lograba convertirlo-> combustible era mayor a cero
+             //Intenta convertir el string 'combustible' en un double
+             //Si tiene éxito, asigna el valor convertido a 'combValido' y devuelve true.
                 this.cantCombustible = combValido;// Asigna el valor convertido a la propiedad 'cantCombustible'
                                                   //  del objeto actual.  
                 retorno = true; // Establece el retorno como true, indicando que la conversión fue exitosa.
@@ -156,7 +167,7 @@ namespace PrimerEvaluacionAuto
 ////this.cantCombustible = double.Parse(cantCombustible);-> convierte el valor de cantCombustible
 ////de tipo string a tipo double utilizando double.Parse y lo asigna al campo cantCombustible
 ////de la instancia actual de la clase Auto.
-//SetColor:¨******************************************************************************
+//********************************************SetColor*****************************************************************
 //1°forma de hacer SetColor:
 //public bool SetColor(Color nuevoColor)
 //{
