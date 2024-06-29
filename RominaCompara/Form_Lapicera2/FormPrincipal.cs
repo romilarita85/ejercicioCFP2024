@@ -21,7 +21,7 @@ namespace Form_Lapicera2
 
             if (formAlta.DialogResult == DialogResult.OK && formAlta.Lapicera is not null)//Evaluar q respuesta de la propertie formAlta
             {//si la respuesta fue ok agrego nueva lapicera a mi lista de lapiceras
-                lapiceras.Add(formAlta.Lapicera);//uso protertie Lapicera creada en formAlta 
+                lapiceras.Add(formAlta.Lapicera);//uso protertie "Lapicera" creada en formAlta 
                 CargarListaDgv();
             }
         }

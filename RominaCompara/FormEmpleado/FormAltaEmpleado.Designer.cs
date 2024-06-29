@@ -35,10 +35,10 @@
             lbl_departamento = new Label();
             lst_departamentos = new ListBox();
             gpb_antiguedad = new GroupBox();
-            rdb_1a5 = new RadioButton();
-            rdb_6a10 = new RadioButton();
-            rdb_11a15 = new RadioButton();
             rdb_16a20 = new RadioButton();
+            rdb_11a15 = new RadioButton();
+            rdb_6a10 = new RadioButton();
+            rdb_1a5 = new RadioButton();
             btn_cancelar = new Button();
             btn_agregar = new Button();
             ((System.ComponentModel.ISupportInitialize)num_salario).BeginInit();
@@ -53,7 +53,6 @@
             lbl_nombre.Size = new Size(51, 15);
             lbl_nombre.TabIndex = 0;
             lbl_nombre.Text = "Nombre";
-            lbl_nombre.Click += label1_Click;
             // 
             // txt_nombre
             // 
@@ -113,27 +112,16 @@
             gpb_antiguedad.TabStop = false;
             gpb_antiguedad.Text = "Antiguedad";
             // 
-            // rdb_1a5
+            // rdb_16a20
             // 
-            rdb_1a5.AutoSize = true;
-            rdb_1a5.Location = new Point(64, 39);
-            rdb_1a5.Name = "rdb_1a5";
-            rdb_1a5.Size = new Size(70, 19);
-            rdb_1a5.TabIndex = 0;
-            rdb_1a5.TabStop = true;
-            rdb_1a5.Text = "1-5 años";
-            rdb_1a5.UseVisualStyleBackColor = true;
-            // 
-            // rdb_6a10
-            // 
-            rdb_6a10.AutoSize = true;
-            rdb_6a10.Location = new Point(64, 64);
-            rdb_6a10.Name = "rdb_6a10";
-            rdb_6a10.Size = new Size(76, 19);
-            rdb_6a10.TabIndex = 1;
-            rdb_6a10.TabStop = true;
-            rdb_6a10.Text = "6-10 años";
-            rdb_6a10.UseVisualStyleBackColor = true;
+            rdb_16a20.AutoSize = true;
+            rdb_16a20.Location = new Point(64, 114);
+            rdb_16a20.Name = "rdb_16a20";
+            rdb_16a20.Size = new Size(82, 19);
+            rdb_16a20.TabIndex = 3;
+            rdb_16a20.TabStop = true;
+            rdb_16a20.Text = "16-20 años";
+            rdb_16a20.UseVisualStyleBackColor = true;
             // 
             // rdb_11a15
             // 
@@ -146,16 +134,27 @@
             rdb_11a15.Text = "11-15 años";
             rdb_11a15.UseVisualStyleBackColor = true;
             // 
-            // rdb_16a20
+            // rdb_6a10
             // 
-            rdb_16a20.AutoSize = true;
-            rdb_16a20.Location = new Point(64, 114);
-            rdb_16a20.Name = "rdb_16a20";
-            rdb_16a20.Size = new Size(82, 19);
-            rdb_16a20.TabIndex = 3;
-            rdb_16a20.TabStop = true;
-            rdb_16a20.Text = "16-20 años";
-            rdb_16a20.UseVisualStyleBackColor = true;
+            rdb_6a10.AutoSize = true;
+            rdb_6a10.Location = new Point(64, 64);
+            rdb_6a10.Name = "rdb_6a10";
+            rdb_6a10.Size = new Size(76, 19);
+            rdb_6a10.TabIndex = 1;
+            rdb_6a10.TabStop = true;
+            rdb_6a10.Text = "6-10 años";
+            rdb_6a10.UseVisualStyleBackColor = true;
+            // 
+            // rdb_1a5
+            // 
+            rdb_1a5.AutoSize = true;
+            rdb_1a5.Location = new Point(64, 39);
+            rdb_1a5.Name = "rdb_1a5";
+            rdb_1a5.Size = new Size(70, 19);
+            rdb_1a5.TabIndex = 0;
+            rdb_1a5.TabStop = true;
+            rdb_1a5.Text = "1-5 años";
+            rdb_1a5.UseVisualStyleBackColor = true;
             // 
             // btn_cancelar
             // 
@@ -174,6 +173,7 @@
             btn_agregar.TabIndex = 10;
             btn_agregar.Text = "Agregar";
             btn_agregar.UseVisualStyleBackColor = true;
+            btn_agregar.Click += btn_agregar_Click;
             // 
             // FormAltaEmpleado
             // 
@@ -191,6 +191,7 @@
             Controls.Add(lbl_nombre);
             Name = "FormAltaEmpleado";
             Text = "Alta Empleado";
+            Load += FormAltaEmpleado_Load;
             ((System.ComponentModel.ISupportInitialize)num_salario).EndInit();
             gpb_antiguedad.ResumeLayout(false);
             gpb_antiguedad.PerformLayout();

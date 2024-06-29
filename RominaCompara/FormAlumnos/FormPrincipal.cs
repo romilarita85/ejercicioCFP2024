@@ -38,7 +38,7 @@ namespace FormAlumnos
                 alumnos.Add(formAlta.MiAlumno);//En caso afirmativo, agrega el alumno a la lista, limpia y recarga
                 //el origen de datos de lst_alumnos utilizando el método CargarListaAlumnos().
                 CargarListaAlumnos();
-            }
+            }//MiAlumno es la propertie creada en FormCrear
         }
         private void CargarListaAlumnos()
         {//Este método se encarga de cargar la lista de alumnos en el control lst_alumnos.

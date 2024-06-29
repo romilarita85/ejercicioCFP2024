@@ -18,7 +18,7 @@ namespace Form_Lapicera2
         {
             InitializeComponent();
         }
-        public Lapicera Lapicera { get => lapicera; }
+        public Lapicera Lapicera { get => lapicera; } //Propertie
 
         private void FormAltaLapicera_Load(object sender, EventArgs e)
         {

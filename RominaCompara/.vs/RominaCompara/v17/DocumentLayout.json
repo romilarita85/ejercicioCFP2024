@@ -7,28 +7,28 @@
       "RelativeMoniker": "D:0:0:{AC191108-3A99-4B70-861F-358302804842}|FormEmpleado\\FormEmpleado.csproj|solutionrelative:formempleado\\formaltaempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33BADE92-F1F9-4A0B-AFD2-E8DF6E4DFE21}|PrimerEvaluacionAuto\\PrimerEvaluacionAuto.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\primerevaluacionauto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33BADE92-F1F9-4A0B-AFD2-E8DF6E4DFE21}|PrimerEvaluacionAuto\\PrimerEvaluacionAuto.csproj|solutionrelative:primerevaluacionauto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC191108-3A99-4B70-861F-358302804842}|FormEmpleado\\FormEmpleado.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formempleado\\formaltaempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AC191108-3A99-4B70-861F-358302804842}|FormEmpleado\\FormEmpleado.csproj|solutionrelative:formempleado\\formaltaempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F85CA995-6BEC-4A66-AC95-553AC278A02B}|Formulario_Auto\\Formulario_Auto.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formulario_auto\\formauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F85CA995-6BEC-4A66-AC95-553AC278A02B}|Formulario_Auto\\Formulario_Auto.csproj|solutionrelative:formulario_auto\\formauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{494C69FE-07BF-44E0-A735-336E99DB9DD5}|Form_Lapicera2\\Form_Lapicera2.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_lapicera2\\formaltalapicera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{494C69FE-07BF-44E0-A735-336E99DB9DD5}|Form_Lapicera2\\Form_Lapicera2.csproj|solutionrelative:form_lapicera2\\formaltalapicera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427F94A1-6967-451D-8DB6-B5DC58165DFE}|FormRegistrate\\FormRegistrate.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formregistrate\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427F94A1-6967-451D-8DB6-B5DC58165DFE}|FormRegistrate\\FormRegistrate.csproj|solutionrelative:formregistrate\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC191108-3A99-4B70-861F-358302804842}|FormEmpleado\\FormEmpleado.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formempleado\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC191108-3A99-4B70-861F-358302804842}|FormEmpleado\\FormEmpleado.csproj|solutionrelative:formempleado\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC191108-3A99-4B70-861F-358302804842}|FormEmpleado\\FormEmpleado.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formempleado\\formaltaempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AC191108-3A99-4B70-861F-358302804842}|FormEmpleado\\FormEmpleado.csproj|solutionrelative:formempleado\\formaltaempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{51440377-5850-4F73-BD19-95313CD7EE0B}|LibreriaDeEmpleados\\LibreriaDeEmpleados.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadeempleados\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51440377-5850-4F73-BD19-95313CD7EE0B}|LibreriaDeEmpleados\\LibreriaDeEmpleados.csproj|solutionrelative:libreriadeempleados\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC191108-3A99-4B70-861F-358302804842}|FormEmpleado\\FormEmpleado.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\formempleado\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AC191108-3A99-4B70-861F-358302804842}|FormEmpleado\\FormEmpleado.csproj|solutionrelative:formempleado\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51440377-5850-4F73-BD19-95313CD7EE0B}|LibreriaDeEmpleados\\LibreriaDeEmpleados.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadeempleados\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51440377-5850-4F73-BD19-95313CD7EE0B}|LibreriaDeEmpleados\\LibreriaDeEmpleados.csproj|solutionrelative:libreriadeempleados\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51440377-5850-4F73-BD19-95313CD7EE0B}|LibreriaDeEmpleados\\LibreriaDeEmpleados.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadeempleados\\analista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,29 +62,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Auto.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerEvaluacionAuto\\Auto.cs",
-              "RelativeDocumentMoniker": "PrimerEvaluacionAuto\\Auto.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerEvaluacionAuto\\Auto.cs",
-              "RelativeToolTip": "PrimerEvaluacionAuto\\Auto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOIAAAACAAAA",
+              "DocumentIndex": 3,
+              "Title": "FormAlta.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormRegistrate\\FormAlta.cs",
+              "RelativeDocumentMoniker": "FormRegistrate\\FormAlta.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormRegistrate\\FormAlta.cs",
+              "RelativeToolTip": "FormRegistrate\\FormAlta.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wB0AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T12:47:10.85Z",
+              "WhenOpened": "2024-06-29T01:08:30.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormAuto.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.cs",
-              "RelativeDocumentMoniker": "Formulario_Auto\\FormAuto.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Formulario_Auto\\FormAuto.cs",
-              "RelativeToolTip": "Formulario_Auto\\FormAuto.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAcwGAAAAAJAAAA",
+              "Title": "FormAltaLapicera.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera2\\FormAltaLapicera.cs",
+              "RelativeDocumentMoniker": "Form_Lapicera2\\FormAltaLapicera.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Lapicera2\\FormAltaLapicera.cs",
+              "RelativeToolTip": "Form_Lapicera2\\FormAltaLapicera.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwB0AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T12:43:06.271Z",
+              "WhenOpened": "2024-06-29T01:07:23.139Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAltaEmpleado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormEmpleado\\FormAltaEmpleado.cs",
+              "RelativeDocumentMoniker": "FormEmpleado\\FormAltaEmpleado.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormEmpleado\\FormAltaEmpleado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormEmpleado\\FormAltaEmpleado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:52:43.75Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -94,38 +106,27 @@
               "RelativeDocumentMoniker": "FormEmpleado\\FormAltaEmpleado.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormEmpleado\\FormAltaEmpleado.cs",
               "RelativeToolTip": "FormEmpleado\\FormAltaEmpleado.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvxkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T00:33:06.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FormPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormEmpleado\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "FormEmpleado\\FormPrincipal.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormEmpleado\\FormPrincipal.cs",
               "RelativeToolTip": "FormEmpleado\\FormPrincipal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T00:32:52.648Z"
+              "WhenOpened": "2024-06-28T00:32:52.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormAltaEmpleado.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormEmpleado\\FormAltaEmpleado.cs",
-              "RelativeDocumentMoniker": "FormEmpleado\\FormAltaEmpleado.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormEmpleado\\FormAltaEmpleado.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormEmpleado\\FormAltaEmpleado.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T00:06:06.516Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FormPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormEmpleado\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "FormEmpleado\\FormPrincipal.cs",
@@ -134,18 +135,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T23:57:35.352Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\EjercicioSGEmpleados\\Program.cs",
-              "RelativeDocumentMoniker": "EjercicioSGEmpleados\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\EjercicioSGEmpleados\\Program.cs",
-              "RelativeToolTip": "EjercicioSGEmpleados\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T22:53:34.94Z"
             },
             {
               "$type": "Document",
@@ -185,15 +174,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeEmpleados\\Empleado.cs",
               "RelativeDocumentMoniker": "LibreriaDeEmpleados\\Empleado.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeEmpleados\\Empleado.cs",
               "RelativeToolTip": "LibreriaDeEmpleados\\Empleado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T21:56:10.465Z"
+              "WhenOpened": "2024-06-26T21:56:10.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\EjercicioSGEmpleados\\Program.cs",
+              "RelativeDocumentMoniker": "EjercicioSGEmpleados\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\EjercicioSGEmpleados\\Program.cs",
+              "RelativeToolTip": "EjercicioSGEmpleados\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T22:53:34.94Z"
             }
           ]
         }
