@@ -46,7 +46,7 @@
             txt_marca.Margin = new Padding(5, 3, 5, 3);
             txt_marca.Name = "txt_marca";
             txt_marca.Size = new Size(233, 22);
-            txt_marca.TabIndex = 0;
+            txt_marca.TabIndex = 1;
             // 
             // txt_combustible
             // 
@@ -54,7 +54,7 @@
             txt_combustible.Margin = new Padding(5, 3, 5, 3);
             txt_combustible.Name = "txt_combustible";
             txt_combustible.Size = new Size(233, 22);
-            txt_combustible.TabIndex = 1;
+            txt_combustible.TabIndex = 2;
             // 
             // lbl_marca
             // 
@@ -64,7 +64,7 @@
             lbl_marca.Margin = new Padding(5, 0, 5, 0);
             lbl_marca.Name = "lbl_marca";
             lbl_marca.Size = new Size(43, 14);
-            lbl_marca.TabIndex = 3;
+            lbl_marca.TabIndex = 1;
             lbl_marca.Text = "Marca";
             // 
             // lbl_combustible
@@ -98,7 +98,7 @@
             btn_crear.Margin = new Padding(5, 3, 5, 3);
             btn_crear.Name = "btn_crear";
             btn_crear.Size = new Size(138, 28);
-            btn_crear.TabIndex = 6;
+            btn_crear.TabIndex = 4;
             btn_crear.Text = "Crear";
             btn_crear.UseVisualStyleBackColor = false;
             btn_crear.Click += btn_crear_Click;
@@ -110,7 +110,7 @@
             cmb_colores.Margin = new Padding(5, 3, 5, 3);
             cmb_colores.Name = "cmb_colores";
             cmb_colores.Size = new Size(233, 24);
-            cmb_colores.TabIndex = 7;
+            cmb_colores.TabIndex = 3;
             // 
             // lst_misAutos
             // 
@@ -119,7 +119,7 @@
             lst_misAutos.Margin = new Padding(5, 3, 5, 3);
             lst_misAutos.Name = "lst_misAutos";
             lst_misAutos.Size = new Size(706, 292);
-            lst_misAutos.TabIndex = 8;
+            lst_misAutos.TabIndex = 6;
             // 
             // btn_mostrar
             // 
@@ -131,7 +131,7 @@
             btn_mostrar.Margin = new Padding(5, 3, 5, 3);
             btn_mostrar.Name = "btn_mostrar";
             btn_mostrar.Size = new Size(138, 28);
-            btn_mostrar.TabIndex = 9;
+            btn_mostrar.TabIndex = 5;
             btn_mostrar.Text = "Mostrar";
             btn_mostrar.UseVisualStyleBackColor = false;
             btn_mostrar.Click += btn_mostrar_Click;
@@ -144,7 +144,7 @@
             btn_limpiar.Margin = new Padding(5, 3, 5, 3);
             btn_limpiar.Name = "btn_limpiar";
             btn_limpiar.Size = new Size(138, 28);
-            btn_limpiar.TabIndex = 10;
+            btn_limpiar.TabIndex = 7;
             btn_limpiar.Text = "Limpiar";
             btn_limpiar.UseVisualStyleBackColor = false;
             btn_limpiar.Click += btn_limpiar_Click;
@@ -154,7 +154,7 @@
             AutoScaleDimensions = new SizeF(8F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(1094, 461);
+            ClientSize = new Size(1085, 439);
             Controls.Add(btn_limpiar);
             Controls.Add(btn_mostrar);
             Controls.Add(lst_misAutos);

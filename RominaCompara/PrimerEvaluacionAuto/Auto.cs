@@ -8,13 +8,14 @@ namespace PrimerEvaluacionAuto
     public class Auto //clase auto
     {
         //A.Los atributos marca, cantCombustible, color.
+        //declaramos atributos
         private string marca;
         private double cantCombustible;
         private Color color;
 
         //B. un constructor que inicialice todos los atributos.
         public Auto(string marca, double cantCombustible, Color color) //1°constructor
-        {
+        {//le damos valores a los atributos dentro del constructor
             this.marca = marca;
             this.cantCombustible = cantCombustible;
             //this.SetCantCombustible(cantCombustible);//Metodo SetCantCombustible puede ser llamado dentro del constructor.
@@ -103,8 +104,9 @@ namespace PrimerEvaluacionAuto
             //retorno: es una variable booleana que inicialmente se establece en false.
             //Se utilizará para indicar si la conversión fue exitosa o no.
             
-            if (double.TryParse(combustible, out double combValido))//Evaluar si double(TryParse me devuelve un bool: si pudo o no convertir el dato strig en combustible)
-            {//Recibia combustible intentaba parcearlo a double si salia todo bien devolvia un true
+            if (double.TryParse(combustible, out double combValido))
+            {// Evaluar si double(TryParse me devuelve un bool: si pudo o no convertir el dato strig en combustible)
+             //Recibia combustible intentaba parcearlo a double si salia todo bien devolvia un true
              //o caso contrario un false.Y si lograba convertirlo-> combustible era mayor a cero
              //Intenta convertir el string 'combustible' en un double
              //Si tiene éxito, asigna el valor convertido a 'combValido' y devuelve true.
@@ -115,11 +117,14 @@ namespace PrimerEvaluacionAuto
             return retorno; // Devuelve 'retorno', que será true si la conversión fue exitosa, false si no.
         }
         //**********************************************************************************************************
-        ////El método ConvertirStringAInt intenta convertir una cadena de texto en un número decimal (double)
-        ////La función double.TryParse intenta realizar esta conversión y devuelve un booleano
-        ////que indica si la operación fue exitosa o no.
-        ////Si la conversión es exitosa, el valor convertido se almacena en la variable combValido
-        ////la cual se pasa por referencia utilizando la palabra clave out.
+        //El método ConvertirStringAInt intenta convertir una cadena de texto en un número decimal (double)
+        //La función double.TryParse intenta realizar esta conversión y devuelve un booleano
+        //que indica si la operación fue exitosa o no.
+        //Si la conversión es exitosa, el valor convertido se almacena en la variable combValido
+        //la cual se pasa por referencia utilizando la palabra clave out.
+        //Metodo estatico, propio de la clase. Trabaja igual que el tryParse.Tengo la posibilidad que me devuelva el 
+        //el valor validado y si no me devuelve el true o false
+
         //public static bool ConvertirStringAInt(string valorAConvertir,out double combValido ) 
         //{
         //    return double.TryParse(valorAConvertir, out combValido);
@@ -133,7 +138,7 @@ namespace PrimerEvaluacionAuto
             };
             return list;
         }
-        public override string ToString() 
+        public override string ToString() //Sobreecribir metodo ToString que es propio de los objetos
         {
             return this.AutoToString();
             //return "quiero morstrar los datos";
