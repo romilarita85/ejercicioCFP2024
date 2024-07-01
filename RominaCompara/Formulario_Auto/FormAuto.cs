@@ -19,7 +19,6 @@ namespace Formulario_Auto
             
             this.CargarCMB(Auto.ColoresValidos());
             //this.cmb_colores.DataSource = Auto.ColoresValidos();
-
         }
         private void btn_crear_Click(object sender, EventArgs e) //EVENTO
         {//-creas un nuevo objeto Auto con la información ingresada por el usuario,
@@ -27,8 +26,9 @@ namespace Formulario_Auto
          //-Si la respuesta es afirmativa, agrega el auto a la lista misAutos.
             string marca = this.txt_marca.Text;
             string combustible = this.txt_combustible.Text;
-            Color color = (Color)this.cmb_colores.SelectedItem;
-
+            Color color = (Color)this.cmb_colores.SelectedItem;//Castear color para que devuelva algo de tipo color
+            //por eso => (Color)*****************//SelectedItem= item seleccionado- me trae el objeto completo
+            
             DialogResult respuesta; // crear variable del tipo resultado que me devulva el metodo MensaggeBox
            
             if (this.ValidarEntradas(marca,combustible)) //Uso metodo Validar entradas
@@ -62,7 +62,8 @@ namespace Formulario_Auto
             this.VaciarLst();//antes de cargar la lista me aseguro q se vacie
 
             this.lst_misAutos.Items.AddRange(misAutos.ToArray());
-            //this.lst_misAutos.DataSource = misAutos; //Funciona igual que el addRange
+            //this.lst_misAutos.DataSource = misAutos;//Cargar con DataSource funciona igual que el addRange 
+            //DataSource va a cargar todos los valores de la lista (q esta como atributo del formulario)
         }
 
         private void btn_limpiar_Click(object sender, EventArgs e)//EVENTO
@@ -89,14 +90,23 @@ namespace Formulario_Auto
             }
             return ok;
         }
+        //Precisaba recibir un array pero ese array no se podia convertir -Creamos metodo
         private void CargarCMB(List<Color>colores)//METODO->Cargas los colores en el ComboBox cmb_colores.
         {//El método CargarCMB es parte de una clase que tiene un control ComboBox (cmb_colores)
          //y se utiliza para cargar una lista de colores en ese ComboBox.
-         //foreach (Color color in colores)
+         //Recibimos una lista de colores, esos colores los recorremos 1 a 1 y se lo ivamos agregando
+         //como todos los items a el combo box uno por uno
+         //foreach (Color color in colores) //Recibimos una lista de colores
          //{
          //    this.cmb_colores.Items.Add(color);  
          //}
-            this.cmb_colores.DataSource = colores;
+            this.cmb_colores.DataSource = colores;//Recibe la lista de colores
+            //obtiene automáticamente los elementos de la colección y los muestra en su lista desplegable.
+            //DataSource=(origen de los datos)forma optima de cargar un componente de una lista o coleccion
+            //Puede recibir cualquier cosa
+            //Devuelve algo  de tipo object (un objeto)->abstracto que puede tener cualquier cosa y engloba
+            //a todos los objetos
+            //no pierde su valor original de ser
         }
 
     }

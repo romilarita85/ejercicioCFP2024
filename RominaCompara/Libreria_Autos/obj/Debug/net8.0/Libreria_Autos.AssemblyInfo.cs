@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Libreria_Autos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9d2ddf766737984c72f4b6c02a2e6d2279e5bb2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf6e981db4e6022e87b487c073865b4a1f6dc948")]
 [assembly: System.Reflection.AssemblyProductAttribute("Libreria_Autos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Libreria_Autos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

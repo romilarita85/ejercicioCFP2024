@@ -141,7 +141,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaDeEmpleados", "Libr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjercicioSGEmpleados", "EjercicioSGEmpleados\EjercicioSGEmpleados.csproj", "{B565C3D1-DF22-47BE-9049-2FD6266B1361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormEmpleado", "FormEmpleado\FormEmpleado.csproj", "{AC191108-3A99-4B70-861F-358302804842}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormEmpleado", "FormEmpleado\FormEmpleado.csproj", "{AC191108-3A99-4B70-861F-358302804842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaDeAlumnos2", "BibliotecaDeAlumnos2\BibliotecaDeAlumnos2.csproj", "{A9117605-4ED9-4DD7-BB14-FF72F2727074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -429,6 +431,10 @@ Global
 		{AC191108-3A99-4B70-861F-358302804842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC191108-3A99-4B70-861F-358302804842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC191108-3A99-4B70-861F-358302804842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9117605-4ED9-4DD7-BB14-FF72F2727074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9117605-4ED9-4DD7-BB14-FF72F2727074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9117605-4ED9-4DD7-BB14-FF72F2727074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9117605-4ED9-4DD7-BB14-FF72F2727074}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
