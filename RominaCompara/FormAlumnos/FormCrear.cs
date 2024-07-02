@@ -26,11 +26,12 @@ namespace FormAlumnos
         }
         
         //Instanciamos un nuevo estudiante con el boton aceptar
-        private void btn_aceptar_Click(object sender, EventArgs e)//Evento btn_aceptar_Click: 
+        private void btn_aceptar_Click(object sender, EventArgs e)//EVENTO btn_aceptar_Click: 
         {//Este método se ejecuta cuando se hace clic en el botón "Aceptar"en el formulario.
-            nuevoAlumno = new Alumno(txt_legajo.Text, txt_nombre.Text, txt_apellido.Text);
-         //Crea un nuevo objeto Alumno con los datos ingresados
-         //en los campos de texto (txt_legajo, txt_nombre y txt_apellido).
+            nuevoAlumno = new Alumno(txt_legajo.Text, txt_nombre.Text, txt_apellido.Text);//intancia
+         //Crea un nuevo objeto Alumno con los datos ingresados en los campos de texto
+         //(txt_legajo, txt_nombre y txt_apellido).
+
             this.DialogResult = DialogResult.OK; //Luego, establece el resultado del formulario en DialogResult.OK,
          //lo que indica que el usuario ha confirmado la acción de crear un nuevo alumno.
         }
@@ -41,13 +42,13 @@ namespace FormAlumnos
            //lo que indica que el usuario ha cancelado la acción de crear un nuevo alumno.
         }
         
-        //PROPIEDAD (que retorne estudiante)
-        public Alumno MiAlumno //Crear Propiedad GET -metodo q retorne algo del tipo alumno "MiAlumno"
-        {//Propiedad MiAlumno: Esta propiedad de solo lectura (get)
-        //permite acceder al objeto Alumno creado en el formulario.
+        //PROPIEDAD (que retorne Alumno)
+        public Alumno MiAlumno //Crear Propiedad GET -metodo q retorne algo del tipo Alumno "MiAlumno"
+        { //Propiedad MiAlumno: Esta propiedad de solo lectura (get)
+         //permite acceder al objeto Alumno creado en el formulario.
             get
             {
-                return nuevoAlumno;
+                return nuevoAlumno;//retorno el nuevoAlumno creado en el Evento Aceptar
             }
         }//Cuando se accede a esta propiedad desde fuera del formulario (por ejemplo, desde el formulario principal),
 //devuelve el objeto Alumno que se creó durante la ejecución del formulario.

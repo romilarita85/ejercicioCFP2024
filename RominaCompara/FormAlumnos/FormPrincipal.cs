@@ -21,16 +21,18 @@ namespace FormAlumnos
             this.materias = new List<Materia>();//inicializar lista de materias
             this.alumnos = Alumno.ListaAlumnos();//Llamar al metodo listaAlumnos() de la clase alumno para cargar
                                                  //algunos datos iniciales en la lista de alumnos
-            this.lst_alumnos.DataSource = alumnos;//Establecer la lista de alumnos como origen de datos
-                                                  //del control lst_alumnos
+            this.lst_alumnos.DataSource = alumnos;//Establecer la lista de alumnos para que se muestre siempre
+            //en el form.Como le paso toda la lista de alumnos el listbox si le paso una lista
+            //agarra objeto por objeto de la lista y accede al metodo ToString 
+            //
         }//Todas la listas tienen que estar inicializadas en el Load
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {//Este método maneja el evento de hacer clic en el botón "Agregar".
             FormCrear formAlta = new FormCrear();//lamamos a la clase "FormCrear"
-                             //Crea una instancia del formulario FormCrear y lo muestra de forma modal.
+            //Crea una instancia del formulario FormCrear y lo muestra de forma modal.
 
-            formAlta.ShowDialog();
+            formAlta.ShowDialog();//ShowDialog hace que se muestre la instanacia q acabo de crear
 
             if (formAlta.DialogResult == DialogResult.OK && formAlta.MiAlumno is not null)
             { //Luego, verifica si el resultado del formulario es DialogResult.OK
@@ -42,8 +44,8 @@ namespace FormAlumnos
         }
         private void CargarListaAlumnos()
         {//Este método se encarga de cargar la lista de alumnos en el control lst_alumnos.
-            lst_alumnos.DataSource = null;
-            lst_alumnos.DataSource = alumnos;
+            lst_alumnos.DataSource = null;//nulear o refrescar DataSource
+            lst_alumnos.DataSource = alumnos;//volver a cargarlo
         }
 
         private void CargarListaMaterias()

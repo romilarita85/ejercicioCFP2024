@@ -54,7 +54,7 @@ public class Alumno
             new Alumno("1005", "Andrea", "Alvares")
         };
     }
-    public override string? ToString()
+    public override string? ToString()//Metodo ToString propio de todos los objetos
     {
         return $"{apellido},{nombre}";
     }

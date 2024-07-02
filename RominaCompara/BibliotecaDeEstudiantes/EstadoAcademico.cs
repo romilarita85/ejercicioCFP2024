@@ -45,7 +45,6 @@ namespace BibliotecaDeAlumnos
                 return this.alumno;
             }
         }
-
         public string Carrera { get => carrera; set => carrera = value; }
     }
 }
