@@ -15,11 +15,11 @@ namespace BibliotecaDeAlumnos2
         //static Random random = new Random();
 
         //PROPIEDADES ********************************************************************************************
-        //Condicion de set y get al mismo tiempo.
-        //Pueden ser autosostenidas. Puede ser una propiedad que utilice un atributo set y get.
+        //Condicion de set y get al mismo tiempo. //1°get; 2°set
+        //Pueden ser autosostenidas-No precisan atributo para existir
+        //Puede ser una propiedad que utilice un atributo set y get.
+        //puedo hacer q sea solo get o set
         //puedo modificar la visibilidad del get/set
-        //1°get; 2°set
-        //Su metodo s
         //Validaciones dentro de un mismo metodo
         //Enmascarar un metodo dentro de una propiedad 
         //Va a hacer referencia a un atributo propio de la clase
@@ -48,7 +48,7 @@ namespace BibliotecaDeAlumnos2
             get => notaPrimerParcial;
             set
             {
-                if (value >= 0 && value <= 10)
+                if (value >= 0 && value <= 10)//Validaciones dentro de un mismo metodo
                 {
                     notaPrimerParcial = value;
                 }
@@ -97,7 +97,6 @@ namespace BibliotecaDeAlumnos2
 
         //●	Tendrá un constructor de instancia que inicializará los atributos
         //nombre, apellido y legajo.
-
         public Alumno(string legajo, string nombre, string apellido)
         {
             this.legajo = legajo;
@@ -124,7 +123,7 @@ namespace BibliotecaDeAlumnos2
 
         private double CalcularPromedio()
         {
-            return ((double)this.notaPrimerParcial + this.notaSegundoParcial) / 2;//Castear
+            return ((double)this.notaPrimerParcial + this.notaSegundoParcial) / 2;//Pedia que retorne el double-Castear
         }
 
         //●	El método CalcularNotaFinal deberá retornar la nota del final
@@ -142,6 +141,7 @@ namespace BibliotecaDeAlumnos2
             return resultado;
 
         }
+
         //●	El método Mostrar utilizará StringBuilder para armar una cadena de texto con todos los datos de los alumnos:
         //Nombre, apellido y legajo.
         //Nota del primer y segundo parcial.
@@ -151,22 +151,29 @@ namespace BibliotecaDeAlumnos2
         public string Mostrar()
         {
             // Implementa la lógica para mostrar los datos del estudiante
-            StringBuilder sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder();//Se inicializa un objeto StringBuilder llamado sb.
+           
             sb.AppendLine($"Alumno: {this.apellido},{this.nombre} - Legajo n°: {this.legajo}");
             sb.AppendLine($"Nota 1° parcial: {this.notaPrimerParcial}");
             sb.AppendLine($"Nota 2° parcial: {this.notaSegundoParcial}");
             sb.AppendLine($"Promedio: {this.CalcularPromedio()}");
-            double notaFinal = this.CalcularNotaFinal();
+            
+            double notaFinal = this.CalcularNotaFinal();//Se calcula la nota final del alumno utilizando el
+            //método CalcularNotaFinal() y se almacena en la variable notaFinal.
 
-            if (notaFinal != -1)
-            {
-                sb.AppendLine($"Nota final: {notaFinal}");
+            if (notaFinal != -1)//Nota final. Se mostrará sólo si el valor es distinto de -1, caso contrario             
+            { //se mostrará la leyenda "Alumno desaprobado".
+                sb.AppendLine($"Nota final: {notaFinal}");//Si notaFinal es diferente de -1 (indicando que el
+               //alumno aprobó),se añade una línea que muestra la nota final obtenida.
             }
             else
             {
-                sb.AppendLine("Alumno desaprobado");
+                sb.AppendLine("Alumno desaprobado");//Si notaFinal es -1 (indicando que el alumno desaprobó),
+               //se añade una línea indicando "Alumno desaprobado"
             }
             return sb.ToString();
+            //Finalmente, el contenido completo del StringBuilder se convierte en una cadena de texto
+            //utilizando sb.ToString() y se devuelve como resultado del método Mostrar().
         }
         public static List<Alumno> ListaAlumnos()
         {
