@@ -19,7 +19,7 @@ namespace FormAlumnos
         {//Este método se ejecuta cuando el formulario principal se carga por primera vez.
             this.alumnos = new List<Alumno>();//inicializar lista de alumnos
             this.materias = new List<Materia>();//inicializar lista de materias
-            this.alumnos = Alumno.ListaAlumnos();//Llamar al metodo listaAlumnos() de la clase alumno para cargar
+            this.alumnos = Alumno.ListaAlumnos();//Llamar al metodo ListaAlumnos() de la clase alumno para cargar
                                                  //algunos datos iniciales en la lista de alumnos
             this.lst_alumnos.DataSource = alumnos;//Establecer la lista de alumnos para que se muestre siempre
             //en el form.Como le paso toda la lista de alumnos el listbox si le paso una lista
@@ -79,10 +79,13 @@ namespace FormAlumnos
 
         private void btn_estadoAcademico_Click(object sender, EventArgs e)
         {
-            Alumno alumno = alumnos[0];
-            List<Materia> lista = materias;
-            string carrera = "Trayecto programacion";
-            ForEstadoAcademico estadoAcademico = new ForEstadoAcademico();    
+            Alumno alumno = alumnos[0];//primer alumno
+            List<Materia> lista = materias; //listado de materias
+            string carrera = "Trayecto programacion";//pasar la carrera hardcodeada
+            //crear nueva instancia del formulario con esos datos
+            ForEstadoAcademico estadoAcademico = new ForEstadoAcademico(alumno,lista,carrera);
+            
+            estadoAcademico.ShowDialog();
         }
     }
 }

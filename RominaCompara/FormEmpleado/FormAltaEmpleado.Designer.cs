@@ -32,17 +32,18 @@
             txt_nombre = new TextBox();
             num_salario = new NumericUpDown();
             lbl_salario = new Label();
-            lbl_departamento = new Label();
-            lst_departamentos = new ListBox();
-            gpb_antiguedad = new GroupBox();
-            rdb_16a20 = new RadioButton();
-            rdb_11a15 = new RadioButton();
-            rdb_6a10 = new RadioButton();
-            rdb_1a5 = new RadioButton();
+            lbl_antiguedad = new Label();
+            gpb_departamento = new GroupBox();
+            rdb_administracion = new RadioButton();
+            rdb_sistemas = new RadioButton();
+            rdb_contabilidad = new RadioButton();
+            rdb_finanzas = new RadioButton();
             btn_cancelar = new Button();
             btn_agregar = new Button();
+            numericUpDown1 = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)num_salario).BeginInit();
-            gpb_antiguedad.SuspendLayout();
+            gpb_departamento.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // lbl_nombre
@@ -81,80 +82,71 @@
             lbl_salario.TabIndex = 3;
             lbl_salario.Text = "Salario";
             // 
-            // lbl_departamento
+            // lbl_antiguedad
             // 
-            lbl_departamento.AutoSize = true;
-            lbl_departamento.Location = new Point(50, 233);
-            lbl_departamento.Name = "lbl_departamento";
-            lbl_departamento.Size = new Size(83, 15);
-            lbl_departamento.TabIndex = 4;
-            lbl_departamento.Text = "Departamento";
+            lbl_antiguedad.AutoSize = true;
+            lbl_antiguedad.Location = new Point(50, 207);
+            lbl_antiguedad.Name = "lbl_antiguedad";
+            lbl_antiguedad.Size = new Size(69, 15);
+            lbl_antiguedad.TabIndex = 4;
+            lbl_antiguedad.Text = "Antiguedad";
             // 
-            // lst_departamentos
+            // gpb_departamento
             // 
-            lst_departamentos.FormattingEnabled = true;
-            lst_departamentos.ItemHeight = 15;
-            lst_departamentos.Location = new Point(152, 236);
-            lst_departamentos.Name = "lst_departamentos";
-            lst_departamentos.Size = new Size(175, 94);
-            lst_departamentos.TabIndex = 5;
+            gpb_departamento.Controls.Add(rdb_administracion);
+            gpb_departamento.Controls.Add(rdb_sistemas);
+            gpb_departamento.Controls.Add(rdb_contabilidad);
+            gpb_departamento.Controls.Add(rdb_finanzas);
+            gpb_departamento.Location = new Point(358, 51);
+            gpb_departamento.Name = "gpb_departamento";
+            gpb_departamento.Size = new Size(234, 170);
+            gpb_departamento.TabIndex = 8;
+            gpb_departamento.TabStop = false;
+            gpb_departamento.Text = "Departamento";
             // 
-            // gpb_antiguedad
+            // rdb_administracion
             // 
-            gpb_antiguedad.Controls.Add(rdb_16a20);
-            gpb_antiguedad.Controls.Add(rdb_11a15);
-            gpb_antiguedad.Controls.Add(rdb_6a10);
-            gpb_antiguedad.Controls.Add(rdb_1a5);
-            gpb_antiguedad.Location = new Point(358, 51);
-            gpb_antiguedad.Name = "gpb_antiguedad";
-            gpb_antiguedad.Size = new Size(234, 170);
-            gpb_antiguedad.TabIndex = 8;
-            gpb_antiguedad.TabStop = false;
-            gpb_antiguedad.Text = "Antiguedad";
+            rdb_administracion.AutoSize = true;
+            rdb_administracion.Location = new Point(64, 114);
+            rdb_administracion.Name = "rdb_administracion";
+            rdb_administracion.Size = new Size(106, 19);
+            rdb_administracion.TabIndex = 3;
+            rdb_administracion.TabStop = true;
+            rdb_administracion.Text = "Administracion";
+            rdb_administracion.UseVisualStyleBackColor = true;
             // 
-            // rdb_16a20
+            // rdb_sistemas
             // 
-            rdb_16a20.AutoSize = true;
-            rdb_16a20.Location = new Point(64, 114);
-            rdb_16a20.Name = "rdb_16a20";
-            rdb_16a20.Size = new Size(82, 19);
-            rdb_16a20.TabIndex = 3;
-            rdb_16a20.TabStop = true;
-            rdb_16a20.Text = "16-20 años";
-            rdb_16a20.UseVisualStyleBackColor = true;
+            rdb_sistemas.AutoSize = true;
+            rdb_sistemas.Location = new Point(64, 89);
+            rdb_sistemas.Name = "rdb_sistemas";
+            rdb_sistemas.Size = new Size(71, 19);
+            rdb_sistemas.TabIndex = 2;
+            rdb_sistemas.TabStop = true;
+            rdb_sistemas.Text = "Sistemas";
+            rdb_sistemas.UseVisualStyleBackColor = true;
             // 
-            // rdb_11a15
+            // rdb_contabilidad
             // 
-            rdb_11a15.AutoSize = true;
-            rdb_11a15.Location = new Point(64, 89);
-            rdb_11a15.Name = "rdb_11a15";
-            rdb_11a15.Size = new Size(82, 19);
-            rdb_11a15.TabIndex = 2;
-            rdb_11a15.TabStop = true;
-            rdb_11a15.Text = "11-15 años";
-            rdb_11a15.UseVisualStyleBackColor = true;
+            rdb_contabilidad.AutoSize = true;
+            rdb_contabilidad.Location = new Point(64, 64);
+            rdb_contabilidad.Name = "rdb_contabilidad";
+            rdb_contabilidad.Size = new Size(93, 19);
+            rdb_contabilidad.TabIndex = 1;
+            rdb_contabilidad.TabStop = true;
+            rdb_contabilidad.Text = "Contabilidad";
+            rdb_contabilidad.UseVisualStyleBackColor = true;
             // 
-            // rdb_6a10
+            // rdb_finanzas
             // 
-            rdb_6a10.AutoSize = true;
-            rdb_6a10.Location = new Point(64, 64);
-            rdb_6a10.Name = "rdb_6a10";
-            rdb_6a10.Size = new Size(76, 19);
-            rdb_6a10.TabIndex = 1;
-            rdb_6a10.TabStop = true;
-            rdb_6a10.Text = "6-10 años";
-            rdb_6a10.UseVisualStyleBackColor = true;
-            // 
-            // rdb_1a5
-            // 
-            rdb_1a5.AutoSize = true;
-            rdb_1a5.Location = new Point(64, 39);
-            rdb_1a5.Name = "rdb_1a5";
-            rdb_1a5.Size = new Size(70, 19);
-            rdb_1a5.TabIndex = 0;
-            rdb_1a5.TabStop = true;
-            rdb_1a5.Text = "1-5 años";
-            rdb_1a5.UseVisualStyleBackColor = true;
+            rdb_finanzas.AutoSize = true;
+            rdb_finanzas.Location = new Point(64, 39);
+            rdb_finanzas.Name = "rdb_finanzas";
+            rdb_finanzas.Size = new Size(70, 19);
+            rdb_finanzas.TabIndex = 0;
+            rdb_finanzas.TabStop = true;
+            rdb_finanzas.Text = "Finanzas";
+            rdb_finanzas.UseVisualStyleBackColor = true;
             // 
             // btn_cancelar
             // 
@@ -175,16 +167,26 @@
             btn_agregar.UseVisualStyleBackColor = true;
             btn_agregar.Click += btn_agregar_Click;
             // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Location = new Point(152, 207);
+            numericUpDown1.Maximum = new decimal(new int[] { 900000, 0, 0, 0 });
+            numericUpDown1.Minimum = new decimal(new int[] { 200000, 0, 0, 0 });
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(175, 23);
+            numericUpDown1.TabIndex = 11;
+            numericUpDown1.Value = new decimal(new int[] { 200000, 0, 0, 0 });
+            // 
             // FormAltaEmpleado
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(631, 372);
+            Controls.Add(numericUpDown1);
             Controls.Add(btn_agregar);
             Controls.Add(btn_cancelar);
-            Controls.Add(gpb_antiguedad);
-            Controls.Add(lst_departamentos);
-            Controls.Add(lbl_departamento);
+            Controls.Add(gpb_departamento);
+            Controls.Add(lbl_antiguedad);
             Controls.Add(lbl_salario);
             Controls.Add(num_salario);
             Controls.Add(txt_nombre);
@@ -193,8 +195,9 @@
             Text = "Alta Empleado";
             Load += FormAltaEmpleado_Load;
             ((System.ComponentModel.ISupportInitialize)num_salario).EndInit();
-            gpb_antiguedad.ResumeLayout(false);
-            gpb_antiguedad.PerformLayout();
+            gpb_departamento.ResumeLayout(false);
+            gpb_departamento.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -205,14 +208,14 @@
         private TextBox txt_nombre;
         private NumericUpDown num_salario;
         private Label lbl_salario;
-        private Label lbl_departamento;
-        private ListBox lst_departamentos;
-        private GroupBox gpb_antiguedad;
-        private RadioButton rdb_16a20;
-        private RadioButton rdb_11a15;
-        private RadioButton rdb_6a10;
-        private RadioButton rdb_1a5;
+        private Label lbl_antiguedad;
+        private GroupBox gpb_departamento;
+        private RadioButton rdb_administracion;
+        private RadioButton rdb_sistemas;
+        private RadioButton rdb_contabilidad;
+        private RadioButton rdb_finanzas;
         private Button btn_cancelar;
         private Button btn_agregar;
+        private NumericUpDown numericUpDown1;
     }
 }

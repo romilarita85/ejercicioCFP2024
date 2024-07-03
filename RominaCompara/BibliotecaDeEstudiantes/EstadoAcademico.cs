@@ -46,6 +46,8 @@ namespace BibliotecaDeAlumnos
             }
         }
         public string Carrera { get => carrera; set => carrera = value; }
+        public string Carrera1 { get => carrera; set => carrera = value; }
+        public List<Materia> Materias1 { get => materias; set => materias = value; }
     }
 }
 //****************************************************************************************

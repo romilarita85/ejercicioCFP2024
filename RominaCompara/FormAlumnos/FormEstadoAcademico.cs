@@ -16,22 +16,25 @@ namespace FormAlumnos
         Alumno alumno;
         List<Materia> materias;
         string carrera;
-        public ForEstadoAcademico()
+        public ForEstadoAcademico() //Constructor vacio
         {
             InitializeComponent();
         }
-
-        public ForEstadoAcademico(Alumno alumno, List<Materia> materias, string carrera):this()
-        {
+       
+        public ForEstadoAcademico(Alumno alumno, List<Materia> materias, string carrera) : this()
+        {//Constructor con parametros
             this.alumno = alumno;
             this.materias = materias;
             this.carrera = carrera;
         }
-
-        private void CargarLsb(object sender, EventArgs e)
+        private void ForEstadoAcademico_Load(object sender, EventArgs e)
+        {
+            CargarLsb();
+        }
+        private void CargarLsb()
         {
             lst_estadoAcademico.Items.Add(alumno);
-            lst_estadoAcademico.Items.Add($"carrera:{carrera}");
+            lst_estadoAcademico.Items.Add($"Carrera: {carrera}");
             lst_estadoAcademico.Items.Add("Listado de materias:");
 
             foreach (Materia item in materias)
@@ -40,5 +43,6 @@ namespace FormAlumnos
             }
         }
 
+ 
     }
 }

@@ -16,7 +16,7 @@ namespace FormRegistrate
 
         public Ingresante Ingresante { get => ingresante; }//Creo PROPERTIE q me permita exponer el valor de ingresante
 
-        public FormAlta()
+        public FormAlta() //CONSTRUCTOR VACIO
         {
             InitializeComponent();
         }
@@ -59,6 +59,7 @@ namespace FormRegistrate
             ingresante = new Ingresante(nombre, apellido, edad, genero, pais, cursos);//creo una nueva instancia
             //que el atributo creado sea igual al la nueva instancia del tipo Ingresante
             //tengo q pasarle nombre,apellido,edad,genero,pais y la lista de cursos
+            
             DialogResult = DialogResult.OK;//dar resultado ok a la propiedad DialogResult
         }
         

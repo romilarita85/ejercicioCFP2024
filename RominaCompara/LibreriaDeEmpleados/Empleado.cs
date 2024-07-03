@@ -34,5 +34,11 @@ namespace LibreriaDeEmpleados
         //la suma del sueldo mas el valor de la bonificacion
         public abstract double SueldoTotal();
 
+
+        //**************************************************+
+        public override string? ToString()//Metodo ToString propio de todos los objetos
+        {
+            return MostrarInfo();
+        }
     }
 }

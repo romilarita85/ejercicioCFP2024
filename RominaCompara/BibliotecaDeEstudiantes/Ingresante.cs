@@ -36,21 +36,28 @@ namespace BibliotecaDeAlumnos
         {
             get 
             {
-                StringBuilder sb = new StringBuilder();
+                StringBuilder sb = new StringBuilder();//crea un nuevo objeto StringBuilder.
+              //Se utiliza StringBuilder porque es más eficiente que concatenar cadenas directamente
+              //dentro de un bucle.
 
                 for (int i = 0; i < cursos.Count; i++)
-                {
-                    sb.Append(cursos[i]);
-                    
+                {//Este bucle itera a través de cada elemento en la colección cursos.
+                    sb.Append(cursos[i]);//agrega el nombre del curso en el índice i de la colección
+                    //cursos al StringBuilder.
+
                     if (i< cursos.Count - 1)
-                    {
+                    {//Verifica si el curso actual no es el último(basado en el índice comenzando desde cero).
+                     //Si no es el último curso, agrega " - " para separar los cursos.
                         sb.Append(" - ");
                     }
                 }
-                return sb.ToString();   
+                return sb.ToString();//return sb.ToString(); convierte el objeto StringBuilder a una
+                                     //cadena de texto y retorna el resultado concatenado.   
             } 
         }
 
-        
+
+
+
     }
 }

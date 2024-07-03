@@ -23,19 +23,26 @@ namespace FormEmpleado
 
         private void FormAltaEmpleado_Load(object sender, EventArgs e)
         {
-            lst_departamentos.DataSource = new List<string>()
-            {
-                "Contabilidad","Finanzas","Sistemas","Administracion","Auditoria","Ventas"
-            };
+
 
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {
             string nombre = txt_nombre.Text;
-            //double salario = num_salario.Text;
-            string departamento = lst_departamentos.Text;
-            //int antiguedad = int.Empty;
+            double salario = (double)num_salario.Value;
+            string departamento = lst_antiguedades.Text;
+            int antiguedad = int.Empty;
+
+            foreach (RadioButton rd in gpb_Antiguedad.Controls)//Sacar algo del tipo radioButton en cada vuelta
+            {
+                //Saco algo del tipo radioButton en la coleccion del groupbox_genero por medio del operador punto accedo a propiedad Controls
+                if (rd.Checked == true)//para verificar el componente (rd)q acabamps de sacar-> ver en q estado esta
+                {//si es true ->fue chequeado
+                    antiguedad = rd.int;
+                    break;
+                }
+            }
         }
     }
 }

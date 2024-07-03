@@ -51,6 +51,7 @@
             Controls.Add(lst_estadoAcademico);
             Name = "ForEstadoAcademico";
             Text = "Estado academico";
+            Load += ForEstadoAcademico_Load;
             ResumeLayout(false);
         }
 

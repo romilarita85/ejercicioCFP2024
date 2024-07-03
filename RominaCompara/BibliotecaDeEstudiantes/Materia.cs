@@ -31,6 +31,7 @@ namespace BibliotecaDeAlumnos
             return ((double)this.notaPrimerParcial + this.notaSegundoParcial) / 2;
         }
         public string Nombre { get => nombre;}
+
         public int NotaPrimerParcial { get => notaPrimerParcial; set => notaPrimerParcial = value; }
         public int NotaSegundoParcial { get => notaSegundoParcial; set => notaSegundoParcial = value; }
 
@@ -42,5 +43,10 @@ namespace BibliotecaDeAlumnos
             }
 
         }
+        public override string? ToString()//Metodo ToString propio de todos los objetos
+        {
+            return $"{nombre}";
+        }
+
     }
 }

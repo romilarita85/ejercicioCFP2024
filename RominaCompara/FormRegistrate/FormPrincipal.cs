@@ -13,17 +13,19 @@ namespace FormRegistrate
         {//las listas se instancian en el evento load
             ingresantes = new List<Ingresante>();
         }
-        private void btn_agregar_Click(object sender, EventArgs e)
+        private void btn_agregar_Click(object sender, EventArgs e)//Evento-(me comunica con FormAlta)
         {//Crear una nueva instancia del formulario de alta (formAlta)
             FormAlta formAlta = new FormAlta();
          //invocar nueva instancia del formulario formAlta 
             formAlta.ShowDialog();
-            
+           
             if (formAlta.DialogResult == DialogResult.OK)//Evaluar q respuesta de la propertie formAlta
             {//si la respuesta fue ok agrego nuevo ingresante en mi lista ingresantes
                 ingresantes.Add(formAlta.Ingresante);//uso protertie Ingresante creada en formAlta 
                 this.CargarIngresantesDgv();
-            }           
+                MessageBox.Show($"Ingresaste un nuevo ingresante a la lista","Informacion");
+            } 
+            
         }
         private void CargarIngresantesDgv()
         {//Este método se encarga de cargar la lista de lapiceras del Dgv
