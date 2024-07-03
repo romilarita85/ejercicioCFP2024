@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using LibreriaDeEmpleados;
+using LibreriaDeEmpleados1;
 
 namespace FormEmpleado
 {
@@ -15,34 +15,34 @@ namespace FormEmpleado
     {
         Empleado empleado;//ATRIBUTO
 
-        public Empleado Empleado { get => empleado; }
+        public Empleado Empleado { get => empleado; }//propertie
         public FormAltaEmpleado()
         {
             InitializeComponent();
         }
-
-        private void FormAltaEmpleado_Load(object sender, EventArgs e)
-        {
-
-
-        }
-
         private void btn_agregar_Click(object sender, EventArgs e)
         {
             string nombre = txt_nombre.Text;
             double salario = (double)num_salario.Value;
-            string departamento = lst_antiguedades.Text;
-            int antiguedad = int.Empty;
+            string departamento = string.Empty;//RadioButton
+            int antiguedad = (int)num_antiguedad.Value;
 
-            foreach (RadioButton rd in gpb_Antiguedad.Controls)//Sacar algo del tipo radioButton en cada vuelta
-            {
-                //Saco algo del tipo radioButton en la coleccion del groupbox_genero por medio del operador punto accedo a propiedad Controls
+            foreach (RadioButton rd in gpb_departamentos.Controls)//Sacar algo del tipo radioButton en cada vuelta
+            {//Saco algo del tipo radioButton en la coleccion del groupbox_genero por medio del operador punto
+             //accedo a propiedad Controls
                 if (rd.Checked == true)//para verificar el componente (rd)q acabamps de sacar-> ver en q estado esta
                 {//si es true ->fue chequeado
-                    antiguedad = rd.int;
+                    departamento = rd.Text;
                     break;
                 }
             }
+            empleado = new Empleado(nombre, salario, departamento, antiguedad);
+            DialogResult = DialogResult.OK;
+        }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
         }
     }
 }

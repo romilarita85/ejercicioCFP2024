@@ -46,14 +46,14 @@ namespace FormRegistrate
                 if (rd.Checked == true)//para verificar el componente (rd)q acabamps de sacar-> ver en q estado esta
                 {//si es true ->fue chequeado
                     genero = rd.Text;
-                    break;
+                    break;//solo puede chekear uno
                 }
             }
             foreach (CheckBox ck in gpb_cursos.Controls)//sacamos checkbox del grupo donde esta contenido y acceder a la propiedad Controls
             {
                 if (ck.Checked == true)
                 {
-                    cursos.Add(ck.Text);
+                    cursos.Add(ck.Text);//lista de cursos punto Add(chek)
                 }
             }
             ingresante = new Ingresante(nombre, apellido, edad, genero, pais, cursos);//creo una nueva instancia

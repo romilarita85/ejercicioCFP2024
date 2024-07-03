@@ -2,12 +2,12 @@
 
 namespace LibreriaDeEmpleados
 {
-    public abstract class Empleado
+    public abstract class Empleado //le saque el abstrac- public abstract class Empleado
     { //o Crear la clase Empleado con los atributos Nombre, Salario,Departamento,Antiguedad.
-        protected string nombre;
-        protected double salario;
-        protected string departamento;
-        protected int antiguedad;
+        private string nombre;
+        private double salario;
+        private string departamento;
+        private int antiguedad;
 
         public Empleado(string nombre, double salario, string departamento, int antiguedad)
         {
@@ -36,9 +36,6 @@ namespace LibreriaDeEmpleados
 
 
         //**************************************************+
-        public override string? ToString()//Metodo ToString propio de todos los objetos
-        {
-            return MostrarInfo();
-        }
+
     }
 }

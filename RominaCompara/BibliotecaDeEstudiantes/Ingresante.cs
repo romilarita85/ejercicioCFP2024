@@ -31,7 +31,8 @@ namespace BibliotecaDeAlumnos
         public string Genero { get => genero;}
         public string Pais { get => pais; }
         
-
+        //lista de string genera problemas al usar DataGrew
+        //Solucion ->usar StringBuilder
         public string Cursos 
         {
             get 

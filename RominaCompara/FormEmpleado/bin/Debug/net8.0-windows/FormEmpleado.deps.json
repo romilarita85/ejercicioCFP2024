@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FormEmpleado/1.0.0": {
+        "dependencies": {
+          "LibreriaDeEmpleados1": "1.0.0"
+        },
+        "runtime": {
+          "FormEmpleado.dll": {}
+        }
+      },
+      "LibreriaDeEmpleados1/1.0.0": {
+        "runtime": {
+          "LibreriaDeEmpleados1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FormEmpleado/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibreriaDeEmpleados1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

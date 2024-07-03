@@ -51,6 +51,7 @@
             btn_agregar.TabIndex = 1;
             btn_agregar.Text = "Agregar";
             btn_agregar.UseVisualStyleBackColor = true;
+            btn_agregar.Click += btn_agregar_Click;
             // 
             // FormPrincipal
             // 
@@ -61,6 +62,7 @@
             Controls.Add(dgv_listaDeEmpleados);
             Name = "FormPrincipal";
             Text = "Lista de empleados";
+            Load += FormPrincipal_Load;
             ((System.ComponentModel.ISupportInitialize)dgv_listaDeEmpleados).EndInit();
             ResumeLayout(false);
         }
