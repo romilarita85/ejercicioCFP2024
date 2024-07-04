@@ -1,0 +1,81 @@
+﻿using System.Text;
+
+namespace BibliotecaDeComputadoras
+{
+    public class Computadora
+    {
+        private int memoriaRam;
+        private int capacidadDisco;
+        private string procesador;
+        private string sistemaOperativo;
+        private List<string> programas;
+
+
+
+        //❖	Constructor privado que solo instancia la lista de programas.
+        //private void List<string>programas();
+   
+
+        //❖Constructor público que asigna valores a todos sus campos excepto a la lista de programas.
+        public Computadora(int memoriaRam, int capacidadDisco, string procesador, string sistemaOperativo)
+        {
+            this.memoriaRam = memoriaRam;
+            this.capacidadDisco = capacidadDisco;
+            this.procesador = procesador;
+            this.sistemaOperativo = sistemaOperativo;
+        }
+        //❖	Método get que retorna la lista de programas.
+        public int GetMemoriaRam() 
+        {
+            return memoriaRam;
+        
+        }
+        //❖	Método set que se encarga de agregar un programa a la lista.
+        public void SetAgregarPrograma(string programa) 
+        {
+            programas.Add(programa);
+        
+        }
+        //❖Método static ListadoDeProcesadores() que retorna una lista de al menos 5 tipos de procesadores
+        public static List<string> ListadoDeProcesadores()
+        {
+            List<string> list = new List<string>()
+            {
+                "Word pad","Microsoft word","Google Docs","Mac os","Pentium"
+            };
+            return list;
+        }
+        //❖	Todas las propiedades son de solo lectura y retornan el valor de los atributos que
+        //hacen referencia, excepto Programas, esta propiedad retorna un string con todos los nombres
+        //de los programas concatenados.
+        public int MemoriaRam { get => memoriaRam; set => memoriaRam = value; }
+        public int CapacidadDisco { get => capacidadDisco; set => capacidadDisco = value; }
+        public string Procesador { get => procesador; set => procesador = value; }
+        public string SistemaOperativo { get => sistemaOperativo; set => sistemaOperativo = value; }
+       //usar string builder
+        public string Programas
+        {
+            get
+            {
+                StringBuilder sb = new StringBuilder();
+
+                for (int i = 0; i < programas.Count; i++)
+                {
+                    sb.Append(programas[i]);
+
+                    if (i < programas.Count - 1)
+                    {
+                        sb.Append(" - ");
+                    }
+                }
+                return sb.ToString(); 
+            }
+        }
+       
+    }
+
+     
+
+
+     
+}

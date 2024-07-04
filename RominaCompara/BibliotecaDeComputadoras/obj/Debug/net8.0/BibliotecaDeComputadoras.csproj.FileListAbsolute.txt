@@ -1,0 +1,12 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\bin\Debug\net8.0\BibliotecaDeComputadoras.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\bin\Debug\net8.0\BibliotecaDeComputadoras.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\bin\Debug\net8.0\BibliotecaDeComputadoras.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\obj\Debug\net8.0\BibliotecaDeComputadoras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\obj\Debug\net8.0\BibliotecaDeComputadoras.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\obj\Debug\net8.0\BibliotecaDeComputadoras.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\obj\Debug\net8.0\BibliotecaDeComputadoras.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\obj\Debug\net8.0\BibliotecaDeComputadoras.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\obj\Debug\net8.0\BibliotecaDeComputadoras.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\obj\Debug\net8.0\refint\BibliotecaDeComputadoras.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\obj\Debug\net8.0\BibliotecaDeComputadoras.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\BibliotecaDeComputadoras\obj\Debug\net8.0\ref\BibliotecaDeComputadoras.dll

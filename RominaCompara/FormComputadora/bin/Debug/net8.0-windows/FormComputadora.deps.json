@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FormComputadora/1.0.0": {
+        "dependencies": {
+          "BibliotecaDeComputadoras": "1.0.0"
+        },
+        "runtime": {
+          "FormComputadora.dll": {}
+        }
+      },
+      "BibliotecaDeComputadoras/1.0.0": {
+        "runtime": {
+          "BibliotecaDeComputadoras.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FormComputadora/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaDeComputadoras/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
