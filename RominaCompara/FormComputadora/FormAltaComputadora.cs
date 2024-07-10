@@ -22,7 +22,7 @@ namespace FormComputadora
         private void FormAltaComputadora_Load(object sender, EventArgs e)
         {
             cmb_procesadores.Items.AddRange(Computadora.ListadoDeProcesadores().ToArray());
-
+           
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)
@@ -39,9 +39,7 @@ namespace FormComputadora
                 {
                     sistemaOperativo = rd.Text;
                     break;
-
                 }
-
             }
 
             foreach (CheckBox chk in gpb_programas.Controls)
@@ -49,7 +47,6 @@ namespace FormComputadora
                 if (chk.Checked == true) 
                 {
                     programas.Add(chk.Text);
-                    break;
 
                 }
             }

@@ -34,7 +34,6 @@ namespace FormComputadora
                 computadoras.Add(formAltaComputadora.MiComputadora);
                 CargarDgv();
             }
-
         }
         private void CargarDgv() 
         {

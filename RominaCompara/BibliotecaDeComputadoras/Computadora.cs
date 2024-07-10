@@ -10,14 +10,15 @@ namespace BibliotecaDeComputadoras
         private string sistemaOperativo;
         private List<string> programas;
 
-
-
         //❖	Constructor privado que solo instancia la lista de programas.
-        //private void List<string>programas();
-   
-
+        private Computadora() 
+        {
+            programas = new List<string>();
+        }
+  
         //❖Constructor público que asigna valores a todos sus campos excepto a la lista de programas.
         public Computadora(int memoriaRam, int capacidadDisco, string procesador, string sistemaOperativo)
+        :this()
         {
             this.memoriaRam = memoriaRam;
             this.capacidadDisco = capacidadDisco;
@@ -48,10 +49,10 @@ namespace BibliotecaDeComputadoras
         //❖	Todas las propiedades son de solo lectura y retornan el valor de los atributos que
         //hacen referencia, excepto Programas, esta propiedad retorna un string con todos los nombres
         //de los programas concatenados.
-        public int MemoriaRam { get => memoriaRam; set => memoriaRam = value; }
-        public int CapacidadDisco { get => capacidadDisco; set => capacidadDisco = value; }
-        public string Procesador { get => procesador; set => procesador = value; }
-        public string SistemaOperativo { get => sistemaOperativo; set => sistemaOperativo = value; }
+        public int MemoriaRam { get => memoriaRam; }
+        public int CapacidadDisco { get => capacidadDisco; }
+        public string Procesador { get => procesador; }
+        public string SistemaOperativo { get => sistemaOperativo; }
        //usar string builder
         public string Programas
         {
