@@ -12,8 +12,8 @@ namespace FormRegistrate
 {
     public partial class FormAlta : Form
     {//crear atributo ingresante 
-        Ingresante ingresante;//lograr que cuando haga clik en formAlta diseño me cree una instancia de ese ingresante
-
+        Ingresante ingresante;//lograr que cuando haga clik en formAlta diseño me cree una instancia
+                              //de ese ingresante
         public Ingresante Ingresante { get => ingresante; }//Creo PROPERTIE q me permita exponer el valor de ingresante
 
         public FormAlta() //CONSTRUCTOR VACIO

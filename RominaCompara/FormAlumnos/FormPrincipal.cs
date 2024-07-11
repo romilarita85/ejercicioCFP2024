@@ -29,7 +29,7 @@ namespace FormAlumnos
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {//Este método maneja el evento de hacer clic en el botón "Agregar".
-            FormCrear formAlta = new FormCrear();//lamamos a la clase "FormCrear"
+            FormCrear formAlta = new FormCrear();//llamamos a la clase "FormCrear"
             //Crea una instancia del formulario FormCrear y lo muestra de forma modal.
 
             formAlta.ShowDialog();//ShowDialog hace que se muestre la instanacia q acabo de crear

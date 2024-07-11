@@ -39,7 +39,7 @@ namespace FormAlumnos
         private void btn_cancelar_Click(object sender, EventArgs e)//Evento btn_cancelar_Click:
         {//Este método se ejecuta cuando se hace clic en el botón "Cancelar" en el formulario.
             this.DialogResult = DialogResult.Cancel;//Establece el resultado del formulario en DialogResult.Cancel,
-           //lo que indica que el usuario ha cancelado la acción de crear un nuevo alumno.
+           //indica que el usuario ha cancelado la acción de crear un nuevo alumno.
         }
         
         //PROPIEDAD (que retorne Alumno)

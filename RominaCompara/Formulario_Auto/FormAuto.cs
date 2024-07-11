@@ -102,13 +102,13 @@ namespace Formulario_Auto
          //}
             this.cmb_colores.DataSource = colores;//Recibe la lista de colores
             //obtiene automáticamente los elementos de la colección y los muestra en su lista desplegable.
+         
+        }
          //DataSource=(origen de los datos)forma optima de cargar un componente de una lista o coleccion
          //Puede recibir cualquier cosa
          //Devuelve algo  de tipo object (un objeto)->abstracto que puede tener cualquier cosa y engloba
          //a todos los objetos
          //no pierde su valor original de ser
-        }
-
     }
 }
 //misAutos.Add(miAuto); //agrega el objeto miAuto a la lista llamada misAutos.
