@@ -12,8 +12,8 @@ namespace FormComputadora
 {
     public partial class FormAltaComputadora : Form
     {
-        Computadora computadora;
-        public Computadora MiComputadora { get => computadora; set => computadora = value; } // propertie
+        Computadora miComputadora;
+        public Computadora MiComputadora { get => miComputadora; } // propertie
         public FormAltaComputadora()
         {
             InitializeComponent();
@@ -21,8 +21,8 @@ namespace FormComputadora
 
         private void FormAltaComputadora_Load(object sender, EventArgs e)
         {
-            cmb_procesadores.Items.AddRange(Computadora.ListadoDeProcesadores().ToArray());
-           
+            //this.cmb_procesadores.Items.AddRange(Computadora.ListadoDeProcesadores().ToArray());
+            this.cmb_procesadores.DataSource = Computadora.ListadoDeProcesadores();
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace FormComputadora
             int capacidadDisco= (int)num_disco.Value;
             string procesador = cmb_procesadores.Text;
             string sistemaOperativo = string.Empty ;
-            List<string> programas = new List<string>();
+            //List<string> programas = new List<string>();
 
             foreach (RadioButton rd in gpb_sitemasOperativos.Controls)
             {
@@ -42,15 +42,18 @@ namespace FormComputadora
                 }
             }
 
+            Computadora pc = new Computadora(memoriaRam, capacidadDisco, procesador, sistemaOperativo);
+            
             foreach (CheckBox chk in gpb_programas.Controls)
             {
-                if (chk.Checked == true) 
+                if (chk.Checked) 
                 {
-                    programas.Add(chk.Text);
+                    pc.SetPrograma(chk.Text);
 
                 }
             }
-            computadora = new Computadora(memoriaRam, capacidadDisco, procesador, sistemaOperativo);
+            this.miComputadora = pc;
+
             DialogResult = DialogResult.OK;
         }
 
