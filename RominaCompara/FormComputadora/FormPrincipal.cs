@@ -52,7 +52,14 @@ namespace FormComputadora
 
         private void btn_modificar_Click(object sender, EventArgs e)
         {
-            DataGridViewRow rows= dgv_listaDeComputadoras.SelectedRows
+            DataGridViewRow rows = dgv_listaDeComputadoras.SelectedRows[0];
+            Computadora pc = new Computadora(
+                Convert.ToInt32(rows.Cells["CapacidadDisco"].Value),
+                (int)rows.Cells["MemoriaRam"].Value,
+                rows.Cells["Procesador"].Value.ToString(),
+                (string)rows.Cells["SistemaOperativo"].Value.ToString()
+                );
+            MessageBox.Show(pc.ToString());
         }
     }
 }

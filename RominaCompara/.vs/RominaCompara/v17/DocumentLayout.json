@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "FormComputadora\\FormPrincipal.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormComputadora\\FormPrincipal.cs",
               "RelativeToolTip": "FormComputadora\\FormPrincipal.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAAADYAAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T23:49:57.776Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "FormComputadora\\FormModificar.cs",
               "ViewState": "AQIAACMAAAAAAAAAAADwvzcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T00:33:53.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T00:33:53.366Z"
             },
             {
               "$type": "Document",
@@ -128,8 +127,7 @@
               "RelativeToolTip": "BibliotecaDeComputadoras\\Computadora.cs",
               "ViewState": "AQIAABEAAAAAAAAAAADwvxwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T23:24:33.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T23:24:33.064Z"
             }
           ]
         }
