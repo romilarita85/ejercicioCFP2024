@@ -21,8 +21,8 @@ namespace FormComputadora
 
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
-            this.computadoras = new List<Computadora>() 
-            { 
+            this.computadoras = new List<Computadora>()
+            {
                 new Computadora(240,16,"Pentium","Linux"),
                 new Computadora(480,32,"Celeron","Android"),
                 new Computadora(240,16,"Core 2","Unix"),
@@ -36,18 +36,23 @@ namespace FormComputadora
             FormAltaComputadora formAltaComputadora = new FormAltaComputadora();
             formAltaComputadora.ShowDialog();
 
-            if (formAltaComputadora.DialogResult == DialogResult.OK) 
+            if (formAltaComputadora.DialogResult == DialogResult.OK)
             {
                 computadoras.Add(formAltaComputadora.MiComputadora);
-                
+
             }
             CargarDgv();
         }
-        private void CargarDgv() 
+        private void CargarDgv()
         {
-            dgb_listaDeComputadoras.DataSource = null;
-            dgb_listaDeComputadoras.DataSource = computadoras;
-        
+            dgv_listaDeComputadoras.DataSource = null;
+            dgv_listaDeComputadoras.DataSource = computadoras;
+
+        }
+
+        private void btn_modificar_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow rows= dgv_listaDeComputadoras.SelectedRows
         }
     }
 }

@@ -20,3 +20,4 @@ C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FormComputadora\obj\Debug\n
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FormComputadora\obj\Debug\net8.0-windows\FormComputadora.pdb
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FormComputadora\obj\Debug\net8.0-windows\FormComputadora.genruntimeconfig.cache
 C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FormComputadora\obj\Debug\net8.0-windows\ref\FormComputadora.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\FormComputadora\obj\Debug\net8.0-windows\FormComputadora.FormModificar.resources

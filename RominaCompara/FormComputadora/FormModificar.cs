@@ -32,7 +32,30 @@ namespace FormComputadora
 
         }
         private void FormModificar_Load(object sender, EventArgs e)
-        {
+        {//Cargar componentes del formulario por medio de las properties(de la clase Computadora)
+            cmb_procesadores.Text = miPc.Procesador;
+            num_memoriaRam.Value = miPc.MemoriaRam;
+            num_disco.Value = miPc.CapacidadDisco;
+
+            foreach (RadioButton rb in gpb_programas.Controls)
+            {
+                if (rb.Text.ToLower() == miPc.SistemaOperativo.ToLower())
+                {
+                    rb.Checked = true;
+                    break;
+                }
+            }
+            foreach (CheckBox chk in gpb_programas.Controls)
+            {
+                foreach (string prg in miPc.GetProgramas())
+                {
+                    if (chk.Text.ToLower() == prg.ToLower())
+                    {
+                        chk.Checked = true;
+                        break;
+                    }
+                }
+            }
 
         }
     }
