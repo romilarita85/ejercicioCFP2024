@@ -21,8 +21,15 @@
         {
             return "hace un ruido generico";
         }
-        //virtual: por que tiene la capacidad de utilizarlo tal cual como esta
+        //Virtual: por que tiene la capacidad de utilizarlo tal cual como esta
         //o sobreescribir este metodo en las clases derivadas
+
+        public string MostrarDatos()
+        {
+            return $"{this.nombre} - {this.edad}- {this.peso}";
+        }
+
+
     }
 }
 //Pilares:

@@ -159,9 +159,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libreria_De_Clases", "Libre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testeo_General", "Testeo_General\Testeo_General.csproj", "{11042DC6-217F-4754-8658-64796A702777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaDeClase_Animal", "LibreriaDeClase_Animal\LibreriaDeClase_Animal.csproj", "{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaDeClase_Animal", "LibreriaDeClase_Animal\LibreriaDeClase_Animal.csproj", "{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteoGeneral_Animal", "TesteoGeneral_Animal\TesteoGeneral_Animal.csproj", "{BA5910CA-F0A6-46E8-8EDD-7751491673AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteoGeneral_Animal", "TesteoGeneral_Animal\TesteoGeneral_Animal.csproj", "{BA5910CA-F0A6-46E8-8EDD-7751491673AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaDeClases_AnimalAbst", "LibreriaDeClases_AnimalAbst\LibreriaDeClases_AnimalAbst.csproj", "{1D7CCDE0-277F-4D1C-8FE0-A7FA96194E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteoGeneral_AnimalAbst", "TesteoGeneral_AnimalAbst\TesteoGeneral_AnimalAbst.csproj", "{38F8F4A0-5122-49C2-806C-C47F95B6AF13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -489,6 +493,14 @@ Global
 		{BA5910CA-F0A6-46E8-8EDD-7751491673AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA5910CA-F0A6-46E8-8EDD-7751491673AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA5910CA-F0A6-46E8-8EDD-7751491673AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7CCDE0-277F-4D1C-8FE0-A7FA96194E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7CCDE0-277F-4D1C-8FE0-A7FA96194E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7CCDE0-277F-4D1C-8FE0-A7FA96194E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7CCDE0-277F-4D1C-8FE0-A7FA96194E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F8F4A0-5122-49C2-806C-C47F95B6AF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F8F4A0-5122-49C2-806C-C47F95B6AF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F8F4A0-5122-49C2-806C-C47F95B6AF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F8F4A0-5122-49C2-806C-C47F95B6AF13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

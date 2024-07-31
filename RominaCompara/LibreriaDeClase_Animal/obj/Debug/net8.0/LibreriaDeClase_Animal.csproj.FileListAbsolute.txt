@@ -1,0 +1,12 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\bin\Debug\net8.0\LibreriaDeClase_Animal.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\bin\Debug\net8.0\LibreriaDeClase_Animal.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\bin\Debug\net8.0\LibreriaDeClase_Animal.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\obj\Debug\net8.0\LibreriaDeClase_Animal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\obj\Debug\net8.0\LibreriaDeClase_Animal.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\obj\Debug\net8.0\LibreriaDeClase_Animal.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\obj\Debug\net8.0\LibreriaDeClase_Animal.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\obj\Debug\net8.0\LibreriaDeClase_Animal.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\obj\Debug\net8.0\LibreriaDeClase_Animal.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\obj\Debug\net8.0\refint\LibreriaDeClase_Animal.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\obj\Debug\net8.0\LibreriaDeClase_Animal.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClase_Animal\obj\Debug\net8.0\ref\LibreriaDeClase_Animal.dll

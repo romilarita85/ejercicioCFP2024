@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TesteoGeneral_Animal/1.0.0": {
+        "dependencies": {
+          "LibreriaDeClase_Animal": "1.0.0"
+        },
+        "runtime": {
+          "TesteoGeneral_Animal.dll": {}
+        }
+      },
+      "LibreriaDeClase_Animal/1.0.0": {
+        "runtime": {
+          "LibreriaDeClase_Animal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteoGeneral_Animal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibreriaDeClase_Animal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
