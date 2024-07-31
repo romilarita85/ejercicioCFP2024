@@ -155,9 +155,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaDeComputadoras", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormComputadora", "FormComputadora\FormComputadora.csproj", "{85D0D6D0-F262-4988-8D2F-5CE7FAFF5050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria_De_Clases", "Libreria_De_Clases\Libreria_De_Clases.csproj", "{0DD11FCC-AD06-47A2-A009-FD271E24EEBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libreria_De_Clases", "Libreria_De_Clases\Libreria_De_Clases.csproj", "{0DD11FCC-AD06-47A2-A009-FD271E24EEBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testeo_General", "Testeo_General\Testeo_General.csproj", "{11042DC6-217F-4754-8658-64796A702777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testeo_General", "Testeo_General\Testeo_General.csproj", "{11042DC6-217F-4754-8658-64796A702777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaDeClase_Animal", "LibreriaDeClase_Animal\LibreriaDeClase_Animal.csproj", "{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteoGeneral_Animal", "TesteoGeneral_Animal\TesteoGeneral_Animal.csproj", "{BA5910CA-F0A6-46E8-8EDD-7751491673AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -477,6 +481,14 @@ Global
 		{11042DC6-217F-4754-8658-64796A702777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11042DC6-217F-4754-8658-64796A702777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11042DC6-217F-4754-8658-64796A702777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5910CA-F0A6-46E8-8EDD-7751491673AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5910CA-F0A6-46E8-8EDD-7751491673AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5910CA-F0A6-46E8-8EDD-7751491673AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5910CA-F0A6-46E8-8EDD-7751491673AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

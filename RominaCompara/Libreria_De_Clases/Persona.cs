@@ -20,12 +20,22 @@ namespace Libreria_De_Clases
             this.edad = edad;
             this.peso = peso;
         }
-
-        public string Nombre { get => nombre; set => nombre = value; }
+        //Propiedades: Lineas de codigo mas simples
+        public string Nombre { get => nombre ; set => nombre = value; }
+                              //es igual al metodo de GetNombre
         public int Edad { get => edad; set => edad = value; }
         public double Peso { get => peso; set => peso = value; }
 
-        public string Dni { get; set; } //Propiedad 
+        public string GetNombre() //metodos get no reciben nada pero retornan algo
+        {
+            return this.nombre;
+        }
+        public void SetNombre(string nombre) //metodos get no reciben nada pero retornan algo
+        {
+            this.nombre = nombre;
+        }
+
+        //public string Dni { get; set; } //Propiedad 
         //Metodos get/set: consultar o escribir los valores de mis atributos
         //Properties: metodos de lectura y escritura para distintos valores
         //public string Dni 

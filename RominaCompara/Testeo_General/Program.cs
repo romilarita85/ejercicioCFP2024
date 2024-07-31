@@ -10,8 +10,15 @@ namespace Testeo_General
             //Clase--Instancia --=
             //Con algo de instancia puedo crear un nuevo objeto y darle valores a sus atributos
             //por medio de las properties o un constructor parametrizado
-            primeraPesona.Dni = "27944534545";
-            string dato = primeraPesona.Dni; //Propiedad autosostenida "Dni"
+            //primeraPesona.Dni = "27944534545";
+            //string dato = primeraPesona.Dni; //Propiedad autosostenida "Dni"
+
+            //Usando Properties
+            string nombrePropiedad = primeraPesona.Nombre;//usando metodo get (de la propertie)
+            primeraPesona.Nombre = "Carlos"; 
+            //Usando Metodos get/set
+            string nombreGet = primeraPesona.GetNombre();//usando metodo get
+            primeraPesona.SetNombre ("Carlos");
         }
     }
 }

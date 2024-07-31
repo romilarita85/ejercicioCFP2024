@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11042DC6-217F-4754-8658-64796A702777}|Testeo_General\\Testeo_General.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\testeo_general\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11042DC6-217F-4754-8658-64796A702777}|Testeo_General\\Testeo_General.csproj|solutionrelative:testeo_general\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}|LibreriaDeClase_Animal\\LibreriaDeClase_Animal.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadeclase_animal\\pajaro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}|LibreriaDeClase_Animal\\LibreriaDeClase_Animal.csproj|solutionrelative:libreriadeclase_animal\\pajaro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DD11FCC-AD06-47A2-A009-FD271E24EEBB}|Libreria_De_Clases\\Libreria_De_Clases.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreria_de_clases\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DD11FCC-AD06-47A2-A009-FD271E24EEBB}|Libreria_De_Clases\\Libreria_De_Clases.csproj|solutionrelative:libreria_de_clases\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA5910CA-F0A6-46E8-8EDD-7751491673AB}|TesteoGeneral_Animal\\TesteoGeneral_Animal.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\testeogeneral_animal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5910CA-F0A6-46E8-8EDD-7751491673AB}|TesteoGeneral_Animal\\TesteoGeneral_Animal.csproj|solutionrelative:testeogeneral_animal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76FF8D8C-0C51-4887-8EAA-D88C5F775366}|BibliotecaDeComputadoras\\BibliotecaDeComputadoras.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\bibliotecadecomputadoras\\computadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76FF8D8C-0C51-4887-8EAA-D88C5F775366}|BibliotecaDeComputadoras\\BibliotecaDeComputadoras.csproj|solutionrelative:bibliotecadecomputadoras\\computadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}|LibreriaDeClase_Animal\\LibreriaDeClase_Animal.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadeclase_animal\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}|LibreriaDeClase_Animal\\LibreriaDeClase_Animal.csproj|solutionrelative:libreriadeclase_animal\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}|LibreriaDeClase_Animal\\LibreriaDeClase_Animal.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadeclase_animal\\gato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}|LibreriaDeClase_Animal\\LibreriaDeClase_Animal.csproj|solutionrelative:libreriadeclase_animal\\gato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}|LibreriaDeClase_Animal\\LibreriaDeClase_Animal.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\libreriadeclase_animal\\perro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E34E60D-B0AD-4DB7-AF3C-92A0609CEAE9}|LibreriaDeClase_Animal\\LibreriaDeClase_Animal.csproj|solutionrelative:libreriadeclase_animal\\perro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Testeo_General\\Program.cs",
-              "RelativeDocumentMoniker": "Testeo_General\\Program.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Testeo_General\\Program.cs",
-              "RelativeToolTip": "Testeo_General\\Program.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAADwvykAAAAcAAAA",
+              "Title": "Pajaro.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeClase_Animal\\Pajaro.cs",
+              "RelativeDocumentMoniker": "LibreriaDeClase_Animal\\Pajaro.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeClase_Animal\\Pajaro.cs",
+              "RelativeToolTip": "LibreriaDeClase_Animal\\Pajaro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T13:19:38.138Z",
+              "WhenOpened": "2024-07-31T00:39:41.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gato.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeClase_Animal\\Gato.cs",
+              "RelativeDocumentMoniker": "LibreriaDeClase_Animal\\Gato.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeClase_Animal\\Gato.cs",
+              "RelativeToolTip": "LibreriaDeClase_Animal\\Gato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T00:39:24.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Perro.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeClase_Animal\\Perro.cs",
+              "RelativeDocumentMoniker": "LibreriaDeClase_Animal\\Perro.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeClase_Animal\\Perro.cs",
+              "RelativeToolTip": "LibreriaDeClase_Animal\\Perro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T00:39:02.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_De_Clases\\Persona.cs",
-              "RelativeDocumentMoniker": "Libreria_De_Clases\\Persona.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_De_Clases\\Persona.cs",
-              "RelativeToolTip": "Libreria_De_Clases\\Persona.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAADwvxsAAAA0AAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoGeneral_Animal\\Program.cs",
+              "RelativeDocumentMoniker": "TesteoGeneral_Animal\\Program.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoGeneral_Animal\\Program.cs",
+              "RelativeToolTip": "TesteoGeneral_Animal\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T12:59:03.729Z",
+              "WhenOpened": "2024-07-31T00:14:17.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Computadora.cs",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeComputadoras\\Computadora.cs",
-              "RelativeDocumentMoniker": "BibliotecaDeComputadoras\\Computadora.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeComputadoras\\Computadora.cs",
-              "RelativeToolTip": "BibliotecaDeComputadoras\\Computadora.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAADwvxwAAAAnAAAA",
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeClase_Animal\\Animal.cs",
+              "RelativeDocumentMoniker": "LibreriaDeClase_Animal\\Animal.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeClase_Animal\\Animal.cs",
+              "RelativeToolTip": "LibreriaDeClase_Animal\\Animal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T23:24:33.064Z",
+              "WhenOpened": "2024-07-31T00:12:11.613Z",
               "EditorCaption": ""
             }
           ]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibreriaDeEmpleados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f61165b9cd30e46f77b708886599aec61dc0904e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3caf4d0b74afc10314e3e4516a7fc98e8a08369")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibreriaDeEmpleados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibreriaDeEmpleados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
