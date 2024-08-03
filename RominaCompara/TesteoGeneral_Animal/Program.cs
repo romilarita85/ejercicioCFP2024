@@ -31,14 +31,13 @@ namespace TesteoGeneral_Animal
 
                 if (item.GetType() == typeof(Gato))
                 {
-                    Console.WriteLine(((Gato)item).MostrarDatosGato());//castear item a clase derivada q estamos casteando
-                //algo de tipo animal lo quiero castear a algo de tipo Gato
+                    Console.WriteLine(((Gato)item).MostrarDatosGato());//castear item a clase derivada q
+                 //estamos casteando algo de tipo animal lo quiero castear a algo de tipo Gato
                 }
                 else 
                 { 
                     Console.WriteLine(item.MostrarDatos());
                 }
-                
             }
 
             //Console.WriteLine(animal2.GetType().Name);

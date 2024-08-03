@@ -12,7 +12,7 @@ namespace FormComputadora
 {
     public partial class FormAltaComputadora : Form
     {
-        Computadora miComputadora;
+        Computadora miComputadora;//atributos
         public Computadora MiComputadora { get => miComputadora; } // propertie
         public FormAltaComputadora()
         {
@@ -22,11 +22,14 @@ namespace FormComputadora
         private void FormAltaComputadora_Load(object sender, EventArgs e)
         {
             //this.cmb_procesadores.Items.AddRange(Computadora.ListadoDeProcesadores().ToArray());
-            this.cmb_procesadores.DataSource = Computadora.ListadoDeProcesadores();
+            this.cmb_procesadores.DataSource = Computadora.ListadoDeProcesadores(); 
+            //dar valor a la lista del comboBox
+           
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {
+            //Crear variables nuevas para darle valor a mi nuevo objeto
             int memoriaRam = (int)num_memoriaRam.Value;
             int capacidadDisco= (int)num_disco.Value;
             string procesador = cmb_procesadores.Text;
@@ -41,7 +44,7 @@ namespace FormComputadora
                     break;
                 }
             }
-
+            //Creacion de una nueva instancia de un objeto
             Computadora pc = new Computadora(memoriaRam, capacidadDisco, procesador, sistemaOperativo);
             
             foreach (CheckBox chk in gpb_programas.Controls)

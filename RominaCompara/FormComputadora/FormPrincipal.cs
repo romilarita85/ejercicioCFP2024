@@ -13,7 +13,7 @@ namespace FormComputadora
 {
     public partial class FormPrincipal : Form
     {
-        List<Computadora> computadoras;
+        List<Computadora> computadoras;//listas
         public FormPrincipal()
         {
             InitializeComponent();
@@ -21,7 +21,7 @@ namespace FormComputadora
 
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
-            this.computadoras = new List<Computadora>()
+            this.computadoras = new List<Computadora>() //dar una nueva instancia a la lista (inicializar lista)
             {
                 new Computadora(240,16,"Pentium","Linux"),
                 new Computadora(480,32,"Celeron","Android"),
@@ -33,8 +33,9 @@ namespace FormComputadora
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {
+            //Crear una nueva instancia de la lista
             FormAltaComputadora formAltaComputadora = new FormAltaComputadora();
-            formAltaComputadora.ShowDialog();
+            formAltaComputadora.ShowDialog();//hacer que sea visible
 
             if (formAltaComputadora.DialogResult == DialogResult.OK)
             {

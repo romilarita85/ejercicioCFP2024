@@ -23,6 +23,10 @@ namespace Ej_Herencia_Class19_06
         }
     }
 }
+//Polifomismo: Cada clase tiene una sobreescritura de su metodo base.No puede haber poliformismo sin herencia
+
+//Herencia: Diseñar una clase base(padre) que va a agrupar los atributos en comun.
+//GetType: devuelve algo de tipo object 
 //***********************************************************************
 //using LibreriaDeHerencia;
 //namespace Ej_Herencia_Class19_06

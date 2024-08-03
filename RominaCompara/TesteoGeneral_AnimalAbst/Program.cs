@@ -1,4 +1,5 @@
-﻿using LibreriaDeClases_AnimalAbst;
+﻿//Testeando la clase animal Abstracta
+using LibreriaDeClases_AnimalAbst;
 namespace TesteoGeneral_AnimalAbst
 {
     internal class Program

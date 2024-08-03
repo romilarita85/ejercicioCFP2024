@@ -3,7 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//ABSTRACT:
+//Las clases padres pueden ser abstractas.
+//Nunca voy a poder tener una instancia de esa clase
+//cada clase se hace cargo de sus metodos.
+//Solo va a ser una plantilla y no va a tener una implementacion
+//No puedo generar un objeto de una clase abstracta
+//el que herede esta obligado a implementarla
+//***********************************************+****************************************************
+//VITUAL:
+//Puedo sobrescribir o no el metodo.
+//si quiero que tenga implementacion y que pueda sobreescribirlo
 namespace LibreriaDeHerencia
 {
     public abstract class Animal // usando abstract
@@ -28,13 +38,7 @@ namespace LibreriaDeHerencia
 
     } 
 }
-//ABSTRACT:Las clases padres pueden ser abstractas.Nunca voy a poder tener una instancia de esa clase
-//cada clase se hace cargo de sus metodos.
-//Solo va a ser una plantilla y no va a tener una implementacion
-//No puedo generar un objeto de una clase abstracta el que herede esta obligado a implementarla
-//***********************************************+****************************************************
-//VITUAL: Puedo sobrescribir o no el metodo.
-//si quiero que tenga implementacion y que pueda sobreescribirlo
+//********************************************************************
 //Usando solo VIRTUAL
 //namespace LibreriaDeHerencia
 //{
