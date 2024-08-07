@@ -37,6 +37,7 @@
             if (monto > 0)
             {
                 cantidad += monto;
+                //cantidad = cantidad + monto;
             }
         }
         //●	RetirarDinero: recibirá un monto para debitar de la cuenta.
@@ -44,6 +45,7 @@
         public void RetirarDinero(double monto)
         {
             cantidad -= monto;
+            //cantidad = cantidad - monto;
         }
         
     }

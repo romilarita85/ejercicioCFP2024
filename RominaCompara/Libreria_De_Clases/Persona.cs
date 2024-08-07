@@ -30,7 +30,7 @@ namespace Libreria_De_Clases
         {
             return this.nombre;
         }
-        public void SetNombre(string nombre) //metodos get no reciben nada pero retornan algo
+        public void SetNombre(string nombre) 
         {
             this.nombre = nombre;
         }

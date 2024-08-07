@@ -1,4 +1,4 @@
-﻿namespace LibreriaDeClase_Animal
+﻿  namespace LibreriaDeClase_Animal
 {
     public class Animal
     {

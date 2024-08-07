@@ -51,7 +51,8 @@ namespace BibliotecaDeLapiceras
 
             if (nivelDeTinta >= cantLetras)//verificar si hay nivel de tinta-Comparacion
             {
-                nivelDeTinta -= cantLetras; //hay tinta suficiente
+                nivelDeTinta -= cantLetras; //hay tinta suficiente 
+              //nivelDeTinta = nivelDeTinta - CantLetras;
                 sePuedeEscribir = true; //sePuedeEscribir 
             }
             return sePuedeEscribir;

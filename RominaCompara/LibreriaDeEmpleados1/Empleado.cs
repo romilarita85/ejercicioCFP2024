@@ -31,5 +31,6 @@
         protected double Salario { get => salario; set => salario = value; }
         protected string Departamento { get => departamento; set => departamento = value; }
         protected int Antiguedad { get => antiguedad; set => antiguedad = value; }
+
     }
 }

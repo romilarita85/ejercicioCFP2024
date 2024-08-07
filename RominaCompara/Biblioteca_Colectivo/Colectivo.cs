@@ -74,6 +74,7 @@ namespace Biblioteca_Colectivo
         public bool SubirPasajeros(int cantidad)
         {
             bool puedenSubir = false;
+
             if ((this.capacidad > this.cantidadDePasajeros) && (this.cantidadDePasajeros + cantidad <= capacidad))
             {
                 this.cantidadDePasajeros += cantidad;

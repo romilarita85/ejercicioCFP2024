@@ -32,7 +32,7 @@ namespace EjercicioHP_Vehiculos
                 Console.WriteLine($"{cocheCasteo.AbrirMaletero()}");
             }
 
-            if (moto1.GetType() == typeof(Moto))
+            if (moto1.GetType() == typeof (Moto) )
             {
                 Moto motoCasteo = (Moto)moto1;
                 Console.WriteLine($"{motoCasteo.HacerCaballito()}");

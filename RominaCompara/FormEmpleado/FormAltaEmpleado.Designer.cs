@@ -206,8 +206,7 @@
             Controls.Add(txt_nombre);
             Controls.Add(lbl_nombre);
             Name = "FormAltaEmpleado";
-            Text = "Alta Empleado";
-            Load += FormAltaEmpleado_Load;
+            Text = "Alta Empleado";    
             ((System.ComponentModel.ISupportInitialize)num_salario).EndInit();
             gpb_departamentos.ResumeLayout(false);
             gpb_departamentos.PerformLayout();
