@@ -1,10 +1,10 @@
 ﻿//Usando Abstract-contrato de obligacion de ser implementado
 //cuando solo quiero usar como plantilla
 //clase abstracta: no se va a poder instanciar desde ningun lugar solo la quiero para generar herencia
+
 //Dentro de la clase abstracta puedo tener metodos abstractos, metodos virtuales o metodos de instancia normal 
 //que van a tener q heredar o implementar las clases derivadas
-//Voy a tener metodos que no tienen implementacion
-//las clases abstractas no pueden ser implementadas
+//Voy a tener metodos que no tienen implementacion-las clases abstractas no pueden ser implementadas
 //le doy la libertad a la clase derivada q lo implemente como quiera esta obligada a implementarla
 namespace LibreriaDeClases_AnimalAbst
 {

@@ -24,7 +24,6 @@ namespace FormAlumnos
             this.lst_alumnos.DataSource = alumnos;//Establecer la lista de alumnos para que se muestre siempre
             //en el form.Como le paso toda la lista de alumnos el listbox si le paso una lista
             //agarra objeto por objeto de la lista y accede al metodo ToString 
-            //
         }//Todas la listas tienen que estar inicializadas en el Load
 
         private void btn_agregar_Click(object sender, EventArgs e)

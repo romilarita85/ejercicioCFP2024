@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TesteoGeneral_AnimalAbst/1.0.0": {
+        "dependencies": {
+          "LibreriaDeClases_AnimalAbst": "1.0.0"
+        },
+        "runtime": {
+          "TesteoGeneral_AnimalAbst.dll": {}
+        }
+      },
+      "LibreriaDeClases_AnimalAbst/1.0.0": {
+        "runtime": {
+          "LibreriaDeClases_AnimalAbst.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteoGeneral_AnimalAbst/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibreriaDeClases_AnimalAbst/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

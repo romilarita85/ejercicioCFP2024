@@ -163,9 +163,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaDeClase_Animal", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteoGeneral_Animal", "TesteoGeneral_Animal\TesteoGeneral_Animal.csproj", "{BA5910CA-F0A6-46E8-8EDD-7751491673AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaDeClases_AnimalAbst", "LibreriaDeClases_AnimalAbst\LibreriaDeClases_AnimalAbst.csproj", "{1D7CCDE0-277F-4D1C-8FE0-A7FA96194E37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaDeClases_AnimalAbst", "LibreriaDeClases_AnimalAbst\LibreriaDeClases_AnimalAbst.csproj", "{1D7CCDE0-277F-4D1C-8FE0-A7FA96194E37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteoGeneral_AnimalAbst", "TesteoGeneral_AnimalAbst\TesteoGeneral_AnimalAbst.csproj", "{38F8F4A0-5122-49C2-806C-C47F95B6AF13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteoGeneral_AnimalAbst", "TesteoGeneral_AnimalAbst\TesteoGeneral_AnimalAbst.csproj", "{38F8F4A0-5122-49C2-806C-C47F95B6AF13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaDeEmpleados01", "LibreriaDeEmpleados01\LibreriaDeEmpleados01.csproj", "{49DA7BC1-78D0-401B-9A9E-44B60D81617E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -501,6 +503,10 @@ Global
 		{38F8F4A0-5122-49C2-806C-C47F95B6AF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38F8F4A0-5122-49C2-806C-C47F95B6AF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38F8F4A0-5122-49C2-806C-C47F95B6AF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DA7BC1-78D0-401B-9A9E-44B60D81617E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DA7BC1-78D0-401B-9A9E-44B60D81617E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DA7BC1-78D0-401B-9A9E-44B60D81617E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DA7BC1-78D0-401B-9A9E-44B60D81617E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

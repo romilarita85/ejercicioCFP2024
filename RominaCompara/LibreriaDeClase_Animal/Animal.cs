@@ -1,5 +1,5 @@
 ﻿  namespace LibreriaDeClase_Animal
-{
+  {
     public class Animal
     {
         protected string nombre;
@@ -18,20 +18,22 @@
         public double Peso { get => peso; set => peso = value; }
 
         public virtual string EmitirSonido() //las clases que hereden de animal van a heredar este metodo
-        {
+        {                                    //usando OVERRIDE (DERIVADAS): public override string EmitirSonido()
             return "hace un ruido generico";
         }
         //Virtual: por que tiene la capacidad de utilizarlo tal cual como esta
         //o sobreescribir este metodo en las clases derivadas
 
-        public string MostrarDatos()
-        {
+        public string MostrarDatos()//Darle nombre propio al metodo MostrarDatos en las clases derivadas ej:                  
+        {                           //public string MostrarDatosGato(){}
             return $"{this.nombre} - {this.edad}- {this.peso}";
         }
-
+        
+ 
 
     }
 }
+
 //Pilares:
 //1-Abstraccion: Capacidad de poder resumir al minimo la cantidad de atributos necesarios
 //para construir objetos de esa clase bajo un contexto dado

@@ -35,9 +35,6 @@ namespace TesteoGeneral_AnimalAbst
                 
                 //no hace falta usar el getType ni castear ya que todo volvio a ser polimorfico
                
-              
-        
-             
 
             }
         }

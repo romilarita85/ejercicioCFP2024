@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TesteoClaseAuto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95c6ee3f85f988a6af7a15537918b97a94e98d5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ef201ade471a671e85d712454aa4b95fd2aada9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TesteoClaseAuto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TesteoClaseAuto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

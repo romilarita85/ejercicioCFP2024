@@ -21,7 +21,7 @@ namespace FormAlumnos
             InitializeComponent();
         }
        
-        public ForEstadoAcademico(Alumno alumno, List<Materia> materias, string carrera) : this()
+        public ForEstadoAcademico(Alumno alumno, List<Materia> materias, string carrera) : this() //SOBRECARGA CONST
         {//Constructor con parametros
             this.alumno = alumno;
             this.materias = materias;
@@ -39,7 +39,8 @@ namespace FormAlumnos
 
             foreach (Materia item in materias)
             {
-                lst_estadoAcademico.Items.Add(item.Nombre);
+                lst_estadoAcademico.Items.Add(item.Nombre); //IR AGREGANDO MATERIA DENTRO DE LA COLECCION DE MATERIAS
+                
             }
         }
 

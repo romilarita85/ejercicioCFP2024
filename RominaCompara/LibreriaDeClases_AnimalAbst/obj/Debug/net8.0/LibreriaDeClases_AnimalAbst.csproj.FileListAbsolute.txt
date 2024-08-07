@@ -1,0 +1,12 @@
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\bin\Debug\net8.0\LibreriaDeClases_AnimalAbst.deps.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\bin\Debug\net8.0\LibreriaDeClases_AnimalAbst.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\bin\Debug\net8.0\LibreriaDeClases_AnimalAbst.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\obj\Debug\net8.0\LibreriaDeClases_AnimalAbst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\obj\Debug\net8.0\LibreriaDeClases_AnimalAbst.AssemblyInfoInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\obj\Debug\net8.0\LibreriaDeClases_AnimalAbst.AssemblyInfo.cs
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\obj\Debug\net8.0\LibreriaDeClases_AnimalAbst.csproj.CoreCompileInputs.cache
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\obj\Debug\net8.0\LibreriaDeClases_AnimalAbst.sourcelink.json
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\obj\Debug\net8.0\LibreriaDeClases_AnimalAbst.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\obj\Debug\net8.0\refint\LibreriaDeClases_AnimalAbst.dll
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\obj\Debug\net8.0\LibreriaDeClases_AnimalAbst.pdb
+C:\Users\romi\Desktop\ejercicioCFP2024\RominaCompara\LibreriaDeClases_AnimalAbst\obj\Debug\net8.0\ref\LibreriaDeClases_AnimalAbst.dll

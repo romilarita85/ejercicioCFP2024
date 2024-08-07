@@ -8,7 +8,7 @@ namespace LibreriaDeClase_Animal
 {
     public class Gato : Animal
     {
-        string colorPelo;
+        string colorPelo; //atributo propio de la clase gato
 
         public Gato(string nombre, int edad, double peso, string colorPelo) : base(nombre, edad, peso)
         {
