@@ -167,7 +167,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaDeClases_AnimalAbst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteoGeneral_AnimalAbst", "TesteoGeneral_AnimalAbst\TesteoGeneral_AnimalAbst.csproj", "{38F8F4A0-5122-49C2-806C-C47F95B6AF13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaDeEmpleados01", "LibreriaDeEmpleados01\LibreriaDeEmpleados01.csproj", "{49DA7BC1-78D0-401B-9A9E-44B60D81617E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaDeEmpleados01", "LibreriaDeEmpleados01\LibreriaDeEmpleados01.csproj", "{49DA7BC1-78D0-401B-9A9E-44B60D81617E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form_Computadora", "Form_Computadora\Form_Computadora.csproj", "{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -507,6 +509,10 @@ Global
 		{49DA7BC1-78D0-401B-9A9E-44B60D81617E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49DA7BC1-78D0-401B-9A9E-44B60D81617E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49DA7BC1-78D0-401B-9A9E-44B60D81617E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

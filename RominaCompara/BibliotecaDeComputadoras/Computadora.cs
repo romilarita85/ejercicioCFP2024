@@ -78,6 +78,13 @@ namespace BibliotecaDeComputadoras
                 return todos;
             }
         }
+        public void CargarProgramasDesdeUnString(string programas) 
+        {
+            List<string> list = new List<string>();
+            list.AddRange(programas.Split(" - "));
+            this.programas = list;  
+        }
+
         //public string Programas
         //{
         //    get
