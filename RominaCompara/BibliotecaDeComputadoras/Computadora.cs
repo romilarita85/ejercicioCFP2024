@@ -4,11 +4,12 @@ namespace BibliotecaDeComputadoras
 {
     public class Computadora
     {
-        private int memoriaRam;
-        private int capacidadDisco;
-        private string procesador;
-        private string sistemaOperativo;
-        private List<string> programas;
+        int numeroDeSerie;
+        int memoriaRam;
+        int capacidadDisco;
+        string procesador;
+        string sistemaOperativo;
+        List<string> programas;
 
         //❖	Constructor privado que solo instancia la lista de programas.
         private Computadora() 
@@ -17,13 +18,14 @@ namespace BibliotecaDeComputadoras
         }
   
         //❖Constructor público que asigna valores a todos sus campos excepto a la lista de programas.
-        public Computadora(int memoriaRam, int capacidadDisco, string procesador, string sistemaOperativo)
-        :this()
+        public Computadora(int memoriaRam, int capacidadDisco, string procesador, string sistemaOperativo, int numeroDeSerie = 0)
+        : this()
         {
             this.memoriaRam = memoriaRam;
             this.capacidadDisco = capacidadDisco;
             this.procesador = procesador;
             this.sistemaOperativo = sistemaOperativo;
+            this.numeroDeSerie = numeroDeSerie;
         }
         //❖	Método get que retorna la lista de programas.
         public List<string>GetProgramas()
@@ -61,7 +63,7 @@ namespace BibliotecaDeComputadoras
         public int CapacidadDisco { get => capacidadDisco; }
         public string Procesador { get => procesador; }
         public string SistemaOperativo { get => sistemaOperativo; }
-
+        public int NumeroDeSerie { get => numeroDeSerie; set => numeroDeSerie = value; }
         public string Programas 
         {
             get 
@@ -78,14 +80,26 @@ namespace BibliotecaDeComputadoras
                 return todos;
             }
         }
+
+        
+
+        public override string ToString() 
+        {
+            return $"{procesador} - {memoriaRam} - {sistemaOperativo}";
+        }
         public void CargarProgramasDesdeUnString(string programas) 
         {
             List<string> list = new List<string>();
+            
             list.AddRange(programas.Split(" - "));
+            
             this.programas = list;  
         }
 
-        //public string Programas
+        
+    }
+}
+//public string Programas
         //{
         //    get
         //    {
@@ -120,6 +134,3 @@ namespace BibliotecaDeComputadoras
         //        return sb.ToString(); 
         //    }
         //}
-
-    }
-}

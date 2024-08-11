@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btn_agregar = new Button();
+            btn_modificar = new Button();
             btn_cancelar = new Button();
             gpb_programas = new GroupBox();
             chk_avast = new CheckBox();
@@ -41,6 +41,8 @@
             rdb_linux = new RadioButton();
             rdb_windows = new RadioButton();
             gpb_harware = new GroupBox();
+            num_DeSerie = new NumericUpDown();
+            lbl_nunDeSerie = new Label();
             label3 = new Label();
             label2 = new Label();
             lbl_procesador = new Label();
@@ -50,18 +52,20 @@
             gpb_programas.SuspendLayout();
             gpb_sitemasOperativos.SuspendLayout();
             gpb_harware.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)num_DeSerie).BeginInit();
             ((System.ComponentModel.ISupportInitialize)num_disco).BeginInit();
             ((System.ComponentModel.ISupportInitialize)num_memoriaRam).BeginInit();
             SuspendLayout();
             // 
-            // btn_agregar
+            // btn_modificar
             // 
-            btn_agregar.Location = new Point(638, 379);
-            btn_agregar.Name = "btn_agregar";
-            btn_agregar.Size = new Size(88, 41);
-            btn_agregar.TabIndex = 12;
-            btn_agregar.Text = "Agregar";
-            btn_agregar.UseVisualStyleBackColor = true;
+            btn_modificar.Location = new Point(638, 379);
+            btn_modificar.Name = "btn_modificar";
+            btn_modificar.Size = new Size(88, 41);
+            btn_modificar.TabIndex = 12;
+            btn_modificar.Text = "Modificar";
+            btn_modificar.UseVisualStyleBackColor = true;
+            btn_modificar.Click += btn_modificar_Click;
             // 
             // btn_cancelar
             // 
@@ -71,6 +75,7 @@
             btn_cancelar.TabIndex = 11;
             btn_cancelar.Text = "Cancelar";
             btn_cancelar.UseVisualStyleBackColor = true;
+            btn_cancelar.Click += btn_cancelar_Click;
             // 
             // gpb_programas
             // 
@@ -81,7 +86,7 @@
             gpb_programas.Controls.Add(chk_office);
             gpb_programas.Location = new Point(499, 179);
             gpb_programas.Name = "gpb_programas";
-            gpb_programas.Size = new Size(227, 173);
+            gpb_programas.Size = new Size(227, 161);
             gpb_programas.TabIndex = 8;
             gpb_programas.TabStop = false;
             gpb_programas.Text = "Programas";
@@ -89,7 +94,7 @@
             // chk_avast
             // 
             chk_avast.AutoSize = true;
-            chk_avast.Location = new Point(35, 132);
+            chk_avast.Location = new Point(35, 129);
             chk_avast.Name = "chk_avast";
             chk_avast.Size = new Size(55, 19);
             chk_avast.TabIndex = 4;
@@ -99,7 +104,7 @@
             // chK_dropbox
             // 
             chK_dropbox.AutoSize = true;
-            chK_dropbox.Location = new Point(35, 107);
+            chK_dropbox.Location = new Point(35, 104);
             chK_dropbox.Name = "chK_dropbox";
             chK_dropbox.Size = new Size(72, 19);
             chK_dropbox.TabIndex = 3;
@@ -109,7 +114,7 @@
             // chk_winrar
             // 
             chk_winrar.AutoSize = true;
-            chk_winrar.Location = new Point(35, 82);
+            chk_winrar.Location = new Point(35, 79);
             chk_winrar.Name = "chk_winrar";
             chk_winrar.Size = new Size(61, 19);
             chk_winrar.TabIndex = 2;
@@ -119,7 +124,7 @@
             // chk_adobeReader
             // 
             chk_adobeReader.AutoSize = true;
-            chk_adobeReader.Location = new Point(35, 57);
+            chk_adobeReader.Location = new Point(35, 54);
             chk_adobeReader.Name = "chk_adobeReader";
             chk_adobeReader.Size = new Size(100, 19);
             chk_adobeReader.TabIndex = 1;
@@ -129,7 +134,7 @@
             // chk_office
             // 
             chk_office.AutoSize = true;
-            chk_office.Location = new Point(35, 32);
+            chk_office.Location = new Point(35, 29);
             chk_office.Name = "chk_office";
             chk_office.Size = new Size(58, 19);
             chk_office.TabIndex = 0;
@@ -183,6 +188,8 @@
             // 
             // gpb_harware
             // 
+            gpb_harware.Controls.Add(num_DeSerie);
+            gpb_harware.Controls.Add(lbl_nunDeSerie);
             gpb_harware.Controls.Add(label3);
             gpb_harware.Controls.Add(label2);
             gpb_harware.Controls.Add(lbl_procesador);
@@ -191,15 +198,32 @@
             gpb_harware.Controls.Add(cmb_procesadores);
             gpb_harware.Location = new Point(75, 31);
             gpb_harware.Name = "gpb_harware";
-            gpb_harware.Size = new Size(382, 321);
+            gpb_harware.Size = new Size(404, 309);
             gpb_harware.TabIndex = 10;
             gpb_harware.TabStop = false;
             gpb_harware.Text = "Hardware";
             // 
+            // num_DeSerie
+            // 
+            num_DeSerie.Location = new Point(172, 225);
+            num_DeSerie.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            num_DeSerie.Name = "num_DeSerie";
+            num_DeSerie.Size = new Size(162, 23);
+            num_DeSerie.TabIndex = 7;
+            // 
+            // lbl_nunDeSerie
+            // 
+            lbl_nunDeSerie.AutoSize = true;
+            lbl_nunDeSerie.Location = new Point(40, 231);
+            lbl_nunDeSerie.Name = "lbl_nunDeSerie";
+            lbl_nunDeSerie.Size = new Size(64, 15);
+            lbl_nunDeSerie.TabIndex = 6;
+            lbl_nunDeSerie.Text = "N° de serie";
+            // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(40, 171);
+            label3.Location = new Point(40, 184);
             label3.Name = "label3";
             label3.Size = new Size(36, 15);
             label3.TabIndex = 5;
@@ -208,7 +232,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(40, 122);
+            label2.Location = new Point(40, 135);
             label2.Name = "label2";
             label2.Size = new Size(82, 15);
             label2.TabIndex = 4;
@@ -217,7 +241,7 @@
             // lbl_procesador
             // 
             lbl_procesador.AutoSize = true;
-            lbl_procesador.Location = new Point(40, 76);
+            lbl_procesador.Location = new Point(40, 89);
             lbl_procesador.Name = "lbl_procesador";
             lbl_procesador.Size = new Size(66, 15);
             lbl_procesador.TabIndex = 3;
@@ -225,14 +249,15 @@
             // 
             // num_disco
             // 
-            num_disco.Location = new Point(173, 163);
+            num_disco.Location = new Point(173, 176);
             num_disco.Name = "num_disco";
             num_disco.Size = new Size(162, 23);
             num_disco.TabIndex = 2;
             // 
             // num_memoriaRam
             // 
-            num_memoriaRam.Location = new Point(173, 114);
+            num_memoriaRam.Location = new Point(173, 127);
+            num_memoriaRam.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             num_memoriaRam.Name = "num_memoriaRam";
             num_memoriaRam.Size = new Size(162, 23);
             num_memoriaRam.TabIndex = 1;
@@ -240,7 +265,7 @@
             // cmb_procesadores
             // 
             cmb_procesadores.FormattingEnabled = true;
-            cmb_procesadores.Location = new Point(172, 68);
+            cmb_procesadores.Location = new Point(172, 81);
             cmb_procesadores.Name = "cmb_procesadores";
             cmb_procesadores.Size = new Size(163, 23);
             cmb_procesadores.TabIndex = 0;
@@ -250,7 +275,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(btn_agregar);
+            Controls.Add(btn_modificar);
             Controls.Add(btn_cancelar);
             Controls.Add(gpb_programas);
             Controls.Add(gpb_sitemasOperativos);
@@ -264,6 +289,7 @@
             gpb_sitemasOperativos.PerformLayout();
             gpb_harware.ResumeLayout(false);
             gpb_harware.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)num_DeSerie).EndInit();
             ((System.ComponentModel.ISupportInitialize)num_disco).EndInit();
             ((System.ComponentModel.ISupportInitialize)num_memoriaRam).EndInit();
             ResumeLayout(false);
@@ -271,7 +297,7 @@
 
         #endregion
 
-        private Button btn_agregar;
+        private Button btn_modificar;
         private Button btn_cancelar;
         private GroupBox gpb_programas;
         private CheckBox chk_avast;
@@ -290,5 +316,7 @@
         private NumericUpDown num_disco;
         private NumericUpDown num_memoriaRam;
         private ComboBox cmb_procesadores;
+        private NumericUpDown num_DeSerie;
+        private Label lbl_nunDeSerie;
     }
 }

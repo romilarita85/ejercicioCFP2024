@@ -15,11 +15,11 @@ namespace Form_Computadora
     {
         private Computadora miComputadora;
 
-        public Computadora MiPc
+        public Computadora MiComputadora
         {
-            get 
-            { 
-                return this.miComputadora; 
+            get
+            {
+                return this.miComputadora;
             }
         }
         public FormModificar()
@@ -35,12 +35,14 @@ namespace Form_Computadora
 
         private void FormModificar_Load(object sender, EventArgs e)
         {
+            cmb_procesadores.DataSource = Computadora.ListadoDeProcesadores();
             //Cargar componentes del formulario por medio de las properties(de la clase Computadora)
             cmb_procesadores.Text = miComputadora.Procesador;
             num_memoriaRam.Value = miComputadora.MemoriaRam;
             num_disco.Value = miComputadora.CapacidadDisco;
+            num_DeSerie.Value = miComputadora.NumeroDeSerie;
 
-            foreach (RadioButton rb in gpb_programas.Controls)
+            foreach (RadioButton rb in gpb_sitemasOperativos.Controls)
             {
                 if (rb.Text.ToLower() == miComputadora.SistemaOperativo.ToLower())
                 {
@@ -60,5 +62,16 @@ namespace Form_Computadora
                 }
             }
         }
+        private void btn_modificar_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.OK;
+        }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
+        }
+
+        
     }
 }

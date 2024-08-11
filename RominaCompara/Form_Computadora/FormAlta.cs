@@ -17,7 +17,7 @@ namespace Form_Computadora
         {
             get
             {
-                return MiComputadora;
+                return this.miComputadora;
             }
         }
         public FormAlta()

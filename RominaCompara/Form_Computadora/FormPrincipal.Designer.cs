@@ -61,7 +61,7 @@
             btn_modificar.TabIndex = 2;
             btn_modificar.Text = "Modificar";
             btn_modificar.UseVisualStyleBackColor = true;
-            btn_modificar.Click += btn_cancelar_Click;
+            btn_modificar.Click += btn_modificar_Click;
             // 
             // FormPrincipal
             // 

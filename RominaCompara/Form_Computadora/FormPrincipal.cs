@@ -20,7 +20,7 @@ namespace Form_Computadora
 
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
-
+            this.computadoras = new List<Computadora>();
             this.computadoras = new List<Computadora>() //dar una nueva instancia a la lista (inicializar lista)
             {
                 new Computadora(240,16,"Pentium","Linux"),
@@ -29,6 +29,8 @@ namespace Form_Computadora
                 new Computadora(480,32,"Intel Pentium","Window Server"),
                 new Computadora(240,16,"Intel 386","Chrome Os"),
             };
+            dgv_listaComputadoras.DataSource = null;
+            dgv_listaComputadoras.DataSource = computadoras;   
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)
@@ -39,20 +41,29 @@ namespace Form_Computadora
 
             if (formAlta.DialogResult == DialogResult.OK)
             {
-                computadoras.Add(formAlta.MiComputadora);
+                this.computadoras.Add(formAlta.MiComputadora);
 
             }
             CargarDgv();
+        }
+       
+        private void btn_modificar_Click(object sender, EventArgs e)
+        {
+            Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem as Computadora;
+            FormModificar modificar = new FormModificar(pcEditar);
+            modificar.ShowDialog();
+
+            if (modificar.DialogResult == DialogResult.OK) 
+            {
+                int index = this.computadoras.FindIndex(pcBuscar => pcBuscar.NumeroDeSerie == modificar.MiComputadora.NumeroDeSerie);
+                this.computadoras[index] = modificar.MiComputadora;
+                CargarDgv();
+            }
         }
         private void CargarDgv()
         {
             dgv_listaComputadoras.DataSource = null;
             dgv_listaComputadoras.DataSource = computadoras;
-
-        }
-
-        private void btn_modificar_Click(object sender, EventArgs e)
-        {
 
         }
     }
