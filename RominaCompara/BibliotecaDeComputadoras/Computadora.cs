@@ -59,29 +59,30 @@ namespace BibliotecaDeComputadoras
         //❖	Todas las propiedades son de solo lectura y retornan el valor de los atributos que
         //hacen referencia, excepto Programas, esta propiedad retorna un string con todos los nombres
         //de los programas concatenados.
+        public int NumeroDeSerie { get => numeroDeSerie; set => numeroDeSerie = value; }
         public int MemoriaRam { get => memoriaRam; }
         public int CapacidadDisco { get => capacidadDisco; }
         public string Procesador { get => procesador; }
         public string SistemaOperativo { get => sistemaOperativo; }
-        public int NumeroDeSerie { get => numeroDeSerie; set => numeroDeSerie = value; }
-        public string Programas 
+       
+        public string Programas
         {
-            get 
+            get
             {
-                string todos = string.Empty;
+                StringBuilder todos = new StringBuilder();
                 for (int i = 0; i < programas.Count; i++)
                 {
-                    todos += programas[i];
-                    if (i<programas.Count -1)
+                    todos.Append(programas[i]);
+                    if (i < programas.Count - 1)
                     {
-                        todos +=  " - ";
+                        todos.Append(" - ");
                     }
                 }
-                return todos;
+                return todos.ToString();
             }
         }
+       
 
-        
 
         public override string ToString() 
         {
@@ -89,48 +90,48 @@ namespace BibliotecaDeComputadoras
         }
         public void CargarProgramasDesdeUnString(string programas) 
         {
-            List<string> list = new List<string>();
-            
-            list.AddRange(programas.Split(" - "));
-            
-            this.programas = list;  
+            //List<string> list = new List<string>();
+            //list.AddRange(programas.Split(" - "));
+            //this.programas = list;  
+            this.programas.AddRange(programas.Split(" - "));
         }
-
-        
+        //Metodo Split: Para hacer particion de cadena.Tipo de caracter va a particionar cada palabra.
+        //quiero q haga un corte y particine las palabras.
     }
 }
+//public string Programas 
+//{
+//    get 
+//    {
+//        string todos = string.Empty;
+//        for (int i = 0; i < programas.Count; i++)
+//        {
+//            todos += programas[i];
+//            if (i<programas.Count -1)
+//            {
+//                todos +=  " - ";
+//            }
+//        }
+//        return todos;
+//    }
+//}
+
+//Usando StringBuilder*********
 //public string Programas
-        //{
-        //    get
-        //    {
-        //        StringBuilder todos = new StringBuilder();
-        //        for (int i = 0; i < programas.Count; i++)
-        //        {
-        //            todos.Append(programas[i]);
-        //            if (i < programas.Count - 1)
-        //            {
-        //                todos.Append(" - ");
-        //            }
-        //        }
-        //        return todos.ToString();
-        //    }
-        //}
-        //Usando StringBuilder*********
-        //public string Programas
-        //{
-        //    get
-        //    {
-        //        StringBuilder sb = new StringBuilder();
+//{
+//    get
+//    {
+//        StringBuilder sb = new StringBuilder();
 
-        //        for (int i = 0; i < programas.Count; i++)
-        //        {
-        //            sb.Append(programas[i]);
+//        for (int i = 0; i < programas.Count; i++)
+//        {
+//            sb.Append(programas[i]);
 
-        //            if (i < programas.Count - 1)
-        //            {
-        //                sb.Append(" - ");
-        //            }
-        //        }
-        //        return sb.ToString(); 
-        //    }
-        //}
+//            if (i < programas.Count - 1)
+//            {
+//                sb.Append(" - ");
+//            }
+//        }
+//        return sb.ToString(); 
+//    }
+//}

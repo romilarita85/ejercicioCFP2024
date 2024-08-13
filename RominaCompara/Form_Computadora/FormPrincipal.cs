@@ -49,15 +49,21 @@ namespace Form_Computadora
        
         private void btn_modificar_Click(object sender, EventArgs e)
         {
-            Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem as Computadora;
+            //Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem as Computadora;
+            Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem;
+                
             FormModificar modificar = new FormModificar(pcEditar);
             modificar.ShowDialog();
 
-            if (modificar.DialogResult == DialogResult.OK) 
+            if (modificar.DialogResult == DialogResult.OK)
             {
+                // Encuentra el índice del objeto en la lista
                 int index = this.computadoras.FindIndex(pcBuscar => pcBuscar.NumeroDeSerie == modificar.MiComputadora.NumeroDeSerie);
+                // Reemplaza el objeto en la lista con el objeto modificado
                 this.computadoras[index] = modificar.MiComputadora;
+                // Actualiza el DataGridView con la lista actualizada
                 CargarDgv();
+                
             }
         }
         private void CargarDgv()
@@ -69,3 +75,19 @@ namespace Form_Computadora
     }
 
 }
+//CurrentRow:en DataGrid wiew te permite acceder a la fila actualmente seleccionada o con foco.
+//Te permite interactuar con los datos de esa fila, realizar operaciones específicas o
+//mostrar información relevante.
+
+//DataBoundItem: devolver como si fuera un objeto. Para el dataGrew todo lo que va a devolver va a ser
+//del tipo objetc-> objeto q le pasamos inicialmente. Devuelve el objeto que está vinculado a la fila actual.
+//Este objeto es de la misma clase que la que se usó para llenar el DataGridView.
+
+//Casting a Computadora: La conversión(casting) (Computadora)asume que el objeto vinculado
+//a la fila es de tipo Computadora. Este casting te permite trabajar directamente
+//con el objeto Computadora en lugar de tratar con el objeto base genérico.
+
+//index: El índice te dice en qué posición de la colección se encuentra un elemento específico.
+//FindIndex:método de List<T> en C# que busca el índice del primer elemento que cumple con una
+//condición especificada mediante un delegado Predicate<T>. Es útil cuando no conoces
+//la posición del elemento pero sí una condición para identificarlo.

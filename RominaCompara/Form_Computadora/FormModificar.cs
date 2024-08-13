@@ -14,7 +14,6 @@ namespace Form_Computadora
     public partial class FormModificar : Form
     {
         private Computadora miComputadora;
-
         public Computadora MiComputadora
         {
             get
@@ -32,15 +31,15 @@ namespace Form_Computadora
             this.miComputadora = pc;
 
         }
-
         private void FormModificar_Load(object sender, EventArgs e)
         {
             cmb_procesadores.DataSource = Computadora.ListadoDeProcesadores();
             //Cargar componentes del formulario por medio de las properties(de la clase Computadora)
-            cmb_procesadores.Text = miComputadora.Procesador;
-            num_memoriaRam.Value = miComputadora.MemoriaRam;
-            num_disco.Value = miComputadora.CapacidadDisco;
-            num_DeSerie.Value = miComputadora.NumeroDeSerie;
+           
+            cmb_procesadores.Text =this.miComputadora.Procesador;
+            num_memoriaRam.Value = this.miComputadora.MemoriaRam;
+            num_disco.Value = this.miComputadora.CapacidadDisco;
+            num_DeSerie.Value = this.miComputadora.NumeroDeSerie;
 
             foreach (RadioButton rb in gpb_sitemasOperativos.Controls)
             {
@@ -64,14 +63,40 @@ namespace Form_Computadora
         }
         private void btn_modificar_Click(object sender, EventArgs e)
         {
-            DialogResult = DialogResult.OK;
-        }
+            int numeroDeSerie = (int)this.num_DeSerie.Value;
+            int memoriaRam = (int)this.num_memoriaRam.Value;
+            int capacidadDisco = (int)this.num_disco.Value;
+            string procesador = this.cmb_procesadores.Text;
+            string sistemaOperativo = string.Empty;
 
-        private void btn_cancelar_Click(object sender, EventArgs e)
-        {
-            DialogResult = DialogResult.Cancel;
-        }
+            foreach (RadioButton componente in gpb_sitemasOperativos.Controls)
+            {
+                if (componente.Checked)
+                {
+                    sistemaOperativo = componente.Text;
+                    break;
+                }
+            }
+            //Creacion de una nueva instancia de un objeto
+            this.miComputadora = new Computadora(memoriaRam, capacidadDisco, procesador, sistemaOperativo,numeroDeSerie);
 
-        
+            foreach (CheckBox chk in gpb_programas.Controls)
+            {
+                if (chk.Checked)
+                {
+                    this.miComputadora.SetPrograma(chk.Text);
+
+                }
+            }
+            if (memoriaRam != 0 && capacidadDisco != 0 && !string.IsNullOrEmpty(procesador) && !string.IsNullOrEmpty(sistemaOperativo) && miComputadora is not null && miComputadora.GetProgramas().Count > 0)
+            {
+                DialogResult = DialogResult.OK;
+            }
+            else 
+            {
+                MessageBox.Show("Debe ingresar por lo menos 1 valor de cada item","Faltan datos",MessageBoxButtons.YesNo);
+            }
+            
+        }
     }
 }
