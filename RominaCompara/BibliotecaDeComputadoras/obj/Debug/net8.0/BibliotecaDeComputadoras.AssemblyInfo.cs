@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaDeComputadoras")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58d41d604cb68c51ac695c149c7f29721a1861f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+102504b3e5905d3ab954e0d322cedb3208db1145")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaDeComputadoras")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaDeComputadoras")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

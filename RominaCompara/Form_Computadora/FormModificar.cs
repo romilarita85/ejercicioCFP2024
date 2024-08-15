@@ -63,11 +63,16 @@ namespace Form_Computadora
         }
         private void btn_modificar_Click(object sender, EventArgs e)
         {
-            int numeroDeSerie = (int)this.num_DeSerie.Value;
-            int memoriaRam = (int)this.num_memoriaRam.Value;
-            int capacidadDisco = (int)this.num_disco.Value;
-            string procesador = this.cmb_procesadores.Text;
+            int capacidadDisco;
+            int memoriaRam;
+            string procesador = string.Empty;
             string sistemaOperativo = string.Empty;
+            int numeroDeSerie = (int)this.num_DeSerie.Value;;
+
+            memoriaRam = (int)this.num_memoriaRam.Value;
+            capacidadDisco = (int)this.num_disco.Value;
+            procesador = this.cmb_procesadores.Text;
+            
 
             foreach (RadioButton componente in gpb_sitemasOperativos.Controls)
             {
@@ -80,7 +85,7 @@ namespace Form_Computadora
             //Creacion de una nueva instancia de un objeto
             this.miComputadora = new Computadora(memoriaRam, capacidadDisco, procesador, sistemaOperativo,numeroDeSerie);
 
-            foreach (CheckBox chk in gpb_programas.Controls)
+            foreach (CheckBox chk in this.gpb_programas.Controls)
             {
                 if (chk.Checked)
                 {

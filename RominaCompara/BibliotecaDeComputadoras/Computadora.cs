@@ -81,9 +81,6 @@ namespace BibliotecaDeComputadoras
                 return todos.ToString();
             }
         }
-       
-
-
         public override string ToString() 
         {
             return $"{procesador} - {memoriaRam} - {sistemaOperativo}";
@@ -97,6 +94,33 @@ namespace BibliotecaDeComputadoras
         }
         //Metodo Split: Para hacer particion de cadena.Tipo de caracter va a particionar cada palabra.
         //quiero q haga un corte y particine las palabras.
+      
+        //Sobreecribir metodo para pc:
+        //1-Metodo largo Equals
+        //public override bool Equals(object pc) 
+        //{
+        //    bool sonIguales = false;
+        //    if (pc is not null)//ver q el objeto no sea nul0
+        //    {
+        //        if (pc.GetType().Name == typeof(Computadora).Name) //ver si es del mismo tipo
+        //        {//lo puedo pasar a computadora
+        //            Computadora pcComparar = (Computadora)pc;
+        //            sonIguales = this.numeroDeSerie == pcComparar.numeroDeSerie;
+        //        }
+        //    }
+        //    return sonIguales;
+        //}
+        //2-Metodo mas simple de Equals
+        public override bool Equals(object pc)
+        {
+            Computadora pcComparar = pc as Computadora;
+            //Comparar q no sea nulo y luego acceder a los metodos
+            
+            return pcComparar is not null && this.numeroDeSerie == pcComparar.numeroDeSerie;
+        }
+        //Equals: recibe un object y lo compara contra si mismo de lo da con la base principal object.
+         //Se utiliza para comparar dos objetos y determinar si son iguales.
+         //Es un método que está definido en la clase base Object, que es la clase raíz de todas las clases en C#. 
     }
 }
 //public string Programas 

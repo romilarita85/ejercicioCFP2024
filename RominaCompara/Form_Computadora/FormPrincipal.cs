@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using BibliotecaDeComputadoras;
+﻿using BibliotecaDeComputadoras;
 namespace Form_Computadora
 {
     public partial class FormPrincipal : Form
@@ -29,8 +20,7 @@ namespace Form_Computadora
                 new Computadora(480,32,"Intel Pentium","Window Server"),
                 new Computadora(240,16,"Intel 386","Chrome Os"),
             };
-            dgv_listaComputadoras.DataSource = null;
-            dgv_listaComputadoras.DataSource = computadoras;   
+            CargarDgv();
         }
 
         private void btn_agregar_Click(object sender, EventArgs e)
@@ -46,35 +36,83 @@ namespace Form_Computadora
             }
             CargarDgv();
         }
-       
+
         private void btn_modificar_Click(object sender, EventArgs e)
         {
-            //Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem as Computadora;
-            Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem;
-                
-            FormModificar modificar = new FormModificar(pcEditar);
+            //Dos formas de sacar un elemento de dataGrew
+            //1-Por medio de la palabra reservada "as"
+            Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem as Computadora;
+            //2-otra forma
+            //Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem;
+
+            FormModificar modificar = new FormModificar(pcEditar);//paso pcEditar al constructor
             modificar.ShowDialog();
 
             if (modificar.DialogResult == DialogResult.OK)
             {
-                // Encuentra el índice del objeto en la lista
-                int index = this.computadoras.FindIndex(pcBuscar => pcBuscar.NumeroDeSerie == modificar.MiComputadora.NumeroDeSerie);
-                // Reemplaza el objeto en la lista con el objeto modificado
-                this.computadoras[index] = modificar.MiComputadora;
-                // Actualiza el DataGridView con la lista actualizada
+                //Buscar numero de serie-Buscar como obtiene ese indice(dato numerico)
+                int index = -1;//si es distinto de -1 significa q lo puedo encontrar.
+                foreach (Computadora item in computadoras)
+                {
+                    if (item.NumeroDeSerie == modificar.MiComputadora.NumeroDeSerie)
+                    {
+                        index = computadoras.IndexOf(item);
+                    }
+                    if (index != -1) //para decirla a mi computadora q guarde ese indice de la computadora
+                    {//q yo modifique
+                        computadoras[index] = modificar.MiComputadora;
+                    }
+                }
                 CargarDgv();
-                
+
             }
+        }
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+            Computadora pcEliminar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem as Computadora;
+            DialogResult rta = MessageBox.Show($"Esta seguro que desea eliminar la pc con numero de serie {pcEliminar.NumeroDeSerie}" +
+                $"Esta accion es irreversible", 
+                "ELIMINAT",MessageBoxButtons.OKCancel);
+
+          
+            if (rta == DialogResult.OK)
+            {
+                computadoras.Remove(pcEliminar);    
+            }
+            CargarDgv();
         }
         private void CargarDgv()
         {
             dgv_listaComputadoras.DataSource = null;
             dgv_listaComputadoras.DataSource = computadoras;
-
         }
+
+        
     }
 
 }
+//private void btn_modificar_Click(object sender, EventArgs e)
+//{
+//    //Dos formas de sacar un elemento de dataGrew
+//    //1-Por medio de la palabra reservada "as"
+//    Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem as Computadora;
+//    //2-otra forma
+//    //Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem;
+
+//    FormModificar modificar = new FormModificar(pcEditar);//paso pcEditar al constructor
+//    modificar.ShowDialog();
+
+//    if (modificar.DialogResult == DialogResult.OK)
+//    {
+//        // Encuentra el índice del objeto en la lista
+//        int index = this.computadoras.FindIndex(pcBuscar => pcBuscar.NumeroDeSerie == modificar.MiComputadora.NumeroDeSerie);
+//        // Reemplaza el objeto en la lista con el objeto modificado
+//        this.computadoras[index] = modificar.MiComputadora;
+//        // Actualiza el DataGridView con la lista actualizada
+//        CargarDgv();
+
+//    }
+//}
 //CurrentRow:en DataGrid wiew te permite acceder a la fila actualmente seleccionada o con foco.
 //Te permite interactuar con los datos de esa fila, realizar operaciones específicas o
 //mostrar información relevante.
@@ -83,9 +121,9 @@ namespace Form_Computadora
 //del tipo objetc-> objeto q le pasamos inicialmente. Devuelve el objeto que está vinculado a la fila actual.
 //Este objeto es de la misma clase que la que se usó para llenar el DataGridView.
 
-//Casting a Computadora: La conversión(casting) (Computadora)asume que el objeto vinculado
+//Casteo a Computadora: La conversión(casting) (Computadora)asume que el objeto vinculado
 //a la fila es de tipo Computadora. Este casting te permite trabajar directamente
-//con el objeto Computadora en lugar de tratar con el objeto base genérico.
+//con el objeto Computadora en lugar de tratar con el objeto base genérico. 
 
 //index: El índice te dice en qué posición de la colección se encuentra un elemento específico.
 //FindIndex:método de List<T> en C# que busca el índice del primer elemento que cumple con una

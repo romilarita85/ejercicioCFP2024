@@ -37,6 +37,7 @@ namespace Form_Computadora
             int capacidadDisco = (int)this.num_disco.Value;
             string procesador = this.cmb_procesadores.Text;
             string sistemaOperativo = string.Empty;
+            
 
             foreach (RadioButton componente in gpb_sitemasOperativos.Controls)
             {
