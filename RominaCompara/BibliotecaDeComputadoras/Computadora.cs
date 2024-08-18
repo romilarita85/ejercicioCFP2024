@@ -10,7 +10,31 @@ namespace BibliotecaDeComputadoras
         string procesador;
         string sistemaOperativo;
         List<string> programas;
-
+        //❖Todas las propiedades son de solo lectura y retornan el valor de los atributos que
+        //hacen referencia, excepto Programas, esta propiedad retorna un string con todos los nombres
+        //de los programas concatenados.
+        public int NumeroDeSerie { get => numeroDeSerie; set => numeroDeSerie = value; }
+        public int MemoriaRam { get => memoriaRam; }
+        public int CapacidadDisco { get => capacidadDisco; }
+        public string Procesador { get => procesador; }
+        public string SistemaOperativo { get => sistemaOperativo; }
+       
+        public string Programas
+        {
+            get
+            {
+                StringBuilder todos = new StringBuilder();
+                for (int i = 0; i < programas.Count; i++)
+                {
+                    todos.Append(programas[i]);
+                    if (i < programas.Count - 1)
+                    {
+                        todos.Append(" - ");
+                    }
+                }
+                return todos.ToString();
+            }
+        }
         //❖	Constructor privado que solo instancia la lista de programas.
         private Computadora() 
         {
@@ -18,7 +42,7 @@ namespace BibliotecaDeComputadoras
         }
   
         //❖Constructor público que asigna valores a todos sus campos excepto a la lista de programas.
-        public Computadora(int memoriaRam, int capacidadDisco, string procesador, string sistemaOperativo, int numeroDeSerie = 0)
+        public Computadora(int memoriaRam, int capacidadDisco, string procesador, string sistemaOperativo, int numeroDeSerie = 0 )
         : this()
         {
             this.memoriaRam = memoriaRam;
@@ -56,31 +80,7 @@ namespace BibliotecaDeComputadoras
             };
         }
 
-        //❖	Todas las propiedades son de solo lectura y retornan el valor de los atributos que
-        //hacen referencia, excepto Programas, esta propiedad retorna un string con todos los nombres
-        //de los programas concatenados.
-        public int NumeroDeSerie { get => numeroDeSerie; set => numeroDeSerie = value; }
-        public int MemoriaRam { get => memoriaRam; }
-        public int CapacidadDisco { get => capacidadDisco; }
-        public string Procesador { get => procesador; }
-        public string SistemaOperativo { get => sistemaOperativo; }
        
-        public string Programas
-        {
-            get
-            {
-                StringBuilder todos = new StringBuilder();
-                for (int i = 0; i < programas.Count; i++)
-                {
-                    todos.Append(programas[i]);
-                    if (i < programas.Count - 1)
-                    {
-                        todos.Append(" - ");
-                    }
-                }
-                return todos.ToString();
-            }
-        }
         public override string ToString() 
         {
             return $"{procesador} - {memoriaRam} - {sistemaOperativo}";

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_computadora\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|solutionrelative:form_computadora\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_computadora\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|solutionrelative:form_computadora\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_computadora\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|solutionrelative:form_computadora\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76FF8D8C-0C51-4887-8EAA-D88C5F775366}|BibliotecaDeComputadoras\\BibliotecaDeComputadoras.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\bibliotecadecomputadoras\\computadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76FF8D8C-0C51-4887-8EAA-D88C5F775366}|BibliotecaDeComputadoras\\BibliotecaDeComputadoras.csproj|solutionrelative:bibliotecadecomputadoras\\computadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_computadora\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|solutionrelative:form_computadora\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_computadora\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|solutionrelative:form_computadora\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_computadora\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|solutionrelative:form_computadora\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_computadora\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|solutionrelative:form_computadora\\formmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|c:\\users\\romi\\desktop\\ejerciciocfp2024\\rominacompara\\form_computadora\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA4DD9EB-23A3-472E-8E18-EC474BC7529D}|Form_Computadora\\Form_Computadora.csproj|solutionrelative:form_computadora\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,39 +50,51 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormModificar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Computadora\\FormModificar.cs",
+              "RelativeDocumentMoniker": "Form_Computadora\\FormModificar.cs",
+              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Computadora\\FormModificar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form_Computadora\\FormModificar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T13:34:19.916Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Computadora.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeComputadoras\\Computadora.cs",
               "RelativeDocumentMoniker": "BibliotecaDeComputadoras\\Computadora.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeComputadoras\\Computadora.cs",
               "RelativeToolTip": "BibliotecaDeComputadoras\\Computadora.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwKEAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCwAAACAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T13:39:47.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FormPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Computadora\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "Form_Computadora\\FormPrincipal.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Computadora\\FormPrincipal.cs",
               "RelativeToolTip": "Form_Computadora\\FormPrincipal.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAcwA0AAAAMAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwFMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T13:34:52.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormModificar.cs",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Computadora\\FormModificar.cs",
               "RelativeDocumentMoniker": "Form_Computadora\\FormModificar.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Computadora\\FormModificar.cs",
               "RelativeToolTip": "Form_Computadora\\FormModificar.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAAHcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T13:34:41.22Z",
               "EditorCaption": ""
@@ -95,9 +107,10 @@
               "RelativeDocumentMoniker": "Form_Computadora\\FormAlta.cs",
               "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Computadora\\FormAlta.cs",
               "RelativeToolTip": "Form_Computadora\\FormAlta.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCcAAAAMAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswDgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T13:34:36.299Z"
+              "WhenOpened": "2024-08-13T13:34:36.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -114,18 +127,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FormModificar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Computadora\\FormModificar.cs",
-              "RelativeDocumentMoniker": "Form_Computadora\\FormModificar.cs",
-              "ToolTip": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Computadora\\FormModificar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form_Computadora\\FormModificar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T13:34:19.916Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "FormPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Form_Computadora\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "Form_Computadora\\FormPrincipal.cs",

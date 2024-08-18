@@ -44,21 +44,34 @@ namespace Form_Computadora
             foreach (RadioButton rb in gpb_sitemasOperativos.Controls)
             {
                 if (rb.Text.ToLower() == miComputadora.SistemaOperativo.ToLower())
-                {
-                    rb.Checked = true;
+                { //rb.Text.ToLower(): Convierte el texto del RadioButton a minúsculas.
+                  //miComputadora.SistemaOperativo.ToLower(): Convierte el texto del sistema operativo
+                  //de la computadora a minúsculas.
+                  //==: Compara las dos cadenas resultantes en minúsculas para determinar si son iguales.
+                    rb.Checked = true;// Marca el RadioButton
                     break;
                 }
             }
             foreach (CheckBox chk in gpb_programas.Controls)
             {
                 foreach (string prog in miComputadora.GetProgramas())
-                {
+                {//representa la iteración sobre una colección de programas que se obtiene
+                 //del método GetProgramas() de miComputadora. Este método parece devolver una
+                 //colección de nombres de programas que se usarán para comparar con los CheckBox en el GroupBox.
                     if (chk.Text.ToLower() == prog.ToLower())
-                    {
+                    {// chk.Text.ToLower(): Convierte el texto del CheckBox(chk.Text) a minúsculas.
+                   // Esto asegura que la comparación sea insensible al caso, independientemente de si el
+                   // texto original tiene mayúsculas o minúsculas.
+                    //prog.ToLower(): Convierte el nombre del programa(prog) a minúsculas.
+                    //==: Compara las dos cadenas convertidas a minúsculas.Si ambas cadenas coinciden,
+                    //la condición se evalúa como true.
+  
                         chk.Checked = true;
                         break;
                     }
                 }
+
+
             }
         }
         private void btn_modificar_Click(object sender, EventArgs e)

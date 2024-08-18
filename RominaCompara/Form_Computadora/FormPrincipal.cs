@@ -3,7 +3,7 @@ namespace Form_Computadora
 {
     public partial class FormPrincipal : Form
     {
-        List<Computadora> computadoras;
+        private List<Computadora> computadoras;
         public FormPrincipal()
         {
             InitializeComponent();
@@ -38,7 +38,7 @@ namespace Form_Computadora
         }
 
         private void btn_modificar_Click(object sender, EventArgs e)
-        {
+        { //Obtener el objeto Computadora seleccionado en el DataGridView.
             //Dos formas de sacar un elemento de dataGrew
             //1-Por medio de la palabra reservada "as"
             Computadora pcEditar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem as Computadora;
@@ -47,9 +47,9 @@ namespace Form_Computadora
 
             FormModificar modificar = new FormModificar(pcEditar);//paso pcEditar al constructor
             modificar.ShowDialog();
-
+           //Abrir un formulario para modificar la computadora seleccionada(FormModificar).
             if (modificar.DialogResult == DialogResult.OK)
-            {
+            {//Una vez modificada, buscar la computadora en la lista original y la actualizas.
                 //Buscar numero de serie-Buscar como obtiene ese indice(dato numerico)
                 int index = -1;//si es distinto de -1 significa q lo puedo encontrar.
                 foreach (Computadora item in computadoras)
@@ -64,17 +64,18 @@ namespace Form_Computadora
                     }
                 }
                 CargarDgv();
-
+               
             }
         }
         private void btn_eliminar_Click(object sender, EventArgs e)
         {
+          //Obtener la computadora seleccionada en el DataGridView.
             Computadora pcEliminar = (Computadora)dgv_listaComputadoras.CurrentRow.DataBoundItem as Computadora;
+         //Mostrar un cuadro de diálogo de confirmación antes de eliminar la computadora de la lista
             DialogResult rta = MessageBox.Show($"Esta seguro que desea eliminar la pc con numero de serie {pcEliminar.NumeroDeSerie}" +
                 $"Esta accion es irreversible", 
-                "ELIMINAT",MessageBoxButtons.OKCancel);
+                "ELIMINAR",MessageBoxButtons.OKCancel);
 
-          
             if (rta == DialogResult.OK)
             {
                 computadoras.Remove(pcEliminar);    

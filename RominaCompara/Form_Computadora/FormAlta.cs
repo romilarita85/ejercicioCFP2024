@@ -62,6 +62,10 @@ namespace Form_Computadora
             {
                 DialogResult = DialogResult.OK;
             }
+            else 
+            {
+                MessageBox.Show("Debe ingresar por lo menos 1 valor de cada item", "Faltan datos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)
