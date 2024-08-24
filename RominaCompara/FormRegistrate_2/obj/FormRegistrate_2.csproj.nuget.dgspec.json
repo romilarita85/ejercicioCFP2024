@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormRegistrate_2\\FormRegistrate_2.csproj": {}
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\FormRegistrate_2\\FormRegistrate_2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\BibliotecaDeAlumnos2.csproj": {
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\BibliotecaDeAlumnos2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\BibliotecaDeAlumnos2.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\BibliotecaDeAlumnos2.csproj",
         "projectName": "BibliotecaDeAlumnos2",
-        "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\BibliotecaDeAlumnos2.csproj",
-        "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\BibliotecaDeAlumnos2.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormRegistrate_2\\FormRegistrate_2.csproj": {
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\FormRegistrate_2\\FormRegistrate_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormRegistrate_2\\FormRegistrate_2.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\FormRegistrate_2\\FormRegistrate_2.csproj",
         "projectName": "FormRegistrate_2",
-        "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormRegistrate_2\\FormRegistrate_2.csproj",
-        "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\FormRegistrate_2\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\FormRegistrate_2\\FormRegistrate_2.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\FormRegistrate_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +88,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\BibliotecaDeAlumnos2.csproj": {
-                "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\BibliotecaDeAlumnos2.csproj"
+              "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\BibliotecaDeAlumnos2.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\BibliotecaDeAlumnos2\\BibliotecaDeAlumnos2.csproj"
               }
             }
           }
@@ -127,7 +127,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

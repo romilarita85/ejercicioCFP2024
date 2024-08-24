@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeAuto_Examen\\TesteoDeAuto_Examen.csproj": {}
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\TesteoDeAuto_Examen\\TesteoDeAuto_Examen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Libreria_Autos.csproj": {
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Libreria_Autos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Libreria_Autos.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Libreria_Autos.csproj",
         "projectName": "Libreria_Autos",
-        "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Libreria_Autos.csproj",
-        "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Libreria_Autos.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeAuto_Examen\\TesteoDeAuto_Examen.csproj": {
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\TesteoDeAuto_Examen\\TesteoDeAuto_Examen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeAuto_Examen\\TesteoDeAuto_Examen.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\TesteoDeAuto_Examen\\TesteoDeAuto_Examen.csproj",
         "projectName": "TesteoDeAuto_Examen",
-        "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeAuto_Examen\\TesteoDeAuto_Examen.csproj",
-        "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeAuto_Examen\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\TesteoDeAuto_Examen\\TesteoDeAuto_Examen.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\TesteoDeAuto_Examen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +88,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Libreria_Autos.csproj": {
-                "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Libreria_Autos.csproj"
+              "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Libreria_Autos.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Libreria_Autos\\Libreria_Autos.csproj"
               }
             }
           }
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

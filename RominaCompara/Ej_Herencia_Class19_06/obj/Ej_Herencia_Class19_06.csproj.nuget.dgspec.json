@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ej_Herencia_Class19_06\\Ej_Herencia_Class19_06.csproj": {}
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Ej_Herencia_Class19_06\\Ej_Herencia_Class19_06.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ej_Herencia_Class19_06\\Ej_Herencia_Class19_06.csproj": {
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Ej_Herencia_Class19_06\\Ej_Herencia_Class19_06.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ej_Herencia_Class19_06\\Ej_Herencia_Class19_06.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Ej_Herencia_Class19_06\\Ej_Herencia_Class19_06.csproj",
         "projectName": "Ej_Herencia_Class19_06",
-        "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ej_Herencia_Class19_06\\Ej_Herencia_Class19_06.csproj",
-        "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Ej_Herencia_Class19_06\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Ej_Herencia_Class19_06\\Ej_Herencia_Class19_06.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Ej_Herencia_Class19_06\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\LibreriaDeHerencia.csproj": {
-                "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\LibreriaDeHerencia.csproj"
+              "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\LibreriaDeHerencia.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\LibreriaDeHerencia.csproj"
               }
             }
           }
@@ -64,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\LibreriaDeHerencia.csproj": {
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\LibreriaDeHerencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\LibreriaDeHerencia.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\LibreriaDeHerencia.csproj",
         "projectName": "LibreriaDeHerencia",
-        "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\LibreriaDeHerencia.csproj",
-        "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\LibreriaDeHerencia.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDeHerencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

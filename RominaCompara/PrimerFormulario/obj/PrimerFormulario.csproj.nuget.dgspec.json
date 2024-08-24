@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\PrimerFormulario.csproj": {}
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\PrimerFormulario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\PrimerFormulario.csproj": {
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\PrimerFormulario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\PrimerFormulario.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\PrimerFormulario.csproj",
         "projectName": "PrimerFormulario",
-        "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\PrimerFormulario.csproj",
-        "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\PrimerFormulario.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\PrimerFormulario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

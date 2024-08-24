@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeEmpleados\\TesteoDeEmpleados.csproj": {}
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\TesteoDeEmpleados\\TesteoDeEmpleados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj": {
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj",
         "projectName": "LibreriaDePersonas",
-        "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj",
-        "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj": {
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj",
         "projectName": "Repaso Condicionales",
-        "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj",
-        "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,21 +120,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeEmpleados\\TesteoDeEmpleados.csproj": {
+    "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\TesteoDeEmpleados\\TesteoDeEmpleados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeEmpleados\\TesteoDeEmpleados.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\TesteoDeEmpleados\\TesteoDeEmpleados.csproj",
         "projectName": "TesteoDeEmpleados",
-        "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeEmpleados\\TesteoDeEmpleados.csproj",
-        "packagesPath": "C:\\Users\\romi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\TesteoDeEmpleados\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\TesteoDeEmpleados\\TesteoDeEmpleados.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\TesteoDeEmpleados\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,11 +148,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj": {
-                "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj"
+              "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\LibreriaDePersonas\\LibreriaDePersonas.csproj"
               },
-              "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj": {
-                "projectPath": "C:\\Users\\romi\\Desktop\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj"
+              "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\ejercicioCFP2024\\RominaCompara\\Repaso Condicionales\\Repaso Condicionales.csproj"
               }
             }
           }
@@ -187,7 +187,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

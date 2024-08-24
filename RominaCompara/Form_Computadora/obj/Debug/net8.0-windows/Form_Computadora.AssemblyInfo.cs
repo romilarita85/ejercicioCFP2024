@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Form_Computadora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47dcf7d6ad300114cdb3bef5641f2b55617178a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fa906bfb39a57f9c47a552a2abb42545bbb0191")]
 [assembly: System.Reflection.AssemblyProductAttribute("Form_Computadora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Form_Computadora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
